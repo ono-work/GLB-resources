@@ -1,0 +1,31 @@
+{
+  "status": "AUDIT PASSED",
+  "scope_status": "PARTIAL_STOP",
+  "summary_sha256": "f36d667e5250a86a89b7eabcd84a8186e67899aa9b060967858e58835c89f891",
+  "input_manifest_sha256": "d64128437f1c48cdfc018e20733bff8fd8458d3635cad8ee6e1e9c646cc84d2c",
+  "canonical_verifier_sha256": "5ca6e03c551cc0d9050ca9a7fa917b0cabd7f2d240489117c92aa4fd65c223d7",
+  "partition_verifier_sha256": "1e4935fca8b027f25ed457792ae15d9b0c4b5fe1f8fca045d3dcfe4b2bec6b19",
+  "checks": {
+    "current_support": true,
+    "six_partition_truth_tables": true,
+    "twelve_cell_solutions": true,
+    "all_solution_pool_candidates": true,
+    "canonical_thickening_completed_candidates": 53,
+    "canonical_thickening_fallback_candidates": 3,
+    "adopted_cell_contributions_verified": true,
+    "right_layer02_reverse_verifier": true,
+    "partition_disjointness": true,
+    "new_bound_two_path": true
+  },
+  "artifact_hashes": {
+    "current_support_audit.json": "bd39eef43ee12fd5e253d4f40d4c43103b9e39f14d7adae0a1f42a9d9c8605f2",
+    "cell_definitions.json": "937071b6c3efcff9320ab22491d15a51f002606ee389e01d604b8a34d84d4013",
+    "cell_ip_optima.json": "f2199a04b762451a6e88e863adc2dc5b821d6bc3c5e4f105214b0d9f2b359d8d",
+    "cell_solution_pool.json": "79ca581a8b3b11fae09b58d8013a3c587ede742540d06f871ac31bf38df7a350",
+    "candidate_structures.json": "215a129e0aff234e1a40f4e8fc81703c604fc322f2b8de17b76a8d384c016d1c",
+    "cell_canonical_results.json": "933ad706cb98b54b1af4f12e71f1a7ad7f3e871de4509ab3e9fdd78ec5ff9f62",
+    "partition_results.json": "bd5bce2f7685dfa3f76673833f2d13a71fac9747ea61b0b54bcd3cbc08692d17",
+    "best_partition.json": "e7386fa128d961e9fe6dce4466d66e8ba75f759c454286ed8c7b140ff9c74a94",
+    "new_lower_bound.json": "3c1a514353bfb8a0832c0cf3837ea75572d58e4b9f36e03ad94cfdebd09d1155"
+  }
+}

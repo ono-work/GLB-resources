@@ -1,0 +1,65 @@
+{
+  "checks": [
+    {
+      "case": 0,
+      "n": 9,
+      "count": 0,
+      "hash": "f5086d51e6d372dc43a8e37357f951a19781bf681a2893554aaf0d1e9e6fb34d"
+    },
+    {
+      "case": 1,
+      "n": 10,
+      "count": 0,
+      "hash": "4fa033a705a565a28d4bd6eb824f88623bcb04f7839a0224d9ba6193a6ce5cce"
+    },
+    {
+      "case": 2,
+      "n": 11,
+      "count": 0,
+      "hash": "d8412e748181a6acb32ee5fdac8a9c49767b0d62f869ee72f84cbbb3ddd22182"
+    },
+    {
+      "case": 3,
+      "n": 12,
+      "count": 1,
+      "hash": "fea27afff4db78ba515896204e5ad6fc085bed415d7a9649d4439a1221a8b404"
+    },
+    {
+      "case": 4,
+      "n": 13,
+      "count": 1,
+      "hash": "b39c24be50270734f9158d64d044b9f754b832eb327cb2dbe79759207a262342"
+    },
+    {
+      "case": 5,
+      "n": 14,
+      "count": 5,
+      "hash": "c75435ee1034e6593629689cbb720f5429a81d731501e035dd188d4f26e397ae"
+    },
+    {
+      "case": 6,
+      "n": 15,
+      "count": 9,
+      "hash": "001decac6d8f5e67608d08796f3f8c4e49ce7319adb62b168a8789be07570993"
+    },
+    {
+      "case": 7,
+      "n": 16,
+      "count": 10,
+      "hash": "eaab7e7ad36b0735ef78583f920368bb70d65536a789552f3d4ab0aa46c6957c"
+    },
+    {
+      "case": 8,
+      "n": 17,
+      "count": 100,
+      "hash": "732798f4929ebdd4a16344f7d6b7588833c4fdff611ec05f087007a68ece4ffc"
+    },
+    {
+      "case": 9,
+      "n": 18,
+      "count": 417,
+      "hash": "2b1a2f7097a59b9b391c4dab1db3363bd8daad6a7a715e3170289ccf3deeaae7"
+    }
+  ],
+  "all_match": true
+}

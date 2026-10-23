@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "status": "CANONICAL_LAYER02_BEATS_OLD",
+  "canonical_layer02": {
+    "B_can_0": "96684368004180045707160129110016",
+    "B_can_01": "1405331542427929997446684126843095",
+    "B_can_02": "10278700194019128995712636974129382",
+    "old_bound": "1587678856527616098980182827283119",
+    "B_can_02_over_old_fraction": "30320649539879436565524002873538/4683418455833675808201129284021",
+    "B_can_02_over_old_decimal": 6.4740423743498665,
+    "multipliers_over_2^98": {
+      "layer0": 305.0820722579956,
+      "layer01": 4434.4444507813505,
+      "layer02": 32433.858958197277
+    },
+    "old_over_2^98_fraction": "1587678856527616098980182827283119/316912650057057350374175801344",
+    "old_over_2^98_decimal": 5009.8311198425445
+  },
+  "sizes": {
+    "P_L": 237,
+    "Q_L_plus": 114,
+    "Q_R_plus": 598
+  },
+  "widths": {
+    "left": 20,
+    "right": 78
+  },
+  "M_size": 78,
+  "X_size": 520,
+  "C_L": "319901739",
+  "deficit_decision": "全nonempty deficitがQ_R^+から到達不能。欠損付きLayer計数は値0しか加えず、実行しない。",
+  "old_bound_replaced": true,
+  "layer3_formal_contribution_run": false,
+  "runtime_seconds": 58.263359383,
+  "audit_status": "AUDIT PASSED",
+  "independent_audit": "experiments/lower_bound/z98_inverted_kernel_layer_pilot/certificates/independent_audit.json",
+  "independent_audit_sha256": "294a48894063bcfbf59ebba403c90095b89ab70378c9a17a18787119ae7be99a"
+}

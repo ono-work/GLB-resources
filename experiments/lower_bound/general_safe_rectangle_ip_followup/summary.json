@@ -1,0 +1,115 @@
+{
+  "comparison_with_literature_displayed_10^28.2": {
+    "log10_difference": "1.300939575070157130946411683000316623282608383286",
+    "note": "比較対象は文献に表示された10^28.2であり、文献側の丸め方は仮定しない。",
+    "ratio": "19.995836411218166946551999623672119594913433531601"
+  },
+  "improvement_factor_over_z95": "8",
+  "log10_rectangle_size": "29.500939575070157130946411683000316623282608383286",
+  "maximization": {
+    "best_bound": 98,
+    "incumbent_history": [
+      {
+        "objective": 95.0,
+        "runtime": 0.03942298889160156
+      },
+      {
+        "objective": 98.0,
+        "runtime": 295.9433751106262
+      }
+    ],
+    "log": "experiments/lower_bound/general_safe_rectangle_ip_followup/logs/max_seed0_focus1.log",
+    "log_sha256": "a78af4c89ed04aa29c9a507432224bb022dad32d3f5d117711baa95cc7f3d9da",
+    "mip_gap": 0,
+    "mip_starts": [
+      {
+        "name": "z95",
+        "objective": 95
+      },
+      {
+        "name": "z95_reflected",
+        "objective": 95
+      }
+    ],
+    "node_count": 758.0,
+    "parameters": {
+      "MIPFocus": 1,
+      "Presolve": null,
+      "Seed": 0,
+      "SolutionLimit": null,
+      "Symmetry": null,
+      "Threads": 8,
+      "TimeLimit": 14400
+    },
+    "runtime_seconds": 11634.361061096191,
+    "solution_verified": true,
+    "solver_status": "OPTIMAL",
+    "status": "OPTIMUM_PROVED",
+    "work_units": 24573.323084556716,
+    "z": 98
+  },
+  "missing_requested_source": "experiments/lower_bound/general_safe_rectangle_ip/summary.json",
+  "optimal_value": 98,
+  "previous_best": 95,
+  "rectangle_size": "316912650057057350374175801344",
+  "schema_version": 1,
+  "status": "GLOBAL_OPTIMUM_PROVED",
+  "substitute_source": "experiments/lower_bound/general_safe_rectangle_ip/certificate.json",
+  "threshold_runs": [
+    {
+      "log": "experiments/lower_bound/general_safe_rectangle_ip_followup/logs/ge100_seed0.log",
+      "log_sha256": "d0578a66c8a69aa8eea1100c42bf08c0343643cbd5cec0b7ec453ef9c37985b4",
+      "model": "experiments/lower_bound/general_safe_rectangle_ip_followup/models/general_ge100.mps",
+      "model_sha256": "bf9da0a80ff108db2bf5d643066cb5f660c891a1781d6d5a24e797f744f187c3",
+      "node_count": 3102.0,
+      "runtime_seconds": 7200.4003438949585,
+      "solution_count": 0,
+      "status": "TIME_LIMIT_UNKNOWN",
+      "threshold": 100
+    },
+    {
+      "log": "experiments/lower_bound/general_safe_rectangle_ip_followup/logs/ge99_seed0.log",
+      "log_sha256": "3cebf17f89e478228a1836e8eb24d564edf4b289122be77882f772af507e6b6a",
+      "model": "experiments/lower_bound/general_safe_rectangle_ip_followup/models/general_ge99.mps",
+      "model_sha256": "f7d0ec132777cec809885b8a8dc7a8e1a972b81d302cd2371922ecf52ab3dd20",
+      "node_count": 1533.0,
+      "runtime_seconds": 7200.273676872253,
+      "solution_count": 0,
+      "status": "TIME_LIMIT_UNKNOWN",
+      "threshold": 99
+    },
+    {
+      "log": "experiments/lower_bound/general_safe_rectangle_ip_followup/logs/ge98_seed0.log",
+      "log_sha256": "32c22d19b6174f3d7214c98df4328d6697a95758b721b08d0fbb87ebd3d111fa",
+      "model": "experiments/lower_bound/general_safe_rectangle_ip_followup/models/general_ge98.mps",
+      "model_sha256": "807a09ecb12687c7e2f6cf683c79cf2b86107ef22840bbe93bafb0a88a6a9175",
+      "node_count": 1674.0,
+      "runtime_seconds": 7200.329540014267,
+      "solution_count": 0,
+      "status": "TIME_LIMIT_UNKNOWN",
+      "threshold": 98
+    },
+    {
+      "log": "experiments/lower_bound/general_safe_rectangle_ip_followup/logs/ge97_seed0.log",
+      "log_sha256": "ca5615a58eb4ee868e2848aea2bdd37a89e19311f096e4d288eff5bc90150cc9",
+      "model": "experiments/lower_bound/general_safe_rectangle_ip_followup/models/general_ge97.mps",
+      "model_sha256": "e9db3e0d50086471e483f1f2ea9d06824302181b367c5165a0961761ffe48aff",
+      "node_count": 1753.0,
+      "runtime_seconds": 7200.2842490673065,
+      "solution_count": 0,
+      "status": "TIME_LIMIT_UNKNOWN",
+      "threshold": 97
+    },
+    {
+      "log": "experiments/lower_bound/general_safe_rectangle_ip_followup/logs/ge96_seed0.log",
+      "log_sha256": "d36cf88ce09324a3e71b8554dacd067bbe0f9b6a842e1bce5cf754db6d5f32b5",
+      "model": "experiments/lower_bound/general_safe_rectangle_ip_followup/models/general_ge96.mps",
+      "model_sha256": "f114aaffe55b52bcea616b6d17f93550c5c65a1f9112d7e9fa5aaa1c109852b6",
+      "node_count": 2069.0,
+      "runtime_seconds": 7200.295992851257,
+      "solution_count": 0,
+      "status": "TIME_LIMIT_UNKNOWN",
+      "threshold": 96
+    }
+  ]
+}

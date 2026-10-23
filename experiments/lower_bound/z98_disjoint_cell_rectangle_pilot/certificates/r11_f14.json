@@ -1,0 +1,24 @@
+{
+  "status": "CELL_SAFE_RECTANGLE_IP_VERIFIED",
+  "tag": "r11_f14",
+  "optimum_proved_by_gurobi": true,
+  "optimum_proof_kind": "gurobi_gap_zero",
+  "best": {
+    "passed": true,
+    "errors": [],
+    "z": 97,
+    "sizes": {
+      "A": 21,
+      "B": 82,
+      "T_L": 3,
+      "T_R": 3
+    },
+    "left_hits": 42,
+    "right_hits": 172,
+    "hash": "9b042c4a26f739b50e70d7a269d23467331246a6708a8a5b626a5c6f338cf6fc"
+  },
+  "pool_verified": 50,
+  "all_pool_passed": true,
+  "cell_membership_verified": true,
+  "generated_boolean_rectangle_safe": true
+}

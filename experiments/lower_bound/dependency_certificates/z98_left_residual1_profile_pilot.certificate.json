@@ -1,0 +1,69 @@
+{
+  "status": [
+    "LEFT_RESIDUAL1_PROFILE_VERIFIED",
+    "RIGHT_PROFILE_CANDIDATES_VERIFIED",
+    "RIGHT_PROFILE_SUBCUBES_VERIFIED",
+    "RESIDUAL1_CONTRIBUTION_VERIFIED",
+    "RESIDUAL1_LAYER1_VERIFIED"
+  ],
+  "audit_status": "AUDIT PASSED",
+  "summary": {
+    "status": [
+      "LEFT_RESIDUAL1_PROFILE_VERIFIED",
+      "RIGHT_PROFILE_CANDIDATES_VERIFIED",
+      "RIGHT_PROFILE_SUBCUBES_VERIFIED",
+      "RESIDUAL1_CONTRIBUTION_VERIFIED",
+      "RESIDUAL1_LAYER1_VERIFIED"
+    ],
+    "audit_status": "AUDIT PASSED",
+    "left_antichains": "1011911791",
+    "profiles": 30,
+    "distinct_Gamma": 1,
+    "left_mass_top": {
+      "10": 0.9780836381221691,
+      "100": 1.0,
+      "1000": 1.0
+    },
+    "right_vertices": 1238,
+    "right_width": 82,
+    "z_distribution": {
+      "67": 2,
+      "64": 2,
+      "29": 2,
+      "48": 1,
+      "63": 1,
+      "40": 4,
+      "61": 2,
+      "7": 1,
+      "23": 2,
+      "34": 2,
+      "17": 1,
+      "14": 1,
+      "31": 1,
+      "21": 1,
+      "28": 1,
+      "45": 1,
+      "58": 1,
+      "68": 2,
+      "30": 1,
+      "49": 1
+    },
+    "layer0_contribution": "79639260080070767140343275136",
+    "layer01_contribution": "1244747121374877493000478138392",
+    "new_bound": "1416780373480236792809721068627852419",
+    "improvement": 1.0000008785752812,
+    "log2": 120.09202754777283,
+    "log10": 36.15130253198476,
+    "beats_1e37": false,
+    "assessment": "RESIDUAL_PROFILE_PROMISING",
+    "assessment_reason": "profile数30、Gamma 1、上位3寄与99.24%。ただし現下界への倍率は小さい。"
+  },
+  "hashes": {
+    "left_profile_distribution.json": "7cae0413abb349f3c5814d422fcdad0b5b87f4aa3b2b5ee255ffb5dcb8757c15",
+    "right_candidate_summary.json": "46daf2277e6b9989027fe4db9a48fee78c73eadf1e49d8360f1ff0a8a4861387",
+    "right_ip_summary.json": "ddd310138a9aac432700ed9e63e2b4cfcd6e46b134227da6b39afae14886ee42",
+    "right_layer1_summary.json": "5c4c394bd536c8c0b81b18e13b004c9bad2c2726ef83538c403ba2faa8c447ef",
+    "residual_contribution.json": "29e1502568e8fd850b28b04aaf0c03c360fffe29157ee0062fbb5eb53843498b",
+    "input_manifest.json": "0cae16bb140f9708741294184aa39d14610e3411e3c82f44d6ced08cd0e64244"
+  }
+}

@@ -1,0 +1,329 @@
+{
+  "status": "DISJOINT_CELL_PARTITION_VERIFIED",
+  "T0": [
+    2,
+    11,
+    14
+  ],
+  "unique_cells": [
+    {
+      "tag": "rnone_f2",
+      "required": [],
+      "forbidden": [
+        2
+      ],
+      "linear_fixes": {
+        "u0002": 0,
+        "a0002": 0
+      }
+    },
+    {
+      "tag": "rnone_f11",
+      "required": [],
+      "forbidden": [
+        11
+      ],
+      "linear_fixes": {
+        "u0011": 0,
+        "a0011": 0
+      }
+    },
+    {
+      "tag": "rnone_f14",
+      "required": [],
+      "forbidden": [
+        14
+      ],
+      "linear_fixes": {
+        "u0014": 0,
+        "a0014": 0
+      }
+    },
+    {
+      "tag": "r2_f11",
+      "required": [
+        2
+      ],
+      "forbidden": [
+        11
+      ],
+      "linear_fixes": {
+        "u0002": 1,
+        "u0011": 0,
+        "a0011": 0
+      }
+    },
+    {
+      "tag": "r2_f14",
+      "required": [
+        2
+      ],
+      "forbidden": [
+        14
+      ],
+      "linear_fixes": {
+        "u0002": 1,
+        "u0014": 0,
+        "a0014": 0
+      }
+    },
+    {
+      "tag": "r11_f2",
+      "required": [
+        11
+      ],
+      "forbidden": [
+        2
+      ],
+      "linear_fixes": {
+        "u0011": 1,
+        "u0002": 0,
+        "a0002": 0
+      }
+    },
+    {
+      "tag": "r11_f14",
+      "required": [
+        11
+      ],
+      "forbidden": [
+        14
+      ],
+      "linear_fixes": {
+        "u0011": 1,
+        "u0014": 0,
+        "a0014": 0
+      }
+    },
+    {
+      "tag": "r14_f2",
+      "required": [
+        14
+      ],
+      "forbidden": [
+        2
+      ],
+      "linear_fixes": {
+        "u0014": 1,
+        "u0002": 0,
+        "a0002": 0
+      }
+    },
+    {
+      "tag": "r14_f11",
+      "required": [
+        14
+      ],
+      "forbidden": [
+        11
+      ],
+      "linear_fixes": {
+        "u0014": 1,
+        "u0011": 0,
+        "a0011": 0
+      }
+    },
+    {
+      "tag": "r11_14_f2",
+      "required": [
+        11,
+        14
+      ],
+      "forbidden": [
+        2
+      ],
+      "linear_fixes": {
+        "u0011": 1,
+        "u0014": 1,
+        "u0002": 0,
+        "a0002": 0
+      }
+    },
+    {
+      "tag": "r2_14_f11",
+      "required": [
+        2,
+        14
+      ],
+      "forbidden": [
+        11
+      ],
+      "linear_fixes": {
+        "u0002": 1,
+        "u0014": 1,
+        "u0011": 0,
+        "a0011": 0
+      }
+    },
+    {
+      "tag": "r2_11_f14",
+      "required": [
+        2,
+        11
+      ],
+      "forbidden": [
+        14
+      ],
+      "linear_fixes": {
+        "u0002": 1,
+        "u0011": 1,
+        "u0014": 0,
+        "a0014": 0
+      }
+    }
+  ],
+  "partitions": [
+    {
+      "permutation": [
+        2,
+        11,
+        14
+      ],
+      "cells": [
+        "rnone_f2",
+        "r2_f11",
+        "r2_11_f14"
+      ]
+    },
+    {
+      "permutation": [
+        2,
+        14,
+        11
+      ],
+      "cells": [
+        "rnone_f2",
+        "r2_f14",
+        "r2_14_f11"
+      ]
+    },
+    {
+      "permutation": [
+        11,
+        2,
+        14
+      ],
+      "cells": [
+        "rnone_f11",
+        "r11_f2",
+        "r2_11_f14"
+      ]
+    },
+    {
+      "permutation": [
+        11,
+        14,
+        2
+      ],
+      "cells": [
+        "rnone_f11",
+        "r11_f14",
+        "r11_14_f2"
+      ]
+    },
+    {
+      "permutation": [
+        14,
+        2,
+        11
+      ],
+      "cells": [
+        "rnone_f14",
+        "r14_f2",
+        "r2_14_f11"
+      ]
+    },
+    {
+      "permutation": [
+        14,
+        11,
+        2
+      ],
+      "cells": [
+        "rnone_f14",
+        "r14_f11",
+        "r11_14_f2"
+      ]
+    }
+  ],
+  "truth_table": [
+    {
+      "membership_mask": 0,
+      "partition_match_counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "membership_mask": 1,
+      "partition_match_counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "membership_mask": 2,
+      "partition_match_counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "membership_mask": 3,
+      "partition_match_counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "membership_mask": 4,
+      "partition_match_counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "membership_mask": 5,
+      "partition_match_counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "membership_mask": 6,
+      "partition_match_counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "identity": "disjoint union of the three cells equals {L:T0 not subset L}"
+}

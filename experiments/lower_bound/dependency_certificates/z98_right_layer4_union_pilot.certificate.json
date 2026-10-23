@@ -1,0 +1,36 @@
+{
+  "status": [
+    "COVERAGE_LAYER4_TOO_LARGE",
+    "RIGHT_UNION_HIGHLY_PROMISING"
+  ],
+  "audit": "AUDIT PASSED",
+  "layer4_verifier": {
+    "status": "AUDIT PASSED",
+    "checks": {
+      "quads_match": true,
+      "set_hash_match": true,
+      "vertex_degrees_match": true,
+      "benchmark_nested": true,
+      "resource_gate": true
+    },
+    "quads": 2228288640,
+    "hash": {
+      "sum": 5872829311050473673,
+      "xor": 17814029324697100233
+    },
+    "full_decision": "COVERAGE_LAYER4_TOO_LARGE"
+  },
+  "union_verifier": {
+    "status": "AUDIT PASSED",
+    "profiles_verified": 30,
+    "profile_order": "descending",
+    "old_layer_counts_reconstructed": true,
+    "intersection_cells_verified": true,
+    "union_formula_verified": true,
+    "union_bounds_verified": true,
+    "stable_hash": "77f3eb7b143f15538691c4511ccca2badd8ec264fcca432b5a5a791ef35af100"
+  },
+  "summary_sha256": "8ccaa4bc47a6a060016ba0541675ed6ae539d86b0ebe18f3bc9e3a19a0fb4326",
+  "input_manifest_sha256": "6c4147c98c24c4920d577472131d8bdb3f4b73dce954f048e84863e1c394a466",
+  "stopping_rule": "Layer 4 full category table violates the 70% RAM and checkpoint/resume gates; no partial result was used."
+}

@@ -1,0 +1,447 @@
+{
+  "status": [
+    "CURRENT_LEFT_SUPPORT_CONTAINS_T0_VERIFIED",
+    "DISJOINT_CELL_PARTITION_VERIFIED",
+    "CELL_SAFE_RECTANGLE_IP_VERIFIED",
+    "CELL_SOLUTION_POOL_VERIFIED",
+    "PARTIAL_STOP",
+    "BEST_DISJOINT_PARTITION_VERIFIED",
+    "DISJOINT_CELL_RECTANGLES_HIGHLY_PROMISING",
+    "GREEDY_RECTANGLE_RECURSION_FEASIBLE",
+    "AUDIT PASSED"
+  ],
+  "current_lower_bound": "1416805572004163810711501940302641257",
+  "cells": [
+    {
+      "tag": "rnone_f2",
+      "required": [],
+      "forbidden": [
+        2
+      ],
+      "z_star": 98,
+      "pool_candidates": 1,
+      "best_kernel": {
+        "left": [
+          0,
+          3,
+          12,
+          21
+        ],
+        "right": [
+          1,
+          6,
+          16
+        ]
+      },
+      "best_z": 98,
+      "C_L": null,
+      "right_width": 20,
+      "D0": null,
+      "D01": null,
+      "D02": null,
+      "D_cell": "316912650057057350374175801344",
+      "z_max_equals_canonical_best": true
+    },
+    {
+      "tag": "rnone_f11",
+      "required": [],
+      "forbidden": [
+        11
+      ],
+      "z_star": 98,
+      "pool_candidates": 50,
+      "best_kernel": {
+        "left": [
+          2,
+          14,
+          288
+        ],
+        "right": [
+          0,
+          3,
+          12,
+          21
+        ]
+      },
+      "best_z": 97,
+      "C_L": "133518851",
+      "right_width": 78,
+      "D0": "40353596594794637549461720530944",
+      "D01": "586549649294138296533343316323855",
+      "D02": "4290068081433315295383046401526038",
+      "D_cell": "4290068081433315295383046401526038",
+      "z_max_equals_canonical_best": false
+    },
+    {
+      "tag": "rnone_f14",
+      "required": [],
+      "forbidden": [
+        14
+      ],
+      "z_star": 98,
+      "pool_candidates": 50,
+      "best_kernel": {
+        "left": [
+          2,
+          11,
+          318
+        ],
+        "right": [
+          0,
+          3,
+          12,
+          21
+        ]
+      },
+      "best_z": 97,
+      "C_L": "133518851",
+      "right_width": 78,
+      "D0": "40353596594794637549461720530944",
+      "D01": "586549649294138296533343316323855",
+      "D02": "4290068081433315295383046401526038",
+      "D_cell": "4290068081433315295383046401526038",
+      "z_max_equals_canonical_best": false
+    },
+    {
+      "tag": "r2_f11",
+      "required": [
+        2
+      ],
+      "forbidden": [
+        11
+      ],
+      "z_star": 97,
+      "pool_candidates": 50,
+      "best_kernel": {
+        "left": [
+          2,
+          14,
+          288
+        ],
+        "right": [
+          0,
+          3,
+          12,
+          21
+        ]
+      },
+      "best_z": 97,
+      "C_L": "133518851",
+      "right_width": 78,
+      "D0": "40353596594794637549461720530944",
+      "D01": "586549649294138296533343316323855",
+      "D02": "4290068081433315295383046401526038",
+      "D_cell": "4290068081433315295383046401526038",
+      "z_max_equals_canonical_best": false
+    },
+    {
+      "tag": "r2_f14",
+      "required": [
+        2
+      ],
+      "forbidden": [
+        14
+      ],
+      "z_star": 97,
+      "pool_candidates": 50,
+      "best_kernel": {
+        "left": [
+          2,
+          11,
+          318
+        ],
+        "right": [
+          0,
+          3,
+          12,
+          21
+        ]
+      },
+      "best_z": 97,
+      "C_L": "133518851",
+      "right_width": 78,
+      "D0": "40353596594794637549461720530944",
+      "D01": "586549649294138296533343316323855",
+      "D02": "4290068081433315295383046401526038",
+      "D_cell": "4290068081433315295383046401526038",
+      "z_max_equals_canonical_best": false
+    },
+    {
+      "tag": "r11_f2",
+      "required": [
+        11
+      ],
+      "forbidden": [
+        2
+      ],
+      "z_star": 95,
+      "pool_candidates": 50,
+      "best_kernel": {
+        "left": [
+          11,
+          14,
+          50
+        ],
+        "right": [
+          0,
+          3,
+          12,
+          21
+        ]
+      },
+      "best_z": 95,
+      "C_L": "17056327",
+      "right_width": 78,
+      "D0": "5154958524522532296882166693888",
+      "D01": "74928615286661970817107091540835",
+      "D02": "548033506139063871753620990047326",
+      "D_cell": "548033506139063871753620990047326",
+      "z_max_equals_canonical_best": false
+    },
+    {
+      "tag": "r11_f14",
+      "required": [
+        11
+      ],
+      "forbidden": [
+        14
+      ],
+      "z_star": 97,
+      "pool_candidates": 50,
+      "best_kernel": {
+        "left": [
+          2,
+          11,
+          318
+        ],
+        "right": [
+          0,
+          3,
+          12,
+          21
+        ]
+      },
+      "best_z": 97,
+      "C_L": "133518851",
+      "right_width": 78,
+      "D0": "40353596594794637549461720530944",
+      "D01": "586549649294138296533343316323855",
+      "D02": "4290068081433315295383046401526038",
+      "D_cell": "4290068081433315295383046401526038",
+      "z_max_equals_canonical_best": false
+    },
+    {
+      "tag": "r14_f2",
+      "required": [
+        14
+      ],
+      "forbidden": [
+        2
+      ],
+      "z_star": 95,
+      "pool_candidates": 50,
+      "best_kernel": {
+        "left": [
+          11,
+          14,
+          50
+        ],
+        "right": [
+          0,
+          3,
+          12,
+          21
+        ]
+      },
+      "best_z": 95,
+      "C_L": "17056327",
+      "right_width": 78,
+      "D0": "5154958524522532296882166693888",
+      "D01": "74928615286661970817107091540835",
+      "D02": "548033506139063871753620990047326",
+      "D_cell": "548033506139063871753620990047326",
+      "z_max_equals_canonical_best": false
+    },
+    {
+      "tag": "r14_f11",
+      "required": [
+        14
+      ],
+      "forbidden": [
+        11
+      ],
+      "z_star": 97,
+      "pool_candidates": 49,
+      "best_kernel": {
+        "left": [
+          2,
+          14,
+          288
+        ],
+        "right": [
+          0,
+          3,
+          12,
+          21
+        ]
+      },
+      "best_z": 97,
+      "C_L": "133518851",
+      "right_width": 78,
+      "D0": "40353596594794637549461720530944",
+      "D01": "586549649294138296533343316323855",
+      "D02": "4290068081433315295383046401526038",
+      "D_cell": "4290068081433315295383046401526038",
+      "z_max_equals_canonical_best": false
+    },
+    {
+      "tag": "r11_14_f2",
+      "required": [
+        11,
+        14
+      ],
+      "forbidden": [
+        2
+      ],
+      "z_star": 95,
+      "pool_candidates": 50,
+      "best_kernel": {
+        "left": [
+          11,
+          14,
+          50
+        ],
+        "right": [
+          0,
+          3,
+          12,
+          21
+        ]
+      },
+      "best_z": 95,
+      "C_L": "17056327",
+      "right_width": 78,
+      "D0": "5154958524522532296882166693888",
+      "D01": "74928615286661970817107091540835",
+      "D02": "548033506139063871753620990047326",
+      "D_cell": "548033506139063871753620990047326",
+      "z_max_equals_canonical_best": false
+    },
+    {
+      "tag": "r2_14_f11",
+      "required": [
+        2,
+        14
+      ],
+      "forbidden": [
+        11
+      ],
+      "z_star": 97,
+      "pool_candidates": 49,
+      "best_kernel": {
+        "left": [
+          2,
+          14,
+          288
+        ],
+        "right": [
+          0,
+          3,
+          12,
+          21
+        ]
+      },
+      "best_z": 97,
+      "C_L": "133518851",
+      "right_width": 78,
+      "D0": "40353596594794637549461720530944",
+      "D01": "586549649294138296533343316323855",
+      "D02": "4290068081433315295383046401526038",
+      "D_cell": "4290068081433315295383046401526038",
+      "z_max_equals_canonical_best": false
+    },
+    {
+      "tag": "r2_11_f14",
+      "required": [
+        2,
+        11
+      ],
+      "forbidden": [
+        14
+      ],
+      "z_star": 97,
+      "pool_candidates": 50,
+      "best_kernel": {
+        "left": [
+          2,
+          11,
+          318
+        ],
+        "right": [
+          0,
+          3,
+          12,
+          21
+        ]
+      },
+      "best_z": 97,
+      "C_L": "133518851",
+      "right_width": 78,
+      "D0": "40353596594794637549461720530944",
+      "D01": "586549649294138296533343316323855",
+      "D02": "4290068081433315295383046401526038",
+      "D_cell": "4290068081433315295383046401526038",
+      "z_max_equals_canonical_best": false
+    }
+  ],
+  "best_partition": {
+    "permutation": [
+      11,
+      2,
+      14
+    ],
+    "cells": [
+      "rnone_f11",
+      "r11_f2",
+      "r2_11_f14"
+    ],
+    "cell_contributions": [
+      "4290068081433315295383046401526038",
+      "548033506139063871753620990047326",
+      "4290068081433315295383046401526038"
+    ],
+    "D_partition": "9128169669005694462519713793099402",
+    "new_lower_bound": "1425933741673169505174021654095740659"
+  },
+  "addition": "9128169669005694462519713793099402",
+  "new_lower_bound": "1425933741673169505174021654095740659",
+  "improvement_factor": 1.0064427821638882,
+  "log2": 120.10131836211647,
+  "log10": 36.15409934578635,
+  "comparison": {
+    "canonical_to_current_residual_gain": "26443271048392779273872152927230",
+    "layer5_C5": "18489590590630707873108185633154",
+    "D_over_C5": 493.6923629683419,
+    "D_over_total_previous_residual_gain": 345.19820381905834
+  },
+  "canonical_exact": {
+    "completed_candidates": 53,
+    "fallback_candidates": 3,
+    "fallback_kind": "independently verified Boolean rectangle 2^z"
+  },
+  "diagnostics": {
+    "z_max_equals_canonical_best_cells": 1,
+    "z_max_differs_cells": 11,
+    "distinct_best_kernels": 4,
+    "duplicate_kernel_multiplicity": [
+      4,
+      4,
+      3,
+      1
+    ],
+    "inversion_pairs": [],
+    "greedy_recursion": "GREEDY_RECTANGLE_RECURSION_FEASIBLE",
+    "next_cell_split": "inside the winning cell, split on containment of the adopted T_L kernel using the same first-missing-element construction"
+  },
+  "assessment": "DISJOINT_CELL_RECTANGLES_HIGHLY_PROMISING"
+}

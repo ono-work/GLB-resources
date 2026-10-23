@@ -1,0 +1,29 @@
+{
+  "status": "SUFFICIENT_STAT_PROVED",
+  "S1": [
+    "coverage_mask",
+    "forbidden_size",
+    "blocked_relevant_hit_mask"
+  ],
+  "S1_key_bytes_packed": 5,
+  "S2": [
+    "coverage_mask",
+    "forbidden_count_pattern_0",
+    "forbidden_count_pattern_1",
+    "forbidden_count_pattern_4",
+    "forbidden_count_pattern_128"
+  ],
+  "S2_key_bytes_packed": 6,
+  "M_coverage_distribution": {
+    "0": 79,
+    "1": 1,
+    "4": 1,
+    "128": 1
+  },
+  "relevant_hit_patterns": [
+    1,
+    4,
+    128
+  ],
+  "lemma": "completion counts depend only on coverage, |B|, and |B intersect U_M(J)|; here every U_M(J) is a subset of the three singleton-hit M vertices."
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "input_hashes": {
+    "games.csv": "e87fdca88fb4b8dd3d007ca3c35120440af768c77d614b01da0d7785c2cdaee5",
+    "leq_rows.hex": "9b128ff4c93ea659a914b7b24761951395b22f328292995d27e13020e374f874",
+    "metadata.json": "174507c76abc9b26199c39936dc1824d92d6b9eb260cdf6a617bf7b451c8dcaa"
+  },
+  "source_hashes": {
+    "experiments/lower_bound/general_safe_rectangle_ip_followup/best_solution.json": "104d97b49013fe95277088d6d1b7a9d9429c3f6b61b7715ce0d18e3f2dbc9bdf",
+    "experiments/lower_bound/general_safe_rectangle_ip_followup/solutions/max_seed0_focus1.sol": "99a3889edc883c8d2ac0a46eb3c05fa17d01da12ed7836a83c517caa522799b5",
+    "z98_inverted_kernel_layer_pilot.py": "13c6e7692aece9fcbb48544f6bb08e9cdda68a9adf1882b8fe44a123d2b3663b",
+    "verify_z98_inverted_kernel_layer_pilot.py": "c59b14f905f88bfa619bc17b78e30b54f6a4bb7a2c850b514d88b98eb3f08db4",
+    "tests/test_z98_inverted_kernel_layer_pilot.py": "4defdc95cd817d4ea3d8df230b0317f1dcc4dd89d8e6f546e83435be41799c59",
+    "reports/lower_bound/z98_inverted_kernel_layer_pilot_ja.md": "63e71ed58169daf161ff1380ee15356709df2d3c1e2ef9cca1fcb2142e4616f5",
+    "docs/z98_inverted_kernel_layer_pilot.md": "25dc8f121dce841fd524a2d980a72ce7536e8c7b8c18ab8d306c034d5ea3c86b",
+    "experiments/lower_bound/z98_inverted_kernel_layer_pilot/certificates/independent_audit.json": "294a48894063bcfbf59ebba403c90095b89ab70378c9a17a18787119ae7be99a"
+  },
+  "glb_commit": "5af167dd68a193b83de35a5ddaf4ecc3c534b46a",
+  "gub_commit": "85d17f1e840632978b3baed5b69622d51f6419bf",
+  "environment": {
+    "python": "3.9.6",
+    "platform": "macOS-26.5.2-x86_64-i386-64bit"
+  }
+}

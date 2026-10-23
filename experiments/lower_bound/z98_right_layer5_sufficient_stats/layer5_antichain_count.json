@@ -1,0 +1,9 @@
+{
+  "status": "LAYER5_ANTICHAIN_COUNT_VERIFIED",
+  "quints": 104366998061,
+  "asc_seconds": 26.111544132232666,
+  "desc_seconds": 26.47970199584961,
+  "two_direction_match": true,
+  "asc_slice_hash": "c71f2bbbf5ca5f28e444d4aafca44e855da172ddc079bd107fe439c928e49b40",
+  "desc_slice_hash": "b0ff955ac5481063505f6478a227cf55412fe7a161045112a55a614ca430155c"
+}

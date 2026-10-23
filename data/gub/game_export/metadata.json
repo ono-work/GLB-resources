@@ -1,0 +1,15 @@
+{
+  "num_games": 1474,
+  "counts_by_birthday": [
+    1,
+    3,
+    18,
+    1452
+  ],
+  "num_g3_raw": 9568,
+  "num_antichains_on_G_le_2": 98,
+  "files": {
+    "games_csv": "id,orig_gid",
+    "leq_rows_hex": "row i is fixed-width hex bitset of {j : game_i <= game_j}"
+  }
+}

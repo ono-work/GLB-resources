@@ -1,0 +1,21 @@
+{
+  "sources": {
+    "benchmark_z98_right_layer4_sufficient_stats.py": "c3f7e40735f96cdbbd8d04afdbd8a66afa349e916b4f7db41c8bd976f6aaa6d8",
+    "run_z98_right_layer4_sufficient_stats.py": "db2944441caec94a3a072dd2fafbecde88c830659edf5368815d5a86617727ed",
+    "verify_z98_right_layer4_sufficient_stats.py": "b150e6c81566e0aa4733005ff609e2588e2bfe437ad16a0d476dd63bd4258c1f",
+    "extend_z98_old_common_union_layer4.py": "19b89e16afe4ac4d23508bef228581ae7a44d7f30b17a1f96f50c320eabd1220",
+    "verify_z98_old_common_union_layer4.py": "6fa0b746d1d6130c1225ca28122eb1167049d939dc56c0ecb1500af861487bfc",
+    "tools/z98_right_layer4_sufficient_stats.cpp": "886831235f0db8835145be49d252d9b22664437a3f72b015834322c2df25bc4a",
+    "tests/test_z98_right_layer4_sufficient_stats.py": "b02ac60dd1a46088cacd93b62924bf4c717cf20161f7587cff9a6bf2a53913ee",
+    "tests/test_z98_old_common_union_layer4.py": "726aafea88699436bee43ec6b10853499810b8537b6b4674db096a7a2d129d02"
+  },
+  "inputs": {
+    "experiments/lower_bound/z98_right_layer4_union_pilot/certificate.json": "e16d5869ac47c94c0462a4fb3de377a5072828472bf1d1766e1ef52208a6d801",
+    "experiments/lower_bound/z98_right_coverage_counter_pilot/certificate.json": "0701c9390723341121e6da94911bb66229fa03c68acdee616c07db59f1f79292",
+    "experiments/lower_bound/z98_residual_profile_closure/certificate.json": "2df9378beca7b242aee99902a4ffea0d29c588b3a6274f1d4d4ed8d8d0f48950",
+    "experiments/lower_bound/z98_left_residual1_profile_pilot/certificate.json": "575cec62c7130230c33cb86613b849306ff96b3c947bd9d880be9ed8b051f3eb",
+    "experiments/lower_bound/z98_weighted_common_right_pilot/certificate.json": "711816899637fd47e41fd33e1eb19ce290f5e0d87db184c468073f0ef508a89e"
+  },
+  "glb_commit": "5af167dd68a193b83de35a5ddaf4ecc3c534b46a",
+  "gub_commit": "85d17f1e840632978b3baed5b69622d51f6419bf"
+}

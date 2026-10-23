@@ -1,0 +1,13 @@
+{
+  "status": "AUDIT PASSED",
+  "summary_sha256": "1558e4f90ed142dd1719161e0d9e50a5c661409bc200cd494c2f72d45d0a60c4",
+  "input_manifest_sha256": "ce9421dd428b0c4afe544fe500058c476a4ac363b7d91862b67ae757adb4d772",
+  "layer5_verifier_sha256": "c7c8e995b58007badfa1f7aa8ae684f4d6fa8110a85ff78886d8f9163d2f70bb",
+  "union_verifier_sha256": "759223d90e1ea66e96a9215e97acf7532e742c25211bddb9c1dd47c3d4f0e8a0",
+  "identities": {
+    "signature_multiplicity_sum_equals_A5": true,
+    "ascending_equals_descending": true,
+    "union_two_path_identity": true,
+    "new_bound_two_path_identity": true
+  }
+}

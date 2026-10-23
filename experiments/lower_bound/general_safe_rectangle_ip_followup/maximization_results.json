@@ -1,0 +1,47 @@
+{
+  "runs": [
+    {
+      "best_bound": 98,
+      "incumbent_history": [
+        {
+          "objective": 95.0,
+          "runtime": 0.03942298889160156
+        },
+        {
+          "objective": 98.0,
+          "runtime": 295.9433751106262
+        }
+      ],
+      "log": "experiments/lower_bound/general_safe_rectangle_ip_followup/logs/max_seed0_focus1.log",
+      "log_sha256": "a78af4c89ed04aa29c9a507432224bb022dad32d3f5d117711baa95cc7f3d9da",
+      "mip_gap": 0,
+      "mip_starts": [
+        {
+          "name": "z95",
+          "objective": 95
+        },
+        {
+          "name": "z95_reflected",
+          "objective": 95
+        }
+      ],
+      "node_count": 758.0,
+      "parameters": {
+        "MIPFocus": 1,
+        "Presolve": null,
+        "Seed": 0,
+        "SolutionLimit": null,
+        "Symmetry": null,
+        "Threads": 8,
+        "TimeLimit": 14400
+      },
+      "runtime_seconds": 11634.361061096191,
+      "solution_verified": true,
+      "solver_status": "OPTIMAL",
+      "status": "OPTIMUM_PROVED",
+      "work_units": 24573.323084556716,
+      "z": 98
+    }
+  ],
+  "schema_version": 1
+}

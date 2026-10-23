@@ -1,0 +1,88 @@
+{
+  "status": [
+    "SUFFICIENT_STAT_LAYER4_VERIFIED",
+    "SUFFICIENT_STAT_LAYER4_HIGHLY_PROMISING",
+    "LAYER4_UNION_VERIFIED",
+    "LAYER4_UNION_HIGHLY_PROMISING"
+  ],
+  "audit": "AUDIT PASSED",
+  "sufficient_statistics": {
+    "distinct_layer4_coverage": 49,
+    "distinct_relevant_J": 48,
+    "actual_J_distribution": {
+      "min": 1,
+      "max": 48,
+      "mean": 17.612244897959183,
+      "median": 17,
+      "distribution": {
+        "48": 1,
+        "39": 2,
+        "32": 1,
+        "38": 1,
+        "31": 2,
+        "26": 1,
+        "29": 2,
+        "25": 2,
+        "24": 2,
+        "21": 3,
+        "15": 2,
+        "8": 1,
+        "18": 1,
+        "13": 1,
+        "7": 3,
+        "27": 1,
+        "23": 2,
+        "20": 1,
+        "19": 2,
+        "17": 2,
+        "11": 3,
+        "10": 2,
+        "9": 2,
+        "6": 2,
+        "4": 2,
+        "5": 1,
+        "3": 2,
+        "2": 1,
+        "1": 1
+      }
+    },
+    "S1_packed_bytes": 5,
+    "S2_packed_bytes": 6,
+    "selected": "S1",
+    "S1_signatures": 4501,
+    "previous_category_estimate": 853246550,
+    "category_reduction_factor": 189568.21817373918
+  },
+  "layer4": {
+    "quads": 2228288640,
+    "main_seconds": 102.51937317848206,
+    "verifier_seconds": 117.0176739692688,
+    "peak_ram_bytes": 1249280,
+    "profile_counts_hash": "2f0b6a491ced578658fe0d4127361d2499b2dad21a26826933ac30eb82ed46da",
+    "C4": "5149221482392701998802598499334",
+    "C4_over_C3": 4.752048209505771,
+    "common_0_4": "6396270123883404800299907833974",
+    "common_0_4_over_old": 4.106990935364918,
+    "profile_comparison": {
+      "common": 6,
+      "old": 24,
+      "equal": 0,
+      "common_weight": "865874431"
+    },
+    "profilewise_max_contribution": "6564367343290482350460585730381"
+  },
+  "union": {
+    "weighted_intersection4": "1062248803547451",
+    "weighted_intersection_rate": "2.06293088611494938947569699501583730482038930239410000802907E-16",
+    "weighted_layer4_novel_rate": "0.999999999999999793706911388505061052430300498416269517961070",
+    "weighted_new_layer4": "5149221482392700936553794951883",
+    "union_0_4": "7953680457762087625348370932464"
+  },
+  "previous_lower_bound": "1416781933192090787318916862725694608",
+  "new_lower_bound": "1416787082413573180019853416520646491",
+  "improvement_factor": "1.00000363444886030640594956485610663395521858724141471053426",
+  "log2": 120.09203437940468,
+  "log10": 36.151304588510875,
+  "beats_1e37": false,
+  "beats_1e38": false
+}

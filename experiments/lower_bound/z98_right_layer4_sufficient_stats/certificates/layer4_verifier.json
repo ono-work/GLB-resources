@@ -1,0 +1,10 @@
+{
+  "status": "AUDIT PASSED",
+  "enumeration": "descending",
+  "quads": 2228288640,
+  "categories": 4501,
+  "category_table_match": true,
+  "profile_counts_match": true,
+  "C4": "5149221482392701998802598499334",
+  "profile_hash": "2f0b6a491ced578658fe0d4127361d2499b2dad21a26826933ac30eb82ed46da"
+}

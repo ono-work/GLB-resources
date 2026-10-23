@@ -1,0 +1,51 @@
+{
+  "created_at": "2026-08-03T13:38:50.957677+09:00",
+  "files": {
+    "docs/general_safe_rectangle_ip_followup.md": "2f25be9783a5260d26b3b4d071dd0c998dd5bbfa6107baf4528f08542ca8bd9c",
+    "experiments/lower_bound/general_safe_rectangle_ip_followup/best_solution.json": "104d97b49013fe95277088d6d1b7a9d9429c3f6b61b7715ce0d18e3f2dbc9bdf",
+    "experiments/lower_bound/general_safe_rectangle_ip_followup/certificate.json": "97ffa1cbd31aa99652b60905b053e9e17692da54fac0b44e1c956d7f0203abfc",
+    "experiments/lower_bound/general_safe_rectangle_ip_followup/certificates/max_seed0_focus1.audit.json": "63f178d7e7269c40715c0af287d24edea828b87e82979e7389b40619742de11b",
+    "experiments/lower_bound/general_safe_rectangle_ip_followup/certificates/max_seed0_focus1.original_verifier.json": "a23e399e139a52c9a032697f4be66f76cfd139f065d86dc61b1a1c89c901b2cd",
+    "experiments/lower_bound/general_safe_rectangle_ip_followup/logs/ge100_seed0.log": "d0578a66c8a69aa8eea1100c42bf08c0343643cbd5cec0b7ec453ef9c37985b4",
+    "experiments/lower_bound/general_safe_rectangle_ip_followup/logs/ge96_seed0.log": "d36cf88ce09324a3e71b8554dacd067bbe0f9b6a842e1bce5cf754db6d5f32b5",
+    "experiments/lower_bound/general_safe_rectangle_ip_followup/logs/ge97_seed0.log": "ca5615a58eb4ee868e2848aea2bdd37a89e19311f096e4d288eff5bc90150cc9",
+    "experiments/lower_bound/general_safe_rectangle_ip_followup/logs/ge98_seed0.log": "32c22d19b6174f3d7214c98df4328d6697a95758b721b08d0fbb87ebd3d111fa",
+    "experiments/lower_bound/general_safe_rectangle_ip_followup/logs/ge99_seed0.log": "3cebf17f89e478228a1836e8eb24d564edf4b289122be77882f772af507e6b6a",
+    "experiments/lower_bound/general_safe_rectangle_ip_followup/logs/max_seed0_focus1.log": "a78af4c89ed04aa29c9a507432224bb022dad32d3f5d117711baa95cc7f3d9da",
+    "experiments/lower_bound/general_safe_rectangle_ip_followup/manifests/ge100_seed0.json": "b9062a60dc94144e086c6d84a01dbaeeaabf4b7b56abc945bcb4011e1be31a3d",
+    "experiments/lower_bound/general_safe_rectangle_ip_followup/manifests/ge96_seed0.json": "96adfd63ab277fbc426d01d9e7499152f31ddc90fec25ff117787af4462e4848",
+    "experiments/lower_bound/general_safe_rectangle_ip_followup/manifests/ge97_seed0.json": "8baecffdf74e4c00198bc4318ee2ec92c2cfac3ea3f4cc434c84d9029249f14b",
+    "experiments/lower_bound/general_safe_rectangle_ip_followup/manifests/ge98_seed0.json": "0a0ea8266976286834a1720e23f39ae33c1bba7cb00b5da867284eb9af8804fd",
+    "experiments/lower_bound/general_safe_rectangle_ip_followup/manifests/ge99_seed0.json": "3e9fbd5ea194414cf8b50c1e919f8cbce1c83578b59a4e3f2542355acdc4c2dd",
+    "experiments/lower_bound/general_safe_rectangle_ip_followup/manifests/max_seed0_focus1.json": "8a09ba074d30fb95faa007ea191f2328e3a2dab81ebe79fb1da6ab8571cbaccb",
+    "experiments/lower_bound/general_safe_rectangle_ip_followup/maximization_results.json": "47679befcafd41ce36fc2c70268c954b3b5ed06766e611d39860228a76657f92",
+    "experiments/lower_bound/general_safe_rectangle_ip_followup/models/general_ge100.mps": "bf9da0a80ff108db2bf5d643066cb5f660c891a1781d6d5a24e797f744f187c3",
+    "experiments/lower_bound/general_safe_rectangle_ip_followup/models/general_ge96.mps": "f114aaffe55b52bcea616b6d17f93550c5c65a1f9112d7e9fa5aaa1c109852b6",
+    "experiments/lower_bound/general_safe_rectangle_ip_followup/models/general_ge97.mps": "e9db3e0d50086471e483f1f2ea9d06824302181b367c5165a0961761ffe48aff",
+    "experiments/lower_bound/general_safe_rectangle_ip_followup/models/general_ge98.mps": "807a09ecb12687c7e2f6cf683c79cf2b86107ef22840bbe93bafb0a88a6a9175",
+    "experiments/lower_bound/general_safe_rectangle_ip_followup/models/general_ge99.mps": "f7d0ec132777cec809885b8a8dc7a8e1a972b81d302cd2371922ecf52ab3dd20",
+    "experiments/lower_bound/general_safe_rectangle_ip_followup/solutions/max_seed0_focus1.sol": "99a3889edc883c8d2ac0a46eb3c05fa17d01da12ed7836a83c517caa522799b5",
+    "experiments/lower_bound/general_safe_rectangle_ip_followup/starts/z95_full.json": "6d97b5e58599ea38829988e640624f26b614f90286f43122fded1d8ffa3f419e",
+    "experiments/lower_bound/general_safe_rectangle_ip_followup/starts/z95_reflected_full.json": "62c2345a1d7d8f8db155cd116705e2344326665bbe17b9059be088f50f5ddc44",
+    "experiments/lower_bound/general_safe_rectangle_ip_followup/summary.json": "7646eb8a0fd1f287a1293a0dc1e95ea88f07a59581f670c6c1e848c030ea0f58",
+    "experiments/lower_bound/general_safe_rectangle_ip_followup/threshold_results.json": "809b065a6ffa878807310435afb25d7f72cc76e2a4260b534da8aec8f50724df",
+    "finalize_general_safe_rectangle_followup.py": "2283de69c6d978997e770116bf23a8a1a87ae811352eff14b89797b25e9a75c6",
+    "reports/lower_bound/general_safe_rectangle_ip_followup_ja.md": "65796ce12fd3f9789fdb6028a984698b46a7aeceb1ce73af680ad22371e245e2",
+    "run_general_safe_rectangle_followup.py": "27102d10051e1d535de45395c4ef7860d742da390f6f312efefc27ff57050158",
+    "tests/test_general_safe_rectangle_followup.py": "da106804036d42243fe73cfde5b9a25a16fde6eafb92d43c3421174888b82c16",
+    "verify_general_safe_rectangle_followup.py": "023db7a75fdf11a26454ddc7269bb3d2640d107509542ac9af1874162681f51e"
+  },
+  "glb_commit": "5af167dd68a193b83de35a5ddaf4ecc3c534b46a",
+  "gub_commit": "85d17f1e840632978b3baed5b69622d51f6419bf",
+  "gurobi_version": [
+    10,
+    0,
+    0
+  ],
+  "reproduction_commands": [
+    "python3 verify_general_safe_rectangle_followup.py experiments/lower_bound/general_safe_rectangle_ip_followup/solutions/max_seed0_focus1.sol --output experiments/lower_bound/general_safe_rectangle_ip_followup/certificates/reproduced.audit.json",
+    "python3 verify_general_safe_rectangle_solution.py experiments/lower_bound/general_safe_rectangle_ip_followup/solutions/max_seed0_focus1.sol",
+    "python3 -m unittest tests.test_general_safe_rectangle_followup"
+  ],
+  "schema_version": 1
+}

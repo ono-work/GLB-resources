@@ -1,0 +1,208 @@
+{
+  "P_L_size": 237,
+  "empty_deficit_vertices": 114,
+  "nonempty_deficit_vertices": 123,
+  "deficit_universe": [
+    1,
+    4,
+    6,
+    9,
+    10,
+    15,
+    16,
+    17,
+    19
+  ],
+  "deficit_universe_size": 9,
+  "distinct_vertex_signatures": 26,
+  "signature_distribution": [
+    {
+      "signature": [],
+      "vertices": 114
+    },
+    {
+      "signature": [
+        1
+      ],
+      "vertices": 6
+    },
+    {
+      "signature": [
+        1,
+        6
+      ],
+      "vertices": 3
+    },
+    {
+      "signature": [
+        1,
+        6,
+        16
+      ],
+      "vertices": 3
+    },
+    {
+      "signature": [
+        1,
+        10
+      ],
+      "vertices": 3
+    },
+    {
+      "signature": [
+        1,
+        16
+      ],
+      "vertices": 3
+    },
+    {
+      "signature": [
+        1,
+        19
+      ],
+      "vertices": 3
+    },
+    {
+      "signature": [
+        4
+      ],
+      "vertices": 3
+    },
+    {
+      "signature": [
+        6
+      ],
+      "vertices": 6
+    },
+    {
+      "signature": [
+        6,
+        9
+      ],
+      "vertices": 3
+    },
+    {
+      "signature": [
+        6,
+        9,
+        16
+      ],
+      "vertices": 3
+    },
+    {
+      "signature": [
+        6,
+        15
+      ],
+      "vertices": 3
+    },
+    {
+      "signature": [
+        6,
+        16
+      ],
+      "vertices": 3
+    },
+    {
+      "signature": [
+        9
+      ],
+      "vertices": 6
+    },
+    {
+      "signature": [
+        9,
+        16
+      ],
+      "vertices": 3
+    },
+    {
+      "signature": [
+        9,
+        19
+      ],
+      "vertices": 3
+    },
+    {
+      "signature": [
+        10
+      ],
+      "vertices": 3
+    },
+    {
+      "signature": [
+        15
+      ],
+      "vertices": 12
+    },
+    {
+      "signature": [
+        15,
+        17
+      ],
+      "vertices": 6
+    },
+    {
+      "signature": [
+        15,
+        17,
+        19
+      ],
+      "vertices": 3
+    },
+    {
+      "signature": [
+        15,
+        19
+      ],
+      "vertices": 6
+    },
+    {
+      "signature": [
+        16
+      ],
+      "vertices": 6
+    },
+    {
+      "signature": [
+        16,
+        17
+      ],
+      "vertices": 3
+    },
+    {
+      "signature": [
+        17
+      ],
+      "vertices": 12
+    },
+    {
+      "signature": [
+        17,
+        19
+      ],
+      "vertices": 6
+    },
+    {
+      "signature": [
+        19
+      ],
+      "vertices": 12
+    }
+  ],
+  "maximum_vertex_deficit_size": 3,
+  "reachable_deficits_by_Q_R_plus": [],
+  "unreachable_deficits": [
+    1,
+    4,
+    6,
+    9,
+    10,
+    15,
+    16,
+    17,
+    19
+  ],
+  "exact_W_delta_feasible": false,
+  "decision": "全nonempty deficitがQ_R^+から到達不能。欠損付きLayer計数は値0しか加えず、実行しない。"
+}

@@ -1,0 +1,67 @@
+{
+  "status": "CURRENT_LEFT_SUPPORT_CONTAINS_T0_VERIFIED",
+  "current_lower_bound": "1416805572004163810711501940302641257",
+  "T0": [
+    2,
+    11,
+    14
+  ],
+  "T0_games": [
+    {
+      "export_id": 2,
+      "orig_gid": 2,
+      "left": [
+        0
+      ],
+      "right": []
+    },
+    {
+      "export_id": 11,
+      "orig_gid": 25,
+      "left": [
+        2
+      ],
+      "right": [
+        0
+      ]
+    },
+    {
+      "export_id": 14,
+      "orig_gid": 29,
+      "left": [
+        2
+      ],
+      "right": [
+        3
+      ]
+    }
+  ],
+  "T0_hash": "4826a35490c61b73b1e06b3c3605e851fa7c42e1be58ea87129c330b1e7d8c33",
+  "proof": [
+    {
+      "family": "canonical",
+      "reason": "left family is {T_L union A: A antichain in Q_L+}; fixed T_L=T0"
+    },
+    {
+      "family": "all residual profiles",
+      "reason": "left family is {T_L union A: A antichain in P_L}; fixed T_L=T0"
+    },
+    {
+      "family": "old right family",
+      "reason": "right-family choice only; paired residual left family still contains T0"
+    },
+    {
+      "family": "common coverage Layer 0--5",
+      "reason": "right Layer choice only; all canonical/residual left antichains include fixed T0"
+    },
+    {
+      "family": "old/common exact union",
+      "reason": "profilewise union changes only the right family, never the fixed left kernel T0"
+    }
+  ],
+  "sources": {
+    "canonical": "experiments/lower_bound/z98_inverted_canonical_layer6/certificate.json",
+    "residual": "experiments/lower_bound/z98_residual_profile_closure/certificate.json",
+    "latest_union": "experiments/lower_bound/z98_right_layer5_sufficient_stats/certificate.json"
+  }
+}

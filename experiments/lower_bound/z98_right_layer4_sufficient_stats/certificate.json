@@ -1,0 +1,35 @@
+{
+  "status": [
+    "SUFFICIENT_STAT_LAYER4_VERIFIED",
+    "SUFFICIENT_STAT_LAYER4_HIGHLY_PROMISING",
+    "LAYER4_UNION_VERIFIED",
+    "LAYER4_UNION_HIGHLY_PROMISING"
+  ],
+  "audit": "AUDIT PASSED",
+  "layer4_verifier": {
+    "status": "AUDIT PASSED",
+    "enumeration": "descending",
+    "quads": 2228288640,
+    "categories": 4501,
+    "category_table_match": true,
+    "profile_counts_match": true,
+    "C4": "5149221482392701998802598499334",
+    "profile_hash": "2f0b6a491ced578658fe0d4127361d2499b2dad21a26826933ac30eb82ed46da"
+  },
+  "union_verifier": {
+    "status": "AUDIT PASSED",
+    "profiles_verified": 30,
+    "descending_order": true,
+    "b4_binomial_formula_verified": true,
+    "union_identity_verified": true,
+    "profile_hash": "77f3eb7b143f15538691c4511ccca2badd8ec264fcca432b5a5a791ef35af100"
+  },
+  "identities": {
+    "quads": true,
+    "category_sum": true,
+    "C4_match": true,
+    "union_identity": true
+  },
+  "summary_sha256": "280ecf32fe8ad6380296e3bf0ad4d51f1b60aaff23bd54ab5fe28afd35a7bdb1",
+  "input_manifest_sha256": "fa322ec221c396a2ae436c9338a2f644ca88a975a1ce6b412e152a5566143003"
+}

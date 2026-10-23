@@ -1,0 +1,9 @@
+{
+  "status": "PARTIAL_STOP",
+  "candidates_verified": 56,
+  "canonical_candidates_verified": 53,
+  "boolean_fallback_candidates_verified": 3,
+  "reverse_QR_scan": true,
+  "left_antichain_counts_recomputed": true,
+  "layer02_recomputed": true
+}

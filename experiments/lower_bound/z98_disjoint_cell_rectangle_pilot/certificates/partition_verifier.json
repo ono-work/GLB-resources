@@ -1,0 +1,9 @@
+{
+  "status": "BEST_DISJOINT_PARTITION_VERIFIED",
+  "six_partitions": 6,
+  "truth_patterns_per_partition": 8,
+  "current_vs_new_disjoint": true,
+  "within_partition_disjoint": true,
+  "right_overlap_irrelevant": true,
+  "new_bound_two_path": true
+}

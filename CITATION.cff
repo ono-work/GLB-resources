@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite the accompanying GPW 2026 paper."
+title: "Computational Artifact for a Lower Bound on Partizan Games Born by Day 4"
+type: software
+authors:
+  - family-names: Ono
+    given-names: Hirotaka
+version: 0.1.0
+date-released: 2026-10-24
+url: "https://github.com/ono-work/GLB-resources"
+license: MIT

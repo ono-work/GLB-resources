@@ -1,0 +1,28 @@
+{
+  "sources": {
+    "z98_disjoint_cell_rectangle_pilot.py": "c98d836f262ebab3f8270a9d102a0182857e7c20ebc219b3eb157fc32692e91f",
+    "run_z98_disjoint_cell_ip.py": "931610ee0424ce38a60d609ea2dce6002a21785d215a05afeb682fd66dfa7183",
+    "prove_z98_disjoint_cell_upper.py": "d40339c09b544f31c95529c10ff411830430b1395ec4927439ee50170e0bcd46",
+    "verify_z98_disjoint_cell_ip.py": "0698741b8901c23dad3dee250ea19e836ab904b068f9a5b75fe3b13fd7804a0c",
+    "certify_z98_disjoint_rnone_cells.py": "678fcf70b223973c0a0b90c5b8e2c03ed02c445864e7fd21ca0a826f472c4dbc",
+    "certify_z98_disjoint_subset_cells.py": "fee0cd74b7e17095ae69ef922c6c40822bb57caf208d2e611ec455d21ed05549",
+    "augment_z98_disjoint_rnone_pools.py": "654d69202ce7521447fcbb463289483aadc0e3c15c6782d990da114bca80526a",
+    "augment_z98_disjoint_cell_pools.py": "49077fcb632732ee426545c61d767ded6357d6d6b83b56ba1095e241b2c02c36",
+    "rank_z98_disjoint_cell_kernels.py": "77b0033fedd21e257134169c038d3648389ada52696ea2ccfa396c5908ac6dfa",
+    "evaluate_z98_disjoint_cell_canonical.py": "0fc0590cb2bac0357732a3ef2ce04795bd5d2a3c28b729de28fdd61e557d1876",
+    "verify_z98_disjoint_cell_canonical.py": "982a96d67b5d8757fdb13e263933a1167893513e6d69fd31962d146b2e0dc191",
+    "evaluate_z98_disjoint_cell_partitions.py": "1effa1870f64abcb0f9e707446e70d5ac43b176cf8d45ec51d3cd9f34c937bfd",
+    "verify_z98_disjoint_cell_partitions.py": "9bf005663add1740eb052606230e39a0bc1787f65e975051280726033753b80f",
+    "finalize_z98_disjoint_cell_rectangle_pilot.py": "7e36b08e70dd75f4c90519d650bec3c5c972c29545c8e946c905349af4078582",
+    "tests/test_z98_disjoint_cell_rectangle_pilot.py": "fe6750b3b61f2ce6ad88cad0fbcacb5b968e4c819d729927966b3d105022a525"
+  },
+  "inputs": {
+    "experiments/lower_bound/general_safe_rectangle_ip_followup/certificate.json": "97ffa1cbd31aa99652b60905b053e9e17692da54fac0b44e1c956d7f0203abfc",
+    "experiments/lower_bound/general_safe_rectangle_ip/models/general_max.mps": "1d000e628928d17db56d6edb33b0759be634e84601e9862347b6784d799937c8",
+    "experiments/lower_bound/z98_right_layer5_sufficient_stats/certificate.json": "d6d4b2d45400cc8b83bd391bfd7bac5ae9d3e12872349931ee9e4dcb40593ee2",
+    "experiments/lower_bound/z98_residual_profile_closure/certificate.json": "2df9378beca7b242aee99902a4ffea0d29c588b3a6274f1d4d4ed8d8d0f48950",
+    "experiments/lower_bound/z98_inverted_canonical_layer6/certificate.json": "4e29589b2e2549ca0527367f006ee63a408fa2afad34d5651e168fb1b77fd8d5"
+  },
+  "glb_commit": "5af167dd68a193b83de35a5ddaf4ecc3c534b46a",
+  "gub_commit": "85d17f1e840632978b3baed5b69622d51f6419bf"
+}

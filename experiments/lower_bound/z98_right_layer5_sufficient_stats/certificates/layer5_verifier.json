@@ -1,0 +1,10 @@
+{
+  "status": "AUDIT PASSED",
+  "enumeration": "descending",
+  "quints": 104366998061,
+  "signatures": 4419,
+  "signature_table_match": true,
+  "profile_counts_match": true,
+  "C5": "18489590590630707873108185633154",
+  "profile_hash": "aba2ee9df55a6a4b4160ce00a487ed370e337f688ae37dbad116da28768a2d39"
+}

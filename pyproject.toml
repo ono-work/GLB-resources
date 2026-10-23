@@ -1,0 +1,10 @@
+[project]
+name = "glb-resources"
+version = "0.1.0"
+description = "Computational artifact for a lower bound on partizan games born by day 4"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Hirotaka Ono" }]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

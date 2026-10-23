@@ -1,0 +1,24 @@
+{
+  "status": "CELL_SAFE_RECTANGLE_IP_VERIFIED",
+  "tag": "rnone_f14",
+  "optimum_proved_by_gurobi": false,
+  "optimum_proof_kind": "OPTIMAL_BY_GLOBAL_CERTIFICATE",
+  "best": {
+    "passed": true,
+    "errors": [],
+    "z": 98,
+    "sizes": {
+      "A": 82,
+      "B": 23,
+      "T_L": 4,
+      "T_R": 3
+    },
+    "left_hits": 172,
+    "right_hits": 48,
+    "hash": "a22612a5cec2a0bc108df6c69873f89ee9b7efa0e8b190acc713ae5a8b7aa167"
+  },
+  "pool_verified": 50,
+  "all_pool_passed": true,
+  "cell_membership_verified": true,
+  "generated_boolean_rectangle_safe": true
+}

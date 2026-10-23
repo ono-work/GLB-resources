@@ -1,0 +1,115 @@
+{
+  "status": [
+    "COVERAGE_MODEL_VERIFIED",
+    "LAYER02_COVERAGE_REPRODUCED",
+    "FULL_COVERAGE_EXACT_TOO_LARGE",
+    "COVERAGE_LAYER3_VERIFIED",
+    "COVERAGE_COUNTER_PROMISING"
+  ],
+  "audit": "AUDIT PASSED",
+  "checks": [
+    {
+      "name": "coverage_1238_49",
+      "passed": true
+    },
+    {
+      "name": "omega_4096",
+      "passed": true
+    },
+    {
+      "name": "layer0",
+      "passed": true
+    },
+    {
+      "name": "layer1_descending",
+      "passed": true
+    },
+    {
+      "name": "layer2_independent",
+      "passed": true
+    },
+    {
+      "name": "layer02_weighted",
+      "passed": true
+    },
+    {
+      "name": "layer3_two_directions",
+      "passed": true
+    },
+    {
+      "name": "layer3_total",
+      "passed": true
+    },
+    {
+      "name": "layer3_weighted",
+      "passed": true
+    }
+  ],
+  "exact_results": {
+    "status": [
+      "COVERAGE_MODEL_VERIFIED",
+      "LAYER02_COVERAGE_REPRODUCED",
+      "FULL_COVERAGE_EXACT_TOO_LARGE",
+      "COVERAGE_LAYER3_VERIFIED",
+      "COVERAGE_COUNTER_PROMISING"
+    ],
+    "audit": "AUDIT PASSED",
+    "full_exact_executed": false,
+    "full_exact_reason": "frontier widths and branch growth fail stable <=12h criterion",
+    "U_H": [
+      0,
+      1,
+      3,
+      4,
+      6,
+      9,
+      10,
+      12,
+      15,
+      16,
+      17,
+      19
+    ],
+    "coverage_pattern_count": 49,
+    "omega_positive_masks": 4034,
+    "omega_hash": "aa67a68e56aa2e2df4ba4201122d7f45982bf6fc7b53dab51dce16aaac65f57d",
+    "layer_totals_0_2": [
+      "4835703278458516698824704",
+      "80115895914374240879248062",
+      "659251960673642139952463147"
+    ],
+    "layer_weighted_0_3": [
+      "0",
+      "10777368195350123900411630720",
+      "152691887023040758403122277775",
+      "1083579386272311919193775426145"
+    ],
+    "common_weighted_0_3": "1247048641490702801497309334640",
+    "existing_residual_contribution": "1557410333878683939788039423140",
+    "common_to_existing_ratio": "0.800719382916232",
+    "formal_lower_bound_before": "1416780686143449296616167856189137167",
+    "formal_lower_bound_after": "1416780686143449296616167856189137167",
+    "formal_improvement_factor": "1",
+    "layer3_triples": 32022499,
+    "layer3_categories": 17087769,
+    "layer3_weighted": "1083579386272311919193775426145",
+    "layer_growth_C2_over_C1": "14.167826899420529",
+    "layer_growth_C3_over_C2": "7.096509234369492",
+    "twin_class_count": 1238,
+    "nontrivial_twin_classes": 0,
+    "minimum_observed_frontier_width": 1100
+  },
+  "source_sha256": {
+    "z98_right_coverage_counter_pilot.py": "c363c16a5269993a510376a389d29a869b2cad84f6eec9a3d20f7b1931d54f5d",
+    "verify_z98_right_coverage_counter_pilot.py": "06bcd1a19b4736f1d39a12b4457b614ad6ec8ed7f8225be8519a044521650875",
+    "benchmark_z98_right_coverage_counters.py": "c05682666d99d0ff8adafc4ba183479d332c77eef73c66d06afb1eaa0e8e3e11",
+    "z98_right_coverage_layer3.py": "640c937a3bbbbeba693b1c4bc1d7781f07fd0f890fe5252cbac9f17d73f5272e",
+    "run_z98_right_coverage_layer3.py": "c677be9b6ee0a2f5dbf372cda110bdf78e5f1b36fb4b123003e9d34ce82bac0d",
+    "tools/z98_right_coverage_layer2.cpp": "d4afa78aa42a7e1659d1936eeb82836fc2a3b0182552f644a89e4aab390be519",
+    "tools/z98_right_coverage_layer3.cpp": "f6e5e827aa8a56ab5797b89f8c4a2586b42c62af099f1d8aae3bb6ee6212f424",
+    "tools/z98_right_coverage_layer3_count.cpp": "d7bfb84ab8ccfd53572e9ceb7e095465cb244b7b26cf677d80bd0810e411b1ee",
+    "tests/test_z98_right_coverage_counter_pilot.py": "d6e0097a2532c035ad8c09221c4fc4db342b6dbee00cdfee50ce6ce67db9fc0c"
+  },
+  "glb_commit": "5af167dd68a193b83de35a5ddaf4ecc3c534b46a",
+  "note": "The common Layer 0:3 family overlaps the old profile-wise family; no sum is taken."
+}
