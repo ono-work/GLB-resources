@@ -20,7 +20,6 @@ Start here, then see:
 - [`PAPER_RESULTS.md`](PAPER_RESULTS.md): every numerical claim mapped to its evidence.
 - [`REPRODUCIBILITY.md`](REPRODUCIBILITY.md): quick verification and expensive-recomputation scope.
 - [`VERIFICATION_REPORT.md`](VERIFICATION_REPORT.md): checks run when this package was assembled.
-- [`PUBLISHING.md`](PUBLISHING.md): review, GitHub, and Release checklist.
 - [`provenance/`](provenance/): source commits, selection policy, and excluded data.
 
 ## Quick verification
