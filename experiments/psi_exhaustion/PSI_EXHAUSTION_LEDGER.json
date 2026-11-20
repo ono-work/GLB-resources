@@ -1,0 +1,924 @@
+{
+ "schema": "psi-exhaustion-ledger-1",
+ "B0": "26779208541153893647347341345937714190772",
+ "total": "29247125847589399267405782004907476922410",
+ "log10": 40.4660831938417,
+ "n_keys": 22,
+ "n_certified": 22,
+ "keys": [
+  {
+   "id": "R_s_p_E2",
+   "key": "0|S=*|C=\u00b11|E=*2",
+   "world": "0",
+   "S": [
+    3
+   ],
+   "C": [
+    12
+   ],
+   "E": [
+    21
+   ],
+   "P_cells": [
+    [
+     0,
+     3
+    ]
+   ],
+   "exact": "231151158950498278060921910460730637668",
+   "mirror_contribution": "231151158950498278060921910460730637668",
+   "producer_certificate": "harvest/psi_S3_C12.json",
+   "verifier_certificate": "harvest/certificates/verify_psi_S3_C12.json",
+   "verifier_status": "AUDIT PASSED",
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "producer_wall_s": 5821.99,
+   "producer_peak_rss": 14097567744,
+   "verifier_wall_s": 10063.07,
+   "verifier_peak_rss": 13405458432,
+   "projected_producer_GiB": 12.7,
+   "projected_verifier_GiB": 12.44,
+   "planned_max_S": 6840288648,
+   "planned_w_eff": 4.404,
+   "measured_max_S": 6840288648,
+   "measured_w_eff": 4.4,
+   "est_log10_original": 38.527,
+   "status": "CERTIFIED",
+   "certified_at": "2026-11-09 13:09"
+  },
+  {
+   "id": "R_p_s",
+   "key": "0|S=\u00b11|C=*|E=*2",
+   "world": "0",
+   "S": [
+    12
+   ],
+   "C": [
+    3
+   ],
+   "E": [
+    21
+   ],
+   "P_cells": [
+    [
+     0,
+     12
+    ]
+   ],
+   "exact": "234090676789438332929918204237281734338",
+   "mirror_contribution": "234090676789438332929918204237281734338",
+   "producer_certificate": "harvest/psi_S12_C3.json",
+   "verifier_certificate": "harvest/certificates/verify_psi_S12_C3.json",
+   "verifier_status": "AUDIT PASSED",
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "producer_wall_s": 2564.63,
+   "producer_peak_rss": 14045782016,
+   "verifier_wall_s": 5655.79,
+   "verifier_peak_rss": 7656665088,
+   "projected_producer_GiB": 13.0,
+   "projected_verifier_GiB": 13.36,
+   "planned_max_S": 875213056,
+   "planned_w_eff": 4.005,
+   "measured_max_S": null,
+   "measured_w_eff": null,
+   "est_log10_original": 38.144,
+   "status": "CERTIFIED",
+   "certified_at": "2026-11-09 14:44"
+  },
+  {
+   "id": "RZ_s_0p_E2",
+   "key": "Z|S=*|C=0,\u00b11|E=*2",
+   "world": "Z",
+   "S": [
+    3
+   ],
+   "C": [
+    0,
+    12
+   ],
+   "E": [
+    21
+   ],
+   "P_cells": [
+    [
+     3
+    ]
+   ],
+   "exact": "336086638048784623888438835464364234501",
+   "mirror_contribution": "336086638048784623888438835464364234501",
+   "producer_certificate": "harvest/psi_S3_C0_12.json",
+   "verifier_certificate": "harvest/certificates/verify_psi_S3_C0_12.json",
+   "verifier_status": "AUDIT PASSED",
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "producer_wall_s": 14002.85,
+   "producer_peak_rss": 19936825344,
+   "verifier_wall_s": 23026.04,
+   "verifier_peak_rss": 28068737024,
+   "projected_producer_GiB": 13.0,
+   "projected_verifier_GiB": 26.1,
+   "planned_max_S": 7876917504,
+   "planned_w_eff": 4.432,
+   "measured_max_S": 7876917504,
+   "measured_w_eff": 4.43,
+   "est_log10_original": 38.478,
+   "status": "CERTIFIED",
+   "certified_at": "2026-11-09 21:22"
+  },
+  {
+   "id": "R_0_sp_E2",
+   "key": "0|S=-|C=*,\u00b11|E=*2",
+   "world": "0",
+   "S": [],
+   "C": [
+    3,
+    12
+   ],
+   "E": [
+    21
+   ],
+   "P_cells": [
+    [
+     0
+    ]
+   ],
+   "exact": "336086638048784623888439246982700650413",
+   "mirror_contribution": "336086638048784623888439246982700650413",
+   "producer_certificate": "harvest/psi_Snone_C3_12.json",
+   "verifier_certificate": "harvest/certificates/verify_psi_Snone_C3_12.json",
+   "verifier_status": "AUDIT PASSED",
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "producer_wall_s": 17214.18,
+   "producer_peak_rss": 19936784384,
+   "verifier_wall_s": 18713.6,
+   "verifier_peak_rss": 28068634624,
+   "projected_producer_GiB": 13.0,
+   "projected_verifier_GiB": 26.1,
+   "planned_max_S": 7876917504,
+   "planned_w_eff": 4.432,
+   "measured_max_S": 7876917504,
+   "measured_w_eff": 4.43,
+   "est_log10_original": 38.541,
+   "status": "CERTIFIED",
+   "certified_at": "2026-11-10 02:33"
+  },
+  {
+   "id": "R_0_p2_Es",
+   "key": "0|S=-|C=\u00b11,*2|E=*",
+   "world": "0",
+   "S": [],
+   "C": [
+    12,
+    21
+   ],
+   "E": [
+    3
+   ],
+   "P_cells": [
+    [
+     0
+    ],
+    [
+     0,
+     19
+    ]
+   ],
+   "exact": "8520674777465663492223585922514488078",
+   "mirror_contribution": "8520674777465663492223585922514488078",
+   "producer_certificate": "harvest/psi_Snone_C12_21.json",
+   "verifier_certificate": "harvest/certificates/verify_psi_Snone_C12_21.json",
+   "verifier_status": "AUDIT PASSED",
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "producer_wall_s": 30154.27,
+   "producer_peak_rss": 21172310016,
+   "verifier_wall_s": 33029.7,
+   "verifier_peak_rss": 14659878912,
+   "projected_producer_GiB": 19.6,
+   "projected_verifier_GiB": 32.6,
+   "planned_max_S": 1760074272,
+   "planned_w_eff": 4.14,
+   "measured_max_S": 7876917504,
+   "measured_w_eff": 4.43,
+   "est_log10_original": 37.764,
+   "status": "CERTIFIED",
+   "certified_at": "2026-11-10 13:17"
+  },
+  {
+   "id": "R_s2_0",
+   "key": "0|S=*,*2|C=-|E=\u00b11",
+   "world": "0",
+   "S": [
+    3,
+    21
+   ],
+   "C": [],
+   "E": [
+    12
+   ],
+   "P_cells": [
+    [
+     0,
+     3,
+     21
+    ]
+   ],
+   "exact": "8972957188370073722063363333257700474",
+   "mirror_contribution": "8972957188370073722063363333257700474",
+   "producer_certificate": "harvest/psi_S3_21_Cnone.json",
+   "verifier_certificate": "harvest/certificates/verify_psi_S3_21_Cnone.json",
+   "verifier_status": "AUDIT PASSED",
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "producer_wall_s": 4321.31,
+   "producer_peak_rss": 14097551360,
+   "verifier_wall_s": 7036.89,
+   "verifier_peak_rss": 13405405184,
+   "projected_producer_GiB": 12.7,
+   "projected_verifier_GiB": 12.44,
+   "planned_max_S": 6840288648,
+   "planned_w_eff": 4.404,
+   "measured_max_S": 7695324729,
+   "measured_w_eff": 4.43,
+   "est_log10_original": 36.907,
+   "status": "CERTIFIED",
+   "certified_at": "2026-11-10 15:14"
+  },
+  {
+   "id": "R_2_p_Es",
+   "key": "0|S=*2|C=\u00b11|E=*",
+   "world": "0",
+   "S": [
+    21
+   ],
+   "C": [
+    12
+   ],
+   "E": [
+    3
+   ],
+   "P_cells": [
+    [
+     0,
+     21
+    ]
+   ],
+   "exact": "8118672638055922302032992552501734639",
+   "mirror_contribution": "8118672638055922302032992552501734639",
+   "producer_certificate": "harvest/psi_S21_C12.json",
+   "verifier_certificate": "harvest/certificates/verify_psi_S21_C12.json",
+   "verifier_status": "AUDIT PASSED",
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "producer_wall_s": 59.88,
+   "producer_peak_rss": 33988608,
+   "verifier_wall_s": 972.92,
+   "verifier_peak_rss": 8685551616,
+   "projected_producer_GiB": 18.8,
+   "projected_verifier_GiB": 28.67,
+   "planned_max_S": 1760074272,
+   "planned_w_eff": 4.14,
+   "measured_max_S": 43509528,
+   "measured_w_eff": 3.42,
+   "est_log10_original": 37.187,
+   "status": "CERTIFIED",
+   "certified_at": "2026-11-10 15:30"
+  },
+  {
+   "id": "R_p2_0",
+   "key": "0|S=\u00b11,*2|C=-|E=*",
+   "world": "0",
+   "S": [
+    12,
+    21
+   ],
+   "C": [],
+   "E": [
+    3
+   ],
+   "P_cells": [
+    [
+     0,
+     12,
+     21
+    ]
+   ],
+   "exact": "7869231256113870368516345931396048463",
+   "mirror_contribution": "7869231256113870368516345931396048463",
+   "producer_certificate": "harvest/psi_S12_21_Cnone.json",
+   "verifier_certificate": "harvest/certificates/verify_psi_S12_21_Cnone.json",
+   "verifier_status": "AUDIT PASSED",
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "producer_wall_s": 18.07,
+   "producer_peak_rss": 33959936,
+   "verifier_wall_s": 96.92,
+   "verifier_peak_rss": 738746368,
+   "projected_producer_GiB": 12.7,
+   "projected_verifier_GiB": 13.23,
+   "planned_max_S": 855036081,
+   "planned_w_eff": 4.0,
+   "measured_max_S": null,
+   "measured_w_eff": null,
+   "est_log10_original": 36.584,
+   "status": "CERTIFIED",
+   "certified_at": "2026-11-10 15:32"
+  },
+  {
+   "id": "R_p_2",
+   "key": "0|S=\u00b11|C=*2|E=*",
+   "world": "0",
+   "S": [
+    12
+   ],
+   "C": [
+    21
+   ],
+   "E": [
+    3
+   ],
+   "P_cells": [
+    [
+     0,
+     12
+    ]
+   ],
+   "exact": "6669517962471583718118234156112777268",
+   "mirror_contribution": "6669517962471583718118234156112777268",
+   "producer_certificate": "harvest/psi_S12_C21.json",
+   "verifier_certificate": "harvest/certificates/verify_psi_S12_C21.json",
+   "verifier_status": "AUDIT PASSED",
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "producer_wall_s": 50.47,
+   "producer_peak_rss": 34095104,
+   "verifier_wall_s": 359.07,
+   "verifier_peak_rss": 2682404864,
+   "projected_producer_GiB": 13.0,
+   "projected_verifier_GiB": 13.36,
+   "planned_max_S": 875213056,
+   "planned_w_eff": 4.005,
+   "measured_max_S": null,
+   "measured_w_eff": null,
+   "est_log10_original": 36.697,
+   "status": "CERTIFIED",
+   "certified_at": "2026-11-10 15:38"
+  },
+  {
+   "id": "R_s_2",
+   "key": "0|S=*|C=*2|E=\u00b11",
+   "world": "0",
+   "S": [
+    3
+   ],
+   "C": [
+    21
+   ],
+   "E": [
+    12
+   ],
+   "P_cells": [
+    [
+     0,
+     3
+    ]
+   ],
+   "exact": "7974292488706389540090025918578544813",
+   "mirror_contribution": "7974292488706389540090025918578544813",
+   "producer_certificate": "harvest/psi_S3_C21.json",
+   "verifier_certificate": "harvest/certificates/verify_psi_S3_C21.json",
+   "verifier_status": "AUDIT PASSED",
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "producer_wall_s": 5961.98,
+   "producer_peak_rss": 14097571840,
+   "verifier_wall_s": 9775.75,
+   "verifier_peak_rss": 13405470720,
+   "projected_producer_GiB": 12.7,
+   "projected_verifier_GiB": 12.44,
+   "planned_max_S": 6840288648,
+   "planned_w_eff": 4.404,
+   "measured_max_S": 6840288648,
+   "measured_w_eff": 4.4,
+   "est_log10_original": 36.797,
+   "status": "CERTIFIED",
+   "certified_at": "2026-11-10 18:21"
+  },
+  {
+   "id": "RZ_s_02_Ep",
+   "key": "Z|S=*|C=0,*2|E=\u00b11",
+   "world": "Z",
+   "S": [
+    3
+   ],
+   "C": [
+    0,
+    21
+   ],
+   "E": [
+    12
+   ],
+   "P_cells": [
+    [
+     3
+    ],
+    [
+     3,
+     15
+    ]
+   ],
+   "exact": "12005933644220659110202703206191772715",
+   "mirror_contribution": "12005933644220659110202703206191772715",
+   "producer_certificate": "harvest/psi_S3_C0_21.json",
+   "verifier_certificate": "harvest/certificates/verify_psi_S3_C0_21.json",
+   "verifier_status": "AUDIT PASSED",
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "producer_wall_s": 12668.94,
+   "producer_peak_rss": 20357767168,
+   "verifier_wall_s": 23502.14,
+   "verifier_peak_rss": 17272942592,
+   "projected_producer_GiB": 18.8,
+   "projected_verifier_GiB": 28.67,
+   "planned_max_S": 6840288648,
+   "planned_w_eff": 4.404,
+   "measured_max_S": 7876917504,
+   "measured_w_eff": 4.43,
+   "est_log10_original": 37.176,
+   "status": "CERTIFIED",
+   "certified_at": "2026-11-11 00:53"
+  },
+  {
+   "id": "R_0_s2",
+   "key": "0|S=-|C=*,*2|E=\u00b11",
+   "world": "0",
+   "S": [],
+   "C": [
+    3,
+    21
+   ],
+   "E": [
+    12
+   ],
+   "P_cells": [
+    [
+     0
+    ],
+    [
+     0,
+     17
+    ]
+   ],
+   "exact": "12005933644220659110219052618796322880",
+   "mirror_contribution": "12005933644220659110219052618796322880",
+   "producer_certificate": "harvest/psi_Snone_C3_21.json",
+   "verifier_certificate": "harvest/certificates/verify_psi_Snone_C3_21.json",
+   "verifier_status": "AUDIT PASSED",
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "producer_wall_s": 12382.08,
+   "producer_peak_rss": 20357787648,
+   "verifier_wall_s": 21912.02,
+   "verifier_peak_rss": 16388153344,
+   "projected_producer_GiB": 18.8,
+   "projected_verifier_GiB": 28.67,
+   "planned_max_S": 6840288648,
+   "planned_w_eff": 4.404,
+   "measured_max_S": 7876917504,
+   "measured_w_eff": 4.43,
+   "est_log10_original": 37.051,
+   "status": "CERTIFIED",
+   "certified_at": "2026-11-11 06:58"
+  },
+  {
+   "id": "RZ_s2_0_Ep",
+   "key": "Z|S=*,*2|C=0|E=\u00b11",
+   "world": "Z",
+   "S": [
+    3,
+    21
+   ],
+   "C": [
+    0
+   ],
+   "E": [
+    12
+   ],
+   "P_cells": [
+    [
+     3,
+     21
+    ]
+   ],
+   "exact": "9948746686923549149530479989836104522",
+   "mirror_contribution": "9948746686923549149530479989836104522",
+   "producer_certificate": "harvest/psi_S3_21_C0.json",
+   "verifier_certificate": "harvest/certificates/verify_psi_S3_21_C0.json",
+   "verifier_status": "AUDIT PASSED",
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "producer_wall_s": 50.1,
+   "producer_peak_rss": 178200576,
+   "verifier_wall_s": 613.1,
+   "verifier_peak_rss": 8074461184,
+   "projected_producer_GiB": 18.8,
+   "projected_verifier_GiB": 28.67,
+   "planned_max_S": 6840288648,
+   "planned_w_eff": 4.404,
+   "measured_max_S": 359452001,
+   "measured_w_eff": 3.83,
+   "est_log10_original": 36.735,
+   "status": "CERTIFIED",
+   "certified_at": "2026-11-11 07:08"
+  },
+  {
+   "id": "R_2_s",
+   "key": "0|S=*2|C=*|E=\u00b11",
+   "world": "0",
+   "S": [
+    21
+   ],
+   "C": [
+    3
+   ],
+   "E": [
+    12
+   ],
+   "P_cells": [
+    [
+     0,
+     21
+    ]
+   ],
+   "exact": "9948746686923549149530979119991024908",
+   "mirror_contribution": "9948746686923549149530979119991024908",
+   "producer_certificate": "harvest/psi_S21_C3.json",
+   "verifier_certificate": "harvest/certificates/verify_psi_S21_C3.json",
+   "verifier_status": "AUDIT PASSED",
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "producer_wall_s": 50.49,
+   "producer_peak_rss": 178638848,
+   "verifier_wall_s": 626.13,
+   "verifier_peak_rss": 8206123008,
+   "projected_producer_GiB": 18.8,
+   "projected_verifier_GiB": 28.67,
+   "planned_max_S": 6840288648,
+   "planned_w_eff": 4.404,
+   "measured_max_S": 359452001,
+   "measured_w_eff": 3.83,
+   "est_log10_original": 36.522,
+   "status": "CERTIFIED",
+   "certified_at": "2026-11-11 07:19"
+  },
+  {
+   "id": "R_0_p_Es2",
+   "key": "0|S=-|C=\u00b11|E=*,*2",
+   "world": "0",
+   "S": [],
+   "C": [
+    12
+   ],
+   "E": [
+    3,
+    21
+   ],
+   "P_cells": [
+    [
+     0
+    ],
+    [
+     0,
+     18
+    ]
+   ],
+   "exact": "613255696710939187377022523120436728",
+   "mirror_contribution": "613255696710939187377022523120436728",
+   "producer_certificate": "harvest/psi_Snone_C12.json",
+   "verifier_certificate": "harvest/certificates/verify_psi_Snone_C12.json",
+   "verifier_status": "AUDIT PASSED",
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "producer_wall_s": 9676.84,
+   "producer_peak_rss": 20357726208,
+   "verifier_wall_s": 11467.83,
+   "verifier_peak_rss": 14005616640,
+   "projected_producer_GiB": 18.8,
+   "projected_verifier_GiB": 28.67,
+   "planned_max_S": 1670070474,
+   "planned_w_eff": 4.13,
+   "measured_max_S": 7876917504,
+   "measured_w_eff": 4.43,
+   "est_log10_original": 36.294,
+   "status": "CERTIFIED",
+   "certified_at": "2026-11-11 10:30"
+  },
+  {
+   "id": "R_0_2",
+   "key": "0|S=-|C=*2|E=*,\u00b11",
+   "world": "0",
+   "S": [],
+   "C": [
+    21
+   ],
+   "E": [
+    3,
+    12
+   ],
+   "P_cells": [
+    [
+     0
+    ]
+   ],
+   "exact": "940383775439070702723908755240582575",
+   "mirror_contribution": "940383775439070702723908755240582575",
+   "producer_certificate": "harvest/psi_Snone_C21.json",
+   "verifier_certificate": "harvest/certificates/verify_psi_Snone_C21.json",
+   "verifier_status": "AUDIT PASSED",
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "producer_wall_s": 19288.82,
+   "producer_peak_rss": 19936837632,
+   "verifier_wall_s": 24492.09,
+   "verifier_peak_rss": 28068687872,
+   "projected_producer_GiB": 13.0,
+   "projected_verifier_GiB": 26.1,
+   "planned_max_S": 7876917504,
+   "planned_w_eff": 4.432,
+   "measured_max_S": 7876917504,
+   "measured_w_eff": 4.43,
+   "est_log10_original": 36.31,
+   "status": "CERTIFIED",
+   "certified_at": "2026-11-11 17:18"
+  },
+  {
+   "id": "R_p_0",
+   "key": "0|S=\u00b11|C=-|E=*,*2",
+   "world": "0",
+   "S": [
+    12
+   ],
+   "C": [],
+   "E": [
+    3,
+    21
+   ],
+   "P_cells": [
+    [
+     0,
+     12
+    ],
+    [
+     0,
+     12,
+     18
+    ]
+   ],
+   "exact": "706427808114693050310509464476385031",
+   "mirror_contribution": "706427808114693050310509464476385031",
+   "producer_certificate": "harvest/psi_S12_Cnone.json",
+   "verifier_certificate": "harvest/certificates/verify_psi_S12_Cnone.json",
+   "verifier_status": "AUDIT PASSED",
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "producer_wall_s": 52.08,
+   "producer_peak_rss": 28487680,
+   "verifier_wall_s": 60.71,
+   "verifier_peak_rss": 1048125440,
+   "projected_producer_GiB": 12.7,
+   "projected_verifier_GiB": 13.23,
+   "planned_max_S": 855036081,
+   "planned_w_eff": 4.0,
+   "measured_max_S": null,
+   "measured_w_eff": null,
+   "est_log10_original": 35.529,
+   "status": "CERTIFIED",
+   "certified_at": "2026-11-11 17:19"
+  },
+  {
+   "id": "R_2_0",
+   "key": "0|S=*2|C=-|E=*,\u00b11",
+   "world": "0",
+   "S": [
+    21
+   ],
+   "C": [],
+   "E": [
+    3,
+    12
+   ],
+   "P_cells": [
+    [
+     0,
+     21
+    ]
+   ],
+   "exact": "1240030519175962985170349147247918577",
+   "mirror_contribution": "1240030519175962985170349147247918577",
+   "producer_certificate": "harvest/psi_S21_Cnone.json",
+   "verifier_certificate": "harvest/certificates/verify_psi_S21_Cnone.json",
+   "verifier_status": "AUDIT PASSED",
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "producer_wall_s": 59.05,
+   "producer_peak_rss": 30097408,
+   "verifier_wall_s": 283.25,
+   "verifier_peak_rss": 3978547200,
+   "projected_producer_GiB": 12.7,
+   "projected_verifier_GiB": 26.1,
+   "planned_max_S": 7695324729,
+   "planned_w_eff": 4.427,
+   "measured_max_S": 359452001,
+   "measured_w_eff": 3.83,
+   "est_log10_original": 35.894,
+   "status": "CERTIFIED",
+   "certified_at": "2026-11-11 17:24"
+  },
+  {
+   "id": "RZ_s_0_Ep2",
+   "key": "Z|S=*|C=0|E=\u00b11,*2",
+   "world": "Z",
+   "S": [
+    3
+   ],
+   "C": [
+    0
+   ],
+   "E": [
+    12,
+    21
+   ],
+   "P_cells": [
+    [
+     3
+    ],
+    [
+     3,
+     20
+    ]
+   ],
+   "exact": "321426237071384851585720897496191743",
+   "mirror_contribution": "321426237071384851585720897496191743",
+   "producer_certificate": "harvest/psi_S3_C0.json",
+   "verifier_certificate": "harvest/certificates/verify_psi_S3_C0.json",
+   "verifier_status": "AUDIT PASSED",
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "producer_wall_s": 12476.8,
+   "producer_peak_rss": 21172391936,
+   "verifier_wall_s": 12530.13,
+   "verifier_peak_rss": 14659776512,
+   "projected_producer_GiB": 19.6,
+   "projected_verifier_GiB": 32.6,
+   "planned_max_S": 7695324729,
+   "planned_w_eff": 4.427,
+   "measured_max_S": 7876917504,
+   "measured_w_eff": 4.43,
+   "est_log10_original": 35.908,
+   "status": "CERTIFIED",
+   "certified_at": "2026-11-11 20:53"
+  },
+  {
+   "id": "R_s_0",
+   "key": "0|S=*|C=-|E=\u00b11,*2",
+   "world": "0",
+   "S": [
+    3
+   ],
+   "C": [],
+   "E": [
+    12,
+    21
+   ],
+   "P_cells": [
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     3,
+     20
+    ]
+   ],
+   "exact": "358243551044634078593410892442688996",
+   "mirror_contribution": "358243551044634078593410892442688996",
+   "producer_certificate": "harvest/psi_S3_Cnone.json",
+   "verifier_certificate": "harvest/certificates/verify_psi_S3_Cnone.json",
+   "verifier_status": "AUDIT PASSED",
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "producer_wall_s": 24.42,
+   "producer_peak_rss": 27160576,
+   "verifier_wall_s": 145.79,
+   "verifier_peak_rss": 1928388608,
+   "projected_producer_GiB": 12.7,
+   "projected_verifier_GiB": 13.04,
+   "planned_max_S": 7695324729,
+   "planned_w_eff": 4.427,
+   "measured_max_S": null,
+   "measured_w_eff": null,
+   "est_log10_original": 35.281,
+   "status": "CERTIFIED",
+   "certified_at": "2026-11-11 20:55"
+  },
+  {
+   "id": "R_0_s",
+   "key": "0|S=-|C=*|E=\u00b11,*2",
+   "world": "0",
+   "S": [],
+   "C": [
+    3
+   ],
+   "E": [
+    12,
+    21
+   ],
+   "P_cells": [
+    [
+     0
+    ],
+    [
+     0,
+     20
+    ]
+   ],
+   "exact": "321426237071384851585731588369450284",
+   "mirror_contribution": "321426237071384851585731588369450284",
+   "producer_certificate": "harvest/psi_Snone_C3.json",
+   "verifier_certificate": "harvest/certificates/verify_psi_Snone_C3.json",
+   "verifier_status": "AUDIT PASSED",
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "producer_wall_s": 5497.84,
+   "producer_peak_rss": 21172396032,
+   "verifier_wall_s": 7080.4,
+   "verifier_peak_rss": 14659764224,
+   "projected_producer_GiB": 19.6,
+   "projected_verifier_GiB": 32.6,
+   "planned_max_S": 7695324729,
+   "planned_w_eff": 4.427,
+   "measured_max_S": 7876917504,
+   "measured_w_eff": 4.43,
+   "est_log10_original": 35.243,
+   "status": "CERTIFIED",
+   "certified_at": "2026-11-11 22:53"
+  },
+  {
+   "id": "R_0_0",
+   "key": "0|S=-|C=-|E=*,\u00b11,*2",
+   "world": "0",
+   "S": [],
+   "C": [],
+   "E": [
+    3,
+    12,
+    21
+   ],
+   "P_cells": [
+    [
+     0
+    ],
+    [
+     0,
+     11
+    ],
+    [
+     0,
+     18
+    ],
+    [
+     0,
+     20
+    ],
+    [
+     0,
+     18,
+     20
+    ]
+   ],
+   "exact": "7640582146961891627716322233936205",
+   "mirror_contribution": "7640582146961891627716322233936205",
+   "producer_certificate": "harvest/psi_Snone_Cnone.json",
+   "verifier_certificate": "harvest/certificates/verify_psi_Snone_Cnone.json",
+   "verifier_status": "AUDIT PASSED",
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "producer_wall_s": 11809.52,
+   "producer_peak_rss": 19512492032,
+   "verifier_wall_s": 14251.97,
+   "verifier_peak_rss": 30701203456,
+   "projected_producer_GiB": 12.7,
+   "projected_verifier_GiB": 28.55,
+   "planned_max_S": 7695324729,
+   "planned_w_eff": 4.427,
+   "measured_max_S": 7876917504,
+   "measured_w_eff": 4.43,
+   "est_log10_original": 33.306,
+   "status": "CERTIFIED",
+   "certified_at": "2026-11-12 02:51"
+  }
+ ]
+}

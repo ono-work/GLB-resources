@@ -1,0 +1,681 @@
+{
+ "status": "EXHAUSTIVENESS AUDIT PASSED",
+ "counts": {
+  "universe": 36,
+  "v5_only": 2,
+  "ledger": 12,
+  "remaining": 22
+ },
+ "keys": [
+  {
+   "key": "0|S=*,\u00b11,*2|C=-|E=-",
+   "world": "0",
+   "S": [
+    3,
+    12,
+    21
+   ],
+   "C": [],
+   "E": [],
+   "owners": [
+    "v5:G1"
+   ],
+   "pool": 319,
+   "samples": 100,
+   "hypotheses_ok": true
+  },
+  {
+   "key": "0|S=*,\u00b11|C=*2|E=-",
+   "world": "0",
+   "S": [
+    3,
+    12
+   ],
+   "C": [
+    21
+   ],
+   "E": [],
+   "owners": [
+    "v5:G2 (L \u2286 H_L([0,*,\u00b11]))",
+    "N2 (L \u2284 H_L([0,*,\u00b11]))"
+   ],
+   "pool": 319,
+   "samples": 100,
+   "hypotheses_ok": true
+  },
+  {
+   "key": "0|S=*,\u00b11|C=-|E=*2",
+   "world": "0",
+   "S": [
+    3,
+    12
+   ],
+   "C": [],
+   "E": [
+    21
+   ],
+   "owners": [
+    "v5:G2"
+   ],
+   "pool": 248,
+   "samples": 0,
+   "hypotheses_ok": true
+  },
+  {
+   "key": "0|S=*,*2|C=\u00b11|E=-",
+   "world": "0",
+   "S": [
+    3,
+    21
+   ],
+   "C": [
+    12
+   ],
+   "E": [],
+   "owners": [
+    "N3"
+   ],
+   "pool": 319,
+   "samples": 100,
+   "hypotheses_ok": true
+  },
+  {
+   "key": "0|S=*|C=\u00b11,*2|E=-",
+   "world": "0",
+   "S": [
+    3
+   ],
+   "C": [
+    12,
+    21
+   ],
+   "E": [],
+   "owners": [
+    "N6"
+   ],
+   "pool": 319,
+   "samples": 100,
+   "hypotheses_ok": true
+  },
+  {
+   "key": "0|S=*|C=\u00b11|E=*2",
+   "world": "0",
+   "S": [
+    3
+   ],
+   "C": [
+    12
+   ],
+   "E": [
+    21
+   ],
+   "owners": [
+    "remaining:R_s_p_E2"
+   ],
+   "pool": 248,
+   "samples": 100,
+   "hypotheses_ok": true
+  },
+  {
+   "key": "0|S=*,*2|C=-|E=\u00b11",
+   "world": "0",
+   "S": [
+    3,
+    21
+   ],
+   "C": [],
+   "E": [
+    12
+   ],
+   "owners": [
+    "remaining:R_s2_0"
+   ],
+   "pool": 261,
+   "samples": 100,
+   "hypotheses_ok": true
+  },
+  {
+   "key": "0|S=*|C=*2|E=\u00b11",
+   "world": "0",
+   "S": [
+    3
+   ],
+   "C": [
+    21
+   ],
+   "E": [
+    12
+   ],
+   "owners": [
+    "remaining:R_s_2"
+   ],
+   "pool": 261,
+   "samples": 100,
+   "hypotheses_ok": true
+  },
+  {
+   "key": "0|S=*|C=-|E=\u00b11,*2",
+   "world": "0",
+   "S": [
+    3
+   ],
+   "C": [],
+   "E": [
+    12,
+    21
+   ],
+   "owners": [
+    "remaining:R_s_0"
+   ],
+   "pool": 168,
+   "samples": 100,
+   "hypotheses_ok": true
+  },
+  {
+   "key": "0|S=\u00b11,*2|C=*|E=-",
+   "world": "0",
+   "S": [
+    12,
+    21
+   ],
+   "C": [
+    3
+   ],
+   "E": [],
+   "owners": [
+    "N4"
+   ],
+   "pool": 319,
+   "samples": 100,
+   "hypotheses_ok": true
+  },
+  {
+   "key": "0|S=\u00b11|C=*,*2|E=-",
+   "world": "0",
+   "S": [
+    12
+   ],
+   "C": [
+    3,
+    21
+   ],
+   "E": [],
+   "owners": [
+    "N5"
+   ],
+   "pool": 319,
+   "samples": 100,
+   "hypotheses_ok": true
+  },
+  {
+   "key": "0|S=\u00b11|C=*|E=*2",
+   "world": "0",
+   "S": [
+    12
+   ],
+   "C": [
+    3
+   ],
+   "E": [
+    21
+   ],
+   "owners": [
+    "remaining:R_p_s"
+   ],
+   "pool": 248,
+   "samples": 100,
+   "hypotheses_ok": true
+  },
+  {
+   "key": "0|S=*2|C=*,\u00b11|E=-",
+   "world": "0",
+   "S": [
+    21
+   ],
+   "C": [
+    3,
+    12
+   ],
+   "E": [],
+   "owners": [
+    "N7"
+   ],
+   "pool": 319,
+   "samples": 100,
+   "hypotheses_ok": true
+  },
+  {
+   "key": "0|S=-|C=*,\u00b11,*2|E=-",
+   "world": "0",
+   "S": [],
+   "C": [
+    3,
+    12,
+    21
+   ],
+   "E": [],
+   "owners": [
+    "N8"
+   ],
+   "pool": 319,
+   "samples": 100,
+   "hypotheses_ok": true
+  },
+  {
+   "key": "0|S=-|C=*,\u00b11|E=*2",
+   "world": "0",
+   "S": [],
+   "C": [
+    3,
+    12
+   ],
+   "E": [
+    21
+   ],
+   "owners": [
+    "remaining:R_0_sp_E2"
+   ],
+   "pool": 248,
+   "samples": 100,
+   "hypotheses_ok": true
+  },
+  {
+   "key": "0|S=*2|C=*|E=\u00b11",
+   "world": "0",
+   "S": [
+    21
+   ],
+   "C": [
+    3
+   ],
+   "E": [
+    12
+   ],
+   "owners": [
+    "remaining:R_2_s"
+   ],
+   "pool": 261,
+   "samples": 100,
+   "hypotheses_ok": true
+  },
+  {
+   "key": "0|S=-|C=*,*2|E=\u00b11",
+   "world": "0",
+   "S": [],
+   "C": [
+    3,
+    21
+   ],
+   "E": [
+    12
+   ],
+   "owners": [
+    "remaining:R_0_s2"
+   ],
+   "pool": 261,
+   "samples": 100,
+   "hypotheses_ok": true
+  },
+  {
+   "key": "0|S=-|C=*|E=\u00b11,*2",
+   "world": "0",
+   "S": [],
+   "C": [
+    3
+   ],
+   "E": [
+    12,
+    21
+   ],
+   "owners": [
+    "remaining:R_0_s"
+   ],
+   "pool": 168,
+   "samples": 100,
+   "hypotheses_ok": true
+  },
+  {
+   "key": "0|S=\u00b11,*2|C=-|E=*",
+   "world": "0",
+   "S": [
+    12,
+    21
+   ],
+   "C": [],
+   "E": [
+    3
+   ],
+   "owners": [
+    "remaining:R_p2_0"
+   ],
+   "pool": 183,
+   "samples": 100,
+   "hypotheses_ok": true
+  },
+  {
+   "key": "0|S=\u00b11|C=*2|E=*",
+   "world": "0",
+   "S": [
+    12
+   ],
+   "C": [
+    21
+   ],
+   "E": [
+    3
+   ],
+   "owners": [
+    "remaining:R_p_2"
+   ],
+   "pool": 183,
+   "samples": 100,
+   "hypotheses_ok": true
+  },
+  {
+   "key": "0|S=\u00b11|C=-|E=*,*2",
+   "world": "0",
+   "S": [
+    12
+   ],
+   "C": [],
+   "E": [
+    3,
+    21
+   ],
+   "owners": [
+    "remaining:R_p_0"
+   ],
+   "pool": 115,
+   "samples": 100,
+   "hypotheses_ok": true
+  },
+  {
+   "key": "0|S=*2|C=\u00b11|E=*",
+   "world": "0",
+   "S": [
+    21
+   ],
+   "C": [
+    12
+   ],
+   "E": [
+    3
+   ],
+   "owners": [
+    "remaining:R_2_p_Es"
+   ],
+   "pool": 183,
+   "samples": 100,
+   "hypotheses_ok": true
+  },
+  {
+   "key": "0|S=-|C=\u00b11,*2|E=*",
+   "world": "0",
+   "S": [],
+   "C": [
+    12,
+    21
+   ],
+   "E": [
+    3
+   ],
+   "owners": [
+    "remaining:R_0_p2_Es"
+   ],
+   "pool": 183,
+   "samples": 100,
+   "hypotheses_ok": true
+  },
+  {
+   "key": "0|S=-|C=\u00b11|E=*,*2",
+   "world": "0",
+   "S": [],
+   "C": [
+    12
+   ],
+   "E": [
+    3,
+    21
+   ],
+   "owners": [
+    "remaining:R_0_p_Es2"
+   ],
+   "pool": 115,
+   "samples": 100,
+   "hypotheses_ok": true
+  },
+  {
+   "key": "0|S=*2|C=-|E=*,\u00b11",
+   "world": "0",
+   "S": [
+    21
+   ],
+   "C": [],
+   "E": [
+    3,
+    12
+   ],
+   "owners": [
+    "remaining:R_2_0"
+   ],
+   "pool": 151,
+   "samples": 100,
+   "hypotheses_ok": true
+  },
+  {
+   "key": "0|S=-|C=*2|E=*,\u00b11",
+   "world": "0",
+   "S": [],
+   "C": [
+    21
+   ],
+   "E": [
+    3,
+    12
+   ],
+   "owners": [
+    "remaining:R_0_2"
+   ],
+   "pool": 151,
+   "samples": 100,
+   "hypotheses_ok": true
+  },
+  {
+   "key": "0|S=-|C=-|E=*,\u00b11,*2",
+   "world": "0",
+   "S": [],
+   "C": [],
+   "E": [
+    3,
+    12,
+    21
+   ],
+   "owners": [
+    "remaining:R_0_0"
+   ],
+   "pool": 62,
+   "samples": 100,
+   "hypotheses_ok": true
+  },
+  {
+   "key": "Z|S=*,\u00b11,*2|C=0|E=-",
+   "world": "Z",
+   "S": [
+    3,
+    12,
+    21
+   ],
+   "C": [
+    0
+   ],
+   "E": [],
+   "owners": [
+    "Z1"
+   ],
+   "pool": 318,
+   "samples": 100,
+   "hypotheses_ok": true
+  },
+  {
+   "key": "Z|S=*,\u00b11|C=0,*2|E=-",
+   "world": "Z",
+   "S": [
+    3,
+    12
+   ],
+   "C": [
+    0,
+    21
+   ],
+   "E": [],
+   "owners": [
+    "Z2"
+   ],
+   "pool": 318,
+   "samples": 100,
+   "hypotheses_ok": true
+  },
+  {
+   "key": "Z|S=*,\u00b11|C=0|E=*2",
+   "world": "Z",
+   "S": [
+    3,
+    12
+   ],
+   "C": [
+    0
+   ],
+   "E": [
+    21
+   ],
+   "owners": [
+    "ZG2"
+   ],
+   "pool": 247,
+   "samples": 100,
+   "hypotheses_ok": true
+  },
+  {
+   "key": "Z|S=*,*2|C=0,\u00b11|E=-",
+   "world": "Z",
+   "S": [
+    3,
+    21
+   ],
+   "C": [
+    0,
+    12
+   ],
+   "E": [],
+   "owners": [
+    "Z3"
+   ],
+   "pool": 318,
+   "samples": 100,
+   "hypotheses_ok": true
+  },
+  {
+   "key": "Z|S=*|C=0,\u00b11,*2|E=-",
+   "world": "Z",
+   "S": [
+    3
+   ],
+   "C": [
+    0,
+    12,
+    21
+   ],
+   "E": [],
+   "owners": [
+    "Z4"
+   ],
+   "pool": 318,
+   "samples": 100,
+   "hypotheses_ok": true
+  },
+  {
+   "key": "Z|S=*|C=0,\u00b11|E=*2",
+   "world": "Z",
+   "S": [
+    3
+   ],
+   "C": [
+    0,
+    12
+   ],
+   "E": [
+    21
+   ],
+   "owners": [
+    "remaining:RZ_s_0p_E2"
+   ],
+   "pool": 247,
+   "samples": 100,
+   "hypotheses_ok": true
+  },
+  {
+   "key": "Z|S=*,*2|C=0|E=\u00b11",
+   "world": "Z",
+   "S": [
+    3,
+    21
+   ],
+   "C": [
+    0
+   ],
+   "E": [
+    12
+   ],
+   "owners": [
+    "remaining:RZ_s2_0_Ep"
+   ],
+   "pool": 260,
+   "samples": 100,
+   "hypotheses_ok": true
+  },
+  {
+   "key": "Z|S=*|C=0,*2|E=\u00b11",
+   "world": "Z",
+   "S": [
+    3
+   ],
+   "C": [
+    0,
+    21
+   ],
+   "E": [
+    12
+   ],
+   "owners": [
+    "remaining:RZ_s_02_Ep"
+   ],
+   "pool": 260,
+   "samples": 100,
+   "hypotheses_ok": true
+  },
+  {
+   "key": "Z|S=*|C=0|E=\u00b11,*2",
+   "world": "Z",
+   "S": [
+    3
+   ],
+   "C": [
+    0
+   ],
+   "E": [
+    12,
+    21
+   ],
+   "owners": [
+    "remaining:RZ_s_0_Ep2"
+   ],
+   "pool": 167,
+   "samples": 100,
+   "hypotheses_ok": true
+  }
+ ],
+ "errors": [],
+ "samples_per_key": 100,
+ "ledger_sha256": "6423f31a8fac8094e29004f2bcbed0bc9de54dc5fa02106f51bb55fbce2ddee4",
+ "runtime_s": 61
+}

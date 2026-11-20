@@ -1,0 +1,1243 @@
+{
+ "schema": "glb-harvest-ledger-1",
+ "note": "Every original family has a mirror (negation {L|R} -> {-R|-L}); 'mirror_included' says whether 2x is counted.",
+ "baseline": {
+  "id": "v5",
+  "families": [
+   "G1 = G([0,3,12,21],-)",
+   "G2 = G([0,3,12],x0=21)"
+  ],
+  "mirrors_included": true,
+  "value": "1910895019390363935559973877007439048864",
+  "producer_certificate": "certificate_v5.json",
+  "producer_sha256": "73fba38d99c42e12be38ea9c17dd3de0bff97c79e7d14deeca22f00084fb0ac6",
+  "verifier_certificate": "certificates/verify_v5_record.json",
+  "verifier_status": "AUDIT PASSED",
+  "structural_audit": "certificates/audit_v5_structure_record.json",
+  "keys": [
+   {
+    "world": "0",
+    "S": [
+     3,
+     12,
+     21
+    ],
+    "C": [],
+    "L": "L ⊆ H_L([0,3,12,21])"
+   },
+   {
+    "world": "0",
+    "S": [
+     3,
+     12
+    ],
+    "C": "[] or [21]",
+    "L": "L ⊆ H_L([0,3,12])"
+   }
+  ]
+ },
+ "families": [
+  {
+   "id": "N2",
+   "S": [
+    3,
+    12
+   ],
+   "C": [
+    21
+   ],
+   "world": "0",
+   "mirror_id": "-N2",
+   "P_cells": [
+    [
+     0,
+     3,
+     12
+    ]
+   ],
+   "E": [],
+   "L_condition": "L ⊄ H_L([0,3,12])",
+   "exact": "493487524783195558377314979133320190779",
+   "producer_certificate": "harvest/psi_S3_12_C21.json",
+   "producer_sha256": "2ea29cb89a2204ece24da5d8f8da89392cce4d8328356c20a66ea7909c90c315",
+   "verifier_certificate": "harvest/certificates/verify_psi_S3_12_C21.json",
+   "verifier_sha256": "9478c6dd3e1265e5c61c685ec31433cb95d60859266a354160eb0024ba654606",
+   "verifier_ok": true,
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "disjointness_basis": "key (world,S,C,E) is a function of R; world 0: 0∈R∖L; vs v5 G2 (same key): L ⊄ H_L([0,3,12])",
+   "included": true,
+   "mirror_included": true,
+   "status": "CERTIFIED"
+  },
+  {
+   "id": "N4",
+   "S": [
+    12,
+    21
+   ],
+   "C": [
+    3
+   ],
+   "world": "0",
+   "mirror_id": "-N4",
+   "P_cells": [
+    [
+     0,
+     12,
+     21
+    ]
+   ],
+   "E": [],
+   "L_condition": null,
+   "exact": "789191188948717705917614333988532013894",
+   "producer_certificate": "harvest/psi_S12_21_C3.json",
+   "producer_sha256": "890033a3437a93123d29a497188225c52f9ebd9759dda56fe0f791afd5dffef6",
+   "verifier_certificate": "harvest/certificates/verify_psi_S12_21_C3.json",
+   "verifier_sha256": "f48137baf215700713d4bbcce804f904f85ed803d4f158947009b41d0991ed8d",
+   "verifier_ok": true,
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "disjointness_basis": "key (world,S,C,E) is a function of R; world 0: 0∈R∖L",
+   "included": true,
+   "mirror_included": true,
+   "status": "CERTIFIED"
+  },
+  {
+   "id": "N5",
+   "S": [
+    12
+   ],
+   "C": [
+    3,
+    21
+   ],
+   "world": "0",
+   "mirror_id": "-N5",
+   "P_cells": [
+    [
+     0,
+     12
+    ],
+    [
+     0,
+     12,
+     17
+    ]
+   ],
+   "E": [],
+   "L_condition": null,
+   "exact": "1031357479510084678164489779817476179310",
+   "producer_certificate": "harvest/psi_S12_C3_21.json",
+   "producer_sha256": "43b90ddc3fa4ce66aa8a673cac2cbf802080ec2a85c357f122f6c56c9c7ac08f",
+   "verifier_certificate": "harvest/certificates/verify_psi_S12_C3_21.json",
+   "verifier_sha256": "eec8740991da1c584a41c4f8f8aa03fda1dc3f8592cb6c2eb2fd09b1808d42a4",
+   "verifier_ok": true,
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "disjointness_basis": "key (world,S,C,E) is a function of R; world 0: 0∈R∖L",
+   "included": true,
+   "mirror_included": true,
+   "status": "CERTIFIED"
+  },
+  {
+   "id": "Z1",
+   "S": [
+    3,
+    12,
+    21
+   ],
+   "C": [
+    0
+   ],
+   "world": "Z",
+   "mirror_id": "-Z1",
+   "P_cells": [
+    [
+     3,
+     12,
+     21
+    ]
+   ],
+   "E": [],
+   "L_condition": null,
+   "exact": "789191188948717705917614333988532013894",
+   "producer_certificate": "harvest/psi_S3_12_21_C0.json",
+   "producer_sha256": "88ea1491dc93e86cf56a3e9dbfa88e2384d61297444734c1d23e5e483968e760",
+   "verifier_certificate": "harvest/certificates/verify_psi_S3_12_21_C0.json",
+   "verifier_sha256": "e460842fdd261211fecd145e4b124bb6378a9de361b8405564837f2416d53259",
+   "verifier_ok": true,
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "disjointness_basis": "key (world,S,C,E) is a function of R; world Z: 0∉L∪R, *∈R∖L",
+   "included": true,
+   "mirror_included": true,
+   "status": "CERTIFIED"
+  },
+  {
+   "id": "Z2",
+   "S": [
+    3,
+    12
+   ],
+   "C": [
+    0,
+    21
+   ],
+   "world": "Z",
+   "mirror_id": "-Z2",
+   "P_cells": [
+    [
+     3,
+     12
+    ],
+    [
+     3,
+     12,
+     15
+    ]
+   ],
+   "E": [],
+   "L_condition": null,
+   "exact": "1031357479510084678164489779817476179310",
+   "producer_certificate": "harvest/psi_S3_12_C0_21.json",
+   "producer_sha256": "ec85cf5c56cb4b237337ab2895e44af80176cdc826e6164db46c3c9534cb09b5",
+   "verifier_certificate": "harvest/certificates/verify_psi_S3_12_C0_21.json",
+   "verifier_sha256": "d003d0b6198b55ff62b5b0193b812f49113ca6a8732dfacc3f43945ae6d8d906",
+   "verifier_ok": true,
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "disjointness_basis": "key (world,S,C,E) is a function of R; world Z: 0∉L∪R, *∈R∖L",
+   "included": true,
+   "mirror_included": true,
+   "status": "CERTIFIED"
+  },
+  {
+   "id": "ZG2",
+   "S": [
+    3,
+    12
+   ],
+   "C": [
+    0
+   ],
+   "world": "Z",
+   "mirror_id": "-ZG2",
+   "P_cells": [
+    [
+     3,
+     12
+    ]
+   ],
+   "E": [
+    21
+   ],
+   "L_condition": null,
+   "exact": "234090676789438332929918204237281734338",
+   "producer_certificate": "harvest/psi_S3_12_C0.json",
+   "producer_sha256": "a9462aee9a45e5e36643f3ab1d1678b1deec08fc67f125468d7f0488844e9fac",
+   "verifier_certificate": "harvest/certificates/verify_psi_S3_12_C0.json",
+   "verifier_sha256": "d94aadf8b09079d4914f7917b69dc2e0a869c533ef73d5a865659e2b937eb58e",
+   "verifier_ok": true,
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "disjointness_basis": "key (world,S,C,E) is a function of R; world Z: 0∉L∪R, *∈R∖L",
+   "included": true,
+   "mirror_included": true,
+   "status": "CERTIFIED"
+  },
+  {
+   "id": "N3",
+   "S": [
+    3,
+    21
+   ],
+   "C": [
+    12
+   ],
+   "world": "0",
+   "mirror_id": "-N3",
+   "P_cells": [
+    [
+     0,
+     3,
+     21
+    ]
+   ],
+   "E": [],
+   "L_condition": null,
+   "exact": "755109627863156479070333611405948737314",
+   "producer_certificate": "harvest/psi_S3_21_C12.json",
+   "producer_sha256": "316eaa277f08e345a45c66420a1b9b462e529627815301bc015097dbeb0dd6a9",
+   "verifier_certificate": "harvest/certificates/verify_psi_S3_21_C12.json",
+   "verifier_sha256": "34962ae3ed37e6d6e21970a46cba261b7979332fde3c10db21e5946879063ff4",
+   "verifier_ok": true,
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "disjointness_basis": "key (world,S,C,E) is a function of R; world 0: 0∈R∖L",
+   "included": true,
+   "mirror_included": true,
+   "status": "CERTIFIED"
+  },
+  {
+   "id": "N6",
+   "S": [
+    3
+   ],
+   "C": [
+    12,
+    21
+   ],
+   "world": "0",
+   "mirror_id": "-N6",
+   "P_cells": [
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     3,
+     19
+    ]
+   ],
+   "E": [],
+   "L_condition": null,
+   "exact": "893190625048779089530048319525964210249",
+   "producer_certificate": "harvest/psi_S3_C12_21.json",
+   "producer_sha256": "5aa8f5f352d8e7e097bae06d29ff6c328ffc07aeb990c2e69194591a71071656",
+   "verifier_certificate": "harvest/certificates/verify_psi_S3_C12_21.json",
+   "verifier_sha256": "1f922b688eeb22032e76895f0bae915a9d75385defb91273a09736a20bd7f0ac",
+   "verifier_ok": true,
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "disjointness_basis": "key (world,S,C,E) is a function of R; world 0: 0∈R∖L",
+   "included": true,
+   "mirror_included": true,
+   "status": "CERTIFIED"
+  },
+  {
+   "id": "N7",
+   "S": [
+    21
+   ],
+   "C": [
+    3,
+    12
+   ],
+   "world": "0",
+   "mirror_id": "-N7",
+   "P_cells": [
+    [
+     0,
+     21
+    ]
+   ],
+   "E": [],
+   "L_condition": null,
+   "exact": "1219198574355894293908221739832178001593",
+   "producer_certificate": "harvest/psi_S21_C3_12.json",
+   "producer_sha256": "5342588f30074078aca7e94054981f4173426322bcc9c0acb0c3aead80b26820",
+   "verifier_certificate": "harvest/certificates/verify_psi_S21_C3_12.json",
+   "verifier_sha256": "74d0fa359ef7e9a755a46fb841f2b5227500af45cd6cb63fa32c00bae2da1688",
+   "verifier_ok": true,
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "disjointness_basis": "key (world,S,C,E) is a function of R; world 0: 0∈R∖L",
+   "included": true,
+   "mirror_included": true,
+   "status": "CERTIFIED"
+  },
+  {
+   "id": "Z3",
+   "S": [
+    3,
+    21
+   ],
+   "C": [
+    0,
+    12
+   ],
+   "world": "Z",
+   "mirror_id": "-Z3",
+   "P_cells": [
+    [
+     3,
+     21
+    ]
+   ],
+   "E": [],
+   "L_condition": null,
+   "exact": "1219198574355894293908207162508344440731",
+   "producer_certificate": "harvest/psi_S3_21_C0_12.json",
+   "producer_sha256": "bc62b165a3a8ecd92905bc1ac30c4bdae181b31b963cfab0439c186b25255341",
+   "verifier_certificate": "harvest/certificates/verify_psi_S3_21_C0_12.json",
+   "verifier_sha256": "b8e4faa94df13e2326867ee29471df9d319a53e01d9cef91478c1ad07a48bf7c",
+   "verifier_ok": true,
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "disjointness_basis": "key (world,S,C,E) is a function of R; world Z: 0∉L∪R, *∈R∖L",
+   "included": true,
+   "mirror_included": true,
+   "status": "CERTIFIED"
+  },
+  {
+   "id": "N8",
+   "S": [],
+   "C": [
+    3,
+    12,
+    21
+   ],
+   "world": "0",
+   "mirror_id": "-N8",
+   "P_cells": [
+    [
+     0
+    ],
+    [
+     0,
+     6
+    ],
+    [
+     0,
+     17
+    ],
+    [
+     0,
+     19
+    ],
+    [
+     0,
+     17,
+     19
+    ]
+   ],
+   "E": [],
+   "L_condition": null,
+   "exact": "1989391910383901020003500436216175933379",
+   "producer_certificate": "harvest/psi_Snone_C3_12_21.json",
+   "producer_sha256": "af091af07f7801b204cd57553b8d3f5b3add214352044d07944c680f8a1fb655",
+   "verifier_certificate": "harvest/certificates/verify_psi_Snone_C3_12_21.json",
+   "verifier_sha256": "4d4b8100a3a46ecdbbad746482bbc733103af57d4751b57ef28dc335c6dd3ffd",
+   "verifier_ok": true,
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "disjointness_basis": "key (world,S,C,E) is a function of R; world 0: 0∈R∖L",
+   "included": true,
+   "mirror_included": true,
+   "status": "CERTIFIED"
+  },
+  {
+   "id": "Z4",
+   "S": [
+    3
+   ],
+   "C": [
+    0,
+    12,
+    21
+   ],
+   "world": "Z",
+   "mirror_id": "-Z4",
+   "P_cells": [
+    [
+     3
+    ],
+    [
+     3,
+     15
+    ],
+    [
+     3,
+     16
+    ],
+    [
+     3,
+     19
+    ],
+    [
+     3,
+     15,
+     19
+    ]
+   ],
+   "E": [],
+   "L_condition": null,
+   "exact": "1989391910383901020001931053993907936163",
+   "producer_certificate": "harvest/psi_S3_C0_12_21.json",
+   "producer_sha256": "b32c4d0bb08023f08edc7bde4fdd5eea8171c809b150cd21a815461966de7d6a",
+   "verifier_certificate": "harvest/certificates/verify_psi_S3_C0_12_21.json",
+   "verifier_sha256": "e0469961c24fe0506c3a68b60bd2e610b0391f46f51dd9bd0e811f0de67e49e2",
+   "verifier_ok": true,
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "disjointness_basis": "key (world,S,C,E) is a function of R; world Z: 0∉L∪R, *∈R∖L",
+   "included": true,
+   "mirror_included": true,
+   "status": "CERTIFIED"
+  },
+  {
+   "id": "R_s_p_E2",
+   "S": [
+    3
+   ],
+   "C": [
+    12
+   ],
+   "world": "0",
+   "mirror_id": "-R_s_p_E2",
+   "P_cells": [
+    [
+     0,
+     3
+    ]
+   ],
+   "E": [
+    21
+   ],
+   "L_condition": null,
+   "exact": "231151158950498278060921910460730637668",
+   "producer_certificate": "harvest/psi_S3_C12.json",
+   "producer_sha256": "6a2b160352ae6125b2d4a71d2e03cd0b1e99961af0f978917aac21c6a849a188",
+   "verifier_certificate": "harvest/certificates/verify_psi_S3_C12.json",
+   "verifier_sha256": "1499669d32cf6c799737d559b99cc498e1256081711f8752f0af5aad427217dd",
+   "verifier_ok": true,
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "disjointness_basis": "key (world,S,C,E) is a function of R; world 0: 0∈R∖L",
+   "included": true,
+   "mirror_included": true,
+   "status": "CERTIFIED"
+  },
+  {
+   "id": "R_p_s",
+   "S": [
+    12
+   ],
+   "C": [
+    3
+   ],
+   "world": "0",
+   "mirror_id": "-R_p_s",
+   "P_cells": [
+    [
+     0,
+     12
+    ]
+   ],
+   "E": [
+    21
+   ],
+   "L_condition": null,
+   "exact": "234090676789438332929918204237281734338",
+   "producer_certificate": "harvest/psi_S12_C3.json",
+   "producer_sha256": "cb5f7a319a987d4b13e18b4c3928950c0603edb7ec5695f04060b84aa2d7e3ca",
+   "verifier_certificate": "harvest/certificates/verify_psi_S12_C3.json",
+   "verifier_sha256": "a03f0e709dd971050aaf86d867420e7a1561879a0edea4b000599e4b219a5150",
+   "verifier_ok": true,
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "disjointness_basis": "key (world,S,C,E) is a function of R; world 0: 0∈R∖L",
+   "included": true,
+   "mirror_included": true,
+   "status": "CERTIFIED"
+  },
+  {
+   "id": "RZ_s_0p_E2",
+   "S": [
+    3
+   ],
+   "C": [
+    0,
+    12
+   ],
+   "world": "Z",
+   "mirror_id": "-RZ_s_0p_E2",
+   "P_cells": [
+    [
+     3
+    ]
+   ],
+   "E": [
+    21
+   ],
+   "L_condition": null,
+   "exact": "336086638048784623888438835464364234501",
+   "producer_certificate": "harvest/psi_S3_C0_12.json",
+   "producer_sha256": "1e12c1f11c2bf299e293fe81f5836f1edd4de49de627e830c57b5a6c52cbc10e",
+   "verifier_certificate": "harvest/certificates/verify_psi_S3_C0_12.json",
+   "verifier_sha256": "ee4be24c33b99d8127534387200006ab8a98803664961ed87cd4fde7c00372b0",
+   "verifier_ok": true,
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "disjointness_basis": "key (world,S,C,E) is a function of R; world Z: 0∉L∪R, *∈R∖L",
+   "included": true,
+   "mirror_included": true,
+   "status": "CERTIFIED"
+  },
+  {
+   "id": "R_0_sp_E2",
+   "S": [],
+   "C": [
+    3,
+    12
+   ],
+   "world": "0",
+   "mirror_id": "-R_0_sp_E2",
+   "P_cells": [
+    [
+     0
+    ]
+   ],
+   "E": [
+    21
+   ],
+   "L_condition": null,
+   "exact": "336086638048784623888439246982700650413",
+   "producer_certificate": "harvest/psi_Snone_C3_12.json",
+   "producer_sha256": "a11599796036e9dcc805f830c34b4f22da8914a4b551061f6a3c6045f5c9a782",
+   "verifier_certificate": "harvest/certificates/verify_psi_Snone_C3_12.json",
+   "verifier_sha256": "26f93374ef364fc9a37ab6659feed5ebe508d918d83d1f4fdfce5625c3f1e9a3",
+   "verifier_ok": true,
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "disjointness_basis": "key (world,S,C,E) is a function of R; world 0: 0∈R∖L",
+   "included": true,
+   "mirror_included": true,
+   "status": "CERTIFIED"
+  },
+  {
+   "id": "R_0_p2_Es",
+   "S": [],
+   "C": [
+    12,
+    21
+   ],
+   "world": "0",
+   "mirror_id": "-R_0_p2_Es",
+   "P_cells": [
+    [
+     0
+    ],
+    [
+     0,
+     19
+    ]
+   ],
+   "E": [
+    3
+   ],
+   "L_condition": null,
+   "exact": "8520674777465663492223585922514488078",
+   "producer_certificate": "harvest/psi_Snone_C12_21.json",
+   "producer_sha256": "8564015f92657eb5d1985d9d9cabd7b25a40cdd2fa97e96910183ea2ec60d0ed",
+   "verifier_certificate": "harvest/certificates/verify_psi_Snone_C12_21.json",
+   "verifier_sha256": "16e82dbb9cc1a4a680bb2d647e3931efe20148e22cb43320f063f644a57362cf",
+   "verifier_ok": true,
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "disjointness_basis": "key (world,S,C,E) is a function of R; world 0: 0∈R∖L",
+   "included": true,
+   "mirror_included": true,
+   "status": "CERTIFIED"
+  },
+  {
+   "id": "R_s2_0",
+   "S": [
+    3,
+    21
+   ],
+   "C": [],
+   "world": "0",
+   "mirror_id": "-R_s2_0",
+   "P_cells": [
+    [
+     0,
+     3,
+     21
+    ]
+   ],
+   "E": [
+    12
+   ],
+   "L_condition": null,
+   "exact": "8972957188370073722063363333257700474",
+   "producer_certificate": "harvest/psi_S3_21_Cnone.json",
+   "producer_sha256": "46f325d8d03d3ad0a52902f757ea694388db8747bed421a336cc0f51ed441f21",
+   "verifier_certificate": "harvest/certificates/verify_psi_S3_21_Cnone.json",
+   "verifier_sha256": "f151d495b5d36763fc342d2b6c1d957d8a1a0f1a354326e396a146dfcc12af80",
+   "verifier_ok": true,
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "disjointness_basis": "key (world,S,C,E) is a function of R; world 0: 0∈R∖L",
+   "included": true,
+   "mirror_included": true,
+   "status": "CERTIFIED"
+  },
+  {
+   "id": "R_2_p_Es",
+   "S": [
+    21
+   ],
+   "C": [
+    12
+   ],
+   "world": "0",
+   "mirror_id": "-R_2_p_Es",
+   "P_cells": [
+    [
+     0,
+     21
+    ]
+   ],
+   "E": [
+    3
+   ],
+   "L_condition": null,
+   "exact": "8118672638055922302032992552501734639",
+   "producer_certificate": "harvest/psi_S21_C12.json",
+   "producer_sha256": "e0f7bb3e82b727cdc0ee770eba457276214f38720345ab875c54d32842cb8239",
+   "verifier_certificate": "harvest/certificates/verify_psi_S21_C12.json",
+   "verifier_sha256": "880b1f60419a1bd93ccccc045ff56f956152ca14228cbe096636fe394e35bcfd",
+   "verifier_ok": true,
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "disjointness_basis": "key (world,S,C,E) is a function of R; world 0: 0∈R∖L",
+   "included": true,
+   "mirror_included": true,
+   "status": "CERTIFIED"
+  },
+  {
+   "id": "R_p2_0",
+   "S": [
+    12,
+    21
+   ],
+   "C": [],
+   "world": "0",
+   "mirror_id": "-R_p2_0",
+   "P_cells": [
+    [
+     0,
+     12,
+     21
+    ]
+   ],
+   "E": [
+    3
+   ],
+   "L_condition": null,
+   "exact": "7869231256113870368516345931396048463",
+   "producer_certificate": "harvest/psi_S12_21_Cnone.json",
+   "producer_sha256": "ad620e2567e081c4b7c5df86ca5a69f141f30dfef4257cb56522e49bf3faf445",
+   "verifier_certificate": "harvest/certificates/verify_psi_S12_21_Cnone.json",
+   "verifier_sha256": "bbb132463c240baec31292ac977792aad87eeec4bc26324e6429509576694d83",
+   "verifier_ok": true,
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "disjointness_basis": "key (world,S,C,E) is a function of R; world 0: 0∈R∖L",
+   "included": true,
+   "mirror_included": true,
+   "status": "CERTIFIED"
+  },
+  {
+   "id": "R_p_2",
+   "S": [
+    12
+   ],
+   "C": [
+    21
+   ],
+   "world": "0",
+   "mirror_id": "-R_p_2",
+   "P_cells": [
+    [
+     0,
+     12
+    ]
+   ],
+   "E": [
+    3
+   ],
+   "L_condition": null,
+   "exact": "6669517962471583718118234156112777268",
+   "producer_certificate": "harvest/psi_S12_C21.json",
+   "producer_sha256": "614bd97c145526bf20a3e203ac551ee80a5fa0212d604a3f7fdfcb1f8c365222",
+   "verifier_certificate": "harvest/certificates/verify_psi_S12_C21.json",
+   "verifier_sha256": "65f16a92c6ed8c0e77352276b6e7f16753d565218274d68027bc11249eda0d63",
+   "verifier_ok": true,
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "disjointness_basis": "key (world,S,C,E) is a function of R; world 0: 0∈R∖L",
+   "included": true,
+   "mirror_included": true,
+   "status": "CERTIFIED"
+  },
+  {
+   "id": "R_s_2",
+   "S": [
+    3
+   ],
+   "C": [
+    21
+   ],
+   "world": "0",
+   "mirror_id": "-R_s_2",
+   "P_cells": [
+    [
+     0,
+     3
+    ]
+   ],
+   "E": [
+    12
+   ],
+   "L_condition": null,
+   "exact": "7974292488706389540090025918578544813",
+   "producer_certificate": "harvest/psi_S3_C21.json",
+   "producer_sha256": "5e51796046c880fe1a36dcb46de05ba688bbad9c44cf4f0912cc858a7aedbad3",
+   "verifier_certificate": "harvest/certificates/verify_psi_S3_C21.json",
+   "verifier_sha256": "a4d85d105b0869bcf25d41083ec42646d4dc3f8b2f0d7e66f8ee68b7e06fb3d6",
+   "verifier_ok": true,
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "disjointness_basis": "key (world,S,C,E) is a function of R; world 0: 0∈R∖L",
+   "included": true,
+   "mirror_included": true,
+   "status": "CERTIFIED"
+  },
+  {
+   "id": "RZ_s_02_Ep",
+   "S": [
+    3
+   ],
+   "C": [
+    0,
+    21
+   ],
+   "world": "Z",
+   "mirror_id": "-RZ_s_02_Ep",
+   "P_cells": [
+    [
+     3
+    ],
+    [
+     3,
+     15
+    ]
+   ],
+   "E": [
+    12
+   ],
+   "L_condition": null,
+   "exact": "12005933644220659110202703206191772715",
+   "producer_certificate": "harvest/psi_S3_C0_21.json",
+   "producer_sha256": "2659ab0f22db4198b2fc92adcbfa0cdaa1a00d90045996615edc569eb6bf30c4",
+   "verifier_certificate": "harvest/certificates/verify_psi_S3_C0_21.json",
+   "verifier_sha256": "cb9810b17fe9e6a8e310f5fcc45903c63626c4f9b54f5cb246042b83723d04dd",
+   "verifier_ok": true,
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "disjointness_basis": "key (world,S,C,E) is a function of R; world Z: 0∉L∪R, *∈R∖L",
+   "included": true,
+   "mirror_included": true,
+   "status": "CERTIFIED"
+  },
+  {
+   "id": "R_0_s2",
+   "S": [],
+   "C": [
+    3,
+    21
+   ],
+   "world": "0",
+   "mirror_id": "-R_0_s2",
+   "P_cells": [
+    [
+     0
+    ],
+    [
+     0,
+     17
+    ]
+   ],
+   "E": [
+    12
+   ],
+   "L_condition": null,
+   "exact": "12005933644220659110219052618796322880",
+   "producer_certificate": "harvest/psi_Snone_C3_21.json",
+   "producer_sha256": "14a59462e67aeacbd54b3aaa24fb6b2c0980ab459f64708f98f2e4bacd9de6e7",
+   "verifier_certificate": "harvest/certificates/verify_psi_Snone_C3_21.json",
+   "verifier_sha256": "6ec47b5ca3db469fd71a628f9a276a959139849fe2c756ec57e07ed76adbb223",
+   "verifier_ok": true,
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "disjointness_basis": "key (world,S,C,E) is a function of R; world 0: 0∈R∖L",
+   "included": true,
+   "mirror_included": true,
+   "status": "CERTIFIED"
+  },
+  {
+   "id": "RZ_s2_0_Ep",
+   "S": [
+    3,
+    21
+   ],
+   "C": [
+    0
+   ],
+   "world": "Z",
+   "mirror_id": "-RZ_s2_0_Ep",
+   "P_cells": [
+    [
+     3,
+     21
+    ]
+   ],
+   "E": [
+    12
+   ],
+   "L_condition": null,
+   "exact": "9948746686923549149530479989836104522",
+   "producer_certificate": "harvest/psi_S3_21_C0.json",
+   "producer_sha256": "88d4d40221bebf1015b4df590a39dbaf3e8d6136f6ff5864e75c12bab69b6497",
+   "verifier_certificate": "harvest/certificates/verify_psi_S3_21_C0.json",
+   "verifier_sha256": "bfe779b06fb13a774cf0c826fc782035c0ad9643a1c0018439acffe543968425",
+   "verifier_ok": true,
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "disjointness_basis": "key (world,S,C,E) is a function of R; world Z: 0∉L∪R, *∈R∖L",
+   "included": true,
+   "mirror_included": true,
+   "status": "CERTIFIED"
+  },
+  {
+   "id": "R_2_s",
+   "S": [
+    21
+   ],
+   "C": [
+    3
+   ],
+   "world": "0",
+   "mirror_id": "-R_2_s",
+   "P_cells": [
+    [
+     0,
+     21
+    ]
+   ],
+   "E": [
+    12
+   ],
+   "L_condition": null,
+   "exact": "9948746686923549149530979119991024908",
+   "producer_certificate": "harvest/psi_S21_C3.json",
+   "producer_sha256": "c64883dc6cc6cb8d44bc22676431bb7cc1b0c238d56492a277202f0a3958904a",
+   "verifier_certificate": "harvest/certificates/verify_psi_S21_C3.json",
+   "verifier_sha256": "281410ec5ca3233c624119262126399b105a0a4fa962254ec01121762a6403ed",
+   "verifier_ok": true,
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "disjointness_basis": "key (world,S,C,E) is a function of R; world 0: 0∈R∖L",
+   "included": true,
+   "mirror_included": true,
+   "status": "CERTIFIED"
+  },
+  {
+   "id": "R_0_p_Es2",
+   "S": [],
+   "C": [
+    12
+   ],
+   "world": "0",
+   "mirror_id": "-R_0_p_Es2",
+   "P_cells": [
+    [
+     0
+    ],
+    [
+     0,
+     18
+    ]
+   ],
+   "E": [
+    3,
+    21
+   ],
+   "L_condition": null,
+   "exact": "613255696710939187377022523120436728",
+   "producer_certificate": "harvest/psi_Snone_C12.json",
+   "producer_sha256": "d31e5e3cd4b98249852b74a1a3fca8929aa67bd3100bc089270867d5c57f8689",
+   "verifier_certificate": "harvest/certificates/verify_psi_Snone_C12.json",
+   "verifier_sha256": "d48332c325d06f357e1a160f624dccf4b22dbf698b02158cc9beea5967326602",
+   "verifier_ok": true,
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "disjointness_basis": "key (world,S,C,E) is a function of R; world 0: 0∈R∖L",
+   "included": true,
+   "mirror_included": true,
+   "status": "CERTIFIED"
+  },
+  {
+   "id": "R_0_2",
+   "S": [],
+   "C": [
+    21
+   ],
+   "world": "0",
+   "mirror_id": "-R_0_2",
+   "P_cells": [
+    [
+     0
+    ]
+   ],
+   "E": [
+    3,
+    12
+   ],
+   "L_condition": null,
+   "exact": "940383775439070702723908755240582575",
+   "producer_certificate": "harvest/psi_Snone_C21.json",
+   "producer_sha256": "69b304ab8d8d1d2f7a6a52ce7b62601140da4fe4fe046460d99866d414ffbbb5",
+   "verifier_certificate": "harvest/certificates/verify_psi_Snone_C21.json",
+   "verifier_sha256": "6052a038fcffc44d14389533f0db049637d020cc32c591a50e4d2b28d38684e9",
+   "verifier_ok": true,
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "disjointness_basis": "key (world,S,C,E) is a function of R; world 0: 0∈R∖L",
+   "included": true,
+   "mirror_included": true,
+   "status": "CERTIFIED"
+  },
+  {
+   "id": "R_p_0",
+   "S": [
+    12
+   ],
+   "C": [],
+   "world": "0",
+   "mirror_id": "-R_p_0",
+   "P_cells": [
+    [
+     0,
+     12
+    ],
+    [
+     0,
+     12,
+     18
+    ]
+   ],
+   "E": [
+    3,
+    21
+   ],
+   "L_condition": null,
+   "exact": "706427808114693050310509464476385031",
+   "producer_certificate": "harvest/psi_S12_Cnone.json",
+   "producer_sha256": "3b16eb575f47c51af32000bc321b644d4b5501ce7d15340c5051b3f8a970502e",
+   "verifier_certificate": "harvest/certificates/verify_psi_S12_Cnone.json",
+   "verifier_sha256": "feceddbc01621900c019e8c4feb148e3c1ebeaa3a0be4a824e2ed366acb79dcd",
+   "verifier_ok": true,
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "disjointness_basis": "key (world,S,C,E) is a function of R; world 0: 0∈R∖L",
+   "included": true,
+   "mirror_included": true,
+   "status": "CERTIFIED"
+  },
+  {
+   "id": "R_2_0",
+   "S": [
+    21
+   ],
+   "C": [],
+   "world": "0",
+   "mirror_id": "-R_2_0",
+   "P_cells": [
+    [
+     0,
+     21
+    ]
+   ],
+   "E": [
+    3,
+    12
+   ],
+   "L_condition": null,
+   "exact": "1240030519175962985170349147247918577",
+   "producer_certificate": "harvest/psi_S21_Cnone.json",
+   "producer_sha256": "e4f956ebbc9496752a5e7a7700b05bf0c6241c1f4eb05e51842ec88002f6732d",
+   "verifier_certificate": "harvest/certificates/verify_psi_S21_Cnone.json",
+   "verifier_sha256": "5da4230529548785af3f4809fce6416170c7d6900d0bea64df2ef0dd306b05a9",
+   "verifier_ok": true,
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "disjointness_basis": "key (world,S,C,E) is a function of R; world 0: 0∈R∖L",
+   "included": true,
+   "mirror_included": true,
+   "status": "CERTIFIED"
+  },
+  {
+   "id": "RZ_s_0_Ep2",
+   "S": [
+    3
+   ],
+   "C": [
+    0
+   ],
+   "world": "Z",
+   "mirror_id": "-RZ_s_0_Ep2",
+   "P_cells": [
+    [
+     3
+    ],
+    [
+     3,
+     20
+    ]
+   ],
+   "E": [
+    12,
+    21
+   ],
+   "L_condition": null,
+   "exact": "321426237071384851585720897496191743",
+   "producer_certificate": "harvest/psi_S3_C0.json",
+   "producer_sha256": "04585f5a66dc1804432aeefefd6e2270712d3282476a71b8b3f115d5365c8320",
+   "verifier_certificate": "harvest/certificates/verify_psi_S3_C0.json",
+   "verifier_sha256": "dc3ca2808d36695265d63952b8cb10259fb3717ecf74d2c54416d1aa0278f300",
+   "verifier_ok": true,
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "disjointness_basis": "key (world,S,C,E) is a function of R; world Z: 0∉L∪R, *∈R∖L",
+   "included": true,
+   "mirror_included": true,
+   "status": "CERTIFIED"
+  },
+  {
+   "id": "R_s_0",
+   "S": [
+    3
+   ],
+   "C": [],
+   "world": "0",
+   "mirror_id": "-R_s_0",
+   "P_cells": [
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     3,
+     20
+    ]
+   ],
+   "E": [
+    12,
+    21
+   ],
+   "L_condition": null,
+   "exact": "358243551044634078593410892442688996",
+   "producer_certificate": "harvest/psi_S3_Cnone.json",
+   "producer_sha256": "74719e955c53628b0dcc82b69d687c3cfa328ea45418a4efe0413cf019f7eae9",
+   "verifier_certificate": "harvest/certificates/verify_psi_S3_Cnone.json",
+   "verifier_sha256": "287060c40878b347fdccd44ce20f49afb5302ae3201798b5ae8a4ec2f66d5cb7",
+   "verifier_ok": true,
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "disjointness_basis": "key (world,S,C,E) is a function of R; world 0: 0∈R∖L",
+   "included": true,
+   "mirror_included": true,
+   "status": "CERTIFIED"
+  },
+  {
+   "id": "R_0_s",
+   "S": [],
+   "C": [
+    3
+   ],
+   "world": "0",
+   "mirror_id": "-R_0_s",
+   "P_cells": [
+    [
+     0
+    ],
+    [
+     0,
+     20
+    ]
+   ],
+   "E": [
+    12,
+    21
+   ],
+   "L_condition": null,
+   "exact": "321426237071384851585731588369450284",
+   "producer_certificate": "harvest/psi_Snone_C3.json",
+   "producer_sha256": "2cfb07c02e7c721db6f6e5b7ca107835e7c443734acf06f1cfcd9446e96fb4d6",
+   "verifier_certificate": "harvest/certificates/verify_psi_Snone_C3.json",
+   "verifier_sha256": "4fcf5dfc2eafc2f23f776520c404f138daabe8ad2812202d1ff2a9d2bd8170f1",
+   "verifier_ok": true,
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "disjointness_basis": "key (world,S,C,E) is a function of R; world 0: 0∈R∖L",
+   "included": true,
+   "mirror_included": true,
+   "status": "CERTIFIED"
+  },
+  {
+   "id": "R_0_0",
+   "S": [],
+   "C": [],
+   "world": "0",
+   "mirror_id": "-R_0_0",
+   "P_cells": [
+    [
+     0
+    ],
+    [
+     0,
+     11
+    ],
+    [
+     0,
+     18
+    ],
+    [
+     0,
+     20
+    ],
+    [
+     0,
+     18,
+     20
+    ]
+   ],
+   "E": [
+    3,
+    12,
+    21
+   ],
+   "L_condition": null,
+   "exact": "7640582146961891627716322233936205",
+   "producer_certificate": "harvest/psi_Snone_Cnone.json",
+   "producer_sha256": "8103784e8707e70ad4991fffc9071d066fe53503560045ec392aa7244e84225a",
+   "verifier_certificate": "harvest/certificates/verify_psi_Snone_Cnone.json",
+   "verifier_sha256": "f8d321e9140a767b3877721d591d19a6507dd674cc04a3694b8dd67fb8f59546",
+   "verifier_ok": true,
+   "structural_audit": "harvest/certificates/audit_psi_structure_record.json",
+   "structural_audit_ok": true,
+   "disjointness_basis": "key (world,S,C,E) is a function of R; world 0: 0∈R∖L",
+   "included": true,
+   "mirror_included": true,
+   "status": "CERTIFIED"
+  }
+ ],
+ "audit_record": "harvest/certificates/audit_psi_structure_record.json",
+ "audit_status": "AUDIT PASSED"
+}

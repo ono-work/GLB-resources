@@ -1,0 +1,307 @@
+{
+ "family": "Psi[3, 12, 21]",
+ "S": [
+  3,
+  12,
+  21
+ ],
+ "C": [
+  0
+ ],
+ "E": [],
+ "total": "789191188948717705917614333988532013894",
+ "status": "AUDIT PASSED",
+ "errors": [],
+ "rows": [
+  {
+   "D": [
+    0,
+    2,
+    3,
+    7,
+    8,
+    18,
+    21
+   ],
+   "e": "15111",
+   "cov": "38488295",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 126,
+     "value": "133171625",
+     "sha": "e7a5a9ccf6227b576533e0176674216da7634b9ca26bad7be074c586f64d2b35",
+     "sec": 23.2
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      0
+     ],
+     "n": 114,
+     "value": "94683330",
+     "sha": "ea926be1bc0b747eadd0b509498a4ce4afe18e537d00fbcc4c1a5465f1378fac",
+     "sec": 17.4
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    7,
+    8,
+    12,
+    18,
+    21
+   ],
+   "e": "44938261",
+   "cov": "3706153432",
+   "terms": [
+    {
+     "method": "verifier cache (meet-in-the-middle transfer (59-bit primes) + CRT)",
+     "U": [],
+     "n": 176,
+     "value": "7701365549",
+     "sha": "46ec4bca76c62ebef81dc23c49928c05e8fda61d2c3cfe435b75a94b584c1ea7",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      0
+     ],
+     "n": 156,
+     "value": "3995212117",
+     "sha": "f58503bc9c7fbdcaecf9110ac6337949c0d28cbfe30692fecc353de78b3a262c",
+     "sec": 422.7
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    7,
+    8,
+    12,
+    18,
+    20,
+    21
+   ],
+   "e": "2031279506",
+   "cov": "2981934666842836002",
+   "terms": [
+    {
+     "method": "verifier cache (meet-in-the-middle transfer (59-bit primes) + CRT)",
+     "U": [],
+     "n": 352,
+     "value": "3877371421014571438",
+     "sha": "cc8740291e34533cf116d37dad0f15f0c9f756d9d7498febda91f99b10bf4630",
+     "sec": 0.0
+    },
+    {
+     "method": "verifier cache (J1xJ2 numpy transfer + CRT)",
+     "U": [
+      0
+     ],
+     "n": 312,
+     "value": "895436754171735436",
+     "sha": "328f6ce8189521e76ee8c05088ea6f3a436e3d8276d6211e073477d3e379b893",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    7,
+    8,
+    11,
+    12,
+    18,
+    20,
+    21
+   ],
+   "e": "1122445823",
+   "cov": "77626849574988547871893",
+   "terms": [
+    {
+     "method": "verifier cache (meet-in-the-middle transfer (59-bit primes) + CRT)",
+     "U": [],
+     "n": 466,
+     "value": "94602526593931312913857",
+     "sha": "4f2b47cb103734efb4a38169ed6e2aaafe7bbc6e4bf2fb63c4a1f0e1a41bf9e7",
+     "sec": 0.0
+    },
+    {
+     "method": "verifier cache (J1xJ2 numpy transfer + CRT)",
+     "U": [
+      0
+     ],
+     "n": 416,
+     "value": "16975677018942765041964",
+     "sha": "1d94c249984072fb5a9fcd8aeced59b81e1dc1a0b18449d500b53dbcd4658102",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    7,
+    8,
+    12,
+    14,
+    18,
+    20,
+    21
+   ],
+   "e": "1122445823",
+   "cov": "20886653068030240028903",
+   "terms": [
+    {
+     "method": "verifier cache (meet-in-the-middle transfer (59-bit primes) + CRT)",
+     "U": [],
+     "n": 456,
+     "value": "37862330086973005070867",
+     "sha": "26dedf86ec7b473fd415742a3771fc175abdedbb775742a9683dba9d7973dc0a",
+     "sec": 0.0
+    },
+    {
+     "method": "verifier cache (J1xJ2 numpy transfer + CRT)",
+     "U": [
+      0
+     ],
+     "n": 416,
+     "value": "16975677018942765041964",
+     "sha": "9a574a3996bfc48236f43793814a7764704529eafaae19ba3a3c46197c6abe02",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    7,
+    8,
+    11,
+    12,
+    14,
+    18,
+    20,
+    21
+   ],
+   "e": "1156111278",
+   "cov": "658645794954154578381068137818",
+   "terms": [
+    {
+     "method": "verifier cache (meet-in-the-middle transfer (59-bit primes) + CRT)",
+     "U": [],
+     "n": 648,
+     "value": "1178665946244669153033099036543",
+     "sha": "c4e9ae9398466163991757325fc575be98b21f6277500489db03b7393e6e39d1",
+     "sec": 0.0
+    },
+    {
+     "method": "verifier cache (J1xJ2 numpy transfer + CRT)",
+     "U": [
+      0
+     ],
+     "n": 598,
+     "value": "520020151290514574652030898725",
+     "sha": "8a42e3232a72c5202c8971e95bae2441b4fb79d213b3fc38d553d73b39e8f1e3",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    18,
+    20,
+    21
+   ],
+   "e": "4523937",
+   "cov": "6118000456870202690034384340649",
+   "terms": [
+    {
+     "method": "verifier cache (meet-in-the-middle transfer (59-bit primes) + CRT)",
+     "U": [],
+     "n": 700,
+     "value": "12305890228754252330032246913901",
+     "sha": "34a159d05578e00b529b9088afe0661e8dae8c0267d1fa2fb78086a22d5ce6b1",
+     "sec": 0.0
+    },
+    {
+     "method": "verifier cache (J1xJ2 numpy transfer + CRT)",
+     "U": [
+      0
+     ],
+     "n": 650,
+     "value": "6187889771884049639997862573252",
+     "sha": "17988a77b84a79f86fd557020af24b65eb29631984ddf380b86e595a3eca806e",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    5,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    18,
+    20,
+    21
+   ],
+   "e": "4040",
+   "cov": "11336133654801291070907584846844",
+   "terms": [
+    {
+     "method": "verifier cache (meet-in-the-middle transfer (59-bit primes) + CRT)",
+     "U": [],
+     "n": 726,
+     "value": "23711913198569390350903309993348",
+     "sha": "9f507ab04a92643f4f1d2917d8ec950a3c1c928b0b0b371e56aeb4ac94a5adba",
+     "sec": 0.0
+    },
+    {
+     "method": "verifier cache (J1xJ2 numpy transfer + CRT)",
+     "U": [
+      0
+     ],
+     "n": 676,
+     "value": "12375779543768099279995725146504",
+     "sha": "f199eb92facd0f95ed891c46ce9f04aac63da4345cc9a23c57d2173f4b0eee1d",
+     "sec": 0.0
+    }
+   ]
+  }
+ ],
+ "runtime_s": 1003,
+ "command": "harvest/verify_psi.py harvest/psi_S3_12_21_C0.json"
+}

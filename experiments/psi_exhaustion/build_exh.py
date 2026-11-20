@@ -1,0 +1,105 @@
+#!/usr/bin/env python3
+"""Build PSI_EXHAUSTION_LEDGER.json and PSI_EXHAUSTION_STATUS.md (no hand-typed integers).
+
+Sources: post_gpw_improvement/COUNTED_FAMILIES.json (rebuilt by harvest/build_ledger.py from certificates),
+REMAINING_KEYS.json, run logs (harvest/logs/produce_<id>.out, verify_<file>.out: /usr/bin/time -l), producer
+certificates (per-region compressed-MITM info), verifier certificates.
+Usage (from experiments/post_gpw_improvement): python3.11 harvest/build_ledger.py && python3.11 ../psi_exhaustion/build_exh.py
+"""
+import json, math, re, time
+from pathlib import Path
+OUTDIR = Path(__file__).resolve().parent
+PG = OUTDIR.parent / "post_gpw_improvement"
+B0 = 26779208541153893647347341345937714190772
+
+
+def timelog(p):
+    p = PG / p
+    if not p.exists(): return None, None
+    s = p.read_text(errors="replace")
+    r = re.findall(r"^\s*([\d.]+) real", s, re.M); m = re.findall(r"^\s*(\d+)\s+maximum resident set size", s, re.M)
+    return (float(r[-1]) if r else None), (int(m[-1]) if m else None)
+
+
+def region_stats(fid):
+    """Max compressed state count / w_eff / per-region max RSS over the cmp_mitm regions this producer run used
+    (tags parsed from harvest/logs/produce_<id>.out, looked up in harvest/mitm_cache.json)."""
+    log = PG / f"harvest/logs/produce_{fid}.out"
+    if not log.exists(): return 0, 0.0, 0
+    tags = set(re.findall(r"\|A\((Psi[\w]*)\)\|", log.read_text(errors="replace")))
+    mc = json.loads((PG / "harvest/mitm_cache.json").read_text())
+    S, w, rss = 0, 0.0, 0
+    for c in mc.values():
+        if c.get("tag") in tags and c.get("method") == "cmp_mitm":
+            info = c.get("info", c)
+            if "ranks_S" in info: S = max(S, max(int(x) for x in info["ranks_S"]))
+            if "w_eff" in info: w = max(w, float(info["w_eff"]))
+            if info.get("maxrss"): rss = max(rss, int(info["maxrss"]) if not isinstance(info["maxrss"], list) else max(info["maxrss"]))
+    return S, w, rss
+
+
+def main():
+    led = json.loads((PG / "COUNTED_FAMILIES.json").read_text())
+    rem = json.loads((OUTDIR / "REMAINING_KEYS.json").read_text())["keys"]
+    byid = {e["id"]: e for e in led["families"]}
+    entries, total = [], B0
+    for r in sorted(rem, key=lambda r: r["rank"]):
+        e = byid.get(r["id"], {})
+        pf = r["producer_certificate"]; vf = r["verifier_certificate"]
+        cert = json.loads((PG / pf).read_text()) if (PG / pf).exists() else None
+        ver = json.loads((PG / vf).read_text()) if (PG / vf).exists() else None
+        pt, prss = timelog(f"harvest/logs/produce_{r['id']}.out")
+        vt, vrss = timelog(f"harvest/logs/verify_{Path(pf).stem}.out")
+        st = "NOT COMPUTED"
+        if cert: st = "PRODUCER EXACT"
+        if ver and ver.get("status") == "AUDIT PASSED" and cert and ver["total"] == cert["total"]: st = "INDEPENDENTLY VERIFIED"
+        if e.get("included") and e.get("status") == "CERTIFIED": st = "CERTIFIED"
+        if cert and int(cert["total"]) == 0 and st == "CERTIFIED": st = "CERTIFIED (PROVABLY EMPTY)"
+        S_, w_, rr = region_stats(r['id'])
+        ent = dict(id=r["id"], key=r["key"], world=r["world"], S=r["S"], C=r["C"], E=r["E"], P_cells=r["P_cells"],
+                   exact=cert["total"] if cert else None, mirror_contribution=cert["total"] if (cert and st.startswith("CERTIFIED")) else None,
+                   producer_certificate=pf if cert else None, verifier_certificate=vf if ver else None,
+                   verifier_status=ver.get("status") if ver else None,
+                   structural_audit=e.get("structural_audit"), structural_audit_ok=e.get("structural_audit_ok"),
+                   producer_wall_s=pt, producer_peak_rss=prss, verifier_wall_s=vt, verifier_peak_rss=vrss,
+                   projected_producer_GiB=r["producer_peak_GiB"], projected_verifier_GiB=r["verifier_peak_GiB"],
+                   planned_max_S=r["max_S"], planned_w_eff=r["w_eff"], measured_max_S=S_ or None, measured_w_eff=w_ or None,
+                   est_log10_original=r["est_log10_original"], status=st,
+                   certified_at=time.strftime("%Y-%m-%d %H:%M", time.localtime((PG / vf).stat().st_mtime)) if st.startswith("CERTIFIED") else None)
+        if st.startswith("CERTIFIED"): total += 2 * int(cert["total"])
+        entries.append(ent)
+    out = dict(schema="psi-exhaustion-ledger-1", B0=str(B0), total=str(total), log10=math.log10(total),
+               n_keys=len(entries), n_certified=sum(1 for e in entries if e["status"].startswith("CERTIFIED")), keys=entries)
+    (OUTDIR / "PSI_EXHAUSTION_LEDGER.json").write_text(json.dumps(out, indent=1) + "\n")
+    # status markdown
+    done = sorted([e for e in entries if e["status"].startswith("CERTIFIED")], key=lambda e: e["certified_at"])
+    open_ = [e for e in entries if not e["status"].startswith("CERTIFIED")]
+    rem_est = sum(2 * 10 ** e["est_log10_original"] for e in open_)
+    L = ["# Ψ exhaustion: status", "", f"Updated {time.strftime('%Y-%m-%d %H:%M')}. Generated by `build_exh.py`.", "",
+         f"- B0 = {B0} (2.678e40)",
+         f"- **Cumulative certified bound: {total}** ({total:.4e}, log10 {math.log10(total):.6f}); gain over B0 ×{total / B0:.4f}",
+         f"- Certified keys: {len(done)} of {len(entries)}. Unresolved keys: {len(open_)}. Remaining estimated mass (×2, HEURISTIC): {rem_est:.2e}", "",
+         "## Saturation curve", "", "| certified additional keys | key | added (×2) | cumulative bound | remaining est. (×2) |", "|---:|---|---:|---:|---:|",
+         f"| 0 | – | – | {B0:.6e} | {sum(2 * 10 ** e['est_log10_original'] for e in entries):.2e} |"]
+    cum = B0; restE = sum(2 * 10 ** e["est_log10_original"] for e in entries)
+    for i, e in enumerate(done):
+        cum += 2 * int(e["exact"]); restE -= 2 * 10 ** e["est_log10_original"]
+        L.append(f"| {i+1} | {e['id']} | {2*int(e['exact']):.4e} | {cum:.6e} | {max(restE,0):.2e} |")
+    L += ["", "## Per key", "", "| id | key | status | exact original | est. (log10) | max S(B) | w_eff | proj. prod/ver GiB | peak RSS prod/ver (GB) | wall prod/ver (s) |",
+          "|---|---|---|---:|---:|---:|---:|---:|---:|---:|"]
+    g = lambda x: f"{x/1e9:.2f}" if x else "–"
+    for e in entries:
+        L.append(f"| {e['id']} | `{e['key']}` | {e['status']} | {e['exact'] or '–'} | {e['est_log10_original']} | {e['planned_max_S']:.2e} | {e['planned_w_eff']} | "
+                 f"{e['projected_producer_GiB']}/{e['projected_verifier_GiB']} | {g(e['producer_peak_rss'])}/{g(e['verifier_peak_rss'])} | "
+                 f"{e['producer_wall_s'] or '–'}/{e['verifier_wall_s'] or '–'} |")
+    if done:
+        xs = sorted((int(e["exact"]) for e in done), reverse=True); tot = sum(xs)
+        L += ["", "## Concentration (certified new keys, by exact contribution)", "", "| top k | fraction of new mass |", "|---:|---:|"]
+        for k in (1, 3, 5, 10, len(xs)):
+            if k <= len(xs): L.append(f"| {k} | {sum(xs[:k]) / tot:.4f} |")
+    (OUTDIR / "PSI_EXHAUSTION_STATUS.md").write_text("\n".join(L) + "\n")
+    print("total", total, f"{total:.4e}", "certified", len(done), "open", len(open_))
+
+
+if __name__ == "__main__":
+    main()

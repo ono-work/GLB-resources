@@ -1,0 +1,4010 @@
+{
+ "family": "Psi[]",
+ "S": [],
+ "C": [
+  3,
+  21
+ ],
+ "E": [
+  12
+ ],
+ "total": "12005933644220659110219052618796322880",
+ "status": "AUDIT PASSED",
+ "errors": [],
+ "rows": [
+  {
+   "D": [],
+   "e": "26",
+   "cov": "0",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    6,
+    17
+   ],
+   "e": "101",
+   "cov": "0",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    3,
+    6,
+    17
+   ],
+   "e": "9",
+   "cov": "0",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    6,
+    17,
+    19
+   ],
+   "e": "439",
+   "cov": "0",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    6,
+    17,
+    19
+   ],
+   "e": "111",
+   "cov": "34",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 12,
+     "value": "35",
+     "sha": "04d981ccffa24c7548a4e92f80eece6b66fc59e415722a3fb20eee6ad26201f3",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    3,
+    6,
+    17,
+    19
+   ],
+   "e": "274",
+   "cov": "0",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    6,
+    12,
+    17,
+    19
+   ],
+   "e": "158",
+   "cov": "0",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    6,
+    17,
+    19,
+    21
+   ],
+   "e": "5411",
+   "cov": "0",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    17,
+    19
+   ],
+   "e": "353",
+   "cov": "260",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 31,
+     "value": "343",
+     "sha": "38fb454ccd8b53f1776cdebb8272e2260faa6114312705aa5062335c0475cfb8",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3
+     ],
+     "n": 19,
+     "value": "83",
+     "sha": "bcbc66f6461f15da1f74091f93b6296b6347314346fb2b1fd708549a7f5f22fe",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    6,
+    12,
+    17,
+    19
+   ],
+   "e": "303",
+   "cov": "125",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 20,
+     "value": "126",
+     "sha": "f2289fce22c00795154fb7f8238470439b2774c5b1d74b31692bcfb1084bd3fd",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    6,
+    17,
+    19,
+    21
+   ],
+   "e": "8625",
+   "cov": "104",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 18,
+     "value": "112",
+     "sha": "905d5ce817d1208f6c2db7499b52eb55ef3341aa5630dd48f1891f4727ce50e6",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 6,
+     "value": "8",
+     "sha": "8201f50eb2d68e36d781ffbc6c3f9eda9ec313eac0a6b5652a1e85a0b4ed442b",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    3,
+    6,
+    12,
+    17,
+    19
+   ],
+   "e": "415",
+   "cov": "0",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    3,
+    6,
+    17,
+    19,
+    21
+   ],
+   "e": "12185",
+   "cov": "0",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    6,
+    12,
+    17,
+    19,
+    21
+   ],
+   "e": "9950",
+   "cov": "0",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    12,
+    17,
+    19
+   ],
+   "e": "2961",
+   "cov": "1550",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 46,
+     "value": "1721",
+     "sha": "4826726d942b6a38a871ad9517ebf4ddba8b11661d0f50d6f04cc253cfa04231",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3
+     ],
+     "n": 26,
+     "value": "171",
+     "sha": "156367a9efae2b5eb6690ff2067211d01e3cbb4e5d5f449c6b8404255a444880",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    17,
+    19,
+    21
+   ],
+   "e": "77940",
+   "cov": "11590",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 56,
+     "value": "14325",
+     "sha": "fab6a8d500f9b8e9c6421b1258230ab968066d128bc66acc7939b7b9b690d484",
+     "sec": 0.1
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3
+     ],
+     "n": 38,
+     "value": "2648",
+     "sha": "79e0e1564ed2f22a755602b6bb922eb01a5c1b83c7a3c2838c2b5367fd11d3f6",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 25,
+     "value": "170",
+     "sha": "5c914bca790072b966ee4ecbf577ebbf5e6d3c3103571f5c61dacd2a3881b8d6",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3,
+      21
+     ],
+     "n": 19,
+     "value": "83",
+     "sha": "fff8dfcc8e7d80d033e28f929822589445744ae36de84104b9fb1b58f43a6b3d",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    6,
+    8,
+    17,
+    19,
+    21
+   ],
+   "e": "4052",
+   "cov": "259",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 24,
+     "value": "294",
+     "sha": "ca2db5b8365226bd544a7a6967419467e7eaad04131fee8ed4b38025ca8e0632",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 12,
+     "value": "35",
+     "sha": "6a34d04b4472ec2ea3e1838ff105e1638080551514b0cb3e5764c4c7472d58eb",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    6,
+    12,
+    17,
+    19,
+    21
+   ],
+   "e": "78692",
+   "cov": "656",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 30,
+     "value": "672",
+     "sha": "034013eaa3b91ca6c3b8839d9716d2c17c9039cfca70e8cc268dd2337813544f",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 10,
+     "value": "16",
+     "sha": "abc02240ae40decb8776b6e845e9183277f2830ef9a760078f1bfb0da79ac4fe",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    3,
+    6,
+    12,
+    17,
+    19,
+    21
+   ],
+   "e": "87488",
+   "cov": "0",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    3,
+    6,
+    17,
+    18,
+    19,
+    21
+   ],
+   "e": "4052",
+   "cov": "0",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    6,
+    12,
+    17,
+    19,
+    20,
+    21
+   ],
+   "e": "4486",
+   "cov": "0",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    8,
+    17,
+    19,
+    21
+   ],
+   "e": "69843",
+   "cov": "348525",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 81,
+     "value": "403898",
+     "sha": "d493951daa8204155ab88e1565eb3cb264d48de45ac44a2f751f0c2476101b43",
+     "sec": 1.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3
+     ],
+     "n": 57,
+     "value": "47552",
+     "sha": "04f6b75a47e3a4210b8de0582dbcb3112d4971aadb80dad62ab0adbf33e72bb1",
+     "sec": 0.3
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 50,
+     "value": "10469",
+     "sha": "88d184d99a35bbc478ea8c9495e9a2955072a009af297198aef59e361e61f27c",
+     "sec": 0.1
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3,
+      21
+     ],
+     "n": 38,
+     "value": "2648",
+     "sha": "5904357fe9f76b47fbb2586b642ecdbb191f6b8f6b04dc8ee78591257d888df4",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    12,
+    17,
+    19,
+    21
+   ],
+   "e": "3836089",
+   "cov": "165368",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 82,
+     "value": "176376",
+     "sha": "e92bc5e1578484a963cfa4c1f8a8ee1b9489184c0a192335d7aa9e1498a64a4f",
+     "sec": 0.6
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3
+     ],
+     "n": 52,
+     "value": "10640",
+     "sha": "ea909ffc5909c789e6cd8600024b5bcd20785518951e8324a75ce1b4dacca53c",
+     "sec": 0.1
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 36,
+     "value": "539",
+     "sha": "95d5933ee376d7bda54bc64bc66a2cc46ef4dfc98f077cab0c57300675f1e95f",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3,
+      21
+     ],
+     "n": 26,
+     "value": "171",
+     "sha": "1c486bfcbaa2805576911d9b3a157c15303a191b1074e4e23e57159f7d929396",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    17,
+    18,
+    19,
+    21
+   ],
+   "e": "65987",
+   "cov": "74778",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 75,
+     "value": "123329",
+     "sha": "f87fe839d1ef29a30ba5dff7d33e79c107297e2334d7c4aaf1ab569ff9d6f7c4",
+     "sec": 0.4
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3
+     ],
+     "n": 57,
+     "value": "47552",
+     "sha": "983eb3fa9d5633e286d67f82f2f918eee2412df4279d0185ac35cd59620941da",
+     "sec": 0.2
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 44,
+     "value": "3647",
+     "sha": "0d50ea02c2f84f972ed94f7fc32d2948682294e787616282dce6ac4fdaa9b372",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3,
+      21
+     ],
+     "n": 38,
+     "value": "2648",
+     "sha": "d97cc477ef1625cf91da352782324075ecdecfdd191716748e8c0fa990a3cede",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    6,
+    8,
+    12,
+    17,
+    19,
+    21
+   ],
+   "e": "77586",
+   "cov": "2646",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 40,
+     "value": "2772",
+     "sha": "0eed4c145851d5535858a6303727cac843e1ec03f7712a0de50481a9f94affb0",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 20,
+     "value": "126",
+     "sha": "ad25a9a9a834fe8a18fe2496d14ce6adac156f780dd2f09730d29fa719c21056",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    6,
+    12,
+    17,
+    19,
+    20,
+    21
+   ],
+   "e": "79441",
+   "cov": "2646",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 40,
+     "value": "2772",
+     "sha": "c8b6a3b8350531485803a92d5cb731b254b4ce168e0a6cb7e7b40c790a0d1bdd",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 20,
+     "value": "126",
+     "sha": "321b7ab3aa17b349dc1b42579ad1e710fe2694331cf403ca8bb6e2915076c35e",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    3,
+    6,
+    12,
+    17,
+    18,
+    19,
+    21
+   ],
+   "e": "77586",
+   "cov": "0",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    3,
+    6,
+    12,
+    17,
+    19,
+    20,
+    21
+   ],
+   "e": "83674",
+   "cov": "0",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    8,
+    12,
+    17,
+    19,
+    21
+   ],
+   "e": "9210284",
+   "cov": "11449682",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 118,
+     "value": "11889100",
+     "sha": "e7cb6d4f187d8e535563c207cfac06b757713b00f6b6a238ee3e139660d8e876",
+     "sec": 12.5
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3
+     ],
+     "n": 78,
+     "value": "354524",
+     "sha": "bde2651fcd1c5d9c53a26f5087d1dbc74f4a77687303b1a406612e1527459b63",
+     "sec": 0.4
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 72,
+     "value": "95534",
+     "sha": "60f0e0215b4b1189af662a92e4f76e4b7aa069f4a9a527468d8651f87fb2376c",
+     "sec": 0.2
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3,
+      21
+     ],
+     "n": 52,
+     "value": "10640",
+     "sha": "2637b0087c0826b17c65428523c59d36b40c165f2190aa9c35ef3a2b54e4afd7",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    8,
+    17,
+    18,
+    19,
+    21
+   ],
+   "e": "109921",
+   "cov": "25726996",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 119,
+     "value": "41077540",
+     "sha": "ec710bf9e1e6228fef89d5eb845c14ba59f3aa90588c32431d50785e33692007",
+     "sec": 19.9
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3
+     ],
+     "n": 95,
+     "value": "13754562",
+     "sha": "45821c583273006ed362a207d54a2f32e77831239e1a453558b6bf1782d6af4d",
+     "sec": 9.6
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 88,
+     "value": "3176970",
+     "sha": "28cc1179016cde4b58c8763de3b485ce59d7180dc3950e193f6df7c99687af49",
+     "sec": 3.7
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3,
+      21
+     ],
+     "n": 76,
+     "value": "1580988",
+     "sha": "903b457c70a7002232c48b5f13e751f47da9ba5f454a0b10cf5223bb1e1c2909",
+     "sec": 2.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    12,
+    17,
+    18,
+    19,
+    21
+   ],
+   "e": "9133298",
+   "cov": "1664250",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 108,
+     "value": "2027144",
+     "sha": "e4f5f284173f02fbe6b8d6ea435ff87135c0c8f89f1839501c91872eeaa5358f",
+     "sec": 3.4
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3
+     ],
+     "n": 78,
+     "value": "354524",
+     "sha": "2362fad1973eff1f0056d0e245c8d908c8a6c0bedbe891e18124be912bf92033",
+     "sec": 0.6
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 62,
+     "value": "19010",
+     "sha": "e36c836d0f24a26359b11a1116576915f696a7cfb5ec26b645dd50477f1fe8dc",
+     "sec": 0.1
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3,
+      21
+     ],
+     "n": 52,
+     "value": "10640",
+     "sha": "adc9e62418954499f91f3a33dc39b3d8b5aaaa6722adcde5629133062b1ef9e3",
+     "sec": 0.1
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    12,
+    17,
+    19,
+    20,
+    21
+   ],
+   "e": "9904308",
+   "cov": "11449682",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 118,
+     "value": "11889100",
+     "sha": "0ac8fc0c88bee55c6ab58d2f33ef704ac2775601dfd0f24e994040c2f23aa440",
+     "sec": 8.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3
+     ],
+     "n": 78,
+     "value": "354524",
+     "sha": "8412ba26fa296cb7f9d1ef905051ac14f04da774c773c61f87b3175a9dfc1423",
+     "sec": 0.6
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 72,
+     "value": "95534",
+     "sha": "0c9d5b6e845c63ae4fdf4fa3ec768485f26f8d83e290e485e5fbf08623f215d7",
+     "sec": 0.3
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3,
+      21
+     ],
+     "n": 52,
+     "value": "10640",
+     "sha": "ece3f7eddf2a0c27678188b8789e62910b416f25efb4015136ec534d85f89415",
+     "sec": 0.1
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    6,
+    8,
+    12,
+    17,
+    19,
+    20,
+    21
+   ],
+   "e": "150229",
+   "cov": "45884",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 60,
+     "value": "51272",
+     "sha": "5ba6437fd5596a6727cb0ce4a0fd31fe2f85b3359943cfab03053cb31fa2b1fc",
+     "sec": 0.1
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 40,
+     "value": "5388",
+     "sha": "93ca8efb2d3b7a8eb6a3c6fadb9ff024c878494a24632f9bb0d184be126eb7cc",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    3,
+    6,
+    12,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "150229",
+   "cov": "0",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    7,
+    8,
+    17,
+    18,
+    19,
+    21
+   ],
+   "e": "2376",
+   "cov": "107007158",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 138,
+     "value": "211978798",
+     "sha": "d5f25e0672350ecf44b0db8fda444ee0567aa7527ffe4c66abc5fe6c81a9a4e3",
+     "sec": 78.7
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3
+     ],
+     "n": 114,
+     "value": "96454406",
+     "sha": "b9cca87d6dd1688360c872ba62b4c5ec3ce81aa87647649aec60f53404c2cbac",
+     "sec": 39.4
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 107,
+     "value": "22391078",
+     "sha": "9ec9ed41a910b7c9d82f00c30a6f5c3de7b509f3d73a08c965c19e21b6195313",
+     "sec": 8.3
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3,
+      21
+     ],
+     "n": 95,
+     "value": "13873844",
+     "sha": "b63c1712b64d50c87ca004d707b7ab8632c28b68db796d8a64253f48bbe79522",
+     "sec": 3.6
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    8,
+    12,
+    17,
+    18,
+    19,
+    21
+   ],
+   "e": "44981290",
+   "cov": "2101428133",
+   "terms": [
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [],
+     "n": 170,
+     "value": "2508315240",
+     "sha": "cc41505ce0b13156181ec2c9d8d771e6e0cdf3677ca399e00feda7bdcebea130",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3
+     ],
+     "n": 130,
+     "value": "351578417",
+     "sha": "1d2ad75f44e3b9dad5ed89fd0ba1963d961ac39b3049cd88283cbc743e5e6523",
+     "sec": 94.8
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 124,
+     "value": "78626042",
+     "sha": "e3a64493d1bb25469b6fe405757ba2c92be0ee0e39a9d7df893715d0ae2abf5f",
+     "sec": 41.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3,
+      21
+     ],
+     "n": 104,
+     "value": "23317352",
+     "sha": "8818a5caa255f892c12cff2c78b761e457e78ae6f021cf8300408e9717e3718a",
+     "sec": 17.7
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    8,
+    12,
+    17,
+    19,
+    20,
+    21
+   ],
+   "e": "52097418",
+   "cov": "61135939430",
+   "terms": [
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [],
+     "n": 190,
+     "value": "63035784948",
+     "sha": "fd173bb85ebe50630b14dbb70eb76dad2bffa864ca7de24f8b0817fd76ee43c3",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3
+     ],
+     "n": 130,
+     "value": "351578417",
+     "sha": "445cb297e743b91f434d74fde94593069d1ab576b927f8d26490f3c9127011e3",
+     "sec": 96.1
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 144,
+     "value": "1571584453",
+     "sha": "fe32fda52cfbb09c0fed566df1074aa8120b97f044c99af4d67478a091758137",
+     "sec": 194.9
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3,
+      21
+     ],
+     "n": 104,
+     "value": "23317352",
+     "sha": "4c7404566076c2fe2e928ca11ddeb544fb9f65008eb19b884b5c6445c0f06d86",
+     "sec": 15.5
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    12,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "51947549",
+   "cov": "2101428133",
+   "terms": [
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [],
+     "n": 170,
+     "value": "2508315240",
+     "sha": "c3fd47a800c23372b6759f443f51e56e9af0b7e86fd8f4b2ace5748b10cd2608",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3
+     ],
+     "n": 130,
+     "value": "351578417",
+     "sha": "24ff20d9272514e1efe14f8343163a80af45cad94ea3ec07a2d0b2efa0634fc4",
+     "sec": 110.8
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 124,
+     "value": "78626042",
+     "sha": "9d75107110694ff68b3ef875aa74cd9cca8201ba52f33be76b1695b03fb66809",
+     "sec": 49.2
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3,
+      21
+     ],
+     "n": 104,
+     "value": "23317352",
+     "sha": "8df249e54a975a7a6a475cd8645f2833f814ac347cf2caae8184219efab2f3c1",
+     "sec": 17.9
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    6,
+    8,
+    12,
+    14,
+    17,
+    19,
+    20,
+    21
+   ],
+   "e": "4907",
+   "cov": "116220",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 70,
+     "value": "134078",
+     "sha": "d587c5e50a98b137bebfcf4f2d2b2e35e3f8357d1a49c1bac2c9d4590cac2778",
+     "sec": 0.3
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 50,
+     "value": "17858",
+     "sha": "81f013cd5397267b61cf9813d28c9923f68cf53e230bbe7b4f4133b3853d4484",
+     "sec": 0.1
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    3,
+    6,
+    11,
+    12,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "4907",
+   "cov": "0",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    6,
+    7,
+    8,
+    17,
+    18,
+    19,
+    21
+   ],
+   "e": "1",
+   "cov": "399810818",
+   "terms": [
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": false,
+     "Qa": [
+      3,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12
+     ],
+     "M": 163,
+     "K": [
+      1,
+      1,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+     ],
+     "peak_entries": 7553,
+     "maxrss": 1343488,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629
+     ],
+     "residues": [
+      996574919,
+      996574919,
+      996574919
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [],
+     "n": 162,
+     "value": "996574919",
+     "sha": "f52622edeab59a94cad0f902209ae5cb9268cb775be2f3a5a36da65d1fd14e45",
+     "sec": 18.9
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3
+     ],
+     "n": 138,
+     "value": "557915834",
+     "sha": "f39cd583aa92db93f11949ecd928e6280b520286a72555a820d993a396a4b457",
+     "sec": 88.7
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 131,
+     "value": "135939681",
+     "sha": "530fd0b729a4fc26b8e86bbb71a0cff9bd1b47360d6b2d6311efb93406c05bac",
+     "sec": 47.9
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3,
+      21
+     ],
+     "n": 119,
+     "value": "97091414",
+     "sha": "adfa55e397139750320c1fca3d398fe296d8eef5df44a4502ca74fe1d6dfa7b7",
+     "sec": 36.1
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    7,
+    8,
+    12,
+    17,
+    18,
+    19,
+    21
+   ],
+   "e": "4032106",
+   "cov": "13412676815",
+   "terms": [
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [],
+     "n": 196,
+     "value": "18028126181",
+     "sha": "d70dfac22724c594520c6435fc2e0ef25b115d6c2e009975b708b87fbb05c3bd",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3
+     ],
+     "n": 156,
+     "value": "4117851329",
+     "sha": "e29d899a7b8b8326e1ed14df4a3fa7226b4bd61b37fe6cb7ceec061bc73cb9c9",
+     "sec": 576.4
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 150,
+     "value": "851193262",
+     "sha": "38611cfe666656cefdec25945b4352b98a8d30a1be4f61544bc17feb819bf460",
+     "sec": 195.2
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3,
+      21
+     ],
+     "n": 130,
+     "value": "353595225",
+     "sha": "3e97205b041a94fdaa210b1fc014651ecef499b9ee33af9b9a420aa9c347a095",
+     "sec": 121.4
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    8,
+    12,
+    14,
+    17,
+    19,
+    20,
+    21
+   ],
+   "e": "5902776",
+   "cov": "1464578926945",
+   "terms": [
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [],
+     "n": 226,
+     "value": "1523136163676",
+     "sha": "4dc5801eea8b2c7de5738bebb208a54c91078fae7502b152c747e487ffe4bd57",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3
+     ],
+     "n": 156,
+     "value": "4117851329",
+     "sha": "afa5ba5e58986c933497f5473b1a901ebf801bfda998914514a7639ac803247e",
+     "sec": 513.7
+    },
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [
+      21
+     ],
+     "n": 180,
+     "value": "54792980627",
+     "sha": "ae5ae41dc13132e22abffa790dc1f8b02282906c9204ea70fcfd576c2bc22038",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3,
+      21
+     ],
+     "n": 130,
+     "value": "353595225",
+     "sha": "d63239acb9d9e8655403006518d4add83112a15a5075196b03ac54c61cabe094",
+     "sec": 71.2
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    8,
+    12,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "687175159",
+   "cov": "4830562216602087",
+   "terms": [
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [],
+     "n": 294,
+     "value": "5599730904245461",
+     "sha": "17b4967ff515b0bc522327abd46c886778ed739eb85fa82913cced81467140f2",
+     "sec": 0.0
+    },
+    {
+     "method": "verifier cache (J1xJ2 numpy transfer + CRT)",
+     "U": [
+      3
+     ],
+     "n": 234,
+     "value": "278699478021500",
+     "sha": "e958d124e65f5ed813197c90995a1538749a7716e656937f16721280e26c22c0",
+     "sec": 0.0
+    },
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [
+      21
+     ],
+     "n": 248,
+     "value": "533012766625789",
+     "sha": "906af37d16d895e24bd8d45f908989cac26f19bf2b1eb08d514347ffd54cc03b",
+     "sec": 0.0
+    },
+    {
+     "method": "verifier cache (J1xJ2 numpy transfer + CRT)",
+     "U": [
+      3,
+      21
+     ],
+     "n": 208,
+     "value": "42543557003915",
+     "sha": "495334f827b12be068e72f8ad33e83074c67aea031bc17ecb507a00afe0a0cd6",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    11,
+    12,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "5897870",
+   "cov": "13412676815",
+   "terms": [
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [],
+     "n": 196,
+     "value": "18028126181",
+     "sha": "2f25411cc419e87fca918b69b5441e58f5040726cd2dbdafdfaaecc7ea3fb1fb",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3
+     ],
+     "n": 156,
+     "value": "4117851329",
+     "sha": "9c0d8576ceb610a73b139238259a3617c622ddd0fc25b8c1cf764e50077a5fd1",
+     "sec": 275.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 150,
+     "value": "851193262",
+     "sha": "4c14eba984006319440073407728870e705999e12206a0a7e5cd9dfd1d00056b",
+     "sec": 205.3
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      3,
+      21
+     ],
+     "n": 130,
+     "value": "353595225",
+     "sha": "89942991c196261c9396ed1b29182f557ce0244c716b75d5a1bcb7fc4cbb6f33",
+     "sec": 91.3
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    6,
+    7,
+    8,
+    12,
+    17,
+    18,
+    19,
+    21
+   ],
+   "e": "15110",
+   "cov": "76526661040",
+   "terms": [
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": false,
+     "Qa": [
+      5,
+      6,
+      7,
+      10,
+      11,
+      12,
+      13
+     ],
+     "M": 334,
+     "K": [
+      1,
+      1,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+     ],
+     "peak_entries": 31977,
+     "maxrss": 2101248,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629
+     ],
+     "residues": [
+      2512378683,
+      364895090,
+      364896080
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [],
+     "n": 228,
+     "value": "118476495675",
+     "sha": "1f3fcd4db700682d89fa381b8502d691f398418365706b64130609130a17896b",
+     "sec": 38.6
+    },
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [
+      3
+     ],
+     "n": 188,
+     "value": "38204832936",
+     "sha": "2f2526ba2110001fda9fd8b402b32ceb8245a02490b284c12d0a406ad907b88a",
+     "sec": 0.0
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      1,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      13,
+      14
+     ],
+     "M": 12,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      5,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 18432,
+     "maxrss": 1159168,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587
+     ],
+     "residues": [
+      3542337934,
+      1394854289,
+      1394854343,
+      1394854469
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      21
+     ],
+     "n": 182,
+     "value": "7837305230",
+     "sha": "667d669df4479fb779c549df8ec5c989ebbd5a12872f19361e359936f675b770",
+     "sec": 18.1
+    },
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [
+      3,
+      21
+     ],
+     "n": 162,
+     "value": "4092303531",
+     "sha": "75403f6b866e99c0f4beab9b4242954e767f318314b40f3735b5260a6c9809be",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    7,
+    8,
+    12,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "151951427",
+   "cov": "308588170556289029",
+   "terms": [
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [],
+     "n": 346,
+     "value": "395611893110420049",
+     "sha": "1d3fe020e239300f71c10ea6d1b2efdd797c9e28db16a73717448fd9ca0ec2ac",
+     "sec": 0.0
+    },
+    {
+     "method": "verifier cache (J1xJ2 numpy transfer + CRT)",
+     "U": [
+      3
+     ],
+     "n": 286,
+     "value": "40935429424611828",
+     "sha": "62e89dc023394be6bd885411bff92785e0929393c08e539f8a37781d9de0ad16",
+     "sec": 0.0
+    },
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [
+      21
+     ],
+     "n": 300,
+     "value": "54216670300138338",
+     "sha": "6acfb5344ef600d199be6266db321cc1b2c15f9e58538841600fb04db5fd6016",
+     "sec": 0.0
+    },
+    {
+     "method": "verifier cache (J1xJ2 numpy transfer + CRT)",
+     "U": [
+      3,
+      21
+     ],
+     "n": 260,
+     "value": "8128377170619146",
+     "sha": "6a4b7d07a4c8b804dcdc7346f438785095f860b069e4e72d37acab3e3d05521a",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    8,
+    11,
+    12,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "175686324",
+   "cov": "308588170556289029",
+   "terms": [
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [],
+     "n": 346,
+     "value": "395611893110420049",
+     "sha": "a1b5bb53b1ed2403a5cda3c206d4b2e2b64becacf1544aa2f87b47e6d21598a6",
+     "sec": 0.0
+    },
+    {
+     "method": "verifier cache (J1xJ2 numpy transfer + CRT)",
+     "U": [
+      3
+     ],
+     "n": 286,
+     "value": "40935429424611828",
+     "sha": "561cd72ceebfabf4f23d06bfb5fd3cf56565066d00d50b93f4298971a9f428c5",
+     "sec": 0.0
+    },
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [
+      21
+     ],
+     "n": 300,
+     "value": "54216670300138338",
+     "sha": "0b9f7ff5419453abe93a1ff026d9317aea2e85a13770f436898b9c1c8986ac28",
+     "sec": 0.0
+    },
+    {
+     "method": "verifier cache (J1xJ2 numpy transfer + CRT)",
+     "U": [
+      3,
+      21
+     ],
+     "n": 260,
+     "value": "8128377170619146",
+     "sha": "b0c2fcf2235ffd2ee502ad7d99e405221f180fe5ee405b2786003cbf33c3239a",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    8,
+    12,
+    14,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "175686324",
+   "cov": "1261679972130198597",
+   "terms": [
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [],
+     "n": 356,
+     "value": "1490503361375089331",
+     "sha": "d783845bd823116ae307f60da6ae03321eada4c1c83679ef8fee9d6b25399403",
+     "sec": 0.0
+    },
+    {
+     "method": "verifier cache (J1xJ2 numpy transfer + CRT)",
+     "U": [
+      3
+     ],
+     "n": 286,
+     "value": "40935429424611828",
+     "sha": "847abc1f25fd30ecb262b582c6ddbafb985721519e3a3654895b2cf1e8915545",
+     "sec": 0.0
+    },
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [
+      21
+     ],
+     "n": 310,
+     "value": "196016336990898052",
+     "sha": "bb5a71ed8f95a8816133d4cc039820650332bb98be36ca8293a4a410a8ed4eae",
+     "sec": 0.0
+    },
+    {
+     "method": "verifier cache (J1xJ2 numpy transfer + CRT)",
+     "U": [
+      3,
+      21
+     ],
+     "n": 260,
+     "value": "8128377170619146",
+     "sha": "dd07dc3f92214c2ae635be05ba0965ef9670f3ec463e035eb4d34353bd97e092",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    6,
+    7,
+    8,
+    12,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "2423822",
+   "cov": "15218188607242571075",
+   "terms": [
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      9,
+      10,
+      15,
+      16,
+      17
+     ],
+     "M": 81,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      5,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 15116544,
+     "maxrss": 64401408,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549
+     ],
+     "residues": [
+      1256174124,
+      914705959,
+      1210731586,
+      1901470229,
+      1317213568,
+      148702118,
+      1810611083
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [],
+     "n": 410,
+     "value": "22325132782005629484",
+     "sha": "907a551fbb39b9265107fdcf388eb2a8c6917ca64c6e171762e077308dede1fe",
+     "sec": 112.5
+    },
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [
+      3
+     ],
+     "n": 350,
+     "value": "3938867444325760018",
+     "sha": "8f9d59e0dd5edf4bde26f40cd654d98c9e9d44456c65ec68f5bc5e82f91d86f6",
+     "sec": 0.0
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      2,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13,
+      14,
+      15
+     ],
+     "M": 73,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      5,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 12519500,
+     "maxrss": 53653504,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549
+     ],
+     "residues": [
+      2745002736,
+      381426154,
+      786720942,
+      300755296,
+      719496387,
+      1556978905,
+      679163814
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      21
+     ],
+     "n": 364,
+     "value": "4147629974664080112",
+     "sha": "cb6999c2f57274f193d2a64c025bacbec1da3dfbe4a2765ebcde67ea2f68edb0",
+     "sec": 66.0
+    },
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [
+      3,
+      21
+     ],
+     "n": 324,
+     "value": "979553244226781721",
+     "sha": "6bafae94c1b92845eacf901ba58c2f9f386c3b99e04d2c15ce864e07aecdb8e7",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    7,
+    8,
+    11,
+    12,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "77876087",
+   "cov": "159053434514263742178",
+   "terms": [
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [],
+     "n": 424,
+     "value": "256950320893250871769",
+     "sha": "c49b6e24e52411a1cef71af0c9e1dbbfd88f505ee0cb2a7ff287b730d0afd273",
+     "sec": 0.0
+    },
+    {
+     "method": "verifier cache (J1xJ2 numpy transfer + CRT)",
+     "U": [
+      3
+     ],
+     "n": 364,
+     "value": "59932782527281146376",
+     "sha": "7ae9e388189877136246b54bbdabae2ac2ce695fe2c3a2ee89743f539f6df7ca",
+     "sec": 0.0
+    },
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [
+      21
+     ],
+     "n": 378,
+     "value": "54228274930577111181",
+     "sha": "19d8d7de0325e1ad0a7e0225c1b7baca5dd00cdcd6b32851c6efc2a2ba0630f5",
+     "sec": 0.0
+    },
+    {
+     "method": "verifier cache (J1xJ2 numpy transfer + CRT)",
+     "U": [
+      3,
+      21
+     ],
+     "n": 338,
+     "value": "16264171078871127966",
+     "sha": "3d82700c6ec845b75972db5ac73be78e9c165498a947260c2f31a99eb41c1012",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    7,
+    8,
+    12,
+    14,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "77876087",
+   "cov": "605311121740109583001",
+   "terms": [
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [],
+     "n": 434,
+     "value": "812117890283944981463",
+     "sha": "e202923fb292a19b201b9ead29a753ffdea30bfeca9321f486c492c5c0b59d41",
+     "sec": 0.0
+    },
+    {
+     "method": "verifier cache (J1xJ2 numpy transfer + CRT)",
+     "U": [
+      3
+     ],
+     "n": 364,
+     "value": "59932782527281146376",
+     "sha": "eafa0ad344ec1048359756467ef888a75697a1118f0f5379a10f7b4d6c72c9dd",
+     "sec": 0.0
+    },
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [
+      21
+     ],
+     "n": 388,
+     "value": "163138157095425380052",
+     "sha": "8c5df1f7cb351f8b12fa6d58bb82f3a457778dbc8bf43192e02c2df0418a977b",
+     "sec": 0.0
+    },
+    {
+     "method": "verifier cache (J1xJ2 numpy transfer + CRT)",
+     "U": [
+      3,
+      21
+     ],
+     "n": 338,
+     "value": "16264171078871127966",
+     "sha": "34303a50a2e932ab8a172119c6b13fe7fcfdce6f9a261b3c2e320ab75e078c92",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    8,
+    11,
+    12,
+    14,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "86989033",
+   "cov": "605311121740109583001",
+   "terms": [
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [],
+     "n": 434,
+     "value": "812117890283944981463",
+     "sha": "edb3360b62bd2e3939ae40dc4dcafd9a80fa5abfbe853261756d04a5cb8edd7d",
+     "sec": 0.0
+    },
+    {
+     "method": "verifier cache (J1xJ2 numpy transfer + CRT)",
+     "U": [
+      3
+     ],
+     "n": 364,
+     "value": "59932782527281146376",
+     "sha": "bab99de93b64c3d4fdd4cb543a155d5b02f2bd321edfc3f30db8d19f6dcaf62d",
+     "sec": 0.0
+    },
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [
+      21
+     ],
+     "n": 388,
+     "value": "163138157095425380052",
+     "sha": "dd3287571562bd7e12dba8160acada8662349e0e0005ef3c8d0e2924908a57c1",
+     "sec": 0.0
+    },
+    {
+     "method": "verifier cache (J1xJ2 numpy transfer + CRT)",
+     "U": [
+      3,
+      21
+     ],
+     "n": 338,
+     "value": "16264171078871127966",
+     "sha": "07b9f0353be01ea2b65995cf631dba4ed11558321a8e450abf26eb8c007d09f2",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    6,
+    7,
+    8,
+    11,
+    12,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "3055699",
+   "cov": "67609898078997733584550",
+   "terms": [
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      3,
+      4,
+      6,
+      7,
+      8,
+      9,
+      14,
+      15
+     ],
+     "M": 1721,
+     "K": [
+      1,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      1,
+      1
+     ],
+     "peak_entries": 65439990,
+     "maxrss": 312897536,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549
+     ],
+     "residues": [
+      2823911826,
+      2058572874,
+      1178518608,
+      1354663161,
+      1708032930,
+      279802553,
+      385965020
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [],
+     "n": 520,
+     "value": "150283980345647746349458",
+     "sha": "22119056192d2f02fe33637ca6dc4dbbd7d260a25dc2a4d6e773e8cf71323961",
+     "sec": 197.0
+    },
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [
+      3
+     ],
+     "n": 460,
+     "value": "58593476589338674763015",
+     "sha": "9b081634d7c228abdc66878ef3e8e2ef0e0a8c8a2a338d271c156d4b1a2d7fb1",
+     "sec": 0.0
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "M": 539,
+     "K": [
+      1,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      1
+     ],
+     "peak_entries": 65439990,
+     "maxrss": 307613696,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563
+     ],
+     "residues": [
+      3224160182,
+      825839282,
+      609051694,
+      843472971,
+      994263718,
+      1299568044
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      21
+     ],
+     "n": 474,
+     "value": "44709757258937769183158",
+     "sha": "b61c26e0ccde881aca06d77302867617e5331643b3e78783abaf760e3cb93841",
+     "sec": 153.4
+    },
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [
+      3,
+      21
+     ],
+     "n": 434,
+     "value": "20629151581626431181265",
+     "sha": "d8bdf18e14a1f77caadd6ff126c062f4a10b0eec2b713f4c694f57d32c3ab2af",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    6,
+    7,
+    8,
+    12,
+    14,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "3055699",
+   "cov": "240979738793724256957941",
+   "terms": [
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      2,
+      4,
+      6,
+      7,
+      8,
+      9,
+      14,
+      15
+     ],
+     "M": 1721,
+     "K": [
+      1,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      1,
+      1
+     ],
+     "peak_entries": 65439990,
+     "maxrss": 356433920,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549
+     ],
+     "residues": [
+      2033400747,
+      754146138,
+      1378749605,
+      1617201030,
+      60204146,
+      1273588832,
+      760137608
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [],
+     "n": 530,
+     "value": "389246611025752895994795",
+     "sha": "bba5c83d4624d2f8fbd9c7162cdd061d9d36ad28530285b7a3e189365543b29c",
+     "sec": 214.6
+    },
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [
+      3
+     ],
+     "n": 460,
+     "value": "58593476589338674763015",
+     "sha": "a9af2565bdc1c934c3f0f0924ecc3d1ac22b63ab6c822f5249644a12f1f6eeea",
+     "sec": 0.0
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "M": 539,
+     "K": [
+      1,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      1
+     ],
+     "peak_entries": 65439990,
+     "maxrss": 351129600,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563
+     ],
+     "residues": [
+      4025287296,
+      1990068499,
+      1871532144,
+      223565091,
+      1146367307,
+      853672688
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      21
+     ],
+     "n": 484,
+     "value": "110302547224316395455104",
+     "sha": "dcc8df5c80eec7475dd36b0fc9ce28acf2af8eaf9d5fb634efd2f8f26c422272",
+     "sec": 94.2
+    },
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [
+      3,
+      21
+     ],
+     "n": 434,
+     "value": "20629151581626431181265",
+     "sha": "19810786ad4317698d5f4ba350a3bf0d6f6657ed49d39d56b86e003729844072",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    7,
+    8,
+    11,
+    12,
+    14,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "77691380",
+   "cov": "25587597635152988084117843",
+   "terms": [
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [],
+     "n": 564,
+     "value": "48359042094408646462333893",
+     "sha": "5cab1b99d25f2d5378da0d7fae9ce5be76f657870f914458920606d68bca7b97",
+     "sec": 0.0
+    },
+    {
+     "method": "verifier cache (J1xJ2 numpy transfer + CRT)",
+     "U": [
+      3
+     ],
+     "n": 494,
+     "value": "10835906460413314997850496",
+     "sha": "db6b17e80afb2e007f5521e54651b42999858cd536bcb2bc4d2f932885cd2351",
+     "sec": 0.0
+    },
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [
+      21
+     ],
+     "n": 518,
+     "value": "16233370947109848510855355",
+     "sha": "06d3536c43e66f9832a8fdbacc4f7a66554fa40d4dde6c330c738f337d9f231e",
+     "sec": 0.0
+    },
+    {
+     "method": "verifier cache (J1xJ2 numpy transfer + CRT)",
+     "U": [
+      3,
+      21
+     ],
+     "n": 468,
+     "value": "4297832948267505130489801",
+     "sha": "5cbf61c8af17adfbcd17906727e869f445087651d35bfd5972b3693b48a7cc1d",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    6,
+    7,
+    8,
+    11,
+    12,
+    14,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "8460198",
+   "cov": "1213987671990686079420176117872",
+   "terms": [
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": false,
+     "Qa": [
+      2,
+      4,
+      5,
+      8,
+      9,
+      10,
+      13,
+      14,
+      15,
+      16
+     ],
+     "M": 334,
+     "K": [
+      1,
+      1,
+      2,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      1
+     ],
+     "peak_entries": 3340140948,
+     "maxrss": 14005133312,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549,
+      2147483543,
+      2147483497
+     ],
+     "residues": [
+      3694691977,
+      1282575848,
+      703117503,
+      2058296150,
+      1370439316,
+      1292929887,
+      302369911,
+      152742699,
+      1539700448
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [],
+     "n": 724,
+     "value": "3822438774106914879605046806153",
+     "sha": "1f6e215f227e2ca36f04a1ffebc3829d6a58e62b9348c6dd0842b5093816f953",
+     "sec": 3064.9
+    },
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [
+      3
+     ],
+     "n": 654,
+     "value": "1621566256934803205874123873057",
+     "sha": "4917e9f25d1e3b75c0d956f87732936b094c171a181690e457ed82c098604666",
+     "sec": 0.0
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": false,
+     "Qa": [
+      0,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      14
+     ],
+     "M": 334,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      1
+     ],
+     "peak_entries": 3340140948,
+     "maxrss": 14005043200,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549,
+      2147483543
+     ],
+     "residues": [
+      462103560,
+      1146642391,
+      93299056,
+      1173034020,
+      1229425373,
+      1031805585,
+      1461867931,
+      1819261016
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      21
+     ],
+     "n": 678,
+     "value": "1835706424159935465542786950152",
+     "sha": "4247623e107bc9eb8eefa0aba8b1babe0223653b5246ff1831dfb60ac8df5a9d",
+     "sec": 2727.2
+    },
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [
+      3,
+      21
+     ],
+     "n": 628,
+     "value": "848821578978509871232040134928",
+     "sha": "9d4ff8d525813963558153caf938dd63d8f0031dacbffd15b14d3d4f6dc69e16",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "257151",
+   "cov": "57106509367801009110542362",
+   "terms": [
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [],
+     "n": 590,
+     "value": "113849218359037952763937792",
+     "sha": "405958a727a364ec44b40684014f99bedb9a2b79fadcc2c3842e7f6d54a3c8bd",
+     "sec": 0.0
+    },
+    {
+     "method": "verifier cache (J1xJ2 numpy transfer + CRT)",
+     "U": [
+      3
+     ],
+     "n": 520,
+     "value": "28412772745205703617244756",
+     "sha": "f7761582104d7e8a5ede9ab3a9476456c6e5ccfb892e5e9d9d6aabb08a6f0444",
+     "sec": 0.0
+    },
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [
+      21
+     ],
+     "n": 544,
+     "value": "40006953313875473960032398",
+     "sha": "e548fd316e6a0ad69584d3e7cf13abc3f0b6c88bef223dbdcd1a4b1dd88ed9a8",
+     "sec": 0.0
+    },
+    {
+     "method": "verifier cache (J1xJ2 numpy transfer + CRT)",
+     "U": [
+      3,
+      21
+     ],
+     "n": 494,
+     "value": "11677017067844233923881724",
+     "sha": "ef0ad57be59748bf03dad6023e9e9c880840b400fec323d9f9793c9406badeae",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    6,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "158900",
+   "cov": "10823019760146561783274578080443",
+   "terms": [
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": false,
+     "Qa": [
+      2,
+      3,
+      5,
+      6,
+      9,
+      10,
+      11,
+      14,
+      15,
+      16,
+      17
+     ],
+     "M": 334,
+     "K": [
+      1,
+      1,
+      2,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1
+     ],
+     "peak_entries": 3340140948,
+     "maxrss": 14005460992,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549,
+      2147483543,
+      2147483497
+     ],
+     "residues": [
+      1296544275,
+      1085731573,
+      91004526,
+      650766555,
+      2133816112,
+      1470257558,
+      1012209227,
+      408603457,
+      1935881700
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [],
+     "n": 782,
+     "value": "40936875661559395953023941849619",
+     "sha": "d04f90e655d529e3c5c75f4940562eb49b4a1080a10d082222baa459f6f9ab2a",
+     "sec": 3189.9
+    },
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [
+      3
+     ],
+     "n": 712,
+     "value": "20135610279720758582287376805206",
+     "sha": "b755bb68014486a6524eecdbb7f18d2860720c314e81fc30e5756b99c2331e6b",
+     "sec": 0.0
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": false,
+     "Qa": [
+      0,
+      1,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9,
+      15
+     ],
+     "M": 334,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1
+     ],
+     "peak_entries": 3340140948,
+     "maxrss": 14005379072,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549,
+      2147483543,
+      2147483497
+     ],
+     "residues": [
+      2987114995,
+      131352190,
+      690564284,
+      1788533503,
+      1829770442,
+      136289264,
+      1577968276,
+      125894119,
+      836516115
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      21
+     ],
+     "n": 736,
+     "value": "21152245358377392333841215767027",
+     "sha": "d5acde5071955f845100c8db061c0b59118b606131cf335b78c45c6d10ac8382",
+     "sec": 3176.9
+    },
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [
+      3,
+      21
+     ],
+     "n": 686,
+     "value": "11173999736685316746379228803057",
+     "sha": "547571b12b5e388bc46aed30393c0dce7d27ac1f07515213c9e00e61333fe2e6",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "682",
+   "cov": "19906236751901068765809666966377",
+   "terms": [
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": false,
+     "Qa": [
+      2,
+      3,
+      4,
+      6,
+      7,
+      10,
+      11,
+      12,
+      15,
+      16,
+      17,
+      18
+     ],
+     "M": 334,
+     "K": [
+      1,
+      1,
+      2,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 3340140948,
+     "maxrss": 14005719040,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549,
+      2147483543,
+      2147483497,
+      2147483489
+     ],
+     "residues": [
+      1360573312,
+      503397562,
+      333203141,
+      1117138326,
+      458374249,
+      1809907183,
+      1209161565,
+      1244108370,
+      90311843,
+      43841683
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [],
+     "n": 814,
+     "value": "80180987724694140672471417271168",
+     "sha": "2c82bef46ed1e1a16889ff9b3efb38f343a85f5c0ee18b8d2f38a775223985c4",
+     "sec": 3679.0
+    },
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [
+      3
+     ],
+     "n": 744,
+     "value": "41173114773589231127385848239494",
+     "sha": "b5d887eb48833362a6168d07a85a32ca534fd0354dcaeb012b9ba147cc233ae2",
+     "sec": 0.0
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": false,
+     "Qa": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      7,
+      8,
+      9,
+      10,
+      16
+     ],
+     "M": 334,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 3340140948,
+     "maxrss": 14005534720,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549,
+      2147483543,
+      2147483497
+     ],
+     "residues": [
+      969546809,
+      795797837,
+      542435772,
+      1630520002,
+      970850562,
+      1013835412,
+      1938690722,
+      2146865076,
+      1403362998
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      21
+     ],
+     "n": 768,
+     "value": "42375782860691098101349607939129",
+     "sha": "7106658cdb681d9f8e00d82028c3b3af2b0cbc1cf08ea465026cbb1807b314b8",
+     "sec": 2095.0
+    },
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [
+      3,
+      21
+     ],
+     "n": 718,
+     "value": "23274146661487257322073705873832",
+     "sha": "87239a262f622e206a24784a9553021b6db54268d842445eb6bef73e5f8aaac8",
+     "sec": 0.0
+    }
+   ]
+  }
+ ],
+ "runtime_s": 21912,
+ "command": "harvest/verify_psi.py harvest/psi_Snone_C3_21.json"
+}

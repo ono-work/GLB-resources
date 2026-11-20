@@ -1,0 +1,23 @@
+{
+ "status": "AUDIT PASSED",
+ "verifier": "verify_v5.py",
+ "runtime_s": 4911,
+ "peak_rss_GB": 27.9,
+ "new_lower_bound": "1910895019390363935559973877007439048864",
+ "date": "2026-11-04 18:30:33",
+ "base_commit": "8b8909848773075b8123876d26f3c30ed73137d3",
+ "uncommitted_worktree": true,
+ "sha256": {
+  "certificate_v5.json": "73fba38d99c42e12be38ea9c17dd3de0bff97c79e7d14deeca22f00084fb0ac6",
+  "verify_v5.py": "695752cbcdfe45b7e1c69140ef2e91bedf2209ddbec729d7dbde89e8b90fa7ee",
+  "verify_v2.py": "4592039acb1701307df2703be7f04d50825c64f50afcaea9ad3d9c06bb3ef5cb",
+  "verify_count_numpy.py": "8fa9d9bb9d9a1ed30bda8a500e5a580756ce810481c2e87ffc20139b3288b086",
+  "hist_count.cpp": "4ec674615280280ca38fa0e543250bb7c3309c1b3bde2820e8aaa851c5dc5784",
+  "build_certificate_v5.py": "5d1b0d09f21a8ba82a96958674ab9d1b64101654ef1205d64c991787af6334b2",
+  "complete_TR.py": "4449869b040ee14c77a02f5c4c08ddd19b3273895bcdf366cca50d33e0d70af2",
+  "results/complete_0_3_12_21.json": "7720028ef8a90b1968439b662c9fe0bd3121d7aeb6266e3dce79841b3d142ae5",
+  "results/complete_0_3_12_x21.json": "98c8d962d4bb5b238b9fe37e19233bd1f0765e6f005cf6435a38672c6f7bcb13",
+  "results/exact_A_cache.json": "55d3390ba98bcca34b6463c07946fa40c81ff9e0fb48010fb6fbd95803f3a557",
+  "logs/verify_v5.out": "5dbe879f1d25adc7731c93aac59702bd1a8a2f4ff7eacf6e40e9b32d86d89dde"
+ }
+}

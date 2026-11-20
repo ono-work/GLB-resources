@@ -1,0 +1,89 @@
+{
+ "A0": {
+  "games": 1474,
+  "by_birthday": [
+   1,
+   3,
+   18,
+   1452
+  ],
+  "conway_mismatches": 0,
+  "canonical": true,
+  "negation_ok": true,
+  "sec": 4
+ },
+ "ABCDE": {
+  "[0, 3, 12, 21]": {
+   "T_antichain": true,
+   "H_L_def": true,
+   "req_is_all_left_options": true,
+   "Vmax_incomparable_to_T": true,
+   "zero_in_T_selfneg": true,
+   "reqT_has_q_gt_0": true,
+   "x0": null
+  },
+  "[0, 3, 12]": {
+   "T_antichain": true,
+   "H_L_def": true,
+   "req_is_all_left_options": true,
+   "Vmax_incomparable_to_T": true,
+   "zero_in_T_selfneg": true,
+   "reqT_has_q_gt_0": true,
+   "x0": 21,
+   "x0_notin_T": true
+  },
+  "G1_G2": true,
+  "E_gpw_kernels": {
+   "main": {
+    "T_L": [
+     2,
+     11,
+     14
+    ],
+    "Q_L+": 114,
+    "Q_R+": 598,
+    "Can(K) subset G1": true
+   },
+   "K1": {
+    "T_L": [
+     2,
+     14,
+     288
+    ],
+    "Q_L+": 101,
+    "Q_R+": 598,
+    "Can(K) subset G1": true
+   },
+   "K2": {
+    "T_L": [
+     2,
+     11,
+     318
+    ],
+    "Q_L+": 101,
+    "Q_R+": 598,
+    "Can(K) subset G1": true
+   },
+   "K5": {
+    "T_L": [
+     11,
+     14,
+     50
+    ],
+    "Q_L+": 86,
+    "Q_R+": 598,
+    "Can(K) subset G1": true
+   }
+  }
+ },
+ "F_random": {
+  "samples": 2000,
+  "distinct_option_pairs": 2000,
+  "equal_game_pairs": 0,
+  "violations": []
+ },
+ "status": "AUDIT PASSED",
+ "errors": [],
+ "runtime_s": 23,
+ "command": "python3.11 audit_v5_structure.py 500"
+}

@@ -1,0 +1,4147 @@
+{
+ "family": "Psi[3]",
+ "S": [
+  3
+ ],
+ "C": [
+  0,
+  12,
+  21
+ ],
+ "T": [
+  3
+ ],
+ "REQ": [
+  0,
+  2,
+  3,
+  5,
+  7,
+  8,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  18,
+  19,
+  20,
+  21
+ ],
+ "req_T": [
+  0
+ ],
+ "H_size": 318,
+ "E_uncovered": [],
+ "zero_covered": true,
+ "pool_excluded": [
+  0,
+  3
+ ],
+ "subtract_H_L_T": false,
+ "rows": [
+  {
+   "D": [
+    0,
+    15,
+    16,
+    19
+   ],
+   "e": "414",
+   "V": 8,
+   "X": 0,
+   "terms": [
+    {
+     "U": [],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      21
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      21
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12,
+      21
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12,
+      21
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    }
+   ],
+   "cov": "0",
+   "contribution": "0"
+  },
+  {
+   "D": [
+    0,
+    3,
+    15,
+    16,
+    19
+   ],
+   "e": "2946",
+   "V": 74,
+   "X": 65,
+   "terms": [
+    {
+     "U": [],
+     "n": 65,
+     "product": null,
+     "A": "10137",
+     "method": "ie_count"
+    },
+    {
+     "U": [
+      0
+     ],
+     "n": 33,
+     "product": null,
+     "A": "352",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12
+     ],
+     "n": 31,
+     "product": null,
+     "A": "343",
+     "method": "ie_count"
+    },
+    {
+     "U": [
+      21
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12
+     ],
+     "n": 19,
+     "product": null,
+     "A": "83",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      21
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12,
+      21
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12,
+      21
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    }
+   ],
+   "cov": "9525",
+   "contribution": "28060650"
+  },
+  {
+   "D": [
+    0,
+    12,
+    15,
+    16,
+    19
+   ],
+   "e": "1113",
+   "V": 8,
+   "X": 0,
+   "terms": [
+    {
+     "U": [],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      21
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      21
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12,
+      21
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12,
+      21
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    }
+   ],
+   "cov": "0",
+   "contribution": "0"
+  },
+  {
+   "D": [
+    0,
+    15,
+    16,
+    19,
+    21
+   ],
+   "e": "87317",
+   "V": 8,
+   "X": 0,
+   "terms": [
+    {
+     "U": [],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      21
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      21
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12,
+      21
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12,
+      21
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    }
+   ],
+   "cov": "0",
+   "contribution": "0"
+  },
+  {
+   "D": [
+    0,
+    3,
+    12,
+    15,
+    16,
+    19
+   ],
+   "e": "26350",
+   "V": 89,
+   "X": 80,
+   "terms": [
+    {
+     "U": [],
+     "n": 80,
+     "product": null,
+     "A": "52323",
+     "method": "ie_count"
+    },
+    {
+     "U": [
+      0
+     ],
+     "n": 40,
+     "product": null,
+     "A": "714",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12
+     ],
+     "n": 46,
+     "product": null,
+     "A": "1721",
+     "method": "ie_count"
+    },
+    {
+     "U": [
+      21
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12
+     ],
+     "n": 26,
+     "product": null,
+     "A": "171",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      21
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12,
+      21
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12,
+      21
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    }
+   ],
+   "cov": "50059",
+   "contribution": "1319054650"
+  },
+  {
+   "D": [
+    0,
+    3,
+    15,
+    16,
+    19,
+    21
+   ],
+   "e": "3829135",
+   "V": 111,
+   "X": 101,
+   "terms": [
+    {
+     "U": [],
+     "n": 101,
+     "product": null,
+     "A": "414029",
+     "method": "ie_count"
+    },
+    {
+     "U": [
+      0
+     ],
+     "n": 59,
+     "product": null,
+     "A": "14677",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12
+     ],
+     "n": 56,
+     "product": null,
+     "A": "14325",
+     "method": "ie_count"
+    },
+    {
+     "U": [
+      21
+     ],
+     "n": 36,
+     "product": null,
+     "A": "539",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12
+     ],
+     "n": 38,
+     "product": "2x19",
+     "A": "2648",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      21
+     ],
+     "n": 26,
+     "product": null,
+     "A": "171",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12,
+      21
+     ],
+     "n": 25,
+     "product": null,
+     "A": "170",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12,
+      21
+     ],
+     "n": 19,
+     "product": null,
+     "A": "83",
+     "method": "ie_count(cached)"
+    }
+   ],
+   "cov": "387394",
+   "contribution": "1483383924190"
+  },
+  {
+   "D": [
+    0,
+    8,
+    15,
+    16,
+    19,
+    21
+   ],
+   "e": "81638",
+   "V": 15,
+   "X": 0,
+   "terms": [
+    {
+     "U": [],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      21
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      21
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12,
+      21
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12,
+      21
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    }
+   ],
+   "cov": "0",
+   "contribution": "0"
+  },
+  {
+   "D": [
+    0,
+    12,
+    15,
+    16,
+    19,
+    21
+   ],
+   "e": "826593",
+   "V": 8,
+   "X": 0,
+   "terms": [
+    {
+     "U": [],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      21
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      21
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12,
+      21
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12,
+      21
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    }
+   ],
+   "cov": "0",
+   "contribution": "0"
+  },
+  {
+   "D": [
+    0,
+    3,
+    8,
+    15,
+    16,
+    19,
+    21
+   ],
+   "e": "9199285",
+   "V": 145,
+   "X": 127,
+   "terms": [
+    {
+     "U": [],
+     "n": 127,
+     "product": null,
+     "A": "3211929",
+     "method": "ie_count"
+    },
+    {
+     "U": [
+      0
+     ],
+     "n": 85,
+     "product": null,
+     "A": "418575",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12
+     ],
+     "n": 75,
+     "product": null,
+     "A": "123329",
+     "method": "ie_count"
+    },
+    {
+     "U": [
+      21
+     ],
+     "n": 62,
+     "product": null,
+     "A": "19010",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12
+     ],
+     "n": 57,
+     "product": "3x19",
+     "A": "47552",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      21
+     ],
+     "n": 52,
+     "product": "2x26",
+     "A": "10640",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12,
+      21
+     ],
+     "n": 44,
+     "product": null,
+     "A": "3647",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12,
+      21
+     ],
+     "n": 38,
+     "product": "2x19",
+     "A": "2648",
+     "method": "ie_count(cached)"
+    }
+   ],
+   "cov": "2710206",
+   "contribution": "24931957402710"
+  },
+  {
+   "D": [
+    0,
+    3,
+    12,
+    15,
+    16,
+    19,
+    21
+   ],
+   "e": "219619418",
+   "V": 137,
+   "X": 127,
+   "terms": [
+    {
+     "U": [],
+     "n": 127,
+     "product": null,
+     "A": "5938095",
+     "method": "ie_count"
+    },
+    {
+     "U": [
+      0
+     ],
+     "n": 73,
+     "product": null,
+     "A": "58254",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12
+     ],
+     "n": 82,
+     "product": null,
+     "A": "176376",
+     "method": "ie_count"
+    },
+    {
+     "U": [
+      21
+     ],
+     "n": 47,
+     "product": null,
+     "A": "1796",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12
+     ],
+     "n": 52,
+     "product": "2x26",
+     "A": "10640",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      21
+     ],
+     "n": 33,
+     "product": null,
+     "A": "352",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12,
+      21
+     ],
+     "n": 36,
+     "product": null,
+     "A": "539",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12,
+      21
+     ],
+     "n": 26,
+     "product": null,
+     "A": "171",
+     "method": "ie_count(cached)"
+    }
+   ],
+   "cov": "5713029",
+   "contribution": "1254692103997122"
+  },
+  {
+   "D": [
+    0,
+    3,
+    15,
+    16,
+    18,
+    19,
+    21
+   ],
+   "e": "9199285",
+   "V": 148,
+   "X": 137,
+   "terms": [
+    {
+     "U": [],
+     "n": 137,
+     "product": null,
+     "A": "18954673",
+     "method": "ie_count"
+    },
+    {
+     "U": [
+      0
+     ],
+     "n": 85,
+     "product": null,
+     "A": "418575",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12
+     ],
+     "n": 81,
+     "product": null,
+     "A": "403898",
+     "method": "ie_count"
+    },
+    {
+     "U": [
+      21
+     ],
+     "n": 72,
+     "product": "2x36",
+     "A": "95534",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12
+     ],
+     "n": 57,
+     "product": "3x19",
+     "A": "47552",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      21
+     ],
+     "n": 52,
+     "product": "2x26",
+     "A": "10640",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12,
+      21
+     ],
+     "n": 50,
+     "product": "2x25",
+     "A": "10469",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12,
+      21
+     ],
+     "n": 38,
+     "product": "2x19",
+     "A": "2648",
+     "method": "ie_count(cached)"
+    }
+   ],
+   "cov": "18102679",
+   "contribution": "166531703384515"
+  },
+  {
+   "D": [
+    0,
+    8,
+    12,
+    15,
+    16,
+    19,
+    21
+   ],
+   "e": "1484117",
+   "V": 15,
+   "X": 0,
+   "terms": [
+    {
+     "U": [],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      21
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      21
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12,
+      21
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12,
+      21
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    }
+   ],
+   "cov": "0",
+   "contribution": "0"
+  },
+  {
+   "D": [
+    0,
+    12,
+    15,
+    16,
+    19,
+    20,
+    21
+   ],
+   "e": "822188",
+   "V": 8,
+   "X": 0,
+   "terms": [
+    {
+     "U": [],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      21
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      21
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12,
+      21
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12,
+      21
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    }
+   ],
+   "cov": "0",
+   "contribution": "0"
+  },
+  {
+   "D": [
+    0,
+    3,
+    8,
+    12,
+    15,
+    16,
+    19,
+    21
+   ],
+   "e": "1232267453",
+   "V": 178,
+   "X": 160,
+   "terms": [
+    {
+     "U": [],
+     "n": 160,
+     "product": null,
+     "A": "65827285",
+     "method": "ie_count"
+    },
+    {
+     "U": [
+      0
+     ],
+     "n": 106,
+     "product": null,
+     "A": "3073140",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12
+     ],
+     "n": 108,
+     "product": null,
+     "A": "2027144",
+     "method": "ie_count"
+    },
+    {
+     "U": [
+      21
+     ],
+     "n": 80,
+     "product": null,
+     "A": "105600",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12
+     ],
+     "n": 78,
+     "product": "3x26",
+     "A": "354524",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      21
+     ],
+     "n": 66,
+     "product": "2x33",
+     "A": "42540",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12,
+      21
+     ],
+     "n": 62,
+     "product": null,
+     "A": "19010",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12,
+      21
+     ],
+     "n": 52,
+     "product": "2x26",
+     "A": "10640",
+     "method": "ie_count(cached)"
+    }
+   ],
+   "cov": "61026835",
+   "contribution": "75201382530101255"
+  },
+  {
+   "D": [
+    0,
+    3,
+    8,
+    15,
+    16,
+    18,
+    19,
+    21
+   ],
+   "e": "45091211",
+   "V": 209,
+   "X": 189,
+   "terms": [
+    {
+     "U": [],
+     "n": 189,
+     "product": null,
+     "A": "2879061243",
+     "method": "ie_count"
+    },
+    {
+     "U": [
+      0
+     ],
+     "n": 137,
+     "product": null,
+     "A": "369252090",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12
+     ],
+     "n": 119,
+     "product": null,
+     "A": "41077540",
+     "method": "ie_count"
+    },
+    {
+     "U": [
+      21
+     ],
+     "n": 124,
+     "product": "2x62",
+     "A": "78626042",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12
+     ],
+     "n": 95,
+     "product": "5x19",
+     "A": "13754562",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      21
+     ],
+     "n": 104,
+     "product": "4x26",
+     "A": "23317352",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12,
+      21
+     ],
+     "n": 88,
+     "product": "2x44",
+     "A": "3176970",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12,
+      21
+     ],
+     "n": 76,
+     "product": "4x19",
+     "A": "1580988",
+     "method": "ie_count(cached)"
+    }
+   ],
+   "cov": "2428773467",
+   "contribution": "109516336871698537"
+  },
+  {
+   "D": [
+    0,
+    3,
+    12,
+    15,
+    16,
+    18,
+    19,
+    21
+   ],
+   "e": "1232267453",
+   "V": 185,
+   "X": 174,
+   "terms": [
+    {
+     "U": [],
+     "n": 174,
+     "product": null,
+     "A": "676583365",
+     "method": "ie_count"
+    },
+    {
+     "U": [
+      0
+     ],
+     "n": 106,
+     "product": null,
+     "A": "3073140",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12
+     ],
+     "n": 118,
+     "product": null,
+     "A": "11889100",
+     "method": "ie_count"
+    },
+    {
+     "U": [
+      21
+     ],
+     "n": 94,
+     "product": "2x47",
+     "A": "949890",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12
+     ],
+     "n": 78,
+     "product": "3x26",
+     "A": "354524",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      21
+     ],
+     "n": 66,
+     "product": "2x33",
+     "A": "42540",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12,
+      21
+     ],
+     "n": 72,
+     "product": "2x36",
+     "A": "95534",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12,
+      21
+     ],
+     "n": 52,
+     "product": "2x26",
+     "A": "10640",
+     "method": "ie_count(cached)"
+    }
+   ],
+   "cov": "661153193",
+   "contribution": "814717561180927429"
+  },
+  {
+   "D": [
+    0,
+    3,
+    12,
+    15,
+    16,
+    19,
+    20,
+    21
+   ],
+   "e": "560693772",
+   "V": 174,
+   "X": 163,
+   "terms": [
+    {
+     "U": [],
+     "n": 163,
+     "product": null,
+     "A": "102991834",
+     "method": "ie_count"
+    },
+    {
+     "U": [
+      0
+     ],
+     "n": 99,
+     "product": null,
+     "A": "911132",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12
+     ],
+     "n": 118,
+     "product": null,
+     "A": "11889100",
+     "method": "ie_count"
+    },
+    {
+     "U": [
+      21
+     ],
+     "n": 83,
+     "product": null,
+     "A": "178412",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12
+     ],
+     "n": 78,
+     "product": "3x26",
+     "A": "354524",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      21
+     ],
+     "n": 59,
+     "product": null,
+     "A": "14677",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12,
+      21
+     ],
+     "n": 72,
+     "product": "2x36",
+     "A": "95534",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12,
+      21
+     ],
+     "n": 52,
+     "product": "2x26",
+     "A": "10640",
+     "method": "ie_count(cached)"
+    }
+   ],
+   "cov": "90467285",
+   "contribution": "50724443269249020"
+  },
+  {
+   "D": [
+    0,
+    8,
+    12,
+    15,
+    16,
+    19,
+    20,
+    21
+   ],
+   "e": "2538456",
+   "V": 15,
+   "X": 0,
+   "terms": [
+    {
+     "U": [],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      21
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      21
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12,
+      21
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12,
+      21
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    }
+   ],
+   "cov": "0",
+   "contribution": "0"
+  },
+  {
+   "D": [
+    0,
+    3,
+    7,
+    8,
+    15,
+    16,
+    18,
+    19,
+    21
+   ],
+   "e": "4034482",
+   "V": 243,
+   "X": 215,
+   "terms": [
+    {
+     "U": [],
+     "n": 215,
+     "product": null,
+     "A": "19561167861",
+     "method": "dlat-exact(+0)"
+    },
+    {
+     "U": [
+      0
+     ],
+     "n": 163,
+     "product": null,
+     "A": "4243240406",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12
+     ],
+     "n": 138,
+     "product": null,
+     "A": "211978798",
+     "method": "ie_count"
+    },
+    {
+     "U": [
+      21
+     ],
+     "n": 150,
+     "product": null,
+     "A": "851193262",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12
+     ],
+     "n": 114,
+     "product": "6x19",
+     "A": "96454406",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      21
+     ],
+     "n": 130,
+     "product": "5x26",
+     "A": "353595225",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12,
+      21
+     ],
+     "n": 107,
+     "product": null,
+     "A": "22391078",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12,
+      21
+     ],
+     "n": 95,
+     "product": "5x19",
+     "A": "13873844",
+     "method": "ie_count(cached)"
+    }
+   ],
+   "cov": "14713322260",
+   "contribution": "59360633818169320"
+  },
+  {
+   "D": [
+    0,
+    3,
+    8,
+    12,
+    15,
+    16,
+    18,
+    19,
+    21
+   ],
+   "e": "16497623722",
+   "V": 260,
+   "X": 240,
+   "terms": [
+    {
+     "U": [],
+     "n": 240,
+     "product": null,
+     "A": "221356033132",
+     "method": "dlat-exact(+0)"
+    },
+    {
+     "U": [
+      0
+     ],
+     "n": 172,
+     "product": null,
+     "A": "9197850436",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12
+     ],
+     "n": 170,
+     "product": null,
+     "A": "2508315240",
+     "method": "ie_count"
+    },
+    {
+     "U": [
+      21
+     ],
+     "n": 160,
+     "product": "2x80",
+     "A": "2156471144",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12
+     ],
+     "n": 130,
+     "product": "5x26",
+     "A": "351578417",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      21
+     ],
+     "n": 132,
+     "product": "4x33",
+     "A": "337759960",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12,
+      21
+     ],
+     "n": 124,
+     "product": "2x62",
+     "A": "78626042",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12,
+      21
+     ],
+     "n": 104,
+     "product": "4x26",
+     "A": "23317352",
+     "method": "ie_count(cached)"
+    }
+   ],
+   "cov": "208238043379",
+   "contribution": "3435432884272255436638"
+  },
+  {
+   "D": [
+    0,
+    3,
+    8,
+    12,
+    15,
+    16,
+    19,
+    20,
+    21
+   ],
+   "e": "5996101959",
+   "V": 242,
+   "X": 222,
+   "terms": [
+    {
+     "U": [],
+     "n": 222,
+     "product": null,
+     "A": "14699516533",
+     "method": "dlat-exact(+0)"
+    },
+    {
+     "U": [
+      0
+     ],
+     "n": 158,
+     "product": null,
+     "A": "1037725451",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12
+     ],
+     "n": 170,
+     "product": null,
+     "A": "2508315240",
+     "method": "ie_count"
+    },
+    {
+     "U": [
+      21
+     ],
+     "n": 142,
+     "product": null,
+     "A": "195335268",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12
+     ],
+     "n": 130,
+     "product": "5x26",
+     "A": "351578417",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      21
+     ],
+     "n": 118,
+     "product": "2x59",
+     "A": "46699106",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12,
+      21
+     ],
+     "n": 124,
+     "product": "2x62",
+     "A": "78626042",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12,
+      21
+     ],
+     "n": 104,
+     "product": "4x26",
+     "A": "23317352",
+     "method": "ie_count(cached)"
+    }
+   ],
+   "cov": "11411726787",
+   "contribution": "68425877343103475733"
+  },
+  {
+   "D": [
+    0,
+    3,
+    12,
+    15,
+    16,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "5996101959",
+   "V": 259,
+   "X": 246,
+   "terms": [
+    {
+     "U": [],
+     "n": 246,
+     "product": null,
+     "A": "563170314279",
+     "method": "dlat-exact(+0)"
+    },
+    {
+     "U": [
+      0
+     ],
+     "n": 158,
+     "product": null,
+     "A": "1037725451",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12
+     ],
+     "n": 190,
+     "product": null,
+     "A": "63035784948",
+     "method": "ie_count"
+    },
+    {
+     "U": [
+      21
+     ],
+     "n": 166,
+     "product": "2x83",
+     "A": "5658785441",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12
+     ],
+     "n": 130,
+     "product": "5x26",
+     "A": "351578417",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      21
+     ],
+     "n": 118,
+     "product": "2x59",
+     "A": "46699106",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12,
+      21
+     ],
+     "n": 144,
+     "product": "4x36",
+     "A": "1571584453",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12,
+      21
+     ],
+     "n": 104,
+     "product": "4x26",
+     "A": "23317352",
+     "method": "ie_count(cached)"
+    }
+   ],
+   "cov": "495384563063",
+   "contribution": "2970376349040413340417"
+  },
+  {
+   "D": [
+    0,
+    8,
+    12,
+    14,
+    15,
+    16,
+    19,
+    20,
+    21
+   ],
+   "e": "51222",
+   "V": 22,
+   "X": 0,
+   "terms": [
+    {
+     "U": [],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      21
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      21
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12,
+      21
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12,
+      21
+     ],
+     "n": 0,
+     "product": null,
+     "A": "1",
+     "method": "ie_count(cached)"
+    }
+   ],
+   "cov": "0",
+   "contribution": "0"
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    7,
+    8,
+    15,
+    16,
+    18,
+    19,
+    21
+   ],
+   "e": "15111",
+   "V": 292,
+   "X": 241,
+   "terms": [
+    {
+     "U": [],
+     "n": 241,
+     "product": null,
+     "A": "123409473897",
+     "method": "dlat-exact(+0)"
+    },
+    {
+     "U": [
+      0
+     ],
+     "n": 189,
+     "product": null,
+     "A": "38375447037",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12
+     ],
+     "n": 157,
+     "product": null,
+     "A": "985537358",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      21
+     ],
+     "n": 176,
+     "product": null,
+     "A": "7701365549",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12
+     ],
+     "n": 133,
+     "product": "7x19",
+     "A": "549238983",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      21
+     ],
+     "n": 156,
+     "product": "6x26",
+     "A": "3995212117",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12,
+      21
+     ],
+     "n": 126,
+     "product": null,
+     "A": "133171625",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12,
+      21
+     ],
+     "n": 114,
+     "product": "6x19",
+     "A": "94683330",
+     "method": "ie_count(cached)"
+    }
+   ],
+   "cov": "80930063348",
+   "contribution": "1222934187251628"
+  },
+  {
+   "D": [
+    0,
+    3,
+    7,
+    8,
+    12,
+    15,
+    16,
+    18,
+    19,
+    21
+   ],
+   "e": "3503323939",
+   "V": 301,
+   "X": 273,
+   "terms": [
+    {
+     "U": [],
+     "n": 273,
+     "product": null,
+     "A": "2044858078759",
+     "method": "dlat-exact(+0)"
+    },
+    {
+     "U": [
+      0
+     ],
+     "n": 205,
+     "product": null,
+     "A": "175820201473",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      12
+     ],
+     "n": 196,
+     "product": null,
+     "A": "18028126181",
+     "method": "ie_count"
+    },
+    {
+     "U": [
+      21
+     ],
+     "n": 193,
+     "product": null,
+     "A": "35453162444",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12
+     ],
+     "n": 156,
+     "product": "6x26",
+     "A": "4117851329",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      21
+     ],
+     "n": 165,
+     "product": "5x33",
+     "A": "8812244009",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12,
+      21
+     ],
+     "n": 150,
+     "product": null,
+     "A": "851193262",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12,
+      21
+     ],
+     "n": 130,
+     "product": "5x26",
+     "A": "353595225",
+     "method": "ie_count(cached)"
+    }
+   ],
+   "cov": "1828984282036",
+   "contribution": "6407524419311446459804"
+  },
+  {
+   "D": [
+    0,
+    3,
+    8,
+    12,
+    14,
+    15,
+    16,
+    19,
+    20,
+    21
+   ],
+   "e": "469296906",
+   "V": 276,
+   "X": 248,
+   "terms": [
+    {
+     "U": [],
+     "n": 248,
+     "product": null,
+     "A": "63978361792",
+     "method": "dlat-exact(+0)"
+    },
+    {
+     "U": [
+      0
+     ],
+     "n": 184,
+     "product": null,
+     "A": "8889994470",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12
+     ],
+     "n": 196,
+     "product": null,
+     "A": "18028126181",
+     "method": "ie_count"
+    },
+    {
+     "U": [
+      21
+     ],
+     "n": 168,
+     "product": null,
+     "A": "1589239148",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12
+     ],
+     "n": 156,
+     "product": "6x26",
+     "A": "4117851329",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      21
+     ],
+     "n": 144,
+     "product": null,
+     "A": "567051111",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12,
+      21
+     ],
+     "n": 150,
+     "product": null,
+     "A": "851193262",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12,
+      21
+     ],
+     "n": 130,
+     "product": "5x26",
+     "A": "353595225",
+     "method": "ie_count(cached)"
+    }
+   ],
+   "cov": "40653502470",
+   "contribution": "19078562927234357820"
+  },
+  {
+   "D": [
+    0,
+    3,
+    8,
+    12,
+    15,
+    16,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "185343394322",
+   "V": 388,
+   "X": 364,
+   "terms": [
+    {
+     "U": [],
+     "n": 364,
+     "product": null,
+     "A": "59685397682259095",
+     "method": "cmp_mitm"
+    },
+    {
+     "U": [
+      0
+     ],
+     "n": 276,
+     "product": null,
+     "A": "1569186944862195",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      12
+     ],
+     "n": 294,
+     "product": null,
+     "A": "5599730904245461",
+     "method": "dlat-exact(+0)"
+    },
+    {
+     "U": [
+      21
+     ],
+     "n": 284,
+     "product": "2x142",
+     "A": "3630250201975558",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      0,
+      12
+     ],
+     "n": 234,
+     "product": "9x26",
+     "A": "278699478021500",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      0,
+      21
+     ],
+     "n": 236,
+     "product": "4x59",
+     "A": "184856610384394",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      12,
+      21
+     ],
+     "n": 248,
+     "product": "4x62",
+     "A": "533012766625789",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      0,
+      12,
+      21
+     ],
+     "n": 208,
+     "product": "8x26",
+     "A": "42543557003915",
+     "method": "dlat-exact(+0)(cached)"
+    }
+   ],
+   "cov": "49840254929203649",
+   "contribution": "9237562022452396110048280978"
+  },
+  {
+   "D": [
+    0,
+    3,
+    11,
+    12,
+    15,
+    16,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "469296906",
+   "V": 296,
+   "X": 282,
+   "terms": [
+    {
+     "U": [],
+     "n": 282,
+     "product": null,
+     "A": "7688702254772",
+     "method": "dlat-exact(+0)"
+    },
+    {
+     "U": [
+      0
+     ],
+     "n": 184,
+     "product": null,
+     "A": "8889994470",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12
+     ],
+     "n": 226,
+     "product": null,
+     "A": "1523136163676",
+     "method": "dlat-exact(+0)"
+    },
+    {
+     "U": [
+      21
+     ],
+     "n": 202,
+     "product": null,
+     "A": "138257712356",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      0,
+      12
+     ],
+     "n": 156,
+     "product": "6x26",
+     "A": "4117851329",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      21
+     ],
+     "n": 144,
+     "product": null,
+     "A": "567051111",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12,
+      21
+     ],
+     "n": 180,
+     "product": "5x36",
+     "A": "54792980627",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12,
+      21
+     ],
+     "n": 130,
+     "product": "5x26",
+     "A": "353595225",
+     "method": "ie_count(cached)"
+    }
+   ],
+   "cov": "6077542672112",
+   "contribution": "2852171972105134085472"
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    7,
+    8,
+    12,
+    15,
+    16,
+    18,
+    19,
+    21
+   ],
+   "e": "44938261",
+   "V": 358,
+   "X": 306,
+   "terms": [
+    {
+     "U": [],
+     "n": 306,
+     "product": null,
+     "A": "17566199765675",
+     "method": "dlat-exact(+0)"
+    },
+    {
+     "U": [
+      0
+     ],
+     "n": 238,
+     "product": null,
+     "A": "2549616947890",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      12
+     ],
+     "n": 222,
+     "product": null,
+     "A": "117479920756",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      21
+     ],
+     "n": 226,
+     "product": null,
+     "A": "481182164281",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      0,
+      12
+     ],
+     "n": 182,
+     "product": "7x26",
+     "A": "37646917102",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      21
+     ],
+     "n": 198,
+     "product": "6x33",
+     "A": "164358165642",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      12,
+      21
+     ],
+     "n": 176,
+     "product": null,
+     "A": "7701365549",
+     "method": "ie_count(cached)"
+    },
+    {
+     "U": [
+      0,
+      12,
+      21
+     ],
+     "n": 156,
+     "product": "6x26",
+     "A": "3995212117",
+     "method": "ie_count(cached)"
+    }
+   ],
+   "cov": "14623631968924",
+   "contribution": "657160590187450601164"
+  },
+  {
+   "D": [
+    0,
+    3,
+    7,
+    8,
+    12,
+    15,
+    16,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "68329017780",
+   "V": 456,
+   "X": 423,
+   "terms": [
+    {
+     "U": [],
+     "n": 423,
+     "product": null,
+     "A": "5509348314814230135",
+     "method": "cmp_mitm"
+    },
+    {
+     "U": [
+      0
+     ],
+     "n": 335,
+     "product": null,
+     "A": "336615819081823619",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      12
+     ],
+     "n": 346,
+     "product": null,
+     "A": "395611893110420049",
+     "method": "dlat-exact(+0)"
+    },
+    {
+     "U": [
+      21
+     ],
+     "n": 343,
+     "product": null,
+     "A": "519149204085015541",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      0,
+      12
+     ],
+     "n": 286,
+     "product": "11x26",
+     "A": "40935429424611828",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      0,
+      21
+     ],
+     "n": 295,
+     "product": "5x59",
+     "A": "53053433893755677",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      12,
+      21
+     ],
+     "n": 300,
+     "product": "2x150",
+     "A": "54216670300138338",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      0,
+      12,
+      21
+     ],
+     "n": 260,
+     "product": "10x26",
+     "A": "8128377170619146",
+     "method": "dlat-exact(+0)(cached)"
+    }
+   ],
+   "cov": "4398048554984857623",
+   "contribution": "300514337910863644152735536940"
+  },
+  {
+   "D": [
+    0,
+    3,
+    8,
+    11,
+    12,
+    15,
+    16,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "31915169753",
+   "V": 452,
+   "X": 426,
+   "terms": [
+    {
+     "U": [],
+     "n": 426,
+     "product": null,
+     "A": "8540356943303904245",
+     "method": "cmp_mitm"
+    },
+    {
+     "U": [
+      0
+     ],
+     "n": 328,
+     "product": null,
+     "A": "141515941744319898",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      12
+     ],
+     "n": 356,
+     "product": null,
+     "A": "1490503361375089331",
+     "method": "dlat-exact(+0)"
+    },
+    {
+     "U": [
+      21
+     ],
+     "n": 346,
+     "product": null,
+     "A": "805626581185178075",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      0,
+      12
+     ],
+     "n": 286,
+     "product": "11x26",
+     "A": "40935429424611828",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      0,
+      21
+     ],
+     "n": 288,
+     "product": "2x144",
+     "A": "23118800580063573",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      12,
+      21
+     ],
+     "n": 310,
+     "product": "5x62",
+     "A": "196016336990898052",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      0,
+      12,
+      21
+     ],
+     "n": 260,
+     "product": "10x26",
+     "A": "8128377170619146",
+     "method": "dlat-exact(+0)(cached)"
+    }
+   ],
+   "cov": "6354653248824271248",
+   "contribution": "202809837157679564546437161744"
+  },
+  {
+   "D": [
+    0,
+    3,
+    8,
+    12,
+    14,
+    15,
+    16,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "31915169753",
+   "V": 449,
+   "X": 416,
+   "terms": [
+    {
+     "U": [],
+     "n": 416,
+     "product": null,
+     "A": "2204692697582937666",
+     "method": "cmp_mitm"
+    },
+    {
+     "U": [
+      0
+     ],
+     "n": 328,
+     "product": null,
+     "A": "141515941744319898",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      12
+     ],
+     "n": 346,
+     "product": null,
+     "A": "395611893110420049",
+     "method": "dlat-exact(+0)"
+    },
+    {
+     "U": [
+      21
+     ],
+     "n": 336,
+     "product": "2x168",
+     "A": "217392983588040048",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      0,
+      12
+     ],
+     "n": 286,
+     "product": "11x26",
+     "A": "40935429424611828",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      0,
+      21
+     ],
+     "n": 288,
+     "product": "2x144",
+     "A": "23118800580063573",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      12,
+      21
+     ],
+     "n": 300,
+     "product": "2x150",
+     "A": "54216670300138338",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      0,
+      12,
+      21
+     ],
+     "n": 260,
+     "product": "10x26",
+     "A": "8128377170619146",
+     "method": "dlat-exact(+0)(cached)"
+    }
+   ],
+   "cov": "1560314402274352264",
+   "contribution": "49797699016636681783679870792"
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    7,
+    8,
+    12,
+    15,
+    16,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "2031279506",
+   "V": 548,
+   "X": 482,
+   "terms": [
+    {
+     "U": [],
+     "n": 482,
+     "product": null,
+     "A": "390449257174471440357",
+     "method": "cmp_mitm"
+    },
+    {
+     "U": [
+      0
+     ],
+     "n": 394,
+     "product": null,
+     "A": "43623002004673624851",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      12
+     ],
+     "n": 398,
+     "product": null,
+     "A": "21241944272994685192",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      21
+     ],
+     "n": 402,
+     "product": null,
+     "A": "51629488535783746117",
+     "method": "mitm(cached)"
+    },
+    {
+     "U": [
+      0,
+      12
+     ],
+     "n": 338,
+     "product": "13x26",
+     "A": "3663313445205150976",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      0,
+      21
+     ],
+     "n": 354,
+     "product": "6x59",
+     "A": "8660914081007362494",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      12,
+      21
+     ],
+     "n": 352,
+     "product": "2x176",
+     "A": "3877371421014571438",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      0,
+      12,
+      21
+     ],
+     "n": 312,
+     "product": "12x26",
+     "A": "895436754171735436",
+     "method": "dlat-exact(+0)(cached)"
+    }
+   ],
+   "cov": "289260984554074733669",
+   "contribution": "587569909810074555294247887514"
+  },
+  {
+   "D": [
+    0,
+    3,
+    7,
+    8,
+    11,
+    12,
+    15,
+    16,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "19807789263",
+   "V": 547,
+   "X": 511,
+   "terms": [
+    {
+     "U": [],
+     "n": 511,
+     "product": null,
+     "A": "5146477562091845451391",
+     "method": "cmp_mitm"
+    },
+    {
+     "U": [
+      0
+     ],
+     "n": 413,
+     "product": null,
+     "A": "254656319898299343739",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      12
+     ],
+     "n": 434,
+     "product": null,
+     "A": "812117890283944981463",
+     "method": "dlat-exact(+0)"
+    },
+    {
+     "U": [
+      21
+     ],
+     "n": 431,
+     "product": null,
+     "A": "799282212908412274009",
+     "method": "mitm(cached)"
+    },
+    {
+     "U": [
+      0,
+      12
+     ],
+     "n": 364,
+     "product": "14x26",
+     "A": "59932782527281146376",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      0,
+      21
+     ],
+     "n": 373,
+     "product": null,
+     "A": "58978030075150903606",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      12,
+      21
+     ],
+     "n": 388,
+     "product": null,
+     "A": "163138157095425380052",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      0,
+      12,
+      21
+     ],
+     "n": 338,
+     "product": "13x26",
+     "A": "16264171078871127966",
+     "method": "dlat-exact(+0)(cached)"
+    }
+   ],
+   "cov": "3546205937620175154248",
+   "contribution": "70242499895579753192492903239224"
+  },
+  {
+   "D": [
+    0,
+    3,
+    7,
+    8,
+    12,
+    14,
+    15,
+    16,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "19807789263",
+   "V": 551,
+   "X": 501,
+   "terms": [
+    {
+     "U": [],
+     "n": 501,
+     "product": null,
+     "A": "1515599829754741485513",
+     "method": "cmp_mitm"
+    },
+    {
+     "U": [
+      0
+     ],
+     "n": 413,
+     "product": null,
+     "A": "254656319898299343739",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      12
+     ],
+     "n": 424,
+     "product": null,
+     "A": "256950320893250871769",
+     "method": "dlat-exact(+0)"
+    },
+    {
+     "U": [
+      21
+     ],
+     "n": 421,
+     "product": null,
+     "A": "249489220081192754006",
+     "method": "mitm(cached)"
+    },
+    {
+     "U": [
+      0,
+      12
+     ],
+     "n": 364,
+     "product": "14x26",
+     "A": "59932782527281146376",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      0,
+      21
+     ],
+     "n": 373,
+     "product": null,
+     "A": "58978030075150903606",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      12,
+      21
+     ],
+     "n": 378,
+     "product": null,
+     "A": "54228274930577111181",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      0,
+      12,
+      21
+     ],
+     "n": 338,
+     "product": "13x26",
+     "A": "16264171078871127966",
+     "method": "dlat-exact(+0)(cached)"
+    }
+   ],
+   "cov": "911378885336136549196",
+   "contribution": "18052400899486033685066400082548"
+  },
+  {
+   "D": [
+    0,
+    3,
+    8,
+    11,
+    12,
+    14,
+    15,
+    16,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "10432809243",
+   "V": 540,
+   "X": 504,
+   "terms": [
+    {
+     "U": [],
+     "n": 504,
+     "product": null,
+     "A": "2308234322333174467722",
+     "method": "cmp_mitm"
+    },
+    {
+     "U": [
+      0
+     ],
+     "n": 406,
+     "product": null,
+     "A": "124449535417333152635",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      12
+     ],
+     "n": 434,
+     "product": null,
+     "A": "812117890283944981463",
+     "method": "dlat-exact(+0)"
+    },
+    {
+     "U": [
+      21
+     ],
+     "n": 424,
+     "product": null,
+     "A": "376530199578427699780",
+     "method": "mitm(cached)"
+    },
+    {
+     "U": [
+      0,
+      12
+     ],
+     "n": 364,
+     "product": "14x26",
+     "A": "59932782527281146376",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      0,
+      21
+     ],
+     "n": 366,
+     "product": null,
+     "A": "29893186325298586822",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      12,
+      21
+     ],
+     "n": 388,
+     "product": null,
+     "A": "163138157095425380052",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      0,
+      12,
+      21
+     ],
+     "n": 338,
+     "product": "13x26",
+     "A": "16264171078871127966",
+     "method": "dlat-exact(+0)(cached)"
+    }
+   ],
+   "cov": "1231836651922602619128",
+   "contribution": "12851516808044302325454607000104"
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    7,
+    8,
+    11,
+    12,
+    15,
+    16,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "1122445823",
+   "V": 674,
+   "X": 596,
+   "terms": [
+    {
+     "U": [],
+     "n": 596,
+     "product": null,
+     "A": "2521866912388340838251333",
+     "method": "cmp_mitm"
+    },
+    {
+     "U": [
+      0
+     ],
+     "n": 498,
+     "product": null,
+     "A": "266526424631166606658593",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      12
+     ],
+     "n": 512,
+     "product": null,
+     "A": "343198576628953258545943",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      21
+     ],
+     "n": 516,
+     "product": null,
+     "A": "566783581207685001880742",
+     "method": "mitm(cached)"
+    },
+    {
+     "U": [
+      0,
+      12
+     ],
+     "n": 442,
+     "product": "17x26",
+     "A": "49485317293662097537530",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      0,
+      21
+     ],
+     "n": 458,
+     "product": null,
+     "A": "79897177653654062644849",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      12,
+      21
+     ],
+     "n": 466,
+     "product": null,
+     "A": "94602526593931312913857",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      0,
+      12,
+      21
+     ],
+     "n": 416,
+     "product": "16x26",
+     "A": "16975677018942765041964",
+     "method": "dlat-exact(+0)(cached)"
+    }
+   ],
+   "cov": "1552367674442840679220327",
+   "contribution": "1742448611938590372645338937844121"
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    7,
+    8,
+    12,
+    14,
+    15,
+    16,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "1122445823",
+   "V": 692,
+   "X": 586,
+   "terms": [
+    {
+     "U": [],
+     "n": 586,
+     "product": null,
+     "A": "886019655037484481595955",
+     "method": "cmp_mitm"
+    },
+    {
+     "U": [
+      0
+     ],
+     "n": 498,
+     "product": null,
+     "A": "266526424631166606658593",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      12
+     ],
+     "n": 502,
+     "product": null,
+     "A": "130964257981371957944339",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      21
+     ],
+     "n": 506,
+     "product": null,
+     "A": "211078981853380000953873",
+     "method": "mitm(cached)"
+    },
+    {
+     "U": [
+      0,
+      12
+     ],
+     "n": 442,
+     "product": "17x26",
+     "A": "49485317293662097537530",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      0,
+      21
+     ],
+     "n": 458,
+     "product": null,
+     "A": "79897177653654062644849",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      12,
+      21
+     ],
+     "n": 456,
+     "product": null,
+     "A": "37862330086973005070867",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      0,
+      12,
+      21
+     ],
+     "n": 416,
+     "product": "16x26",
+     "A": "16975677018942765041964",
+     "method": "dlat-exact(+0)(cached)"
+    }
+   ],
+   "cov": "427719138586912316250432",
+   "contribution": "480091560524037851842552420345536"
+  },
+  {
+   "D": [
+    0,
+    3,
+    7,
+    8,
+    11,
+    12,
+    14,
+    15,
+    16,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "10619619709",
+   "V": 696,
+   "X": 641,
+   "terms": [
+    {
+     "U": [],
+     "n": 641,
+     "product": null,
+     "A": "122248776896567584445460341",
+     "method": "cmp_mitm"
+    },
+    {
+     "U": [
+      0
+     ],
+     "n": 543,
+     "product": null,
+     "A": "23066012866169466317416697",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      12
+     ],
+     "n": 564,
+     "product": null,
+     "A": "48359042094408646462333893",
+     "method": "dlat-exact(+0)"
+    },
+    {
+     "U": [
+      21
+     ],
+     "n": 561,
+     "product": null,
+     "A": "36334110583215266423152159",
+     "method": "mitm(cached)"
+    },
+    {
+     "U": [
+      0,
+      12
+     ],
+     "n": 494,
+     "product": "19x26",
+     "A": "10835906460413314997850496",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      0,
+      21
+     ],
+     "n": 503,
+     "product": null,
+     "A": "8437470885074036165553865",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      12,
+      21
+     ],
+     "n": 518,
+     "product": null,
+     "A": "16233370947109848510855355",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      0,
+      12,
+      21
+     ],
+     "n": 468,
+     "product": "18x26",
+     "A": "4297832948267505130489801",
+     "method": "dlat-exact(+0)(cached)"
+    }
+   ],
+   "cov": "45698526697103899786327507",
+   "contribution": "485300974784827247391644482066035463"
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    7,
+    8,
+    11,
+    12,
+    14,
+    15,
+    16,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "1156111278",
+   "V": 907,
+   "X": 778,
+   "terms": [
+    {
+     "U": [],
+     "n": 778,
+     "product": null,
+     "A": "6630226061767751630112310570839",
+     "method": "cmp_mitm"
+    },
+    {
+     "U": [
+      0
+     ],
+     "n": 680,
+     "product": null,
+     "A": "2405083131994737622156602311061",
+     "method": "mitm(cached)"
+    },
+    {
+     "U": [
+      12
+     ],
+     "n": 694,
+     "product": null,
+     "A": "2549891579715153605886780768345",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      21
+     ],
+     "n": 698,
+     "product": null,
+     "A": "2833484369058145515289510189173",
+     "method": "mitm(cached)"
+    },
+    {
+     "U": [
+      0,
+      12
+     ],
+     "n": 624,
+     "product": "24x26",
+     "A": "1027127959821377011645314787766",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      0,
+      21
+     ],
+     "n": 640,
+     "product": null,
+     "A": "1149954953315185320509683322293",
+     "method": "mitm(cached)"
+    },
+    {
+     "U": [
+      12,
+      21
+     ],
+     "n": 648,
+     "product": null,
+     "A": "1178665946244669153033099036543",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      0,
+      12,
+      21
+     ],
+     "n": 598,
+     "product": "23x26",
+     "A": "520020151290514574652030898725",
+     "method": "rank_transfer 2 dirs x 4 primes(cached)"
+    }
+   ],
+   "cov": "1677495689090431797315483550137",
+   "contribution": "1939371684953829762766240656336864145086"
+  },
+  {
+   "D": [
+    0,
+    3,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "8671686",
+   "V": 730,
+   "X": 667,
+   "terms": [
+    {
+     "U": [],
+     "n": 667,
+     "product": null,
+     "A": "265600847850521988012448390",
+     "method": "cmp_mitm"
+    },
+    {
+     "U": [
+      0
+     ],
+     "n": 569,
+     "product": null,
+     "A": "56676106792905589962119294",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      12
+     ],
+     "n": 590,
+     "product": null,
+     "A": "113849218359037952763937792",
+     "method": "dlat-exact(+0)"
+    },
+    {
+     "U": [
+      21
+     ],
+     "n": 587,
+     "product": null,
+     "A": "83403177106672900574908755",
+     "method": "mitm(cached)"
+    },
+    {
+     "U": [
+      0,
+      12
+     ],
+     "n": 520,
+     "product": "20x26",
+     "A": "28412772745205703617244756",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      0,
+      21
+     ],
+     "n": 529,
+     "product": null,
+     "A": "21601299269709096520504603",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      12,
+      21
+     ],
+     "n": 544,
+     "product": null,
+     "A": "40006953313875473960032398",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      0,
+      12,
+      21
+     ],
+     "n": 494,
+     "product": "19x26",
+     "A": "11677017067844233923881724",
+     "method": "dlat-exact(+0)(cached)"
+    }
+   ],
+   "cov": "90016353852851584885382582",
+   "contribution": "780593555476819148728383740973252"
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "4523937",
+   "V": 990,
+   "X": 830,
+   "terms": [
+    {
+     "U": [],
+     "n": 830,
+     "product": null,
+     "A": "55445605149482714771213628450283",
+     "method": "cmp_mitm"
+    },
+    {
+     "U": [
+      0
+     ],
+     "n": 732,
+     "product": null,
+     "A": "23720548272239026274407579476061",
+     "method": "mitm(cached)"
+    },
+    {
+     "U": [
+      12
+     ],
+     "n": 746,
+     "product": null,
+     "A": "24815955686919724128902212838745",
+     "method": "mitm(cached)"
+    },
+    {
+     "U": [
+      21
+     ],
+     "n": 750,
+     "product": null,
+     "A": "25755058052704722978646887169722",
+     "method": "mitm(cached)"
+    },
+    {
+     "U": [
+      0,
+      12
+     ],
+     "n": 676,
+     "product": "26x26",
+     "A": "11560523762236404192807154054432",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      0,
+      21
+     ],
+     "n": 692,
+     "product": null,
+     "A": "12100146924801940575694477070775",
+     "method": "mitm(cached)"
+    },
+    {
+     "U": [
+      12,
+      21
+     ],
+     "n": 700,
+     "product": null,
+     "A": "12305890228754252330032246913901",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      0,
+      12,
+      21
+     ],
+     "n": 650,
+     "product": "25x26",
+     "A": "6187889771884049639997862573252",
+     "method": "dlat-exact(+0)(cached)"
+    }
+   ],
+   "cov": "10932714281527788847792964431611",
+   "contribution": "49458910648631980496717960131848972507"
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    5,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "4040",
+   "V": 1039,
+   "X": 856,
+   "terms": [
+    {
+     "U": [],
+     "n": 856,
+     "product": null,
+     "A": "99791574940975030279029516931602",
+     "method": "cmp_mitm"
+    },
+    {
+     "U": [
+      0
+     ],
+     "n": 758,
+     "product": null,
+     "A": "44746163130129889731151030099753",
+     "method": "mitm(cached)"
+    },
+    {
+     "U": [
+      12
+     ],
+     "n": 772,
+     "product": null,
+     "A": "46820565212455267464722402931431",
+     "method": "mitm(cached)"
+    },
+    {
+     "U": [
+      21
+     ],
+     "n": 776,
+     "product": null,
+     "A": "47521522721017059017745700795827",
+     "method": "mitm(cached)"
+    },
+    {
+     "U": [
+      0,
+      12
+     ],
+     "n": 702,
+     "product": "26x27",
+     "A": "22733023672562549702174105278590",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      0,
+      21
+     ],
+     "n": 718,
+     "product": null,
+     "A": "23274146661487257322073705873832",
+     "method": "mitm(cached)"
+    },
+    {
+     "U": [
+      12,
+      21
+     ],
+     "n": 726,
+     "product": null,
+     "A": "23711913198569390350903309993348",
+     "method": "dlat-exact(+0)(cached)"
+    },
+    {
+     "U": [
+      0,
+      12,
+      21
+     ],
+     "n": 676,
+     "product": "26x26",
+     "A": "12375779543768099279995725146504",
+     "method": "dlat-exact(+0)(cached)"
+    }
+   ],
+   "cov": "18046627866223912160565779103857",
+   "contribution": "72908376579544605128685747579582280"
+  }
+ ],
+ "total": "1989391910383901020001931053993907936163"
+}

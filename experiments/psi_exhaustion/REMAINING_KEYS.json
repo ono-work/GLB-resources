@@ -1,0 +1,1012 @@
+{
+ "note": "Regenerated from the key universe (36 keys) minus v5 and COUNTED_FAMILIES.json; see audit_psi_exhaustiveness.py",
+ "n": 22,
+ "keys": [
+  {
+   "id": "R_s_p_E2",
+   "key": "0|S=*|C=\u00b11|E=*2",
+   "world": "0",
+   "S": [
+    3
+   ],
+   "C": [
+    12
+   ],
+   "E": [
+    21
+   ],
+   "args": [
+    [
+     3
+    ],
+    [
+     12
+    ]
+   ],
+   "P_cells": [
+    [
+     0,
+     3
+    ]
+   ],
+   "mirror": "separate class (negation; -O0 / -OZ), counted as 2 x original",
+   "status": "not computed",
+   "producer_certificate": "harvest/psi_S3_C12.json",
+   "verifier_certificate": "harvest/certificates/verify_psi_S3_C12.json",
+   "est_log10_original": 38.527,
+   "est_kind": "HEURISTIC SIS leading term (factor ~3)",
+   "unique_regions": 65,
+   "largest_region": 744,
+   "regions_ge400_to_compute": 9,
+   "max_S": 6840288648,
+   "w_eff": 4.404,
+   "producer_peak_GiB": 12.7,
+   "verifier_peak_GiB": 12.44,
+   "producer_h": 2.05,
+   "verifier_h": 1.77,
+   "value_per_hour": 1.7618406773585946e+38,
+   "rank": 1
+  },
+  {
+   "id": "R_p_s",
+   "key": "0|S=\u00b11|C=*|E=*2",
+   "world": "0",
+   "S": [
+    12
+   ],
+   "C": [
+    3
+   ],
+   "E": [
+    21
+   ],
+   "args": [
+    [
+     12
+    ],
+    [
+     3
+    ]
+   ],
+   "P_cells": [
+    [
+     0,
+     12
+    ]
+   ],
+   "mirror": "separate class (negation; -O0 / -OZ), counted as 2 x original",
+   "status": "not computed",
+   "producer_certificate": "harvest/psi_S12_C3.json",
+   "verifier_certificate": "harvest/certificates/verify_psi_S12_C3.json",
+   "est_log10_original": 38.144,
+   "est_kind": "HEURISTIC SIS leading term (factor ~3)",
+   "unique_regions": 16,
+   "largest_region": 752,
+   "regions_ge400_to_compute": 5,
+   "max_S": 875213056,
+   "w_eff": 4.005,
+   "producer_peak_GiB": 13.0,
+   "verifier_peak_GiB": 13.36,
+   "producer_h": 0.59,
+   "verifier_h": 1.97,
+   "value_per_hour": 1.0884037523010138e+38,
+   "rank": 2
+  },
+  {
+   "id": "RZ_s_0p_E2",
+   "key": "Z|S=*|C=0,\u00b11|E=*2",
+   "world": "Z",
+   "S": [
+    3
+   ],
+   "C": [
+    0,
+    12
+   ],
+   "E": [
+    21
+   ],
+   "args": [
+    [
+     3
+    ],
+    [
+     0,
+     12
+    ]
+   ],
+   "P_cells": [
+    [
+     3
+    ]
+   ],
+   "mirror": "separate class (negation; -O0 / -OZ), counted as 2 x original",
+   "status": "not computed",
+   "producer_certificate": "harvest/psi_S3_C0_12.json",
+   "verifier_certificate": "harvest/certificates/verify_psi_S3_C0_12.json",
+   "est_log10_original": 38.478,
+   "est_kind": "HEURISTIC SIS leading term (factor ~3)",
+   "unique_regions": 129,
+   "largest_region": 802,
+   "regions_ge400_to_compute": 24,
+   "max_S": 7876917504,
+   "w_eff": 4.432,
+   "producer_peak_GiB": 13.0,
+   "verifier_peak_GiB": 26.1,
+   "producer_h": 4.92,
+   "verifier_h": 6.01,
+   "value_per_hour": 5.500597077087359e+37,
+   "rank": 3
+  },
+  {
+   "id": "R_0_sp_E2",
+   "key": "0|S=-|C=*,\u00b11|E=*2",
+   "world": "0",
+   "S": [],
+   "C": [
+    3,
+    12
+   ],
+   "E": [
+    21
+   ],
+   "args": [
+    [],
+    [
+     3,
+     12
+    ]
+   ],
+   "P_cells": [
+    [
+     0
+    ]
+   ],
+   "mirror": "separate class (negation; -O0 / -OZ), counted as 2 x original",
+   "status": "not computed",
+   "producer_certificate": "harvest/psi_Snone_C3_12.json",
+   "verifier_certificate": "harvest/certificates/verify_psi_Snone_C3_12.json",
+   "est_log10_original": 38.541,
+   "est_kind": "HEURISTIC SIS leading term (factor ~3)",
+   "unique_regions": 143,
+   "largest_region": 802,
+   "regions_ge400_to_compute": 29,
+   "max_S": 7876917504,
+   "w_eff": 4.432,
+   "producer_peak_GiB": 13.0,
+   "verifier_peak_GiB": 26.1,
+   "producer_h": 5.51,
+   "verifier_h": 7.99,
+   "value_per_hour": 5.148683873232641e+37,
+   "rank": 4
+  },
+  {
+   "id": "R_0_p2_Es",
+   "key": "0|S=-|C=\u00b11,*2|E=*",
+   "world": "0",
+   "S": [],
+   "C": [
+    12,
+    21
+   ],
+   "E": [
+    3
+   ],
+   "args": [
+    [],
+    [
+     12,
+     21
+    ]
+   ],
+   "P_cells": [
+    [
+     0
+    ],
+    [
+     0,
+     19
+    ]
+   ],
+   "mirror": "separate class (negation; -O0 / -OZ), counted as 2 x original",
+   "status": "not computed",
+   "producer_certificate": "harvest/psi_Snone_C12_21.json",
+   "verifier_certificate": "harvest/certificates/verify_psi_Snone_C12_21.json",
+   "est_log10_original": 37.764,
+   "est_kind": "HEURISTIC SIS leading term (factor ~3)",
+   "unique_regions": 134,
+   "largest_region": 808,
+   "regions_ge400_to_compute": 32,
+   "max_S": 1760074272,
+   "w_eff": 4.14,
+   "producer_peak_GiB": 19.6,
+   "verifier_peak_GiB": 32.6,
+   "producer_h": 3.79,
+   "verifier_h": 12.22,
+   "value_per_hour": 7.255020830997075e+36,
+   "rank": 5
+  },
+  {
+   "id": "R_s2_0",
+   "key": "0|S=*,*2|C=-|E=\u00b11",
+   "world": "0",
+   "S": [
+    3,
+    21
+   ],
+   "C": [],
+   "E": [
+    12
+   ],
+   "args": [
+    [
+     3,
+     21
+    ],
+    []
+   ],
+   "P_cells": [
+    [
+     0,
+     3,
+     21
+    ]
+   ],
+   "mirror": "separate class (negation; -O0 / -OZ), counted as 2 x original",
+   "status": "not computed",
+   "producer_certificate": "harvest/psi_S3_21_Cnone.json",
+   "verifier_certificate": "harvest/certificates/verify_psi_S3_21_Cnone.json",
+   "est_log10_original": 36.907,
+   "est_kind": "HEURISTIC SIS leading term (factor ~3)",
+   "unique_regions": 33,
+   "largest_region": 718,
+   "regions_ge400_to_compute": 5,
+   "max_S": 6840288648,
+   "w_eff": 4.404,
+   "producer_peak_GiB": 12.7,
+   "verifier_peak_GiB": 12.44,
+   "producer_h": 1.62,
+   "verifier_h": 1.64,
+   "value_per_hour": 4.9523621487658385e+36,
+   "rank": 6
+  },
+  {
+   "id": "R_2_p_Es",
+   "key": "0|S=*2|C=\u00b11|E=*",
+   "world": "0",
+   "S": [
+    21
+   ],
+   "C": [
+    12
+   ],
+   "E": [
+    3
+   ],
+   "args": [
+    [
+     21
+    ],
+    [
+     12
+    ]
+   ],
+   "P_cells": [
+    [
+     0,
+     21
+    ]
+   ],
+   "mirror": "separate class (negation; -O0 / -OZ), counted as 2 x original",
+   "status": "not computed",
+   "producer_certificate": "harvest/psi_S21_C12.json",
+   "verifier_certificate": "harvest/certificates/verify_psi_S21_C12.json",
+   "est_log10_original": 37.187,
+   "est_kind": "HEURISTIC SIS leading term (factor ~3)",
+   "unique_regions": 65,
+   "largest_region": 768,
+   "regions_ge400_to_compute": 14,
+   "max_S": 1760074272,
+   "w_eff": 4.14,
+   "producer_peak_GiB": 18.8,
+   "verifier_peak_GiB": 28.67,
+   "producer_h": 1.86,
+   "verifier_h": 5.83,
+   "value_per_hour": 4.000402185443501e+36,
+   "rank": 7
+  },
+  {
+   "id": "R_p2_0",
+   "key": "0|S=\u00b11,*2|C=-|E=*",
+   "world": "0",
+   "S": [
+    12,
+    21
+   ],
+   "C": [],
+   "E": [
+    3
+   ],
+   "args": [
+    [
+     12,
+     21
+    ],
+    []
+   ],
+   "P_cells": [
+    [
+     0,
+     12,
+     21
+    ]
+   ],
+   "mirror": "separate class (negation; -O0 / -OZ), counted as 2 x original",
+   "status": "not computed",
+   "producer_certificate": "harvest/psi_S12_21_Cnone.json",
+   "verifier_certificate": "harvest/certificates/verify_psi_S12_21_Cnone.json",
+   "est_log10_original": 36.584,
+   "est_kind": "HEURISTIC SIS leading term (factor ~3)",
+   "unique_regions": 8,
+   "largest_region": 726,
+   "regions_ge400_to_compute": 5,
+   "max_S": 855036081,
+   "w_eff": 4.0,
+   "producer_peak_GiB": 12.7,
+   "verifier_peak_GiB": 13.23,
+   "producer_h": 0.53,
+   "verifier_h": 1.69,
+   "value_per_hour": 3.4568220314619963e+36,
+   "rank": 8
+  },
+  {
+   "id": "R_p_2",
+   "key": "0|S=\u00b11|C=*2|E=*",
+   "world": "0",
+   "S": [
+    12
+   ],
+   "C": [
+    21
+   ],
+   "E": [
+    3
+   ],
+   "args": [
+    [
+     12
+    ],
+    [
+     21
+    ]
+   ],
+   "P_cells": [
+    [
+     0,
+     12
+    ]
+   ],
+   "mirror": "separate class (negation; -O0 / -OZ), counted as 2 x original",
+   "status": "not computed",
+   "producer_certificate": "harvest/psi_S12_C21.json",
+   "verifier_certificate": "harvest/certificates/verify_psi_S12_C21.json",
+   "est_log10_original": 36.697,
+   "est_kind": "HEURISTIC SIS leading term (factor ~3)",
+   "unique_regions": 16,
+   "largest_region": 752,
+   "regions_ge400_to_compute": 10,
+   "max_S": 875213056,
+   "w_eff": 4.005,
+   "producer_peak_GiB": 13.0,
+   "verifier_peak_GiB": 13.36,
+   "producer_h": 1.07,
+   "verifier_h": 3.47,
+   "value_per_hour": 2.1926743831671328e+36,
+   "rank": 9
+  },
+  {
+   "id": "R_s_2",
+   "key": "0|S=*|C=*2|E=\u00b11",
+   "world": "0",
+   "S": [
+    3
+   ],
+   "C": [
+    21
+   ],
+   "E": [
+    12
+   ],
+   "args": [
+    [
+     3
+    ],
+    [
+     21
+    ]
+   ],
+   "P_cells": [
+    [
+     0,
+     3
+    ]
+   ],
+   "mirror": "separate class (negation; -O0 / -OZ), counted as 2 x original",
+   "status": "not computed",
+   "producer_certificate": "harvest/psi_S3_C21.json",
+   "verifier_certificate": "harvest/certificates/verify_psi_S3_C21.json",
+   "est_log10_original": 36.797,
+   "est_kind": "HEURISTIC SIS leading term (factor ~3)",
+   "unique_regions": 67,
+   "largest_region": 744,
+   "regions_ge400_to_compute": 10,
+   "max_S": 6840288648,
+   "w_eff": 4.404,
+   "producer_peak_GiB": 12.7,
+   "verifier_peak_GiB": 12.44,
+   "producer_h": 3.26,
+   "verifier_h": 3.3,
+   "value_per_hour": 1.9104081240010096e+36,
+   "rank": 10
+  },
+  {
+   "id": "RZ_s_02_Ep",
+   "key": "Z|S=*|C=0,*2|E=\u00b11",
+   "world": "Z",
+   "S": [
+    3
+   ],
+   "C": [
+    0,
+    21
+   ],
+   "E": [
+    12
+   ],
+   "args": [
+    [
+     3
+    ],
+    [
+     0,
+     21
+    ]
+   ],
+   "P_cells": [
+    [
+     3
+    ],
+    [
+     3,
+     15
+    ]
+   ],
+   "mirror": "separate class (negation; -O0 / -OZ), counted as 2 x original",
+   "status": "not computed",
+   "producer_certificate": "harvest/psi_S3_C0_21.json",
+   "verifier_certificate": "harvest/certificates/verify_psi_S3_C0_21.json",
+   "est_log10_original": 37.176,
+   "est_kind": "HEURISTIC SIS leading term (factor ~3)",
+   "unique_regions": 133,
+   "largest_region": 814,
+   "regions_ge400_to_compute": 21,
+   "max_S": 6840288648,
+   "w_eff": 4.404,
+   "producer_peak_GiB": 18.8,
+   "verifier_peak_GiB": 28.67,
+   "producer_h": 5.12,
+   "verifier_h": 12.26,
+   "value_per_hour": 1.7257593043755812e+36,
+   "rank": 11
+  },
+  {
+   "id": "R_0_s2",
+   "key": "0|S=-|C=*,*2|E=\u00b11",
+   "world": "0",
+   "S": [],
+   "C": [
+    3,
+    21
+   ],
+   "E": [
+    12
+   ],
+   "args": [
+    [],
+    [
+     3,
+     21
+    ]
+   ],
+   "P_cells": [
+    [
+     0
+    ],
+    [
+     0,
+     17
+    ]
+   ],
+   "mirror": "separate class (negation; -O0 / -OZ), counted as 2 x original",
+   "status": "not computed",
+   "producer_certificate": "harvest/psi_Snone_C3_21.json",
+   "verifier_certificate": "harvest/certificates/verify_psi_Snone_C3_21.json",
+   "est_log10_original": 37.051,
+   "est_kind": "HEURISTIC SIS leading term (factor ~3)",
+   "unique_regions": 149,
+   "largest_region": 814,
+   "regions_ge400_to_compute": 21,
+   "max_S": 6840288648,
+   "w_eff": 4.404,
+   "producer_peak_GiB": 18.8,
+   "verifier_peak_GiB": 28.67,
+   "producer_h": 5.12,
+   "verifier_h": 12.12,
+   "value_per_hour": 1.30464614149296e+36,
+   "rank": 12
+  },
+  {
+   "id": "RZ_s2_0_Ep",
+   "key": "Z|S=*,*2|C=0|E=\u00b11",
+   "world": "Z",
+   "S": [
+    3,
+    21
+   ],
+   "C": [
+    0
+   ],
+   "E": [
+    12
+   ],
+   "args": [
+    [
+     3,
+     21
+    ],
+    [
+     0
+    ]
+   ],
+   "P_cells": [
+    [
+     3,
+     21
+    ]
+   ],
+   "mirror": "separate class (negation; -O0 / -OZ), counted as 2 x original",
+   "status": "not computed",
+   "producer_certificate": "harvest/psi_S3_21_C0.json",
+   "verifier_certificate": "harvest/certificates/verify_psi_S3_21_C0.json",
+   "est_log10_original": 36.735,
+   "est_kind": "HEURISTIC SIS leading term (factor ~3)",
+   "unique_regions": 65,
+   "largest_region": 768,
+   "regions_ge400_to_compute": 10,
+   "max_S": 6840288648,
+   "w_eff": 4.404,
+   "producer_peak_GiB": 18.8,
+   "verifier_peak_GiB": 28.67,
+   "producer_h": 2.55,
+   "verifier_h": 6.06,
+   "value_per_hour": 1.2619055319220269e+36,
+   "rank": 13
+  },
+  {
+   "id": "R_2_s",
+   "key": "0|S=*2|C=*|E=\u00b11",
+   "world": "0",
+   "S": [
+    21
+   ],
+   "C": [
+    3
+   ],
+   "E": [
+    12
+   ],
+   "args": [
+    [
+     21
+    ],
+    [
+     3
+    ]
+   ],
+   "P_cells": [
+    [
+     0,
+     21
+    ]
+   ],
+   "mirror": "separate class (negation; -O0 / -OZ), counted as 2 x original",
+   "status": "not computed",
+   "producer_certificate": "harvest/psi_S21_C3.json",
+   "verifier_certificate": "harvest/certificates/verify_psi_S21_C3.json",
+   "est_log10_original": 36.522,
+   "est_kind": "HEURISTIC SIS leading term (factor ~3)",
+   "unique_regions": 65,
+   "largest_region": 768,
+   "regions_ge400_to_compute": 10,
+   "max_S": 6840288648,
+   "w_eff": 4.404,
+   "producer_peak_GiB": 18.8,
+   "verifier_peak_GiB": 28.67,
+   "producer_h": 2.55,
+   "verifier_h": 6.06,
+   "value_per_hour": 7.7272834679211e+35,
+   "rank": 14
+  },
+  {
+   "id": "R_0_p_Es2",
+   "key": "0|S=-|C=\u00b11|E=*,*2",
+   "world": "0",
+   "S": [],
+   "C": [
+    12
+   ],
+   "E": [
+    3,
+    21
+   ],
+   "args": [
+    [],
+    [
+     12
+    ]
+   ],
+   "P_cells": [
+    [
+     0
+    ],
+    [
+     0,
+     18
+    ]
+   ],
+   "mirror": "separate class (negation; -O0 / -OZ), counted as 2 x original",
+   "status": "not computed",
+   "producer_certificate": "harvest/psi_Snone_C12.json",
+   "verifier_certificate": "harvest/certificates/verify_psi_Snone_C12.json",
+   "est_log10_original": 36.294,
+   "est_kind": "HEURISTIC SIS leading term (factor ~3)",
+   "unique_regions": 51,
+   "largest_region": 814,
+   "regions_ge400_to_compute": 17,
+   "max_S": 1670070474,
+   "w_eff": 4.13,
+   "producer_peak_GiB": 18.8,
+   "verifier_peak_GiB": 28.67,
+   "producer_h": 1.82,
+   "verifier_h": 5.84,
+   "value_per_hour": 5.13808430732854e+35,
+   "rank": 15
+  },
+  {
+   "id": "R_0_2",
+   "key": "0|S=-|C=*2|E=*,\u00b11",
+   "world": "0",
+   "S": [],
+   "C": [
+    21
+   ],
+   "E": [
+    3,
+    12
+   ],
+   "args": [
+    [],
+    [
+     21
+    ]
+   ],
+   "P_cells": [
+    [
+     0
+    ]
+   ],
+   "mirror": "separate class (negation; -O0 / -OZ), counted as 2 x original",
+   "status": "not computed",
+   "producer_certificate": "harvest/psi_Snone_C21.json",
+   "verifier_certificate": "harvest/certificates/verify_psi_Snone_C21.json",
+   "est_log10_original": 36.31,
+   "est_kind": "HEURISTIC SIS leading term (factor ~3)",
+   "unique_regions": 68,
+   "largest_region": 802,
+   "regions_ge400_to_compute": 14,
+   "max_S": 7876917504,
+   "w_eff": 4.432,
+   "producer_peak_GiB": 13.0,
+   "verifier_peak_GiB": 26.1,
+   "producer_h": 4.23,
+   "verifier_h": 6.32,
+   "value_per_hour": 3.870593260037042e+35,
+   "rank": 16
+  },
+  {
+   "id": "R_p_0",
+   "key": "0|S=\u00b11|C=-|E=*,*2",
+   "world": "0",
+   "S": [
+    12
+   ],
+   "C": [],
+   "E": [
+    3,
+    21
+   ],
+   "args": [
+    [
+     12
+    ],
+    []
+   ],
+   "P_cells": [
+    [
+     0,
+     12
+    ],
+    [
+     0,
+     12,
+     18
+    ]
+   ],
+   "mirror": "separate class (negation; -O0 / -OZ), counted as 2 x original",
+   "status": "not computed",
+   "producer_certificate": "harvest/psi_S12_Cnone.json",
+   "verifier_certificate": "harvest/certificates/verify_psi_S12_Cnone.json",
+   "est_log10_original": 35.529,
+   "est_kind": "HEURISTIC SIS leading term (factor ~3)",
+   "unique_regions": 8,
+   "largest_region": 772,
+   "regions_ge400_to_compute": 5,
+   "max_S": 855036081,
+   "w_eff": 4.0,
+   "producer_peak_GiB": 12.7,
+   "verifier_peak_GiB": 13.23,
+   "producer_h": 0.53,
+   "verifier_h": 1.69,
+   "value_per_hour": 3.0456291550088678e+35,
+   "rank": 17
+  },
+  {
+   "id": "R_2_0",
+   "key": "0|S=*2|C=-|E=*,\u00b11",
+   "world": "0",
+   "S": [
+    21
+   ],
+   "C": [],
+   "E": [
+    3,
+    12
+   ],
+   "args": [
+    [
+     21
+    ],
+    []
+   ],
+   "P_cells": [
+    [
+     0,
+     21
+    ]
+   ],
+   "mirror": "separate class (negation; -O0 / -OZ), counted as 2 x original",
+   "status": "not computed",
+   "producer_certificate": "harvest/psi_S21_Cnone.json",
+   "verifier_certificate": "harvest/certificates/verify_psi_S21_Cnone.json",
+   "est_log10_original": 35.894,
+   "est_kind": "HEURISTIC SIS leading term (factor ~3)",
+   "unique_regions": 33,
+   "largest_region": 776,
+   "regions_ge400_to_compute": 7,
+   "max_S": 7695324729,
+   "w_eff": 4.427,
+   "producer_peak_GiB": 12.7,
+   "verifier_peak_GiB": 26.1,
+   "producer_h": 2.09,
+   "verifier_h": 3.14,
+   "value_per_hour": 2.9959068557025192e+35,
+   "rank": 18
+  },
+  {
+   "id": "RZ_s_0_Ep2",
+   "key": "Z|S=*|C=0|E=\u00b11,*2",
+   "world": "Z",
+   "S": [
+    3
+   ],
+   "C": [
+    0
+   ],
+   "E": [
+    12,
+    21
+   ],
+   "args": [
+    [
+     3
+    ],
+    [
+     0
+    ]
+   ],
+   "P_cells": [
+    [
+     3
+    ],
+    [
+     3,
+     20
+    ]
+   ],
+   "mirror": "separate class (negation; -O0 / -OZ), counted as 2 x original",
+   "status": "not computed",
+   "producer_certificate": "harvest/psi_S3_C0.json",
+   "verifier_certificate": "harvest/certificates/verify_psi_S3_C0.json",
+   "est_log10_original": 35.908,
+   "est_kind": "HEURISTIC SIS leading term (factor ~3)",
+   "unique_regions": 53,
+   "largest_region": 808,
+   "regions_ge400_to_compute": 16,
+   "max_S": 7695324729,
+   "w_eff": 4.427,
+   "producer_peak_GiB": 19.6,
+   "verifier_peak_GiB": 32.6,
+   "producer_h": 3.17,
+   "verifier_h": 6.72,
+   "value_per_hour": 1.6361898871150346e+35,
+   "rank": 19
+  },
+  {
+   "id": "R_s_0",
+   "key": "0|S=*|C=-|E=\u00b11,*2",
+   "world": "0",
+   "S": [
+    3
+   ],
+   "C": [],
+   "E": [
+    12,
+    21
+   ],
+   "args": [
+    [
+     3
+    ],
+    []
+   ],
+   "P_cells": [
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     3,
+     20
+    ]
+   ],
+   "mirror": "separate class (negation; -O0 / -OZ), counted as 2 x original",
+   "status": "not computed",
+   "producer_certificate": "harvest/psi_S3_Cnone.json",
+   "verifier_certificate": "harvest/certificates/verify_psi_S3_Cnone.json",
+   "est_log10_original": 35.281,
+   "est_kind": "HEURISTIC SIS leading term (factor ~3)",
+   "unique_regions": 27,
+   "largest_region": 758,
+   "regions_ge400_to_compute": 7,
+   "max_S": 7695324729,
+   "w_eff": 4.427,
+   "producer_peak_GiB": 12.7,
+   "verifier_peak_GiB": 13.04,
+   "producer_h": 1.81,
+   "verifier_h": 1.71,
+   "value_per_hour": 1.0851438969126323e+35,
+   "rank": 20
+  },
+  {
+   "id": "R_0_s",
+   "key": "0|S=-|C=*|E=\u00b11,*2",
+   "world": "0",
+   "S": [],
+   "C": [
+    3
+   ],
+   "E": [
+    12,
+    21
+   ],
+   "args": [
+    [],
+    [
+     3
+    ]
+   ],
+   "P_cells": [
+    [
+     0
+    ],
+    [
+     0,
+     20
+    ]
+   ],
+   "mirror": "separate class (negation; -O0 / -OZ), counted as 2 x original",
+   "status": "not computed",
+   "producer_certificate": "harvest/psi_Snone_C3.json",
+   "verifier_certificate": "harvest/certificates/verify_psi_Snone_C3.json",
+   "est_log10_original": 35.243,
+   "est_kind": "HEURISTIC SIS leading term (factor ~3)",
+   "unique_regions": 58,
+   "largest_region": 808,
+   "regions_ge400_to_compute": 16,
+   "max_S": 7695324729,
+   "w_eff": 4.427,
+   "producer_peak_GiB": 19.6,
+   "verifier_peak_GiB": 32.6,
+   "producer_h": 3.17,
+   "verifier_h": 6.72,
+   "value_per_hour": 3.5386181771985144e+34,
+   "rank": 21
+  },
+  {
+   "id": "R_0_0",
+   "key": "0|S=-|C=-|E=*,\u00b11,*2",
+   "world": "0",
+   "S": [],
+   "C": [],
+   "E": [
+    3,
+    12,
+    21
+   ],
+   "args": [
+    [],
+    []
+   ],
+   "P_cells": [
+    [
+     0
+    ],
+    [
+     0,
+     11
+    ],
+    [
+     0,
+     18
+    ],
+    [
+     0,
+     20
+    ],
+    [
+     0,
+     18,
+     20
+    ]
+   ],
+   "mirror": "separate class (negation; -O0 / -OZ), counted as 2 x original",
+   "status": "not computed",
+   "producer_certificate": "harvest/psi_Snone_Cnone.json",
+   "verifier_certificate": "harvest/certificates/verify_psi_Snone_Cnone.json",
+   "est_log10_original": 33.306,
+   "est_kind": "HEURISTIC SIS leading term (factor ~3)",
+   "unique_regions": 15,
+   "largest_region": 856,
+   "regions_ge400_to_compute": 6,
+   "max_S": 7695324729,
+   "w_eff": 4.427,
+   "producer_peak_GiB": 12.7,
+   "verifier_peak_GiB": 28.55,
+   "producer_h": 2.1,
+   "verifier_h": 3.89,
+   "value_per_hour": 6.754655020628579e+32,
+   "rank": 22
+  }
+ ]
+}

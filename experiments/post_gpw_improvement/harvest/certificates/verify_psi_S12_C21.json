@@ -1,0 +1,315 @@
+{
+ "family": "Psi[12]",
+ "S": [
+  12
+ ],
+ "C": [
+  21
+ ],
+ "E": [
+  3
+ ],
+ "total": "6669517962471583718118234156112777268",
+ "status": "AUDIT PASSED",
+ "errors": [],
+ "rows": [
+  {
+   "D": [
+    0,
+    2,
+    3,
+    7,
+    8,
+    17,
+    18,
+    21
+   ],
+   "e": "650",
+   "cov": "1064432085",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 153,
+     "value": "1399645670",
+     "sha": "042401906c2416214d55f6acc0d01bccebe488cf343189ec3aa8c0e2239b983b",
+     "sec": 266.3
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 134,
+     "value": "335213585",
+     "sha": "dfa3f8e2936f0a39ecb831c419993748be501e90cadd397fe3aab2844ca1fdb0",
+     "sec": 87.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    7,
+    8,
+    12,
+    17,
+    18,
+    21
+   ],
+   "e": "117511",
+   "cov": "53380945790",
+   "terms": [
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [],
+     "n": 202,
+     "value": "62100973346",
+     "sha": "10675fb9ded64cb3b2d643036fd6399820ab90bb9edfa806c10fe8b2df93ed6a",
+     "sec": 0.0
+    },
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [
+      21
+     ],
+     "n": 176,
+     "value": "8720027556",
+     "sha": "43dc9a7630fb174d7a6603ec431897a0d526eab53a3fa52d469247da511aec79",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    7,
+    8,
+    12,
+    17,
+    18,
+    20,
+    21
+   ],
+   "e": "2227413",
+   "cov": "3274335741675464027",
+   "terms": [
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [],
+     "n": 358,
+     "value": "4420214609409008299",
+     "sha": "b7f903190f943e7ef7ba12623c753e92d7e7222e2d3986a8c3a6a8dfb5321ba2",
+     "sec": 0.0
+    },
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [
+      21
+     ],
+     "n": 332,
+     "value": "1145878867733544272",
+     "sha": "b2b7ffd1b5d77a9e31b706f1edf51461da70b8e1bf75f1a664a83cf0baaada1c",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    7,
+    8,
+    11,
+    12,
+    17,
+    18,
+    20,
+    21
+   ],
+   "e": "4164010",
+   "cov": "48603289462060826462001",
+   "terms": [
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [],
+     "n": 477,
+     "value": "77940688349219448967094",
+     "sha": "bd2056b9047785613468cf46b21d7180952c0389aa56ea72885bac078b761160",
+     "sec": 0.0
+    },
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [
+      21
+     ],
+     "n": 451,
+     "value": "29337398887158622505093",
+     "sha": "905f0e6a6876a45880d9be86eee6cfb1ddfab17b20630a5c59cc96f02a1b5210",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    7,
+    8,
+    12,
+    14,
+    17,
+    18,
+    20,
+    21
+   ],
+   "e": "1152285",
+   "cov": "36938849917035498547838",
+   "terms": [
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [],
+     "n": 462,
+     "value": "57221623705961052910479",
+     "sha": "45c19ed5ea8934ead8f65c9198f2d0609141bba955ef6af35c3b01d6bac272cc",
+     "sec": 0.0
+    },
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [
+      21
+     ],
+     "n": 436,
+     "value": "20282773788925554362641",
+     "sha": "ae2ef3fd997a0650d00760cd4ac9d88d560e83b37ed1079ec643fff47ee38467",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    7,
+    8,
+    11,
+    12,
+    14,
+    17,
+    18,
+    20,
+    21
+   ],
+   "e": "6267947",
+   "cov": "757944060501537195936914496607",
+   "terms": [
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [],
+     "n": 659,
+     "value": "1616992009896346312652896958668",
+     "sha": "84dad1683ff1c7e375837f2feee1377d013b2b5e639327cf443be3afc9167dc0",
+     "sec": 0.0
+    },
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [
+      21
+     ],
+     "n": 633,
+     "value": "859047949394809116715982462061",
+     "sha": "0193bac28b4f1935ebbdaaf45be9a324e19715e3bcf5271b7433750a8b47878a",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    17,
+    18,
+    20,
+    21
+   ],
+   "e": "216169",
+   "cov": "8810736396632072260154528703253",
+   "terms": [
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [],
+     "n": 721,
+     "value": "20216759366447210281025591782700",
+     "sha": "5474c91056cc22df468ca75f4f33eedcea4bb277a4808aa60584bf7df58e70c8",
+     "sec": 0.0
+    },
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [
+      21
+     ],
+     "n": 695,
+     "value": "11406022969815138020871063079447",
+     "sha": "e9ac3760a84ac35f3328763cfdd712b7d767ef7293aaf090a09a8de621afd8cb",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    5,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    17,
+    18,
+    20,
+    21
+   ],
+   "e": "807",
+   "cov": "17542058492735315341879655274193",
+   "terms": [
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [],
+     "n": 752,
+     "value": "41253971691304705692782965267541",
+     "sha": "f9fd6583a9449afbad6d98a1825fdc9d4a6341383d989e636a030b409a8ccb49",
+     "sec": 0.0
+    },
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [
+      21
+     ],
+     "n": 726,
+     "value": "23711913198569390350903309993348",
+     "sha": "d3db3ba48e931e1d4f32d6955bdd5d03f7807ac8bc4d2a6d6dd3871a8182c563",
+     "sec": 0.0
+    }
+   ]
+  }
+ ],
+ "runtime_s": 356,
+ "command": "harvest/verify_psi.py harvest/psi_S12_C21.json"
+}

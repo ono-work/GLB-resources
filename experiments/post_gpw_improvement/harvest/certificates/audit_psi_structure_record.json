@@ -1,0 +1,1125 @@
+{
+ "families": {
+  "Psi([3, 12],[21])": {
+   "hypotheses": {
+    "T_antichain": true,
+    "Vmax_incomparable": true,
+    "pool_hit": true,
+    "zero_not_in_pool": true,
+    "C_E_disjoint_from_S": true
+   },
+   "pool": 319,
+   "Vmax": 729,
+   "REQ": [
+    0,
+    2,
+    3,
+    5,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    18,
+    20,
+    21
+   ],
+   "reqT": [
+    0,
+    2
+   ],
+   "samples": 150,
+   "pattern_ok": true
+  },
+  "Psi([12, 21],[3])": {
+   "hypotheses": {
+    "T_antichain": true,
+    "Vmax_incomparable": true,
+    "pool_hit": true,
+    "zero_not_in_pool": true,
+    "C_E_disjoint_from_S": true
+   },
+   "pool": 319,
+   "Vmax": 777,
+   "REQ": [
+    0,
+    2,
+    3,
+    5,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    18,
+    20,
+    21
+   ],
+   "reqT": [
+    0,
+    2,
+    3
+   ],
+   "samples": 150,
+   "pattern_ok": true
+  },
+  "Psi([12],[3, 21])": {
+   "hypotheses": {
+    "T_antichain": true,
+    "Vmax_incomparable": true,
+    "pool_hit": true,
+    "zero_not_in_pool": true,
+    "C_E_disjoint_from_S": true
+   },
+   "pool": 319,
+   "Vmax": 870,
+   "REQ": [
+    0,
+    2,
+    3,
+    5,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    17,
+    18,
+    20,
+    21
+   ],
+   "reqT": [
+    2
+   ],
+   "samples": 150,
+   "pattern_ok": true
+  },
+  "Psi([3, 12, 21],[0])": {
+   "hypotheses": {
+    "T_antichain": true,
+    "Vmax_incomparable": true,
+    "pool_hit": true,
+    "zero_not_in_pool": true,
+    "Z_star_literal_not_in_pool": true,
+    "C_E_disjoint_from_S": true
+   },
+   "pool": 318,
+   "Vmax": 777,
+   "REQ": [
+    0,
+    2,
+    3,
+    5,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    18,
+    20,
+    21
+   ],
+   "reqT": [
+    0,
+    2,
+    3
+   ],
+   "samples": 150,
+   "pattern_ok": true
+  },
+  "Psi([3, 12],[0, 21])": {
+   "hypotheses": {
+    "T_antichain": true,
+    "Vmax_incomparable": true,
+    "pool_hit": true,
+    "zero_not_in_pool": true,
+    "Z_star_literal_not_in_pool": true,
+    "C_E_disjoint_from_S": true
+   },
+   "pool": 318,
+   "Vmax": 870,
+   "REQ": [
+    0,
+    2,
+    3,
+    5,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    15,
+    18,
+    20,
+    21
+   ],
+   "reqT": [
+    0,
+    2
+   ],
+   "samples": 150,
+   "pattern_ok": true
+  },
+  "Psi([3, 12],[0])": {
+   "hypotheses": {
+    "T_antichain": true,
+    "Vmax_incomparable": true,
+    "pool_hit": true,
+    "zero_not_in_pool": true,
+    "Z_star_literal_not_in_pool": true,
+    "C_E_disjoint_from_S": true
+   },
+   "pool": 247,
+   "Vmax": 870,
+   "REQ": [
+    0,
+    2,
+    3,
+    5,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    15,
+    18,
+    20,
+    21
+   ],
+   "reqT": [
+    0,
+    2
+   ],
+   "samples": 150,
+   "pattern_ok": true
+  },
+  "Psi([3, 21],[12])": {
+   "hypotheses": {
+    "T_antichain": true,
+    "Vmax_incomparable": true,
+    "pool_hit": true,
+    "zero_not_in_pool": true,
+    "C_E_disjoint_from_S": true
+   },
+   "pool": 319,
+   "Vmax": 761,
+   "REQ": [
+    0,
+    2,
+    3,
+    5,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    18,
+    20,
+    21
+   ],
+   "reqT": [
+    0,
+    3
+   ],
+   "samples": 150,
+   "pattern_ok": true
+  },
+  "Psi([3],[12, 21])": {
+   "hypotheses": {
+    "T_antichain": true,
+    "Vmax_incomparable": true,
+    "pool_hit": true,
+    "zero_not_in_pool": true,
+    "C_E_disjoint_from_S": true
+   },
+   "pool": 319,
+   "Vmax": 842,
+   "REQ": [
+    0,
+    2,
+    3,
+    5,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    18,
+    19,
+    20,
+    21
+   ],
+   "reqT": [
+    0
+   ],
+   "samples": 150,
+   "pattern_ok": true
+  },
+  "Psi([21],[3, 12])": {
+   "hypotheses": {
+    "T_antichain": true,
+    "Vmax_incomparable": true,
+    "pool_hit": true,
+    "zero_not_in_pool": true,
+    "C_E_disjoint_from_S": true
+   },
+   "pool": 319,
+   "Vmax": 878,
+   "REQ": [
+    0,
+    2,
+    3,
+    5,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    18,
+    20,
+    21
+   ],
+   "reqT": [
+    0,
+    3
+   ],
+   "samples": 150,
+   "pattern_ok": true
+  },
+  "Psi([3, 21],[0, 12])": {
+   "hypotheses": {
+    "T_antichain": true,
+    "Vmax_incomparable": true,
+    "pool_hit": true,
+    "zero_not_in_pool": true,
+    "Z_star_literal_not_in_pool": true,
+    "C_E_disjoint_from_S": true
+   },
+   "pool": 318,
+   "Vmax": 878,
+   "REQ": [
+    0,
+    2,
+    3,
+    5,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    18,
+    20,
+    21
+   ],
+   "reqT": [
+    0,
+    3
+   ],
+   "samples": 150,
+   "pattern_ok": true
+  },
+  "Psi([],[3, 12, 21])": {
+   "hypotheses": {
+    "T_antichain": true,
+    "Vmax_incomparable": true,
+    "pool_hit": true,
+    "zero_not_in_pool": true,
+    "C_E_disjoint_from_S": true
+   },
+   "pool": 319,
+   "Vmax": 1039,
+   "REQ": [
+    0,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "reqT": [],
+   "samples": 150,
+   "pattern_ok": true
+  },
+  "Psi([3],[0, 12, 21])": {
+   "hypotheses": {
+    "T_antichain": true,
+    "Vmax_incomparable": true,
+    "pool_hit": true,
+    "zero_not_in_pool": true,
+    "Z_star_literal_not_in_pool": true,
+    "C_E_disjoint_from_S": true
+   },
+   "pool": 318,
+   "Vmax": 1039,
+   "REQ": [
+    0,
+    2,
+    3,
+    5,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    18,
+    19,
+    20,
+    21
+   ],
+   "reqT": [
+    0
+   ],
+   "samples": 150,
+   "pattern_ok": true
+  },
+  "Psi([3],[12])": {
+   "hypotheses": {
+    "T_antichain": true,
+    "Vmax_incomparable": true,
+    "pool_hit": true,
+    "zero_not_in_pool": true,
+    "C_E_disjoint_from_S": true
+   },
+   "pool": 248,
+   "Vmax": 842,
+   "REQ": [
+    0,
+    2,
+    3,
+    5,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    18,
+    19,
+    20,
+    21
+   ],
+   "reqT": [
+    0
+   ],
+   "samples": 150,
+   "pattern_ok": true
+  },
+  "Psi([12],[3])": {
+   "hypotheses": {
+    "T_antichain": true,
+    "Vmax_incomparable": true,
+    "pool_hit": true,
+    "zero_not_in_pool": true,
+    "C_E_disjoint_from_S": true
+   },
+   "pool": 248,
+   "Vmax": 870,
+   "REQ": [
+    0,
+    2,
+    3,
+    5,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    17,
+    18,
+    20,
+    21
+   ],
+   "reqT": [
+    2
+   ],
+   "samples": 150,
+   "pattern_ok": true
+  },
+  "Psi([3],[0, 12])": {
+   "hypotheses": {
+    "T_antichain": true,
+    "Vmax_incomparable": true,
+    "pool_hit": true,
+    "zero_not_in_pool": true,
+    "Z_star_literal_not_in_pool": true,
+    "C_E_disjoint_from_S": true
+   },
+   "pool": 247,
+   "Vmax": 1039,
+   "REQ": [
+    0,
+    2,
+    3,
+    5,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    18,
+    19,
+    20,
+    21
+   ],
+   "reqT": [
+    0
+   ],
+   "samples": 150,
+   "pattern_ok": true
+  },
+  "Psi([],[3, 12])": {
+   "hypotheses": {
+    "T_antichain": true,
+    "Vmax_incomparable": true,
+    "pool_hit": true,
+    "zero_not_in_pool": true,
+    "C_E_disjoint_from_S": true
+   },
+   "pool": 248,
+   "Vmax": 1039,
+   "REQ": [
+    0,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "reqT": [],
+   "samples": 150,
+   "pattern_ok": true
+  },
+  "Psi([],[12, 21])": {
+   "hypotheses": {
+    "T_antichain": true,
+    "Vmax_incomparable": true,
+    "pool_hit": true,
+    "zero_not_in_pool": true,
+    "C_E_disjoint_from_S": true
+   },
+   "pool": 183,
+   "Vmax": 1039,
+   "REQ": [
+    0,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "reqT": [],
+   "samples": 150,
+   "pattern_ok": true
+  },
+  "Psi([3, 21],[])": {
+   "hypotheses": {
+    "T_antichain": true,
+    "Vmax_incomparable": true,
+    "pool_hit": true,
+    "zero_not_in_pool": true,
+    "C_E_disjoint_from_S": true
+   },
+   "pool": 261,
+   "Vmax": 761,
+   "REQ": [
+    0,
+    2,
+    3,
+    5,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    18,
+    20,
+    21
+   ],
+   "reqT": [
+    0,
+    3
+   ],
+   "samples": 150,
+   "pattern_ok": true
+  },
+  "Psi([21],[12])": {
+   "hypotheses": {
+    "T_antichain": true,
+    "Vmax_incomparable": true,
+    "pool_hit": true,
+    "zero_not_in_pool": true,
+    "C_E_disjoint_from_S": true
+   },
+   "pool": 183,
+   "Vmax": 878,
+   "REQ": [
+    0,
+    2,
+    3,
+    5,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    18,
+    20,
+    21
+   ],
+   "reqT": [
+    0,
+    3
+   ],
+   "samples": 150,
+   "pattern_ok": true
+  },
+  "Psi([12, 21],[])": {
+   "hypotheses": {
+    "T_antichain": true,
+    "Vmax_incomparable": true,
+    "pool_hit": true,
+    "zero_not_in_pool": true,
+    "C_E_disjoint_from_S": true
+   },
+   "pool": 183,
+   "Vmax": 777,
+   "REQ": [
+    0,
+    2,
+    3,
+    5,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    18,
+    20,
+    21
+   ],
+   "reqT": [
+    0,
+    2,
+    3
+   ],
+   "samples": 150,
+   "pattern_ok": true
+  },
+  "Psi([12],[21])": {
+   "hypotheses": {
+    "T_antichain": true,
+    "Vmax_incomparable": true,
+    "pool_hit": true,
+    "zero_not_in_pool": true,
+    "C_E_disjoint_from_S": true
+   },
+   "pool": 183,
+   "Vmax": 870,
+   "REQ": [
+    0,
+    2,
+    3,
+    5,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    17,
+    18,
+    20,
+    21
+   ],
+   "reqT": [
+    2
+   ],
+   "samples": 150,
+   "pattern_ok": true
+  },
+  "Psi([3],[21])": {
+   "hypotheses": {
+    "T_antichain": true,
+    "Vmax_incomparable": true,
+    "pool_hit": true,
+    "zero_not_in_pool": true,
+    "C_E_disjoint_from_S": true
+   },
+   "pool": 261,
+   "Vmax": 842,
+   "REQ": [
+    0,
+    2,
+    3,
+    5,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    18,
+    19,
+    20,
+    21
+   ],
+   "reqT": [
+    0
+   ],
+   "samples": 150,
+   "pattern_ok": true
+  },
+  "Psi([3],[0, 21])": {
+   "hypotheses": {
+    "T_antichain": true,
+    "Vmax_incomparable": true,
+    "pool_hit": true,
+    "zero_not_in_pool": true,
+    "Z_star_literal_not_in_pool": true,
+    "C_E_disjoint_from_S": true
+   },
+   "pool": 260,
+   "Vmax": 1039,
+   "REQ": [
+    0,
+    2,
+    3,
+    5,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    18,
+    19,
+    20,
+    21
+   ],
+   "reqT": [
+    0
+   ],
+   "samples": 150,
+   "pattern_ok": true
+  },
+  "Psi([],[3, 21])": {
+   "hypotheses": {
+    "T_antichain": true,
+    "Vmax_incomparable": true,
+    "pool_hit": true,
+    "zero_not_in_pool": true,
+    "C_E_disjoint_from_S": true
+   },
+   "pool": 261,
+   "Vmax": 1039,
+   "REQ": [
+    0,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "reqT": [],
+   "samples": 150,
+   "pattern_ok": true
+  },
+  "Psi([3, 21],[0])": {
+   "hypotheses": {
+    "T_antichain": true,
+    "Vmax_incomparable": true,
+    "pool_hit": true,
+    "zero_not_in_pool": true,
+    "Z_star_literal_not_in_pool": true,
+    "C_E_disjoint_from_S": true
+   },
+   "pool": 260,
+   "Vmax": 878,
+   "REQ": [
+    0,
+    2,
+    3,
+    5,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    18,
+    20,
+    21
+   ],
+   "reqT": [
+    0,
+    3
+   ],
+   "samples": 150,
+   "pattern_ok": true
+  },
+  "Psi([21],[3])": {
+   "hypotheses": {
+    "T_antichain": true,
+    "Vmax_incomparable": true,
+    "pool_hit": true,
+    "zero_not_in_pool": true,
+    "C_E_disjoint_from_S": true
+   },
+   "pool": 261,
+   "Vmax": 878,
+   "REQ": [
+    0,
+    2,
+    3,
+    5,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    18,
+    20,
+    21
+   ],
+   "reqT": [
+    0,
+    3
+   ],
+   "samples": 150,
+   "pattern_ok": true
+  },
+  "Psi([],[12])": {
+   "hypotheses": {
+    "T_antichain": true,
+    "Vmax_incomparable": true,
+    "pool_hit": true,
+    "zero_not_in_pool": true,
+    "C_E_disjoint_from_S": true
+   },
+   "pool": 115,
+   "Vmax": 1039,
+   "REQ": [
+    0,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "reqT": [],
+   "samples": 150,
+   "pattern_ok": true
+  },
+  "Psi([],[21])": {
+   "hypotheses": {
+    "T_antichain": true,
+    "Vmax_incomparable": true,
+    "pool_hit": true,
+    "zero_not_in_pool": true,
+    "C_E_disjoint_from_S": true
+   },
+   "pool": 151,
+   "Vmax": 1039,
+   "REQ": [
+    0,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "reqT": [],
+   "samples": 150,
+   "pattern_ok": true
+  },
+  "Psi([12],[])": {
+   "hypotheses": {
+    "T_antichain": true,
+    "Vmax_incomparable": true,
+    "pool_hit": true,
+    "zero_not_in_pool": true,
+    "C_E_disjoint_from_S": true
+   },
+   "pool": 115,
+   "Vmax": 870,
+   "REQ": [
+    0,
+    2,
+    3,
+    5,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    17,
+    18,
+    20,
+    21
+   ],
+   "reqT": [
+    2
+   ],
+   "samples": 150,
+   "pattern_ok": true
+  },
+  "Psi([21],[])": {
+   "hypotheses": {
+    "T_antichain": true,
+    "Vmax_incomparable": true,
+    "pool_hit": true,
+    "zero_not_in_pool": true,
+    "C_E_disjoint_from_S": true
+   },
+   "pool": 151,
+   "Vmax": 878,
+   "REQ": [
+    0,
+    2,
+    3,
+    5,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    18,
+    20,
+    21
+   ],
+   "reqT": [
+    0,
+    3
+   ],
+   "samples": 150,
+   "pattern_ok": true
+  },
+  "Psi([3],[0])": {
+   "hypotheses": {
+    "T_antichain": true,
+    "Vmax_incomparable": true,
+    "pool_hit": true,
+    "zero_not_in_pool": true,
+    "Z_star_literal_not_in_pool": true,
+    "C_E_disjoint_from_S": true
+   },
+   "pool": 167,
+   "Vmax": 1039,
+   "REQ": [
+    0,
+    2,
+    3,
+    5,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    18,
+    19,
+    20,
+    21
+   ],
+   "reqT": [
+    0
+   ],
+   "samples": 150,
+   "pattern_ok": true
+  },
+  "Psi([3],[])": {
+   "hypotheses": {
+    "T_antichain": true,
+    "Vmax_incomparable": true,
+    "pool_hit": true,
+    "zero_not_in_pool": true,
+    "C_E_disjoint_from_S": true
+   },
+   "pool": 168,
+   "Vmax": 842,
+   "REQ": [
+    0,
+    2,
+    3,
+    5,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    18,
+    19,
+    20,
+    21
+   ],
+   "reqT": [
+    0
+   ],
+   "samples": 150,
+   "pattern_ok": true
+  },
+  "Psi([],[3])": {
+   "hypotheses": {
+    "T_antichain": true,
+    "Vmax_incomparable": true,
+    "pool_hit": true,
+    "zero_not_in_pool": true,
+    "C_E_disjoint_from_S": true
+   },
+   "pool": 168,
+   "Vmax": 1039,
+   "REQ": [
+    0,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "reqT": [],
+   "samples": 150,
+   "pattern_ok": true
+  },
+  "Psi([],[])": {
+   "hypotheses": {
+    "T_antichain": true,
+    "Vmax_incomparable": true,
+    "pool_hit": true,
+    "zero_not_in_pool": true,
+    "C_E_disjoint_from_S": true
+   },
+   "pool": 62,
+   "Vmax": 1039,
+   "REQ": [
+    0,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "reqT": [],
+   "samples": 150,
+   "pattern_ok": true
+  }
+ },
+ "F_random": {
+  "samples": 10800,
+  "distinct_option_pairs": 10756,
+  "equal_game_pairs": 0,
+  "violations": [],
+  "cross_family_duplicates": 0
+ },
+ "status": "AUDIT PASSED",
+ "errors": [],
+ "runtime_s": 626,
+ "command": "harvest/audit_psi_structure.py [[[3,12],[21]],[[12,21],[3]],[[12],[3,21]],[[3,12,21],[0]],[[3,12],[0,21]],[[3,12],[0]],[[3,21],[12]],[[3],[12,21]],[[21],[3,12]],[[3,21],[0,12]],[[],[3,12,21]],[[3],[0,12,21]],[[3],[12]],[[12],[3]],[[3],[0,12]],[[],[3,12]],[[],[12,21]],[[3,21],[]],[[21],[12]],[[12,21],[]],[[12],[21]],[[3],[21]],[[3],[0,21]],[[],[3,21]],[[3,21],[0]],[[21],[3]],[[],[12]],[[],[21]],[[12],[]],[[21],[]],[[3],[0]],[[3],[]],[[],[3]],[[],[]]] 150"
+}

@@ -1,0 +1,234 @@
+{
+ "family": "Psi[12]",
+ "S": [
+  12
+ ],
+ "C": [],
+ "E": [
+  3,
+  21
+ ],
+ "total": "706427808114693050310509464476385031",
+ "status": "AUDIT PASSED",
+ "errors": [],
+ "rows": [
+  {
+   "D": [
+    0,
+    2,
+    3,
+    7,
+    8,
+    17,
+    18,
+    21
+   ],
+   "e": "42",
+   "cov": "432092162",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 148,
+     "value": "432092162",
+     "sha": "0d2d8cca3ce607a0acac9b3dca7a9efb348dbe0867514bc3f02e468e681e0617",
+     "sec": 58.2
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    7,
+    8,
+    12,
+    17,
+    18,
+    21
+   ],
+   "e": "686",
+   "cov": "10029309770",
+   "terms": [
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [],
+     "n": 190,
+     "value": "10029309770",
+     "sha": "52edf8abc53d104392ad443314187f5b31530f1dcf97050129f7918dac9f9b2e",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    7,
+    8,
+    12,
+    17,
+    18,
+    20,
+    21
+   ],
+   "e": "6874",
+   "cov": "1441595380409835659",
+   "terms": [
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [],
+     "n": 352,
+     "value": "1441595380409835659",
+     "sha": "0e13fa4e885e8e472a286f0749bf7c7c0834fe40433e063b341ba9c96c0c1833",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    7,
+    8,
+    11,
+    12,
+    17,
+    18,
+    20,
+    21
+   ],
+   "e": "48804",
+   "cov": "42549797208631746037620",
+   "terms": [
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [],
+     "n": 481,
+     "value": "42549797208631746037620",
+     "sha": "24d166a1568e938466b6715f887d726164da254985206b26f93f6542c1b8ee44",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    7,
+    8,
+    12,
+    14,
+    17,
+    18,
+    20,
+    21
+   ],
+   "e": "5690",
+   "cov": "28419192843073650245329",
+   "terms": [
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [],
+     "n": 460,
+     "value": "28419192843073650245329",
+     "sha": "66d2df025fc4e778aff052d2268b571bed7ac6a1a20cfb6248e76f21079c0e23",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    7,
+    8,
+    11,
+    12,
+    14,
+    17,
+    18,
+    20,
+    21
+   ],
+   "e": "163255",
+   "cov": "1552552170354988924563031495534",
+   "terms": [
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [],
+     "n": 670,
+     "value": "1552552170354988924563031495534",
+     "sha": "68df3211db93e54f2f94cc74166d28fff334e4954647bb25939dbd31d1341c51",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    17,
+    18,
+    20,
+    21
+   ],
+   "e": "20068",
+   "cov": "22004609525535543335820190092686",
+   "terms": [
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [],
+     "n": 738,
+     "value": "22004609525535543335820190092686",
+     "sha": "74ba62827218141fe1ca4c5c94e7fbc65caa369c61268b8444a62f7bcbbfd636",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    5,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    17,
+    18,
+    20,
+    21
+   ],
+   "e": "243",
+   "cov": "46820565212455267464722402931431",
+   "terms": [
+    {
+     "method": "verifier cache (vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT)",
+     "U": [],
+     "n": 772,
+     "value": "46820565212455267464722402931431",
+     "sha": "a67c8fda316b7cfd52a6590c7abea59a3791e2c609ba6ff1688abfaf5c5afbf2",
+     "sec": 0.0
+    }
+   ]
+  }
+ ],
+ "runtime_s": 59,
+ "command": "harvest/verify_psi.py harvest/psi_S12_Cnone.json"
+}

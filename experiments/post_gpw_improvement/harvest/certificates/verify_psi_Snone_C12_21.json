@@ -1,0 +1,6082 @@
+{
+ "family": "Psi[]",
+ "S": [],
+ "C": [
+  12,
+  21
+ ],
+ "E": [
+  3
+ ],
+ "total": "8520674777465663492223585922514488078",
+ "status": "AUDIT PASSED",
+ "errors": [],
+ "rows": [
+  {
+   "D": [],
+   "e": "26",
+   "cov": "0",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    3,
+    6,
+    17
+   ],
+   "e": "9",
+   "cov": "0",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    3,
+    6,
+    17,
+    19
+   ],
+   "e": "21",
+   "cov": "0",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    17,
+    19
+   ],
+   "e": "34",
+   "cov": "323",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 38,
+     "value": "486",
+     "sha": "e5c4c63523e504d1960f2a11d18537f2d0b8433bef31c4d41676132f5785ce57",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 24,
+     "value": "163",
+     "sha": "0a73882f6d6b461bb62cdcacfdcf90a87b5588cb171cd4058695ff8c8b04ebd7",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 5,
+     "value": "7",
+     "sha": "e484ad97d4706a6991f118f7b4415d87a22ad6ffcfeb32105fb37d09919c9d4f",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 5,
+     "value": "7",
+     "sha": "e484ad97d4706a6991f118f7b4415d87a22ad6ffcfeb32105fb37d09919c9d4f",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    3,
+    6,
+    12,
+    17,
+    19
+   ],
+   "e": "16",
+   "cov": "0",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    3,
+    6,
+    17,
+    19,
+    21
+   ],
+   "e": "122",
+   "cov": "0",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    12,
+    17,
+    19
+   ],
+   "e": "95",
+   "cov": "610",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 45,
+     "value": "885",
+     "sha": "d8fed05bdf5ef609de7b82555aa9e473fdf045c8998e51cb8a198dd9013f0167",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 31,
+     "value": "275",
+     "sha": "23e75b00e7224be7018ff9c65e0f1ff9805c8a021a3fef85d32f80dd060a5742",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 5,
+     "value": "7",
+     "sha": "e484ad97d4706a6991f118f7b4415d87a22ad6ffcfeb32105fb37d09919c9d4f",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 5,
+     "value": "7",
+     "sha": "e484ad97d4706a6991f118f7b4415d87a22ad6ffcfeb32105fb37d09919c9d4f",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    17,
+    19,
+    21
+   ],
+   "e": "857",
+   "cov": "12917",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 64,
+     "value": "16589",
+     "sha": "05f1c60d0b092fe825f703007fe7d13cc00913cda6a46975e6adfb4a46c9a0c7",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 43,
+     "value": "3560",
+     "sha": "abd0c35dc8fa1155fe5b56f6f0a32c2aba472d448633773f74ef7c994377f187",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 31,
+     "value": "275",
+     "sha": "b6dabff5b1623c40c232d77b96e0d7ae793629e5602b591b191d756dbe4c65b1",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 24,
+     "value": "163",
+     "sha": "743c8dbd973b111bb92ac9557fe66bfbc62d05dd5b8611e7b12e4c7bd3b850d9",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    3,
+    6,
+    12,
+    17,
+    19,
+    21
+   ],
+   "e": "294",
+   "cov": "0",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    3,
+    6,
+    17,
+    18,
+    19,
+    21
+   ],
+   "e": "568",
+   "cov": "0",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    8,
+    17,
+    19,
+    21
+   ],
+   "e": "831",
+   "cov": "376101",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 90,
+     "value": "440085",
+     "sha": "48e9f2960699fac2287fc8cf9bee04af148b3d57fa1421ed8ac421bf1cf7b175",
+     "sec": 0.4
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 62,
+     "value": "55188",
+     "sha": "c81136572341e2552ec81f6b5673bcbcc0d7cf8b92f7b55e5004dcf942895c44",
+     "sec": 0.1
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 57,
+     "value": "12356",
+     "sha": "cb3328c7631a40335328c90d59e2d4568534cfb0a33bbc0082c843c94c01bb3b",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 43,
+     "value": "3560",
+     "sha": "d24841ebb1954c715fed71cd3f3a7ff34e72baecbc80c382c4770bf0a18f6092",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    12,
+    17,
+    19,
+    21
+   ],
+   "e": "7332",
+   "cov": "49137",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 78,
+     "value": "61704",
+     "sha": "d52d07ef2a09a55a349dfbca3733a4f96aa605e8adcafdb8b04a892b5d483607",
+     "sec": 0.1
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 57,
+     "value": "12356",
+     "sha": "c8b52b1cecb56b1f77887eb43f36f28db78e84ef4e0d4c9ca5b6dd7950c2dbc1",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 38,
+     "value": "486",
+     "sha": "9f81fc8cc6688c6c556380ef5d7321df976a82f912284d8650143d77e081cf2e",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 31,
+     "value": "275",
+     "sha": "f559a52861d05df32ffb72ba704d3ec110883addd732f6e0d183c51b72ddd262",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    17,
+    18,
+    19,
+    21
+   ],
+   "e": "10666",
+   "cov": "492446",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 95,
+     "value": "607121",
+     "sha": "bf092f40a99d87f193bb8a1923eb4bfc7c4d486e9cb05d1e88063c7793102379",
+     "sec": 1.5
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 67,
+     "value": "97035",
+     "sha": "c1e31ac340fc5ec4d1f268ae049827ff43ac13c6267871baa1d19e0a0f401fd1",
+     "sec": 0.3
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 62,
+     "value": "27101",
+     "sha": "6f33c7201f2a57db8bad52fe8aeba4ef41d8211ce3fb8368978034e66e843dad",
+     "sec": 0.2
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 48,
+     "value": "9461",
+     "sha": "a0a42986b1f12a3dbc9ffe2e8eef6f9e2ee691de75b8bf75981a1142df8ca17f",
+     "sec": 0.1
+    }
+   ]
+  },
+  {
+   "D": [
+    3,
+    6,
+    12,
+    17,
+    18,
+    19,
+    21
+   ],
+   "e": "2801",
+   "cov": "0",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    3,
+    6,
+    12,
+    17,
+    19,
+    20,
+    21
+   ],
+   "e": "145",
+   "cov": "0",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    8,
+    12,
+    17,
+    19,
+    21
+   ],
+   "e": "12718",
+   "cov": "2718489",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 111,
+     "value": "3126797",
+     "sha": "2766c2a2fb90df5387dfeb2790f3ff5c117e2656bad10a558ba9f4c620932b4b",
+     "sec": 6.4
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 83,
+     "value": "374990",
+     "sha": "4af581d3b3a0bd96ad0d54f2d9bc234fa6b53b66050a29964e2dc5608a90605b",
+     "sec": 1.3
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 71,
+     "value": "45674",
+     "sha": "2a82905836aba1dcd40e0875d5510bc8e2016159b949e7852be378146b1611c1",
+     "sec": 0.3
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 57,
+     "value": "12356",
+     "sha": "5ac40d663dba56bab26c05bd4d944e978da7eff04bcbc6b01f68ec705445cdb3",
+     "sec": 0.1
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    8,
+    17,
+    18,
+    19,
+    21
+   ],
+   "e": "31784",
+   "cov": "398275913",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 147,
+     "value": "450022224",
+     "sha": "80eb65af26af1b67f1d2ddd1400dd455d941bec5565b5a59f5e934712db52d73",
+     "sec": 79.1
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 105,
+     "value": "21056680",
+     "sha": "dddbe07a423cefca2e3777a9af4642c8b8256f8c85a43ab46bd58858c63a0646",
+     "sec": 6.1
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 114,
+     "value": "33677282",
+     "sha": "40590ea4a71b081e6eeed89773a42e7984f3bb53bd18c7f19760714be5ce4c75",
+     "sec": 9.5
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 86,
+     "value": "2987651",
+     "sha": "73d15e2353df888fa4987feeeb8de5d93cb1671515f7feed9ec44ace5f910fe2",
+     "sec": 1.3
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    12,
+    17,
+    18,
+    19,
+    21
+   ],
+   "e": "225967",
+   "cov": "3158412",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 116,
+     "value": "3746810",
+     "sha": "37a1b586035fb42cc2339a3c7e441fa218e14c9cfada435aa50920a1ef768ca5",
+     "sec": 2.6
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 88,
+     "value": "532440",
+     "sha": "9f4e8b4753d56db567c1fdc343cf1678e51d1b044e98b29ee26cd80368c0b907",
+     "sec": 0.5
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 76,
+     "value": "83059",
+     "sha": "2f60098f2a33c5a604001ceb425a922fcc852600cebb4f7d064829c3a0132451",
+     "sec": 0.2
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 62,
+     "value": "27101",
+     "sha": "bc626b70242b2746cae4e6fae80962521487c0ded6d61fb453479acdccc064cb",
+     "sec": 0.1
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    12,
+    17,
+    19,
+    20,
+    21
+   ],
+   "e": "6894",
+   "cov": "560832",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 104,
+     "value": "940055",
+     "sha": "17204fc91c5e3a1a3e62c3d8b1447dc3b5a75bf8e8dbf22c74d916ab916b3159",
+     "sec": 0.9
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 83,
+     "value": "374990",
+     "sha": "2880cbee691e9fad2c57cb9042fe700e34bf17555ea938006d2db27bb882c869",
+     "sec": 0.4
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 64,
+     "value": "16589",
+     "sha": "28d8077359071cbd15d96dd903a5ec4ac38dc8c49d8dc1ffe11afd10b4171d4d",
+     "sec": 0.1
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 57,
+     "value": "12356",
+     "sha": "6e1c2fb85e868ea34c959d571e5b0f6bead0a19b1f85e966cb41850dab2e4d69",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    3,
+    6,
+    12,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "3471",
+   "cov": "0",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    7,
+    8,
+    17,
+    18,
+    19,
+    21
+   ],
+   "e": "18446",
+   "cov": "5143915427",
+   "terms": [
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      2,
+      3,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      14
+     ],
+     "M": 9,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 9216,
+     "maxrss": 1064960,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587
+     ],
+     "residues": [
+      1619881525,
+      1619881527,
+      1619881563,
+      1619881647
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [],
+     "n": 178,
+     "value": "5914848821",
+     "sha": "972afb1eff1c6375983d7551ac425f6778bb9414d2449630f652fd4acd0e67a8",
+     "sec": 8.1
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 129,
+     "value": "187214586",
+     "sha": "dff2a77f16a6c5ad9be8bfe9079deb1e53286f05597034783e7619852bc385c7",
+     "sec": 30.1
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 145,
+     "value": "619111916",
+     "sha": "09f1e87d22d274671bebd6e954cf4744893d742baf2b5ffe915c79599a1a74ba",
+     "sec": 155.5
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 110,
+     "value": "35393108",
+     "sha": "febde209be517df62c3656a4aceb74c11d088fbf0266114e609c971272a28595",
+     "sec": 21.6
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    8,
+    12,
+    17,
+    18,
+    19,
+    21
+   ],
+   "e": "1504627",
+   "cov": "9232571757",
+   "terms": [
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      1,
+      2,
+      5,
+      9,
+      10,
+      13
+     ],
+     "M": 3974,
+     "K": [
+      1,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1
+     ],
+     "peak_entries": 6527,
+     "maxrss": 26718208,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587
+     ],
+     "residues": [
+      1454020699,
+      1454020703,
+      1454020775,
+      1454020943
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [],
+     "n": 182,
+     "value": "10043955291",
+     "sha": "d008622233bff0aed30e20e3573150df318c189366aff61c3efe203a058cc44b",
+     "sec": 20.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 140,
+     "value": "430992079",
+     "sha": "f0c4e40c7af32b829b914ed0ff428318f4a1f36d45639bdecf1a2e7e09d2a2b3",
+     "sec": 91.1
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 142,
+     "value": "414068737",
+     "sha": "89851d452bb1deb0c891e191cf269d26ac73b589b48168fbc7b3970da2dd9e6d",
+     "sec": 154.2
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 114,
+     "value": "33677282",
+     "sha": "7fd4be762151f1767d931bb2924ff6fd207d899ca902fd55ef71d35d45d06835",
+     "sec": 10.6
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    8,
+    12,
+    17,
+    19,
+    20,
+    21
+   ],
+   "e": "20698",
+   "cov": "664267422",
+   "terms": [
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": false,
+     "Qa": [
+      1,
+      6,
+      7,
+      8,
+      9,
+      11,
+      13,
+      14
+     ],
+     "M": 1086,
+     "K": [
+      1,
+      2,
+      3,
+      3,
+      3,
+      2,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 8008,
+     "maxrss": 3497984,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563
+     ],
+     "residues": [
+      1042465249,
+      1042465249,
+      1042465249,
+      1042465249,
+      1042465249,
+      1042465249
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [],
+     "n": 163,
+     "value": "1042465249",
+     "sha": "a4cacf7981f0da1eda1e937ce911b43a9d54e22876c878df43e1ceb0b36b5bc4",
+     "sec": 6.7
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 135,
+     "value": "354664327",
+     "sha": "f958af2b2ebbc0b26a429fb6515a5fd3d32e6b4b31a39199692191f467e835b2",
+     "sec": 98.8
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 123,
+     "value": "47318364",
+     "sha": "e73f3c6776d25de212196427bb8fd8772d95e2ecd38a261e625fc2d1cf3f1533",
+     "sec": 33.2
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 109,
+     "value": "23784864",
+     "sha": "e0608e8069f588e15ab41a495705e5449c95430561aa2f77737c801b4180ce8e",
+     "sec": 18.4
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    12,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "648686",
+   "cov": "734217255",
+   "terms": [
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": false,
+     "Qa": [
+      1,
+      6,
+      7,
+      8,
+      9,
+      11,
+      13,
+      14
+     ],
+     "M": 3306,
+     "K": [
+      1,
+      2,
+      3,
+      3,
+      3,
+      2,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 8008,
+     "maxrss": 14106624,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549
+     ],
+     "residues": [
+      1195069284,
+      1195069284,
+      1195069284,
+      1195069284,
+      1195069284,
+      1195069284,
+      1195069284
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [],
+     "n": 168,
+     "value": "1195069284",
+     "sha": "c4ea3c5d8038a3c37192a3d6a83d5ccafd5c7977ee45bc7600842ca33b933c02",
+     "sec": 17.6
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 140,
+     "value": "430992079",
+     "sha": "82014fcdfacd56502da30f093495140db597a6df9dfa1e5310503370ceb56528",
+     "sec": 97.4
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 128,
+     "value": "63537232",
+     "sha": "d15edba750958e1c8a8c2835b30c6cdd83017e5ad77242764a182b86a05960d6",
+     "sec": 35.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 114,
+     "value": "33677282",
+     "sha": "903a5b70ac41c7bc4379303392ddf88205f9da06f64d91c2499966ec858074b7",
+     "sec": 22.0
+    }
+   ]
+  },
+  {
+   "D": [
+    3,
+    6,
+    11,
+    12,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "1156",
+   "cov": "0",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    6,
+    7,
+    8,
+    17,
+    18,
+    19,
+    21
+   ],
+   "e": "650",
+   "cov": "53203369987",
+   "terms": [
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      3,
+      4,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      15
+     ],
+     "M": 10,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 14580,
+     "maxrss": 1077248,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587
+     ],
+     "residues": [
+      2858287484,
+      710803865,
+      710804387,
+      710805605
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [],
+     "n": 209,
+     "value": "62987829628",
+     "sha": "9f74c7eac38dde779ba355db24acd297e309ee5344ac6d88606d23a4e93d5d5d",
+     "sec": 30.1
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 153,
+     "value": "1399645670",
+     "sha": "042401906c2416214d55f6acc0d01bccebe488cf343189ec3aa8c0e2239b983b",
+     "sec": 190.9
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      2,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+     ],
+     "M": 8,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 8192,
+     "maxrss": 1044480,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587
+     ],
+     "residues": [
+      130092964,
+      130092968,
+      130093040,
+      130093208
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      21
+     ],
+     "n": 176,
+     "value": "8720027556",
+     "sha": "efe48677b02db7f9595759013cf57bfb529d28f036eb13b0ea81e5bccf11297f",
+     "sec": 7.5
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 134,
+     "value": "335213585",
+     "sha": "dfa3f8e2936f0a39ecb831c419993748be501e90cadd397fe3aab2844ca1fdb0",
+     "sec": 47.2
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    7,
+    8,
+    12,
+    17,
+    18,
+    19,
+    21
+   ],
+   "e": "1376573",
+   "cov": "189243278751",
+   "terms": [
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      2,
+      3,
+      6,
+      10,
+      11,
+      14
+     ],
+     "M": 3974,
+     "K": [
+      1,
+      3,
+      4,
+      3,
+      2,
+      2,
+      2,
+      1
+     ],
+     "peak_entries": 28128,
+     "maxrss": 28651520,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549
+     ],
+     "residues": [
+      454307755,
+      454307851,
+      454309579,
+      454313611,
+      454314379,
+      454315915,
+      454317259
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [],
+     "n": 220,
+     "value": "206612737963",
+     "sha": "128ab83b2c870f4b26492768398904eba64030004473b24a7a30a045b486f39f",
+     "sec": 23.5
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      1,
+      3,
+      4,
+      5,
+      6,
+      10,
+      11,
+      12,
+      13
+     ],
+     "M": 8,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 8192,
+     "maxrss": 1007616,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587
+     ],
+     "residues": [
+      1477259025,
+      1477259027,
+      1477259063,
+      1477259147
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      12
+     ],
+     "n": 171,
+     "value": "5772226321",
+     "sha": "d9e57df8a29af3c96d36ea3771f8154ae8b3cb30159956bfe05ea68d54fd96de",
+     "sec": 13.5
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      1,
+      5,
+      6,
+      10,
+      11,
+      12
+     ],
+     "M": 1854,
+     "K": [
+      1,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1
+     ],
+     "peak_entries": 6521,
+     "maxrss": 12582912,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587
+     ],
+     "residues": [
+      3626410215,
+      1478926572,
+      1478926662,
+      1478926872
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      21
+     ],
+     "n": 180,
+     "value": "12216344807",
+     "sha": "f5e3a4881cca04372b86c76d876ef7c29978e09d7bcd9781ddf876cc75ceacb4",
+     "sec": 15.8
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 145,
+     "value": "619111916",
+     "sha": "dcb4155674e065b52b1f82c7d741265fc70077ddb583a12e99b1d210a3694fee",
+     "sec": 180.9
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    8,
+    12,
+    14,
+    17,
+    19,
+    20,
+    21
+   ],
+   "e": "1188",
+   "cov": "4563472763",
+   "terms": [
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      1,
+      2,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      15
+     ],
+     "M": 16,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 16384,
+     "maxrss": 1085440,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579
+     ],
+     "residues": [
+      322205347,
+      322205351,
+      322205423,
+      322205591,
+      322205623
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [],
+     "n": 189,
+     "value": "8912139939",
+     "sha": "8fe1935f3299414f69ee7cf9609cd8eff43404f8a3408e03b51d444580ccdb5a",
+     "sec": 24.8
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      1,
+      3,
+      4,
+      5,
+      7,
+      10,
+      11,
+      12,
+      13
+     ],
+     "M": 8,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 8192,
+     "maxrss": 1187840,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587
+     ],
+     "residues": [
+      4134636717,
+      1987153070,
+      1987153088,
+      1987153130
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      12
+     ],
+     "n": 161,
+     "value": "4134636717",
+     "sha": "4dd4bc89a8a61c158ab2fd389e3c00c4943bd2573aa37bdaaa409702abb1b4b3",
+     "sec": 13.8
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 149,
+     "value": "570727458",
+     "sha": "be189b1edf0c5d8cef4fbb896a8fa6b41cf73ad913e9f3e493630ac9f2e46645",
+     "sec": 109.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 135,
+     "value": "356696999",
+     "sha": "d61537aed620397f59c05d4b53adcd3e423ab121a50eac45399f3dcebcbf31d9",
+     "sec": 121.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    8,
+    12,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "9332714",
+   "cov": "1179088481106554",
+   "terms": [
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      1,
+      2,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      15
+     ],
+     "M": 58,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 1074276,
+     "maxrss": 7024640,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563
+     ],
+     "residues": [
+      3169495125,
+      1022767310,
+      1036372304,
+      1068117290,
+      1074163954,
+      1086257282
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [],
+     "n": 286,
+     "value": "1623140030130261",
+     "sha": "44f4806008602434a798d88f619d1236a5e578c97e5649f0c6a051fa15052c59",
+     "sec": 52.6
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6,
+      10,
+      11,
+      12,
+      13
+     ],
+     "M": 21,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 388962,
+     "maxrss": 3973120,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579
+     ],
+     "residues": [
+      285474939,
+      285612047,
+      288079991,
+      293838527,
+      294935391
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      12
+     ],
+     "n": 244,
+     "value": "294437473484923",
+     "sha": "4e702be3c6078da2f224825d60a6c92f2f2d1c534414eecc8e4fb901bb906d7c",
+     "sec": 27.5
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13
+     ],
+     "M": 50,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 800000,
+     "maxrss": 5623808,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563
+     ],
+     "residues": [
+      337885389,
+      337976605,
+      339618493,
+      343449565,
+      344179293,
+      345638749
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      21
+     ],
+     "n": 246,
+     "value": "195885206321357",
+     "sha": "95ca843b364380af2ab6b21644ea0a70c3172c966845e061250e753ccea4f758",
+     "sec": 12.1
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      1,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "M": 20,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 320000,
+     "maxrss": 3387392,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579
+     ],
+     "residues": [
+      1448102765,
+      1448124311,
+      1448512139,
+      1449417071,
+      1449589439
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      12,
+      21
+     ],
+     "n": 218,
+     "value": "46271130782573",
+     "sha": "4bad2a3314703f5d50dae00dda51a8aca1f17545886df9ee11a6cbbef05ae96a",
+     "sec": 8.1
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    11,
+    12,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "356296",
+   "cov": "5432682199",
+   "terms": [
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      1,
+      2,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      15
+     ],
+     "M": 16,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 16384,
+     "maxrss": 1142784,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579
+     ],
+     "residues": [
+      2920756311,
+      773272668,
+      773272758,
+      773272968,
+      773273008
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [],
+     "n": 199,
+     "value": "11510690903",
+     "sha": "44883b3663562326340cff2852042a17447ee52f4ade6e967ba998b06e22c2fc",
+     "sec": 13.6
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      1,
+      3,
+      4,
+      5,
+      7,
+      10,
+      11,
+      12,
+      13
+     ],
+     "M": 8,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 8192,
+     "maxrss": 1007616,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587
+     ],
+     "residues": [
+      1477259025,
+      1477259027,
+      1477259063,
+      1477259147
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      12
+     ],
+     "n": 171,
+     "value": "5772226321",
+     "sha": "1634bcd5fbaaae876f3e93dc65af0c849016c902ce0d92e04b0c6a6c03b98ed4",
+     "sec": 13.9
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 159,
+     "value": "924894299",
+     "sha": "f1a02011358c07e20e259ae689d0bc7ba74691dbd22887b96d6cd92173a81659",
+     "sec": 250.8
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 145,
+     "value": "619111916",
+     "sha": "62837b465d7f3afbec990bbc634c2e5feed05b126b0a00d2ec493f2242b51ebd",
+     "sec": 124.3
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    6,
+    7,
+    8,
+    12,
+    17,
+    18,
+    19,
+    21
+   ],
+   "e": "117511",
+   "cov": "2976035843617",
+   "terms": [
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": false,
+     "Qa": [
+      3,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      14,
+      15,
+      16
+     ],
+     "M": 189,
+     "K": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      4,
+      4,
+      3,
+      3,
+      2,
+      1
+     ],
+     "peak_entries": 64152,
+     "maxrss": 1957888,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549,
+      2147483543
+     ],
+     "residues": [
+      3018309336,
+      870827221,
+      870854815,
+      870919201,
+      870931465,
+      870955993,
+      870977455,
+      870986653
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [],
+     "n": 258,
+     "value": "3292963258072",
+     "sha": "8f06ff447a7dda1acbe6eb930384188e38d1657baea1416b1a32916a2d8de177",
+     "sec": 41.5
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      1,
+      4,
+      5,
+      6,
+      7,
+      11,
+      12,
+      13,
+      14
+     ],
+     "M": 9,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 13122,
+     "maxrss": 1052672,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587
+     ],
+     "residues": [
+      1971431202,
+      1971431230,
+      1971431734,
+      1971432910
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      12
+     ],
+     "n": 202,
+     "value": "62100973346",
+     "sha": "10675fb9ded64cb3b2d643036fd6399820ab90bb9edfa806c10fe8b2df93ed6a",
+     "sec": 23.2
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      2,
+      5,
+      6,
+      7,
+      11,
+      12,
+      13
+     ],
+     "M": 2180,
+     "K": [
+      1,
+      3,
+      4,
+      3,
+      2,
+      2,
+      2,
+      1
+     ],
+     "peak_entries": 26160,
+     "maxrss": 15388672,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549
+     ],
+     "residues": [
+      1553463609,
+      1553463731,
+      1553465927,
+      1553471051,
+      1553472027,
+      1553473979,
+      1553475687
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      21
+     ],
+     "n": 218,
+     "value": "263546468665",
+     "sha": "e080717855358ea41a94e5e2d5d9f68ebe3e1d23d60b734345f375bfa62c6899",
+     "sec": 27.2
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      3,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+     ],
+     "M": 8,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 8192,
+     "maxrss": 995328,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587
+     ],
+     "residues": [
+      130092964,
+      130092968,
+      130093040,
+      130093208
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      12,
+      21
+     ],
+     "n": 176,
+     "value": "8720027556",
+     "sha": "43dc9a7630fb174d7a6603ec431897a0d526eab53a3fa52d469247da511aec79",
+     "sec": 15.8
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    7,
+    8,
+    12,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "13220111",
+   "cov": "266681479137883032",
+   "terms": [
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      2,
+      3,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      16
+     ],
+     "M": 86,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 3775744,
+     "maxrss": 20824064,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549
+     ],
+     "residues": [
+      2281001976,
+      302254395,
+      1192019972,
+      1836484067,
+      1038889056,
+      1591182645,
+      1806004118
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [],
+     "n": 350,
+     "value": "362357944843850744",
+     "sha": "5eba03bf874ee5fb552d171ff8da972515cd64c6834b952a3ce4b54ef1dc34d1",
+     "sec": 77.3
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      1,
+      3,
+      4,
+      5,
+      7,
+      11,
+      12,
+      13,
+      14
+     ],
+     "M": 28,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 1229312,
+     "maxrss": 9535488,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579
+     ],
+     "residues": [
+      1852008730,
+      1873335634,
+      109736277,
+      1005466287,
+      1176081527
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      12
+     ],
+     "n": 301,
+     "value": "45799179454474522",
+     "sha": "bac2babd87112dd578ad2429c4e693bc981a825d6f24aeeb2b514b7a44efcb6b",
+     "sec": 47.3
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      1,
+      4,
+      5,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      14
+     ],
+     "M": 77,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 3031182,
+     "maxrss": 17248256,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549
+     ],
+     "residues": [
+      1634812907,
+      1662466333,
+      12744372,
+      1174188306,
+      1395415722,
+      1837870554,
+      77534983
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      21
+     ],
+     "n": 310,
+     "value": "59385281780990955",
+     "sha": "d2e3cc0fb04bc84834a060a5a78247335aca0b6365d2e4222966530b627d1a8d",
+     "sec": 49.9
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      2,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+     ],
+     "M": 27,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 1062882,
+     "maxrss": 8478720,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579
+     ],
+     "residues": [
+      3088043173,
+      944987030,
+      1024682120,
+      1210637330,
+      1246057370
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      12,
+      21
+     ],
+     "n": 275,
+     "value": "9507995529497765",
+     "sha": "b19586185512a433fd9f57bc034e5bf2475fd32f7fb029c990532e710f9b91ab",
+     "sec": 25.9
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    8,
+    11,
+    12,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "8149018",
+   "cov": "90789965488373389",
+   "terms": [
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      1,
+      2,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      16
+     ],
+     "M": 69,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 3029376,
+     "maxrss": 17408000,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549
+     ],
+     "residues": [
+      3869169118,
+      1792994045,
+      929064766,
+      1776541371,
+      199526408,
+      1340463656,
+      191300199
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [],
+     "n": 343,
+     "value": "153134000496367070",
+     "sha": "47769519416f8bc71725f9e47a662b8dbf0ff0a6cbfc90e5fa5fece42c36647f",
+     "sec": 34.2
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      1,
+      3,
+      4,
+      5,
+      7,
+      11,
+      12,
+      13,
+      14
+     ],
+     "M": 28,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 1229312,
+     "maxrss": 9523200,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579
+     ],
+     "residues": [
+      1852008730,
+      1873335634,
+      109736277,
+      1005466287,
+      1176081527
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      12
+     ],
+     "n": 301,
+     "value": "45799179454474522",
+     "sha": "40a62aaf8f5acc820945750fc94f8fe2f344a77520087eaf2edb4101f7999165",
+     "sec": 21.8
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      4,
+      5,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      14
+     ],
+     "M": 61,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 2401326,
+     "maxrss": 14262272,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563
+     ],
+     "residues": [
+      372275932,
+      384407736,
+      602780208,
+      1112315976,
+      1209370408,
+      1403479272
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      21
+     ],
+     "n": 303,
+     "value": "26052851083016924",
+     "sha": "9ee9c3608079f90457f964656d5c894d63ab3b586b0e0d1a2d1f5dff61ecfec6",
+     "sec": 22.1
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      2,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+     ],
+     "M": 27,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 1062882,
+     "maxrss": 8429568,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579
+     ],
+     "residues": [
+      3088043173,
+      944987030,
+      1024682120,
+      1210637330,
+      1246057370
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      12,
+      21
+     ],
+     "n": 275,
+     "value": "9507995529497765",
+     "sha": "4e261971c4c5b3770c90dcfc06041cb41fb59978c41b39a25858a0177e14a8db",
+     "sec": 16.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    8,
+    12,
+    14,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "1353347",
+   "cov": "86843036306678986",
+   "terms": [
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      1,
+      2,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      16
+     ],
+     "M": 69,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 3029376,
+     "maxrss": 17235968,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549
+     ],
+     "residues": [
+      1945575680,
+      2012804174,
+      1075433437,
+      1751546640,
+      141891029,
+      1217546981,
+      11262390
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [],
+     "n": 338,
+     "value": "144372093490241792",
+     "sha": "940273f22170bf321bd212d0fedfc39b0dcbcd92dee73cab3d970c8f01f466e6",
+     "sec": 32.7
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      1,
+      3,
+      4,
+      5,
+      7,
+      11,
+      12,
+      13,
+      14
+     ],
+     "M": 28,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 1229312,
+     "maxrss": 9355264,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579
+     ],
+     "residues": [
+      2021850576,
+      2041474742,
+      247226101,
+      1071441115,
+      1228434451
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      12
+     ],
+     "n": 296,
+     "value": "42142577612488144",
+     "sha": "8f33cf012cd0d95e02339690904542eb14e4b8e8e289897b4be718257aad7e94",
+     "sec": 20.5
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      4,
+      5,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      14
+     ],
+     "M": 61,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 2401326,
+     "maxrss": 14192640,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563
+     ],
+     "residues": [
+      3662096758,
+      1525726503,
+      1725767577,
+      45046496,
+      133953648,
+      311767952
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      21
+     ],
+     "n": 298,
+     "value": "23865831255910774",
+     "sha": "199e386ad0ec9ba45b602759076c5a2c6e8623dcb4715a0cd3953f2348e15713",
+     "sec": 30.0
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      2,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+     ],
+     "M": 27,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 1062882,
+     "maxrss": 8257536,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579
+     ],
+     "residues": [
+      3910773520,
+      1767238377,
+      1838311467,
+      2004148677,
+      2035736717
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      12,
+      21
+     ],
+     "n": 270,
+     "value": "8479351684836112",
+     "sha": "f22ae293320b084fdb39e5f7b8b526ae1a048622dde60dcd3588cf2a58015d19",
+     "sec": 29.9
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    6,
+    7,
+    8,
+    12,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "2227413",
+   "cov": "35997405556243252736",
+   "terms": [
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      3,
+      4,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      17
+     ],
+     "M": 122,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 11384064,
+     "maxrss": 58228736,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549
+     ],
+     "residues": [
+      2139347461,
+      1649041010,
+      1413463170,
+      147980841,
+      520507639,
+      1265565363,
+      843753612
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [],
+     "n": 414,
+     "value": "49675621095186881029",
+     "sha": "3b53e16f1b69cbd4d99be70258f93355c7a02972dfd0344437d31b57831ca3a7",
+     "sec": 117.6
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      1,
+      4,
+      5,
+      6,
+      8,
+      12,
+      13,
+      14,
+      15
+     ],
+     "M": 36,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 3359232,
+     "maxrss": 23719936,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563
+     ],
+     "residues": [
+      2563826347,
+      327181877,
+      869771052,
+      1419986978,
+      706701410,
+      1427614221
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      12
+     ],
+     "n": 358,
+     "value": "4420214609409008299",
+     "sha": "b7f903190f943e7ef7ba12623c753e92d7e7222e2d3986a8c3a6a8dfb5321ba2",
+     "sec": 80.1
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      2,
+      5,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      15
+     ],
+     "M": 112,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 9604000,
+     "maxrss": 49770496,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549
+     ],
+     "residues": [
+      2986880682,
+      1389113799,
+      546598108,
+      12389627,
+      115158781,
+      320697953,
+      1574287448
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      21
+     ],
+     "n": 374,
+     "value": "10403879797268164266",
+     "sha": "15f6b56d2da904511fecc2562b60828f5a3bcd2e5e688bcf8baa25cc4ee89e85",
+     "sec": 60.8
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      3,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+     ],
+     "M": 35,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 3001250,
+     "maxrss": 21417984,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563
+     ],
+     "residues": [
+      1390574928,
+      1924166356,
+      791393915,
+      1727398231,
+      1701162617,
+      1648691485
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      12,
+      21
+     ],
+     "n": 332,
+     "value": "1145878867733544272",
+     "sha": "b2b7ffd1b5d77a9e31b706f1edf51461da70b8e1bf75f1a664a83cf0baaada1c",
+     "sec": 39.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    7,
+    8,
+    11,
+    12,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "16152565",
+   "cov": "177923241739771810863",
+   "terms": [
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      2,
+      3,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      17
+     ],
+     "M": 111,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 16447536,
+     "maxrss": 86396928,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549
+     ],
+     "residues": [
+      568140019,
+      801794252,
+      712626102,
+      1936391930,
+      1658211407,
+      1101876137,
+      78240081
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [],
+     "n": 438,
+     "value": "309484731735975207155",
+     "sha": "3af3b987f04ecd5aec2bc6827577bc7b65b7318a2de307c44d8f3e83f5caae50",
+     "sec": 133.7
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      1,
+      4,
+      5,
+      6,
+      8,
+      12,
+      13,
+      14,
+      15
+     ],
+     "M": 42,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 6223392,
+     "maxrss": 30892032,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563
+     ],
+     "residues": [
+      1988698732,
+      1547502145,
+      48420280,
+      845572189,
+      1610984099,
+      994330788
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      12
+     ],
+     "n": 389,
+     "value": "77451199822611161708",
+     "sha": "8b3fffef2bd83f0404ebb33da9993951e90c3ea2992f442bd1a406005bdfcf40",
+     "sec": 101.2
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      1,
+      5,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      15
+     ],
+     "M": 102,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 14059884,
+     "maxrss": 75030528,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549
+     ],
+     "residues": [
+      3519439464,
+      563298626,
+      1039860423,
+      1436051947,
+      1409262524,
+      1355690062,
+      771950253
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      21
+     ],
+     "n": 398,
+     "value": "76662084185767699048",
+     "sha": "6e1ab62fa6d58d94b5e54472050cdde078616872992af1dfc3dfe993573f029d",
+     "sec": 58.4
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      3,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+     ],
+     "M": 41,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 5651522,
+     "maxrss": 28274688,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563
+     ],
+     "residues": [
+      1736439824,
+      1500519019,
+      1548913497,
+      230190541,
+      490312792,
+      1010559166
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      12,
+      21
+     ],
+     "n": 363,
+     "value": "22551794012175464464",
+     "sha": "1297d874027dae95c6fffbf43e146dd6a17b18f40f446f96b27844a788dd72a8",
+     "sec": 66.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    7,
+    8,
+    12,
+    14,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "3512726",
+   "cov": "158722193652729188560",
+   "terms": [
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      2,
+      3,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      17
+     ],
+     "M": 111,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 16447536,
+     "maxrss": 84652032,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549
+     ],
+     "residues": [
+      1540725794,
+      125779591,
+      426571663,
+      1128566831,
+      546475670,
+      1529799327,
+      1048054800
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [],
+     "n": 428,
+     "value": "269050901128312888354",
+     "sha": "976555f34cf20d8ea9bf5049181d2440350b412e87bee6bd613fad3307284013",
+     "sec": 129.8
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      1,
+      4,
+      5,
+      6,
+      8,
+      12,
+      13,
+      14,
+      15
+     ],
+     "M": 42,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 6223392,
+     "maxrss": 29093888,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563
+     ],
+     "residues": [
+      2962127863,
+      828017084,
+      1068733514,
+      1630440464,
+      1737437864,
+      1951438040
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      12
+     ],
+     "n": 379,
+     "value": "64592322246237649911",
+     "sha": "b6c489b6d962a92fbeea45429b05700d9d8f0f97028adf1ef3ad6c2068c85df8",
+     "sec": 87.3
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      1,
+      5,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      15
+     ],
+     "M": 102,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 14059884,
+     "maxrss": 73355264,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549
+     ],
+     "residues": [
+      3403024912,
+      842618873,
+      1999955139,
+      1837129697,
+      681248500,
+      516974997,
+      1178547814
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      21
+     ],
+     "n": 388,
+     "value": "63676860146608638480",
+     "sha": "c1bb57810660870898bfca03b22b02a3d44e40e7209c0335be8323415badb604",
+     "sec": 54.0
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      3,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+     ],
+     "M": 41,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 5651522,
+     "maxrss": 26619904,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563
+     ],
+     "residues": [
+      1899887285,
+      1664137341,
+      1715606975,
+      404056863,
+      665544970,
+      1188522672
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      12,
+      21
+     ],
+     "n": 353,
+     "value": "17940474917262588597",
+     "sha": "de411537da90c72c48f9ecc5ed105e7f0dc05470500f8bdfb3de0ad7458d706e",
+     "sec": 61.2
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    8,
+    11,
+    12,
+    14,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "2233974",
+   "cov": "53017889152954085140",
+   "terms": [
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      1,
+      2,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      17
+     ],
+     "M": 88,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 13039488,
+     "maxrss": 70152192,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549
+     ],
+     "residues": [
+      3814192333,
+      920480277,
+      373280625,
+      1244037264,
+      1716690497,
+      514524392,
+      804818317
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [],
+     "n": 421,
+     "value": "132136381169930859725",
+     "sha": "89394247990734aaa9282cedf41adda8b20391ffedef3d292cbf3a50d5cb452f",
+     "sec": 125.4
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      1,
+      4,
+      5,
+      6,
+      8,
+      12,
+      13,
+      14,
+      15
+     ],
+     "M": 42,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 6223392,
+     "maxrss": 29110272,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563
+     ],
+     "residues": [
+      2962127863,
+      828017084,
+      1068733514,
+      1630440464,
+      1737437864,
+      1951438040
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      12
+     ],
+     "n": 379,
+     "value": "64592322246237649911",
+     "sha": "15a8be8df6a804d69160e30a1f3a27dc00366c2b1f48bb406af0f249e9ab2584",
+     "sec": 89.5
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      5,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      15
+     ],
+     "M": 80,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 11027360,
+     "maxrss": 60485632,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549
+     ],
+     "residues": [
+      4247405687,
+      38512422,
+      1587847374,
+      908012728,
+      1596612216,
+      826330317,
+      2031384727
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      21
+     ],
+     "n": 381,
+     "value": "32466644688001713271",
+     "sha": "ae27a6aa5f31081c218447a4e6dd39e55a0d59f48dddcb6a9fc6aff37e26d097",
+     "sec": 52.1
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      3,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+     ],
+     "M": 41,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 5651522,
+     "maxrss": 26628096,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563
+     ],
+     "residues": [
+      1899887285,
+      1664137341,
+      1715606975,
+      404056863,
+      665544970,
+      1188522672
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      12,
+      21
+     ],
+     "n": 353,
+     "value": "17940474917262588597",
+     "sha": "63ae3f9fac280d9b75aa73d9747a43e14e0e38e42836df710a69a9cda7088b9c",
+     "sec": 57.9
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    6,
+    7,
+    8,
+    11,
+    12,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "4164010",
+   "cov": "207853024069809716701482",
+   "terms": [
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      3,
+      4,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      18
+     ],
+     "M": 172,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 78081464,
+     "maxrss": 397258752,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549,
+      2147483543
+     ],
+     "residues": [
+      2028539332,
+      1653339242,
+      1370500637,
+      919159152,
+      150475019,
+      792379324,
+      46637574,
+      43751393
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [],
+     "n": 533,
+     "value": "381773009435659619339716",
+     "sha": "23f3ae200db15672b69cfc5282bfc88b1a1f33cbde134586419334dbe1d9d5d8",
+     "sec": 222.7
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": false,
+     "Qa": [
+      2,
+      3,
+      4,
+      8,
+      10,
+      11,
+      12
+     ],
+     "M": 275,
+     "K": [
+      1,
+      1,
+      3,
+      3,
+      3,
+      3,
+      2,
+      1
+     ],
+     "peak_entries": 20973150,
+     "maxrss": 139939840,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579
+     ],
+     "residues": [
+      1811697590,
+      1151849991,
+      17791496,
+      277556277,
+      1458667910
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      12
+     ],
+     "n": 477,
+     "value": "77940688349219448967094",
+     "sha": "bd2056b9047785613468cf46b21d7180952c0389aa56ea72885bac078b761160",
+     "sec": 73.8
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      2,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16
+     ],
+     "M": 162,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 69984000,
+     "maxrss": 359366656,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549,
+      2147483543
+     ],
+     "residues": [
+      1967906153,
+      1381218285,
+      1567548314,
+      639140437,
+      268648091,
+      1685581682,
+      2131505192,
+      791959297
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      21
+     ],
+     "n": 493,
+     "value": "125316695903789076176233",
+     "sha": "b418d84c1a78468d724898bdcdf3529982243b68068412e49840ae474eef06a7",
+     "sec": 86.6
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": false,
+     "Qa": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7
+     ],
+     "M": 275,
+     "K": [
+      1,
+      3,
+      3,
+      3,
+      3,
+      2,
+      1
+     ],
+     "peak_entries": 20973150,
+     "maxrss": 139878400,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579
+     ],
+     "residues": [
+      1978452101,
+      978421941,
+      159923897,
+      1129437697,
+      1725696093
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      12,
+      21
+     ],
+     "n": 451,
+     "value": "29337398887158622505093",
+     "sha": "905f0e6a6876a45880d9be86eee6cfb1ddfab17b20630a5c59cc96f02a1b5210",
+     "sec": 90.2
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    6,
+    7,
+    8,
+    12,
+    14,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "1152285",
+   "cov": "168847283902984614171561",
+   "terms": [
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      3,
+      4,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      18
+     ],
+     "M": 172,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 78081464,
+     "maxrss": 386330624,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549,
+      2147483543
+     ],
+     "residues": [
+      2570247764,
+      2122099427,
+      519977210,
+      1239478511,
+      2015937429,
+      1446182230,
+      1780089303,
+      1317378902
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [],
+     "n": 518,
+     "value": "297964682806637878238804",
+     "sha": "2b6336c5d3a13ab6e55c8056ae6e668e1e43eaf088016f5101c775fe61d71436",
+     "sec": 97.5
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": false,
+     "Qa": [
+      2,
+      3,
+      4,
+      8,
+      10,
+      11,
+      12
+     ],
+     "M": 275,
+     "K": [
+      1,
+      1,
+      3,
+      3,
+      3,
+      3,
+      2,
+      1
+     ],
+     "peak_entries": 16082550,
+     "maxrss": 107778048,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579
+     ],
+     "residues": [
+      1875784591,
+      1793649371,
+      319458947,
+      1205916625,
+      561639905
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      12
+     ],
+     "n": 462,
+     "value": "57221623705961052910479",
+     "sha": "45c19ed5ea8934ead8f65c9198f2d0609141bba955ef6af35c3b01d6bac272cc",
+     "sec": 98.8
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      2,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16
+     ],
+     "M": 162,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 69984000,
+     "maxrss": 348975104,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549,
+      2147483543
+     ],
+     "residues": [
+      4150485037,
+      2081648420,
+      1356647245,
+      431175599,
+      1080979487,
+      240779092,
+      1393046838,
+      1889274432
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      21
+     ],
+     "n": 478,
+     "value": "92178548986617765519405",
+     "sha": "0cb2e45fd057e9c2c01ffe2574ca809887d6fe656fc436b0dc6f70fc4c2d527d",
+     "sec": 162.3
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": false,
+     "Qa": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7
+     ],
+     "M": 275,
+     "K": [
+      1,
+      3,
+      3,
+      3,
+      3,
+      2,
+      1
+     ],
+     "peak_entries": 16082550,
+     "maxrss": 107712512,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579
+     ],
+     "residues": [
+      1601472785,
+      1870946001,
+      280517118,
+      875566945,
+      888407894
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      12,
+      21
+     ],
+     "n": 436,
+     "value": "20282773788925554362641",
+     "sha": "ae2ef3fd997a0650d00760cd4ac9d88d560e83b37ed1079ec643fff47ee38467",
+     "sec": 90.3
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    7,
+    8,
+    11,
+    12,
+    14,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "10807763",
+   "cov": "9382865286051504158409605",
+   "terms": [
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      2,
+      3,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      18
+     ],
+     "M": 171,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 195551154,
+     "maxrss": 1006551040,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549,
+      2147483543
+     ],
+     "residues": [
+      235596758,
+      1611534151,
+      541918158,
+      1209272268,
+      1315802732,
+      1717715201,
+      61352616,
+      695154409
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [],
+     "n": 568,
+     "value": "28058446073483327248722902",
+     "sha": "f6d17bc10adb80461633499262e88b52a386f61b5d6519e2935cf966e731f27e",
+     "sec": 271.2
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      1,
+      5,
+      6,
+      7,
+      9,
+      13,
+      14,
+      15,
+      16
+     ],
+     "M": 83,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 94916642,
+     "maxrss": 416034816,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549
+     ],
+     "residues": [
+      3484306097,
+      1155901937,
+      1055413680,
+      1094432117,
+      543071122,
+      572809340,
+      1300587746
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      12
+     ],
+     "n": 519,
+     "value": "13600392017377470068968113",
+     "sha": "21be8ea927c2efc7bd035f0cfabb3756389ea0535ef81dcc6b396e80baae8d9a",
+     "sec": 189.8
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      1,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16
+     ],
+     "M": 162,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 178643232,
+     "maxrss": 928706560,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549,
+      2147483543
+     ],
+     "residues": [
+      3493756657,
+      1797817312,
+      2128277562,
+      865436273,
+      427037248,
+      440173166,
+      1961903259,
+      1051477482
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      21
+     ],
+     "n": 528,
+     "value": "10687749333109272576163569",
+     "sha": "c859697e6185f9ac534116d57db25357a13d3133d3c1fa0225b8e5d0f79c423c",
+     "sec": 240.7
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      4,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+     ],
+     "M": 82,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 90424352,
+     "maxrss": 396779520,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549
+     ],
+     "residues": [
+      3680100689,
+      1686593434,
+      579425510,
+      347121705,
+      687424286,
+      1835369016,
+      666618871
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      12,
+      21
+     ],
+     "n": 493,
+     "value": "5612560563054919554818385",
+     "sha": "496519df8b5e96ca2e984e819cb4cc630ac9be71d7c445f0cd6f0bf4869eb9c2",
+     "sec": 90.1
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    6,
+    7,
+    8,
+    11,
+    12,
+    14,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "6267947",
+   "cov": "1034957766535003487472030660147",
+   "terms": [
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      3,
+      4,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      19
+     ],
+     "M": 334,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 2892938996,
+     "maxrss": 11957600256,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549,
+      2147483543,
+      2147483497
+     ],
+     "residues": [
+      153227161,
+      1711742028,
+      142500816,
+      1830145382,
+      215449120,
+      1051362318,
+      1805841198,
+      1677174403,
+      634769938
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [],
+     "n": 715,
+     "value": "3606219376921814258553763008409",
+     "sha": "3955cb93da070ae1d94a0edc1ed1477b7aea1b8cf7a5a208d1dcc4b614785ce0",
+     "sec": 2576.6
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      1,
+      6,
+      7,
+      8,
+      10,
+      14,
+      15,
+      16,
+      17
+     ],
+     "M": 163,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 1411823522,
+     "maxrss": 6031712256,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549,
+      2147483543
+     ],
+     "residues": [
+      4073027788,
+      934823005,
+      2146909332,
+      697372826,
+      1916913973,
+      924232002,
+      398389555,
+      1575492938
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      12
+     ],
+     "n": 659,
+     "value": "1616992009896346312652896958668",
+     "sha": "84dad1683ff1c7e375837f2feee1377d013b2b5e639327cf443be3afc9167dc0",
+     "sec": 1328.7
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      2,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      17
+     ],
+     "M": 324,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 2754990144,
+     "maxrss": 11398696960,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549,
+      2147483543,
+      2147483497
+     ],
+     "residues": [
+      2366799111,
+      1162953885,
+      137157171,
+      1365720223,
+      1259297100,
+      503389556,
+      458878916,
+      1230420196,
+      1766061561
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      21
+     ],
+     "n": 675,
+     "value": "1813317549885273575144817851655",
+     "sha": "62295b821a6aa92bd920d9e6c46e4e6df6a96fbfa459f262ed2f228cf8e29548",
+     "sec": 2048.4
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+     ],
+     "M": 162,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 1377495072,
+     "maxrss": 5887406080,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549,
+      2147483543
+     ],
+     "residues": [
+      3019840621,
+      1636044265,
+      1753270787,
+      1378658053,
+      1933973261,
+      482400915,
+      840435108,
+      1919616665
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      12,
+      21
+     ],
+     "n": 633,
+     "value": "859047949394809116715982462061",
+     "sha": "0193bac28b4f1935ebbdaaf45be9a324e19715e3bcf5271b7433750a8b47878a",
+     "sec": 1337.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    6,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "158776",
+   "cov": "21701237157022300597626208",
+   "terms": [
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      3,
+      4,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      19
+     ],
+     "M": 172,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 203890176,
+     "maxrss": 1055154176,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549,
+      2147483543
+     ],
+     "residues": [
+      1843195483,
+      536085909,
+      1598524758,
+      2055790526,
+      1037973029,
+      616770093,
+      269172287,
+      432972268
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [],
+     "n": 599,
+     "value": "70969509998695988923788891",
+     "sha": "6c9022b3d3f28fe867fb644c6a83cd3508b129ec3b790648554859abedc49c21",
+     "sec": 303.8
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      10,
+      14,
+      15,
+      16,
+      17
+     ],
+     "M": 84,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 99574272,
+     "maxrss": 440619008,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549
+     ],
+     "residues": [
+      3061635640,
+      700968555,
+      1739289790,
+      2073455786,
+      10334542,
+      1094749953,
+      1367428687
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      12
+     ],
+     "n": 550,
+     "value": "36787492681033112660793912",
+     "sha": "2581f9c4d217e1df49093314eb870d22591ae1ce941d2e0d3ad07134500bb5a5",
+     "sec": 135.8
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      2,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      17
+     ],
+     "M": 163,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 186402562,
+     "maxrss": 983302144,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549,
+      2147483543
+     ],
+     "residues": [
+      1822286727,
+      364616663,
+      1992155579,
+      1905103620,
+      862867938,
+      1131571518,
+      719246922,
+      1584686927
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      21
+     ],
+     "n": 559,
+     "value": "28260685478601605278196615",
+     "sha": "4a9c8be1cd58614aec8ae9c3b13b49693c1757e8d50ba92ef85b97c6f44527c7",
+     "sec": 200.2
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      1,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+     ],
+     "M": 83,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 94916642,
+     "maxrss": 420638720,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549
+     ],
+     "residues": [
+      3470881988,
+      307774179,
+      376637237,
+      1285949540,
+      987140330,
+      1703463062,
+      546143264
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      12,
+      21
+     ],
+     "n": 524,
+     "value": "15779905317961029612827844",
+     "sha": "3cc46ea7648f77fe4a9aa7fe886b0435e980bebcc41c52d88e60b98efab387b6",
+     "sec": 194.5
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    6,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "216169",
+   "cov": "9343325827679108665299215611567",
+   "terms": [
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      4,
+      5,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      20
+     ],
+     "M": 343,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 3430144746,
+     "maxrss": 14325686272,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549,
+      2147483543,
+      2147483497
+     ],
+     "residues": [
+      2507928586,
+      1182929871,
+      2146246605,
+      1121938215,
+      277000484,
+      297440660,
+      773047475,
+      2045183519,
+      1324492466
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [],
+     "n": 777,
+     "value": "39377599726624886692962136486922",
+     "sha": "82eeb5782782d4a6395330dd0f4a8c2e23924730f93a7810f7c38b9190636b8a",
+     "sec": 3279.6
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      1,
+      2,
+      7,
+      8,
+      9,
+      11,
+      15,
+      16,
+      17,
+      18
+     ],
+     "M": 171,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 1710072162,
+     "maxrss": 7443898368,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549,
+      2147483543
+     ],
+     "residues": [
+      818097452,
+      1071813583,
+      1119051232,
+      1582877068,
+      1442007452,
+      194319287,
+      1366999985,
+      914757152
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      12
+     ],
+     "n": 721,
+     "value": "20216759366447210281025591782700",
+     "sha": "5474c91056cc22df468ca75f4f33eedcea4bb277a4808aa60584bf7df58e70c8",
+     "sec": 1686.3
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      3,
+      8,
+      9,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18
+     ],
+     "M": 333,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 3272058000,
+     "maxrss": 13682753536,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549,
+      2147483543,
+      2147483497
+     ],
+     "residues": [
+      2277399110,
+      664445647,
+      1999355117,
+      1989470086,
+      1288563699,
+      877546148,
+      360722446,
+      2020970957,
+      566846883
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      21
+     ],
+     "n": 737,
+     "value": "21223537502313705767508392172102",
+     "sha": "e6fe2877939cfda9bbab03852038b34dbb79f7c5c903f18a3f7e8d9f3c943463",
+     "sec": 2941.2
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      1,
+      6,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+     ],
+     "M": 170,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 1670420000,
+     "maxrss": 7274795008,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549,
+      2147483543
+     ],
+     "residues": [
+      1481247255,
+      67256742,
+      794950124,
+      1883733451,
+      1094041607,
+      2133066724,
+      488661905,
+      56352103
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      12,
+      21
+     ],
+     "n": 695,
+     "value": "11406022969815138020871063079447",
+     "sha": "e9ac3760a84ac35f3328763cfdd712b7d767ef7293aaf090a09a8de621afd8cb",
+     "sec": 1565.2
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "807",
+   "cov": "17064475372585034210916453072450",
+   "terms": [
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      0,
+      5,
+      6,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      21
+     ],
+     "M": 344,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 3500852224,
+     "maxrss": 14659878912,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549,
+      2147483543,
+      2147483497
+     ],
+     "residues": [
+      414347596,
+      386090863,
+      1679550392,
+      2066493939,
+      70564903,
+      1811192456,
+      1876471604,
+      1291435510,
+      355475505
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [],
+     "n": 808,
+     "value": "76982316726011447654145716285772",
+     "sha": "8d87be0f359cd7c9e695e8dd52266cd17c0af28a03ada81d7cabfe7b21592203",
+     "sec": 3103.6
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      2,
+      3,
+      8,
+      9,
+      10,
+      12,
+      16,
+      17,
+      18,
+      19
+     ],
+     "M": 172,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 1750426112,
+     "maxrss": 7656636416,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549,
+      2147483543
+     ],
+     "residues": [
+      3302202453,
+      1581939929,
+      2049053513,
+      289396889,
+      671910836,
+      194448964,
+      1034316152,
+      1158015358
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      12
+     ],
+     "n": 752,
+     "value": "41253971691304705692782965267541",
+     "sha": "f9fd6583a9449afbad6d98a1825fdc9d4a6341383d989e636a030b409a8ccb49",
+     "sec": 1653.1
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      4,
+      9,
+      10,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19
+     ],
+     "M": 334,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 3340140948,
+     "maxrss": 14005612544,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549,
+      2147483543,
+      2147483497
+     ],
+     "residues": [
+      969546809,
+      795797837,
+      542435772,
+      1630520002,
+      970850562,
+      1013835412,
+      1938690722,
+      2146865076,
+      1403362998
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      21
+     ],
+     "n": 768,
+     "value": "42375782860691098101349607939129",
+     "sha": "8ec5c4ae69eb7490e8057f1081a214e0364e5ce74c26256656b4b95bd6bf1587",
+     "sec": 3309.5
+    },
+    {
+     "method": "vsweep full sweep (u32, 2^32 + 31-bit primes) + CRT",
+     "dual": true,
+     "Qa": [
+      2,
+      7,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+     ],
+     "M": 171,
+     "K": [
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      2,
+      1,
+      1
+     ],
+     "peak_entries": 1710072162,
+     "maxrss": 7483957248,
+     "moduli": [
+      0,
+      2147483647,
+      2147483629,
+      2147483587,
+      2147483579,
+      2147483563,
+      2147483549,
+      2147483543
+     ],
+     "residues": [
+      2542765444,
+      1725068982,
+      1298869137,
+      1322834754,
+      804265316,
+      1865764707,
+      900316895,
+      492550702
+     ],
+     "binary_sha256": "ba33f1f9d98176b1ec1260a4c19171489e9679a9238de402a5f8e8947305b56f",
+     "U": [
+      12,
+      21
+     ],
+     "n": 726,
+     "value": "23711913198569390350903309993348",
+     "sha": "d3db3ba48e931e1d4f32d6955bdd5d03f7807ac8bc4d2a6d6dd3871a8182c563",
+     "sec": 1608.2
+    }
+   ]
+  }
+ ],
+ "runtime_s": 33031,
+ "command": "harvest/verify_psi.py harvest/psi_Snone_C12_21.json"
+}

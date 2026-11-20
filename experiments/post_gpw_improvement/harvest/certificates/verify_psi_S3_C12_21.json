@@ -1,0 +1,3192 @@
+{
+ "family": "Psi[3]",
+ "S": [
+  3
+ ],
+ "C": [
+  12,
+  21
+ ],
+ "E": [],
+ "total": "893190625048779089530048319525964210249",
+ "status": "AUDIT PASSED",
+ "errors": [],
+ "rows": [
+  {
+   "D": [
+    0,
+    19
+   ],
+   "e": "414",
+   "cov": "0",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    19
+   ],
+   "e": "3314",
+   "cov": "269",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 33,
+     "value": "352",
+     "sha": "4df50f64025e15e5f53d863e15c64c35e02d81ebd8294a942cec41f8193dcd52",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 19,
+     "value": "83",
+     "sha": "bcbc66f6461f15da1f74091f93b6296b6347314346fb2b1fd708549a7f5f22fe",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    12,
+    19
+   ],
+   "e": "1113",
+   "cov": "0",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    19,
+    21
+   ],
+   "e": "87317",
+   "cov": "0",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    12,
+    19
+   ],
+   "e": "27426",
+   "cov": "543",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 40,
+     "value": "714",
+     "sha": "4052f023738d7a1503a183636d7967ddde5d00ed5de23626e23b385dc5da4095",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 26,
+     "value": "171",
+     "sha": "156367a9efae2b5eb6690ff2067211d01e3cbb4e5d5f449c6b8404255a444880",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    19,
+    21
+   ],
+   "e": "3914029",
+   "cov": "11941",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 59,
+     "value": "14677",
+     "sha": "4725d9f8ce6acb268643cc4a607e32763f80fce2cce4099e9da7e2d56d223290",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 38,
+     "value": "2648",
+     "sha": "79e0e1564ed2f22a755602b6bb922eb01a5c1b83c7a3c2838c2b5367fd11d3f6",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 26,
+     "value": "171",
+     "sha": "a5d0be6209cece81e378ab9fec87e4f04ad655c88931fd05af7501c8091b5b4d",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 19,
+     "value": "83",
+     "sha": "fff8dfcc8e7d80d033e28f929822589445744ae36de84104b9fb1b58f43a6b3d",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    8,
+    19,
+    21
+   ],
+   "e": "81638",
+   "cov": "0",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    12,
+    19,
+    21
+   ],
+   "e": "826593",
+   "cov": "0",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    8,
+    19,
+    21
+   ],
+   "e": "9280127",
+   "cov": "363031",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 85,
+     "value": "418575",
+     "sha": "01397b0b35af2f7be37a561dbec5540a3bae49d77ebe12ef33e6f124a60c4b9e",
+     "sec": 0.4
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 57,
+     "value": "47552",
+     "sha": "04f6b75a47e3a4210b8de0582dbcb3112d4971aadb80dad62ab0adbf33e72bb1",
+     "sec": 0.1
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 52,
+     "value": "10640",
+     "sha": "e86fa590e891ec7032869baf0106d42384afc4fd32918add0c561e4e232c8000",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 38,
+     "value": "2648",
+     "sha": "5904357fe9f76b47fbb2586b642ecdbb191f6b8f6b04dc8ee78591257d888df4",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    12,
+    19,
+    21
+   ],
+   "e": "220441874",
+   "cov": "47433",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 73,
+     "value": "58254",
+     "sha": "764a1eae3620b51447c9049859e54542c99b0fff570bb8a3ca9e0471ac390ea2",
+     "sec": 0.1
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 52,
+     "value": "10640",
+     "sha": "ea909ffc5909c789e6cd8600024b5bcd20785518951e8324a75ce1b4dacca53c",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 33,
+     "value": "352",
+     "sha": "25390c1f8b246241a0ddab9aff4f10c01de374f27c264c4cb29c05c5fca5dfb6",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 26,
+     "value": "171",
+     "sha": "1c486bfcbaa2805576911d9b3a157c15303a191b1074e4e23e57159f7d929396",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    18,
+    19,
+    21
+   ],
+   "e": "9199285",
+   "cov": "363031",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 85,
+     "value": "418575",
+     "sha": "d48505895dce5496724ef761ee0c4cc3b7d1edfc4d867f0977dbb718a282d3c3",
+     "sec": 0.4
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 57,
+     "value": "47552",
+     "sha": "983eb3fa9d5633e286d67f82f2f918eee2412df4279d0185ac35cd59620941da",
+     "sec": 0.1
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 52,
+     "value": "10640",
+     "sha": "32b23b0eca0beb0ce6374b4b9e6d591b74ea94e0476c4b1e8b3b84edb2137475",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 38,
+     "value": "2648",
+     "sha": "d97cc477ef1625cf91da352782324075ecdecfdd191716748e8c0fa990a3cede",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    8,
+    12,
+    19,
+    21
+   ],
+   "e": "1484117",
+   "cov": "0",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    12,
+    19,
+    20,
+    21
+   ],
+   "e": "822188",
+   "cov": "0",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    8,
+    12,
+    19,
+    21
+   ],
+   "e": "1233749584",
+   "cov": "2686716",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 106,
+     "value": "3073140",
+     "sha": "42f6f39a399afed6b6fc2466591a3ea6de2b2e4eeb3db73624d2772982a2af31",
+     "sec": 2.1
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 78,
+     "value": "354524",
+     "sha": "bde2651fcd1c5d9c53a26f5087d1dbc74f4a77687303b1a406612e1527459b63",
+     "sec": 0.4
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 66,
+     "value": "42540",
+     "sha": "eff60c2a6288202dd16fa8bcf3dd769a468306efc4aca1e94d4edd6edcb3878e",
+     "sec": 0.1
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 52,
+     "value": "10640",
+     "sha": "2637b0087c0826b17c65428523c59d36b40c165f2190aa9c35ef3a2b54e4afd7",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    8,
+    18,
+    19,
+    21
+   ],
+   "e": "45091211",
+   "cov": "333761164",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 137,
+     "value": "369252090",
+     "sha": "16665fc7e99d334b2f94ff3b022931a4d2c6ec07f7c0cb2b8a6979994e13c4b5",
+     "sec": 44.5
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 95,
+     "value": "13754562",
+     "sha": "45821c583273006ed362a207d54a2f32e77831239e1a453558b6bf1782d6af4d",
+     "sec": 3.7
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 104,
+     "value": "23317352",
+     "sha": "c5f28526eaabd4a28c02923ba88fca9d2ccfc361ab0ee588be6dc7d673f1fc62",
+     "sec": 6.2
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 76,
+     "value": "1580988",
+     "sha": "903b457c70a7002232c48b5f13e751f47da9ba5f454a0b10cf5223bb1e1c2909",
+     "sec": 0.8
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    12,
+    18,
+    19,
+    21
+   ],
+   "e": "1232267453",
+   "cov": "2686716",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 106,
+     "value": "3073140",
+     "sha": "f638682dfb8a85e47bc11fa3878916d6ae8d23d3eaba563fcb61a74906481b7d",
+     "sec": 2.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 78,
+     "value": "354524",
+     "sha": "2362fad1973eff1f0056d0e245c8d908c8a6c0bedbe891e18124be912bf92033",
+     "sec": 0.3
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 66,
+     "value": "42540",
+     "sha": "65111ce54ea18220acba69ba102ea8936f2eb503c1938253acbcac4e789087b8",
+     "sec": 0.1
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 52,
+     "value": "10640",
+     "sha": "adc9e62418954499f91f3a33dc39b3d8b5aaaa6722adcde5629133062b1ef9e3",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    12,
+    19,
+    20,
+    21
+   ],
+   "e": "561514599",
+   "cov": "552571",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 99,
+     "value": "911132",
+     "sha": "a17363613150605f00d748ed8d2e49ed3bca58e287db0254654341c5a64945a1",
+     "sec": 0.8
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 78,
+     "value": "354524",
+     "sha": "8412ba26fa296cb7f9d1ef905051ac14f04da774c773c61f87b3175a9dfc1423",
+     "sec": 0.3
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 59,
+     "value": "14677",
+     "sha": "4a8efc3b99d754e8fe471d6dab8feceeab8df233ee097c4c58d7f0df1781e377",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 52,
+     "value": "10640",
+     "sha": "ece3f7eddf2a0c27678188b8789e62910b416f25efb4015136ec534d85f89415",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    8,
+    12,
+    19,
+    20,
+    21
+   ],
+   "e": "2538456",
+   "cov": "0",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    7,
+    8,
+    18,
+    19,
+    21
+   ],
+   "e": "4034482",
+   "cov": "3807064619",
+   "terms": [
+    {
+     "method": "verifier cache (meet-in-the-middle transfer (59-bit primes) + CRT)",
+     "U": [],
+     "n": 163,
+     "value": "4243240406",
+     "sha": "6009097bef2376c467b006f55700773741310a9663fa9a9b0cc90a07ad0dc135",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 114,
+     "value": "96454406",
+     "sha": "b9cca87d6dd1688360c872ba62b4c5ec3ce81aa87647649aec60f53404c2cbac",
+     "sec": 15.4
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 130,
+     "value": "353595225",
+     "sha": "1d5b22de37d59948a9817a92e442ad2b558556fe97f9ee980c79852ab85a8104",
+     "sec": 43.1
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 95,
+     "value": "13873844",
+     "sha": "b63c1712b64d50c87ca004d707b7ab8632c28b68db796d8a64253f48bbe79522",
+     "sec": 3.5
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    8,
+    12,
+    18,
+    19,
+    21
+   ],
+   "e": "16497623722",
+   "cov": "8531829411",
+   "terms": [
+    {
+     "method": "verifier cache (meet-in-the-middle transfer (59-bit primes) + CRT)",
+     "U": [],
+     "n": 172,
+     "value": "9197850436",
+     "sha": "08198bfdb790664f31f452a657c93b9d01f444b7dcea0b03a5a00d37dc9e21dd",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 130,
+     "value": "351578417",
+     "sha": "1d2ad75f44e3b9dad5ed89fd0ba1963d961ac39b3049cd88283cbc743e5e6523",
+     "sec": 44.9
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 132,
+     "value": "337759960",
+     "sha": "ac5fdb7aa01e0a1e536c9e4ef547ba0d8d439fd1d4dbea232713010abec97391",
+     "sec": 52.5
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 104,
+     "value": "23317352",
+     "sha": "8818a5caa255f892c12cff2c78b761e457e78ae6f021cf8300408e9717e3718a",
+     "sec": 6.5
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    8,
+    12,
+    19,
+    20,
+    21
+   ],
+   "e": "5998639429",
+   "cov": "662765280",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 158,
+     "value": "1037725451",
+     "sha": "417dc33f699e479312d26cd72835a3ceb60385cd053f74f2b299029c2e421539",
+     "sec": 109.8
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 130,
+     "value": "351578417",
+     "sha": "445cb297e743b91f434d74fde94593069d1ab576b927f8d26490f3c9127011e3",
+     "sec": 46.3
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 118,
+     "value": "46699106",
+     "sha": "5b4cddc841fb0d5837483462202759ec0b09cbfa048a5e5ba4fb5de31fb333e9",
+     "sec": 12.7
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 104,
+     "value": "23317352",
+     "sha": "4c7404566076c2fe2e928ca11ddeb544fb9f65008eb19b884b5c6445c0f06d86",
+     "sec": 6.8
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    12,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "5996101959",
+   "cov": "662765280",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 158,
+     "value": "1037725451",
+     "sha": "7d7ee696a5ebedd9b2b2a487b609556b03d715e3db80b160dd34c1f7c155e93e",
+     "sec": 106.7
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 130,
+     "value": "351578417",
+     "sha": "24ff20d9272514e1efe14f8343163a80af45cad94ea3ec07a2d0b2efa0634fc4",
+     "sec": 44.8
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 118,
+     "value": "46699106",
+     "sha": "7b0348f2d9de8f4e8e80fa94338f0752c25b16f0660160dcd7d22964082fbaff",
+     "sec": 12.3
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 104,
+     "value": "23317352",
+     "sha": "8df249e54a975a7a6a475cd8645f2833f814ac347cf2caae8184219efab2f3c1",
+     "sec": 6.6
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    8,
+    12,
+    14,
+    19,
+    20,
+    21
+   ],
+   "e": "51222",
+   "cov": "0",
+   "terms": [
+    {
+     "method": "archived exact counter",
+     "U": [],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 0,
+     "value": "1",
+     "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    7,
+    8,
+    18,
+    19,
+    21
+   ],
+   "e": "15111",
+   "cov": "33925679267",
+   "terms": [
+    {
+     "method": "verifier cache (meet-in-the-middle transfer (59-bit primes) + CRT)",
+     "U": [],
+     "n": 189,
+     "value": "38375447037",
+     "sha": "ce9fad46c5cbd9d7553511b2f57d2edaafb73482280927e6f5b171a5d97aaa77",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 133,
+     "value": "549238983",
+     "sha": "658042d2159468bd5216968a4aefb17e30aebb38ff6d736baa1f12b96846adcb",
+     "sec": 56.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 156,
+     "value": "3995212117",
+     "sha": "01cef663cd4ec35e34ca721596f12ab0a8394c8bddd1759e71ee269a923dfce2",
+     "sec": 235.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 114,
+     "value": "94683330",
+     "sha": "ea926be1bc0b747eadd0b509498a4ce4afe18e537d00fbcc4c1a5465f1378fac",
+     "sec": 16.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    7,
+    8,
+    12,
+    18,
+    19,
+    21
+   ],
+   "e": "3503323939",
+   "cov": "163243701360",
+   "terms": [
+    {
+     "method": "verifier cache (meet-in-the-middle transfer (59-bit primes) + CRT)",
+     "U": [],
+     "n": 205,
+     "value": "175820201473",
+     "sha": "39d5b0648527d052e641a3df7f7bc6853cdeb38ca4c5507c4364eb56e311e1a2",
+     "sec": 0.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 156,
+     "value": "4117851329",
+     "sha": "e29d899a7b8b8326e1ed14df4a3fa7226b4bd61b37fe6cb7ceec061bc73cb9c9",
+     "sec": 259.4
+    },
+    {
+     "method": "meet-in-the-middle transfer (59-bit primes) + CRT",
+     "Q": 13,
+     "M": 7,
+     "JA": 33,
+     "dual": false,
+     "rstar": 5,
+     "bound_log2": 92.64271242790093,
+     "primes": [
+      576460752303423433,
+      576460752303423389
+     ],
+     "residues": [
+      8812244009,
+      8812244009
+     ],
+     "U": [
+      21
+     ],
+     "n": 165,
+     "value": "8812244009",
+     "sha": "38a5e1fdf7e6227e15021b3b564db4198fe95c8171b40677d7396d57c18c9472",
+     "sec": 5.5
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 130,
+     "value": "353595225",
+     "sha": "3e97205b041a94fdaa210b1fc014651ecef499b9ee33af9b9a420aa9c347a095",
+     "sec": 45.4
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    8,
+    12,
+    14,
+    19,
+    20,
+    21
+   ],
+   "e": "469348127",
+   "cov": "4558687255",
+   "terms": [
+    {
+     "method": "meet-in-the-middle transfer (59-bit primes) + CRT",
+     "Q": 15,
+     "M": 171,
+     "JA": 10,
+     "dual": false,
+     "rstar": 2,
+     "bound_log2": 74.17852514885898,
+     "primes": [
+      576460752303423433,
+      576460752303423389
+     ],
+     "residues": [
+      8889994470,
+      8889994470
+     ],
+     "U": [],
+     "n": 184,
+     "value": "8889994470",
+     "sha": "38016b6957b38f81b23723f9b56167faa90bb046ebad2000b878762441ed77af",
+     "sec": 4.6
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 156,
+     "value": "4117851329",
+     "sha": "afa5ba5e58986c933497f5473b1a901ebf801bfda998914514a7639ac803247e",
+     "sec": 266.9
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 144,
+     "value": "567051111",
+     "sha": "891a2d84d44583b23192c43bbe27d7ceb8f2efdb7c8d92bfec1c7c9da5a9de84",
+     "sec": 70.3
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 130,
+     "value": "353595225",
+     "sha": "d63239acb9d9e8655403006518d4add83112a15a5075196b03ac54c61cabe094",
+     "sec": 47.4
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    8,
+    12,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "185343394322",
+   "cov": "1148174413460216",
+   "terms": [
+    {
+     "method": "meet-in-the-middle transfer (59-bit primes) + CRT",
+     "Q": 15,
+     "M": 21,
+     "JA": 40,
+     "dual": false,
+     "rstar": 4,
+     "bound_log2": 175.69269691115042,
+     "primes": [
+      576460752303423433,
+      576460752303423389,
+      576460752303423263
+     ],
+     "residues": [
+      1569186944862195,
+      1569186944862195,
+      1569186944862195
+     ],
+     "U": [],
+     "n": 276,
+     "value": "1569186944862195",
+     "sha": "61d2365f7a3ce0f13e734ad654f0b35f30305c5d490a751d3dac52b2af9bf07b",
+     "sec": 10.9
+    },
+    {
+     "method": "J1xJ2 numpy transfer + CRT",
+     "J1": 9,
+     "J2": 26,
+     "M": 171,
+     "bound_log2": 66.76067263397309,
+     "primes": [
+      35184372088777,
+      35184372088763
+     ],
+     "residues": [
+      32408873400061,
+      32408873400159
+     ],
+     "U": [
+      12
+     ],
+     "n": 234,
+     "value": "278699478021500",
+     "sha": "e958d124e65f5ed813197c90995a1538749a7716e656937f16721280e26c22c0",
+     "sec": 1.2
+    },
+    {
+     "method": "meet-in-the-middle transfer (59-bit primes) + CRT",
+     "Q": 13,
+     "M": 6,
+     "JA": 59,
+     "dual": false,
+     "rstar": 5,
+     "bound_log2": 152.5127875425482,
+     "primes": [
+      576460752303423433,
+      576460752303423389,
+      576460752303423263
+     ],
+     "residues": [
+      184856610384394,
+      184856610384394,
+      184856610384394
+     ],
+     "U": [
+      21
+     ],
+     "n": 236,
+     "value": "184856610384394",
+     "sha": "740b3f0cbdb1481b6e04ac729ced2dee3e699c2bb59a847815a6ecc583fcb1c9",
+     "sec": 5.9
+    },
+    {
+     "method": "J1xJ2 numpy transfer + CRT",
+     "J1": 8,
+     "J2": 26,
+     "M": 171,
+     "bound_log2": 59.342820119087186,
+     "primes": [
+      35184372088777,
+      35184372088763
+     ],
+     "residues": [
+      7359184915138,
+      7359184915152
+     ],
+     "U": [
+      12,
+      21
+     ],
+     "n": 208,
+     "value": "42543557003915",
+     "sha": "495334f827b12be068e72f8ad33e83074c67aea031bc17ecb507a00afe0a0cd6",
+     "sec": 1.1
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    11,
+    12,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "469296906",
+   "cov": "4558687255",
+   "terms": [
+    {
+     "method": "meet-in-the-middle transfer (59-bit primes) + CRT",
+     "Q": 15,
+     "M": 171,
+     "JA": 10,
+     "dual": false,
+     "rstar": 2,
+     "bound_log2": 74.17852514885898,
+     "primes": [
+      576460752303423433,
+      576460752303423389
+     ],
+     "residues": [
+      8889994470,
+      8889994470
+     ],
+     "U": [],
+     "n": 184,
+     "value": "8889994470",
+     "sha": "0799112abdea3b3acb9fcf0f78c6f41cbeb94204dc03ec1bab1560a1ff3cd82f",
+     "sec": 4.5
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12
+     ],
+     "n": 156,
+     "value": "4117851329",
+     "sha": "9c0d8576ceb610a73b139238259a3617c622ddd0fc25b8c1cf764e50077a5fd1",
+     "sec": 257.0
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      21
+     ],
+     "n": 144,
+     "value": "567051111",
+     "sha": "fac3eeac5b810b87bff9b1ce0b33bacad2c2ec76cce8116ae80cf2d4f3b09837",
+     "sec": 68.2
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 130,
+     "value": "353595225",
+     "sha": "89942991c196261c9396ed1b29182f557ce0244c716b75d5a1bcb7fc4cbb6f33",
+     "sec": 46.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    7,
+    8,
+    12,
+    18,
+    19,
+    21
+   ],
+   "e": "44938261",
+   "cov": "2351607077263",
+   "terms": [
+    {
+     "method": "meet-in-the-middle transfer (59-bit primes) + CRT",
+     "Q": 16,
+     "M": 9,
+     "JA": 40,
+     "dual": false,
+     "rstar": 4,
+     "bound_log2": 126.7970000576925,
+     "primes": [
+      576460752303423433,
+      576460752303423389,
+      576460752303423263
+     ],
+     "residues": [
+      2549616947890,
+      2549616947890,
+      2549616947890
+     ],
+     "U": [],
+     "n": 238,
+     "value": "2549616947890",
+     "sha": "7a3a4b2379b0b30bafbd419bc2df47caefce2a9f8f48d109bfa5b190c244f093",
+     "sec": 8.8
+    },
+    {
+     "method": "verifier cache (J1xJ2 numpy transfer + CRT)",
+     "U": [
+      12
+     ],
+     "n": 182,
+     "value": "37646917102",
+     "sha": "70ffb9db06643439fae1d8e1545a90e37e0f002206d0877d4f7a2fd98ced7b98",
+     "sec": 0.0
+    },
+    {
+     "method": "meet-in-the-middle transfer (59-bit primes) + CRT",
+     "Q": 14,
+     "M": 8,
+     "JA": 33,
+     "dual": false,
+     "rstar": 5,
+     "bound_log2": 99.0,
+     "primes": [
+      576460752303423433,
+      576460752303423389
+     ],
+     "residues": [
+      164358165642,
+      164358165642
+     ],
+     "U": [
+      21
+     ],
+     "n": 198,
+     "value": "164358165642",
+     "sha": "14d6253922c4009af2e75fe9991bab8c277b9a723beaf25b09850a7bd8473936",
+     "sec": 4.6
+    },
+    {
+     "method": "archived exact counter",
+     "U": [
+      12,
+      21
+     ],
+     "n": 156,
+     "value": "3995212117",
+     "sha": "f58503bc9c7fbdcaecf9110ac6337949c0d28cbfe30692fecc353de78b3a262c",
+     "sec": 251.4
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    7,
+    8,
+    12,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "68329017780",
+   "cov": "250755332934075260",
+   "terms": [
+    {
+     "method": "meet-in-the-middle transfer (59-bit primes) + CRT",
+     "Q": 16,
+     "M": 28,
+     "JA": 40,
+     "dual": false,
+     "rstar": 4,
+     "bound_log2": 192.29419688230416,
+     "primes": [
+      576460752303423433,
+      576460752303423389,
+      576460752303423263,
+      576460752303423061
+     ],
+     "residues": [
+      336615819081823619,
+      336615819081823619,
+      336615819081823619,
+      336615819081823619
+     ],
+     "U": [],
+     "n": 335,
+     "value": "336615819081823619",
+     "sha": "edf35b685cb60598a8e8a10db87d9171f31910a87c73b8b996f241e0271a3619",
+     "sec": 19.0
+    },
+    {
+     "method": "J1xJ2 numpy transfer + CRT",
+     "J1": 11,
+     "J2": 26,
+     "M": 171,
+     "bound_log2": 81.59637766374487,
+     "primes": [
+      35184372088777,
+      35184372088763
+     ],
+     "residues": [
+      16004685364177,
+      16004685380459
+     ],
+     "U": [
+      12
+     ],
+     "n": 286,
+     "value": "40935429424611828",
+     "sha": "62e89dc023394be6bd885411bff92785e0929393c08e539f8a37781d9de0ad16",
+     "sec": 1.2
+    },
+    {
+     "method": "meet-in-the-middle transfer (59-bit primes) + CRT",
+     "Q": 14,
+     "M": 7,
+     "JA": 59,
+     "dual": false,
+     "rstar": 5,
+     "bound_log2": 165.63394040139863,
+     "primes": [
+      576460752303423433,
+      576460752303423389,
+      576460752303423263
+     ],
+     "residues": [
+      53053433893755677,
+      53053433893755677,
+      53053433893755677
+     ],
+     "U": [
+      21
+     ],
+     "n": 295,
+     "value": "53053433893755677",
+     "sha": "bf4761404dfd49d753ef8e1159ebecd58c062b73566fbb7ff29bbb9575f15881",
+     "sec": 11.7
+    },
+    {
+     "method": "J1xJ2 numpy transfer + CRT",
+     "J1": 10,
+     "J2": 26,
+     "M": 171,
+     "bound_log2": 74.17852514885898,
+     "primes": [
+      35184372088777,
+      35184372088763
+     ],
+     "residues": [
+      787218111659,
+      787218114893
+     ],
+     "U": [
+      12,
+      21
+     ],
+     "n": 260,
+     "value": "8128377170619146",
+     "sha": "6a4b7d07a4c8b804dcdc7346f438785095f860b069e4e72d37acab3e3d05521a",
+     "sec": 1.2
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    8,
+    11,
+    12,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "31915169753",
+   "cov": "85590088910263643",
+   "terms": [
+    {
+     "method": "meet-in-the-middle transfer (59-bit primes) + CRT",
+     "Q": 16,
+     "M": 28,
+     "JA": 40,
+     "dual": false,
+     "rstar": 4,
+     "bound_log2": 192.29419688230416,
+     "primes": [
+      576460752303423433,
+      576460752303423389,
+      576460752303423263,
+      576460752303423061
+     ],
+     "residues": [
+      141515941744319898,
+      141515941744319898,
+      141515941744319898,
+      141515941744319898
+     ],
+     "U": [],
+     "n": 328,
+     "value": "141515941744319898",
+     "sha": "1c16803786fdb40b20cdb5cd089b3137c740ddb640ef42c1774afc6af50fb31e",
+     "sec": 18.0
+    },
+    {
+     "method": "J1xJ2 numpy transfer + CRT",
+     "J1": 11,
+     "J2": 26,
+     "M": 171,
+     "bound_log2": 81.59637766374487,
+     "primes": [
+      35184372088777,
+      35184372088763
+     ],
+     "residues": [
+      16004685364177,
+      16004685380459
+     ],
+     "U": [
+      12
+     ],
+     "n": 286,
+     "value": "40935429424611828",
+     "sha": "561cd72ceebfabf4f23d06bfb5fd3cf56565066d00d50b93f4298971a9f428c5",
+     "sec": 1.3
+    },
+    {
+     "method": "meet-in-the-middle transfer (59-bit primes) + CRT",
+     "Q": 14,
+     "M": 61,
+     "JA": 26,
+     "dual": true,
+     "rstar": 3,
+     "bound_log2": 154.19917077663504,
+     "primes": [
+      576460752303423433,
+      576460752303423389,
+      576460752303423263
+     ],
+     "residues": [
+      23118800580063573,
+      23118800580063573,
+      23118800580063573
+     ],
+     "U": [
+      21
+     ],
+     "n": 288,
+     "value": "23118800580063573",
+     "sha": "c9e84e83f4235ce3f403211e89b5a2826683a5bb0b074bfe21785a1fd50ee45d",
+     "sec": 11.4
+    },
+    {
+     "method": "J1xJ2 numpy transfer + CRT",
+     "J1": 10,
+     "J2": 26,
+     "M": 171,
+     "bound_log2": 74.17852514885898,
+     "primes": [
+      35184372088777,
+      35184372088763
+     ],
+     "residues": [
+      787218111659,
+      787218114893
+     ],
+     "U": [
+      12,
+      21
+     ],
+     "n": 260,
+     "value": "8128377170619146",
+     "sha": "b0c2fcf2235ffd2ee502ad7d99e405221f180fe5ee405b2786003cbf33c3239a",
+     "sec": 1.2
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    8,
+    12,
+    14,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "31915169753",
+   "cov": "85590088910263643",
+   "terms": [
+    {
+     "method": "meet-in-the-middle transfer (59-bit primes) + CRT",
+     "Q": 16,
+     "M": 28,
+     "JA": 40,
+     "dual": false,
+     "rstar": 4,
+     "bound_log2": 192.29419688230416,
+     "primes": [
+      576460752303423433,
+      576460752303423389,
+      576460752303423263,
+      576460752303423061
+     ],
+     "residues": [
+      141515941744319898,
+      141515941744319898,
+      141515941744319898,
+      141515941744319898
+     ],
+     "U": [],
+     "n": 328,
+     "value": "141515941744319898",
+     "sha": "4d156ed9970bbdd7b037aa4ccdf1278ac2d4658f7020bc1babf11da2db57936c",
+     "sec": 17.7
+    },
+    {
+     "method": "J1xJ2 numpy transfer + CRT",
+     "J1": 11,
+     "J2": 26,
+     "M": 171,
+     "bound_log2": 81.59637766374487,
+     "primes": [
+      35184372088777,
+      35184372088763
+     ],
+     "residues": [
+      16004685364177,
+      16004685380459
+     ],
+     "U": [
+      12
+     ],
+     "n": 286,
+     "value": "40935429424611828",
+     "sha": "847abc1f25fd30ecb262b582c6ddbafb985721519e3a3654895b2cf1e8915545",
+     "sec": 1.2
+    },
+    {
+     "method": "meet-in-the-middle transfer (59-bit primes) + CRT",
+     "Q": 14,
+     "M": 61,
+     "JA": 26,
+     "dual": true,
+     "rstar": 3,
+     "bound_log2": 154.19917077663504,
+     "primes": [
+      576460752303423433,
+      576460752303423389,
+      576460752303423263
+     ],
+     "residues": [
+      23118800580063573,
+      23118800580063573,
+      23118800580063573
+     ],
+     "U": [
+      21
+     ],
+     "n": 288,
+     "value": "23118800580063573",
+     "sha": "e58f94e9a093fab07c72d0541b6e2feb573f643f0fee3334439d087cc2caebc0",
+     "sec": 11.2
+    },
+    {
+     "method": "J1xJ2 numpy transfer + CRT",
+     "J1": 10,
+     "J2": 26,
+     "M": 171,
+     "bound_log2": 74.17852514885898,
+     "primes": [
+      35184372088777,
+      35184372088763
+     ],
+     "residues": [
+      787218111659,
+      787218114893
+     ],
+     "U": [
+      12,
+      21
+     ],
+     "n": 260,
+     "value": "8128377170619146",
+     "sha": "dd07dc3f92214c2ae635be05ba0965ef9670f3ec463e035eb4d34353bd97e092",
+     "sec": 1.2
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    7,
+    8,
+    12,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "2031279506",
+   "cov": "32194211232632846817",
+   "terms": [
+    {
+     "method": "meet-in-the-middle transfer (59-bit primes) + CRT",
+     "Q": 17,
+     "M": 36,
+     "JA": 40,
+     "dual": false,
+     "rstar": 4,
+     "bound_log2": 206.7970000576925,
+     "primes": [
+      576460752303423433,
+      576460752303423389,
+      576460752303423263,
+      576460752303423061
+     ],
+     "residues": [
+      388445581916867376,
+      388445581916870676,
+      388445581916880126,
+      388445581916895276
+     ],
+     "U": [],
+     "n": 394,
+     "value": "43623002004673624851",
+     "sha": "373376fc2c1b4085952436d14ee586c8f12d85f6e208733a65c2eeea1bcf7acc",
+     "sec": 32.7
+    },
+    {
+     "method": "verifier cache (J1xJ2 numpy transfer + CRT)",
+     "U": [
+      12
+     ],
+     "n": 338,
+     "value": "3663313445205150976",
+     "sha": "2c0141df7b8077e55b1dc6bb150776a5d3c0e3b62f9b5fc31de4f4d4caff1e8e",
+     "sec": 0.0
+    },
+    {
+     "method": "meet-in-the-middle transfer (59-bit primes) + CRT",
+     "Q": 15,
+     "M": 8,
+     "JA": 59,
+     "dual": false,
+     "rstar": 5,
+     "bound_log2": 177.0,
+     "primes": [
+      576460752303423433,
+      576460752303423389,
+      576460752303423263,
+      576460752303423061
+     ],
+     "residues": [
+      14002796456010999,
+      14002796456011659,
+      14002796456013549,
+      14002796456016579
+     ],
+     "U": [
+      21
+     ],
+     "n": 354,
+     "value": "8660914081007362494",
+     "sha": "e72a120d9f10cbad30e650b6d1f1973296b5a8370dbc1dbd046720195976ebd2",
+     "sec": 23.8
+    },
+    {
+     "method": "verifier cache (J1xJ2 numpy transfer + CRT)",
+     "U": [
+      12,
+      21
+     ],
+     "n": 312,
+     "value": "895436754171735436",
+     "sha": "328f6ce8189521e76ee8c05088ea6f3a436e3d8276d6211e073477d3e379b893",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    7,
+    8,
+    11,
+    12,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "19807789263",
+   "cov": "152009678374738421723",
+   "terms": [
+    {
+     "method": "meet-in-the-middle transfer (59-bit primes) + CRT",
+     "Q": 17,
+     "M": 42,
+     "JA": 40,
+     "dual": false,
+     "rstar": 4,
+     "bound_log2": 215.69269691115042,
+     "primes": [
+      576460752303423433,
+      576460752303423389,
+      576460752303423263,
+      576460752303423061
+     ],
+     "residues": [
+      437128132489609786,
+      437128132489629190,
+      437128132489684756,
+      437128132489773838
+     ],
+     "U": [],
+     "n": 413,
+     "value": "254656319898299343739",
+     "sha": "07a18422bf66d7d90703e0f56aa4f4ed41254020699227590b0c799d0cf63d6d",
+     "sec": 50.1
+    },
+    {
+     "method": "J1xJ2 numpy transfer + CRT",
+     "J1": 14,
+     "J2": 26,
+     "M": 171,
+     "bound_log2": 103.84993520840257,
+     "primes": [
+      35184372088777,
+      35184372088763,
+      35184372088751
+     ],
+     "residues": [
+      4586235114792,
+      4586258962280,
+      4586279402984
+     ],
+     "U": [
+      12
+     ],
+     "n": 364,
+     "value": "59932782527281146376",
+     "sha": "7ae9e388189877136246b54bbdabae2ac2ce695fe2c3a2ee89743f539f6df7ca",
+     "sec": 2.6
+    },
+    {
+     "method": "meet-in-the-middle transfer (59-bit primes) + CRT",
+     "Q": 15,
+     "M": 352,
+     "JA": 13,
+     "dual": true,
+     "rstar": 2,
+     "bound_log2": 109.97261104228487,
+     "primes": [
+      576460752303423433,
+      576460752303423389
+     ],
+     "residues": [
+      179033340201713440,
+      179033340201717928
+     ],
+     "U": [
+      21
+     ],
+     "n": 373,
+     "value": "58978030075150903606",
+     "sha": "90c38486695b760df7b8a705d4c730994883179b41644acf7bbeed455533af69",
+     "sec": 27.6
+    },
+    {
+     "method": "J1xJ2 numpy transfer + CRT",
+     "J1": 13,
+     "J2": 26,
+     "M": 171,
+     "bound_log2": 96.43208269351668,
+     "primes": [
+      35184372088777,
+      35184372088763,
+      35184372088751
+     ],
+     "residues": [
+      19158973515831,
+      19158979987401,
+      19158985534461
+     ],
+     "U": [
+      12,
+      21
+     ],
+     "n": 338,
+     "value": "16264171078871127966",
+     "sha": "3d82700c6ec845b75972db5ac73be78e9c165498a947260c2f31a99eb41c1012",
+     "sec": 2.6
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    7,
+    8,
+    12,
+    14,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "19807789263",
+   "cov": "152009678374738421723",
+   "terms": [
+    {
+     "method": "meet-in-the-middle transfer (59-bit primes) + CRT",
+     "Q": 17,
+     "M": 42,
+     "JA": 40,
+     "dual": false,
+     "rstar": 4,
+     "bound_log2": 215.69269691115042,
+     "primes": [
+      576460752303423433,
+      576460752303423389,
+      576460752303423263,
+      576460752303423061
+     ],
+     "residues": [
+      437128132489609786,
+      437128132489629190,
+      437128132489684756,
+      437128132489773838
+     ],
+     "U": [],
+     "n": 413,
+     "value": "254656319898299343739",
+     "sha": "e0cf678092888211c185ff48fa7fabe223e9d266f40ef96320c43dbb59d46502",
+     "sec": 50.2
+    },
+    {
+     "method": "J1xJ2 numpy transfer + CRT",
+     "J1": 14,
+     "J2": 26,
+     "M": 171,
+     "bound_log2": 103.84993520840257,
+     "primes": [
+      35184372088777,
+      35184372088763,
+      35184372088751
+     ],
+     "residues": [
+      4586235114792,
+      4586258962280,
+      4586279402984
+     ],
+     "U": [
+      12
+     ],
+     "n": 364,
+     "value": "59932782527281146376",
+     "sha": "eafa0ad344ec1048359756467ef888a75697a1118f0f5379a10f7b4d6c72c9dd",
+     "sec": 2.7
+    },
+    {
+     "method": "meet-in-the-middle transfer (59-bit primes) + CRT",
+     "Q": 15,
+     "M": 352,
+     "JA": 13,
+     "dual": true,
+     "rstar": 2,
+     "bound_log2": 109.97261104228487,
+     "primes": [
+      576460752303423433,
+      576460752303423389
+     ],
+     "residues": [
+      179033340201713440,
+      179033340201717928
+     ],
+     "U": [
+      21
+     ],
+     "n": 373,
+     "value": "58978030075150903606",
+     "sha": "24af89090ef389b57b59b74f5cb5dcaa1844fe53b91573acfc75d0d0301552b7",
+     "sec": 28.0
+    },
+    {
+     "method": "J1xJ2 numpy transfer + CRT",
+     "J1": 13,
+     "J2": 26,
+     "M": 171,
+     "bound_log2": 96.43208269351668,
+     "primes": [
+      35184372088777,
+      35184372088763,
+      35184372088751
+     ],
+     "residues": [
+      19158973515831,
+      19158979987401,
+      19158985534461
+     ],
+     "U": [
+      12,
+      21
+     ],
+     "n": 338,
+     "value": "16264171078871127966",
+     "sha": "34303a50a2e932ab8a172119c6b13fe7fcfdce6f9a261b3c2e320ab75e078c92",
+     "sec": 2.6
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    8,
+    11,
+    12,
+    14,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "10432809243",
+   "cov": "50887737643624547403",
+   "terms": [
+    {
+     "method": "meet-in-the-middle transfer (59-bit primes) + CRT",
+     "Q": 17,
+     "M": 88,
+     "JA": 26,
+     "dual": true,
+     "rstar": 3,
+     "bound_log2": 167.94522208456974,
+     "primes": [
+      576460752303423433,
+      576460752303423389,
+      576460752303423263
+     ],
+     "residues": [
+      510473672097114540,
+      510473672097124000,
+      510473672097151090
+     ],
+     "U": [],
+     "n": 406,
+     "value": "124449535417333152635",
+     "sha": "68a0c792973693805306cffef40cad98854b9f8600931793eeb740dca0294d5d",
+     "sec": 32.7
+    },
+    {
+     "method": "J1xJ2 numpy transfer + CRT",
+     "J1": 14,
+     "J2": 26,
+     "M": 171,
+     "bound_log2": 103.84993520840257,
+     "primes": [
+      35184372088777,
+      35184372088763,
+      35184372088751
+     ],
+     "residues": [
+      4586235114792,
+      4586258962280,
+      4586279402984
+     ],
+     "U": [
+      12
+     ],
+     "n": 364,
+     "value": "59932782527281146376",
+     "sha": "bab99de93b64c3d4fdd4cb543a155d5b02f2bd321edfc3f30db8d19f6dcaf62d",
+     "sec": 2.8
+    },
+    {
+     "method": "meet-in-the-middle transfer (59-bit primes) + CRT",
+     "Q": 15,
+     "M": 80,
+     "JA": 26,
+     "dual": true,
+     "rstar": 3,
+     "bound_log2": 164.37013046707142,
+     "primes": [
+      576460752303423433,
+      576460752303423389,
+      576460752303423263
+     ],
+     "residues": [
+      493687957823991739,
+      493687957823993983,
+      493687957824000409
+     ],
+     "U": [
+      21
+     ],
+     "n": 366,
+     "value": "29893186325298586822",
+     "sha": "4aca320c1e22d2f162e3471128c9b667e1c386688abc4ceb9be758edc17a7302",
+     "sec": 23.0
+    },
+    {
+     "method": "J1xJ2 numpy transfer + CRT",
+     "J1": 13,
+     "J2": 26,
+     "M": 171,
+     "bound_log2": 96.43208269351668,
+     "primes": [
+      35184372088777,
+      35184372088763,
+      35184372088751
+     ],
+     "residues": [
+      19158973515831,
+      19158979987401,
+      19158985534461
+     ],
+     "U": [
+      12,
+      21
+     ],
+     "n": 338,
+     "value": "16264171078871127966",
+     "sha": "07b9f0353be01ea2b65995cf631dba4ed11558321a8e450abf26eb8c007d09f2",
+     "sec": 2.6
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    7,
+    8,
+    11,
+    12,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "1122445823",
+   "cov": "154119606702793211518178",
+   "terms": [
+    {
+     "method": "meet-in-the-middle transfer (59-bit primes) + CRT",
+     "Q": 18,
+     "M": 714,
+     "JA": 17,
+     "dual": true,
+     "rstar": 2,
+     "bound_log2": 161.15626448849468,
+     "primes": [
+      576460752303423433,
+      576460752303423389,
+      576460752303423263
+     ],
+     "residues": [
+      372264431085834476,
+      372264431106177832,
+      372264431164433806
+     ],
+     "U": [],
+     "n": 498,
+     "value": "266526424631166606658593",
+     "sha": "39b5eed27e755e29de0d4a4238bf8dce8985b0c32b64879d023b7bc68dee5666",
+     "sec": 371.0
+    },
+    {
+     "method": "verifier cache (J1xJ2 numpy transfer + CRT)",
+     "U": [
+      12
+     ],
+     "n": 442,
+     "value": "49485317293662097537530",
+     "sha": "4785aebd7f1a90c272ba984d0d5572cbcea149650488f426b739c1e19ac88a06",
+     "sec": 0.0
+    },
+    {
+     "method": "meet-in-the-middle transfer (59-bit primes) + CRT",
+     "Q": 16,
+     "M": 352,
+     "JA": 16,
+     "dual": true,
+     "rstar": 2,
+     "bound_log2": 135.35090589819674,
+     "primes": [
+      576460752303423433,
+      576460752303423389,
+      576460752303423263
+     ],
+     "residues": [
+      293845151878254482,
+      293845151884352838,
+      293845151901816312
+     ],
+     "U": [
+      21
+     ],
+     "n": 458,
+     "value": "79897177653654062644849",
+     "sha": "1b99a029aa5b985484a005747287cf570c52df91ca70f50fd06ffcd8b48e3cd7",
+     "sec": 47.8
+    },
+    {
+     "method": "verifier cache (J1xJ2 numpy transfer + CRT)",
+     "U": [
+      12,
+      21
+     ],
+     "n": 416,
+     "value": "16975677018942765041964",
+     "sha": "1d94c249984072fb5a9fcd8aeced59b81e1dc1a0b18449d500b53dbcd4658102",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    7,
+    8,
+    12,
+    14,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "1122445823",
+   "cov": "154119606702793211518178",
+   "terms": [
+    {
+     "method": "meet-in-the-middle transfer (59-bit primes) + CRT",
+     "Q": 18,
+     "M": 714,
+     "JA": 17,
+     "dual": true,
+     "rstar": 2,
+     "bound_log2": 161.15626448849468,
+     "primes": [
+      576460752303423433,
+      576460752303423389,
+      576460752303423263
+     ],
+     "residues": [
+      372264431085834476,
+      372264431106177832,
+      372264431164433806
+     ],
+     "U": [],
+     "n": 498,
+     "value": "266526424631166606658593",
+     "sha": "36896a5bf12d264d02550528cf7d59ffac9cfc94762a02c8bfcae5e328810a28",
+     "sec": 357.3
+    },
+    {
+     "method": "verifier cache (J1xJ2 numpy transfer + CRT)",
+     "U": [
+      12
+     ],
+     "n": 442,
+     "value": "49485317293662097537530",
+     "sha": "5d4fdd909769aaeed4b102ef242515d8aa0c2ed0431f0d69ae424287edb6b956",
+     "sec": 0.0
+    },
+    {
+     "method": "meet-in-the-middle transfer (59-bit primes) + CRT",
+     "Q": 16,
+     "M": 352,
+     "JA": 16,
+     "dual": true,
+     "rstar": 2,
+     "bound_log2": 135.35090589819674,
+     "primes": [
+      576460752303423433,
+      576460752303423389,
+      576460752303423263
+     ],
+     "residues": [
+      293845151878254482,
+      293845151884352838,
+      293845151901816312
+     ],
+     "U": [
+      21
+     ],
+     "n": 458,
+     "value": "79897177653654062644849",
+     "sha": "b7b4632e38fa4fb9995de3f861edbe8f6edad4d37cee3243589b6525e8535d3d",
+     "sec": 47.1
+    },
+    {
+     "method": "verifier cache (J1xJ2 numpy transfer + CRT)",
+     "U": [
+      12,
+      21
+     ],
+     "n": 416,
+     "value": "16975677018942765041964",
+     "sha": "9a574a3996bfc48236f43793814a7764704529eafaae19ba3a3c46197c6abe02",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    7,
+    8,
+    11,
+    12,
+    14,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "10619619709",
+   "cov": "8090468468949620284502137",
+   "terms": [
+    {
+     "method": "meet-in-the-middle transfer (59-bit primes) + CRT",
+     "Q": 18,
+     "M": 171,
+     "JA": 26,
+     "dual": false,
+     "rstar": 4,
+     "bound_log2": 192.86416538703335,
+     "primes": [
+      576460752303423433,
+      576460752303423389,
+      576460752303423263,
+      576460752303423061
+     ],
+     "residues": [
+      9296729765579015,
+      9296731526157791,
+      9296736567815195,
+      9296744650472303
+     ],
+     "U": [],
+     "n": 543,
+     "value": "23066012866169466317416697",
+     "sha": "54c7191b03197b1ce879172aac01d21059d2f5d74b5bafd60cb99970894d3a3c",
+     "sec": 372.6
+    },
+    {
+     "method": "J1xJ2 numpy transfer + CRT",
+     "J1": 19,
+     "J2": 26,
+     "M": 171,
+     "bound_log2": 140.93919778283205,
+     "primes": [
+      35184372088777,
+      35184372088763,
+      35184372088751,
+      35184372088739
+     ],
+     "residues": [
+      13589893331255,
+      17901543118917,
+      21597242936913,
+      25292942754909
+     ],
+     "U": [
+      12
+     ],
+     "n": 494,
+     "value": "10835906460413314997850496",
+     "sha": "db6b17e80afb2e007f5521e54651b42999858cd536bcb2bc4d2f932885cd2351",
+     "sec": 388.5
+    },
+    {
+     "method": "meet-in-the-middle transfer (59-bit primes) + CRT",
+     "Q": 16,
+     "M": 162,
+     "JA": 26,
+     "dual": true,
+     "rstar": 3,
+     "bound_log2": 190.83610007500025,
+     "primes": [
+      576460752303423433,
+      576460752303423389,
+      576460752303423263,
+      576460752303423061
+     ],
+     "residues": [
+      473971069079078291,
+      473971069723092123,
+      473971071567313551,
+      473971074523922507
+     ],
+     "U": [
+      21
+     ],
+     "n": 503,
+     "value": "8437470885074036165553865",
+     "sha": "5f3cc1ea845c3d9bccbf073a3198a9feb91eb77936323c2f62d0acdc6e91a9fd",
+     "sec": 258.5
+    },
+    {
+     "method": "J1xJ2 numpy transfer + CRT",
+     "J1": 18,
+     "J2": 26,
+     "M": 171,
+     "bound_log2": 133.52134526794617,
+     "primes": [
+      35184372088777,
+      35184372088763,
+      35184372088751
+     ],
+     "residues": [
+      9378608795429,
+      11088733424733,
+      12554554535565
+     ],
+     "U": [
+      12,
+      21
+     ],
+     "n": 468,
+     "value": "4297832948267505130489801",
+     "sha": "5cbf61c8af17adfbcd17906727e869f445087651d35bfd5972b3693b48a7cc1d",
+     "sec": 288.6
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    7,
+    8,
+    11,
+    12,
+    14,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "1156111278",
+   "cov": "748020370148689864653635099727",
+   "terms": [
+    {
+     "method": "meet-in-the-middle transfer (59-bit primes) + CRT",
+     "Q": 19,
+     "M": 171,
+     "JA": 32,
+     "dual": false,
+     "rstar": 6,
+     "bound_log2": 237.37128047634874,
+     "primes": [
+      576460752303423433,
+      576460752303423389,
+      576460752303423263,
+      576460752303423061,
+      576460752303422971
+     ],
+     "residues": [
+      56258919279396610,
+      56442494062909478,
+      56968185488423600,
+      57810960630914494,
+      58186454506281724
+     ],
+     "U": [],
+     "n": 680,
+     "value": "2405083131994737622156602311061",
+     "sha": "728bf0503ce56f229272be9557779f97868555a1e7e557ea9543e9edda1592e2",
+     "sec": 2352.0
+    },
+    {
+     "method": "verifier cache (J1xJ2 numpy transfer + CRT)",
+     "U": [
+      12
+     ],
+     "n": 624,
+     "value": "1027127959821377011645314787766",
+     "sha": "a91d848fd382fdc019eae8c5c271fffb77d684b41bc9e5840c837ff1268c60c0",
+     "sec": 0.0
+    },
+    {
+     "method": "meet-in-the-middle transfer (59-bit primes) + CRT",
+     "Q": 17,
+     "M": 162,
+     "JA": 33,
+     "dual": false,
+     "rstar": 5,
+     "bound_log2": 242.21505009519262,
+     "primes": [
+      576460752303423433,
+      576460752303423389,
+      576460752303423263,
+      576460752303423061,
+      576460752303422971
+     ],
+     "residues": [
+      383574935001100470,
+      383662708570669034,
+      383914060156251740,
+      384317020634725602,
+      384496557481570392
+     ],
+     "U": [
+      21
+     ],
+     "n": 640,
+     "value": "1149954953315185320509683322293",
+     "sha": "064eea3d604be32050ba649184cf6cac6f801d6b5e3f4689da00dcf82638bcd0",
+     "sec": 1481.5
+    },
+    {
+     "method": "verifier cache (J1xJ2 numpy transfer + CRT)",
+     "U": [
+      12,
+      21
+     ],
+     "n": 598,
+     "value": "520020151290514574652030898725",
+     "sha": "8a42e3232a72c5202c8971e95bae2441b4fb79d213b3fc38d553d73b39e8f1e3",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    3,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "8671686",
+   "cov": "18339051845835023748251659",
+   "terms": [
+    {
+     "method": "meet-in-the-middle transfer (59-bit primes) + CRT",
+     "Q": 19,
+     "M": 171,
+     "JA": 27,
+     "dual": false,
+     "rstar": 4,
+     "bound_log2": 200.28201790191923,
+     "primes": [
+      576460752303423433,
+      576460752303423389,
+      576460752303423263,
+      576460752303423061
+     ],
+     "residues": [
+      565290051426341218,
+      565290055752305586,
+      565290068140294458,
+      565290088000403602
+     ],
+     "U": [],
+     "n": 569,
+     "value": "56676106792905589962119294",
+     "sha": "e345f511f977949a7e2e055af7601b88dcf7d6f9bfe5dc1b746c58662fe6235b",
+     "sec": 361.7
+    },
+    {
+     "method": "J1xJ2 numpy transfer + CRT",
+     "J1": 20,
+     "J2": 26,
+     "M": 171,
+     "bound_log2": 148.35705029771796,
+     "primes": [
+      35184372088777,
+      35184372088763,
+      35184372088751,
+      35184372088739
+     ],
+     "residues": [
+      21154471741927,
+      32460025737005,
+      6966128501178,
+      16656603354114
+     ],
+     "U": [
+      12
+     ],
+     "n": 520,
+     "value": "28412772745205703617244756",
+     "sha": "f7761582104d7e8a5ede9ab3a9476456c6e5ccfb892e5e9d9d6aabb08a6f0444",
+     "sec": 385.8
+    },
+    {
+     "method": "meet-in-the-middle transfer (59-bit primes) + CRT",
+     "Q": 17,
+     "M": 163,
+     "JA": 26,
+     "dual": true,
+     "rstar": 3,
+     "bound_log2": 191.066932010008,
+     "primes": [
+      576460752303423433,
+      576460752303423389,
+      576460752303423263,
+      576460752303423061
+     ],
+     "residues": [
+      550384568680567363,
+      550384570329347683,
+      550384575050854963,
+      550384582620255523
+     ],
+     "U": [
+      21
+     ],
+     "n": 529,
+     "value": "21601299269709096520504603",
+     "sha": "ce2a369cc974b300e0ae783483c0c8bb1b58473f5c6784c667d9fd2dbd11c9c6",
+     "sec": 271.4
+    },
+    {
+     "method": "J1xJ2 numpy transfer + CRT",
+     "J1": 19,
+     "J2": 26,
+     "M": 171,
+     "bound_log2": 140.93919778283205,
+     "primes": [
+      35184372088777,
+      35184372088763,
+      35184372088751,
+      35184372088739
+     ],
+     "residues": [
+      23074222861592,
+      27720553867216,
+      31703123300608,
+      501320645261
+     ],
+     "U": [
+      12,
+      21
+     ],
+     "n": 494,
+     "value": "11677017067844233923881724",
+     "sha": "ef0ad57be59748bf03dad6023e9e9c880840b400fec323d9f9793c9406badeae",
+     "sec": 384.4
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "4523937",
+   "cov": "6247767357084731145903810924106",
+   "terms": [
+    {
+     "method": "meet-in-the-middle transfer (59-bit primes) + CRT",
+     "Q": 20,
+     "M": 171,
+     "JA": 34,
+     "dual": false,
+     "rstar": 6,
+     "bound_log2": 252.20698550612053,
+     "primes": [
+      576460752303423433,
+      576460752303423389,
+      576460752303423263,
+      576460752303423061,
+      576460752303422971
+     ],
+     "residues": [
+      76929263154576959,
+      78739801200416295,
+      83924523786228939,
+      92236539360309527,
+      95939912635889987
+     ],
+     "U": [],
+     "n": 732,
+     "value": "23720548272239026274407579476061",
+     "sha": "aa8033c42ffa6c17e11db3fcdd2be7a07bec1b32eab880f37fa871f78ba61a4e",
+     "sec": 2375.1
+    },
+    {
+     "method": "verifier cache (J1xJ2 numpy transfer + CRT)",
+     "U": [
+      12
+     ],
+     "n": 676,
+     "value": "11560523762236404192807154054432",
+     "sha": "b11927512deaa73e3aaf1a3bde36fa313f657b222082b9f77559e82e66ed20d2",
+     "sec": 0.0
+    },
+    {
+     "method": "meet-in-the-middle transfer (59-bit primes) + CRT",
+     "Q": 18,
+     "M": 170,
+     "JA": 33,
+     "dual": false,
+     "rstar": 5,
+     "bound_log2": 244.50990089254415,
+     "primes": [
+      576460752303423433,
+      576460752303423389,
+      576460752303423263,
+      576460752303423061,
+      576460752303422971
+     ],
+     "residues": [
+      286734158390079649,
+      287657736383141417,
+      290302527908727389,
+      294542590513238233,
+      296431727317228213
+     ],
+     "U": [
+      21
+     ],
+     "n": 692,
+     "value": "12100146924801940575694477070775",
+     "sha": "ce2075138ffb4f752ace4e7b3a25270726ea9f8632f42ca0e6319c530ca93596",
+     "sec": 2075.7
+    },
+    {
+     "method": "verifier cache (J1xJ2 numpy transfer + CRT)",
+     "U": [
+      12,
+      21
+     ],
+     "n": 650,
+     "value": "6187889771884049639997862573252",
+     "sha": "17988a77b84a79f86fd557020af24b65eb29631984ddf380b86e595a3eca806e",
+     "sec": 0.0
+    }
+   ]
+  },
+  {
+   "D": [
+    0,
+    2,
+    3,
+    5,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    18,
+    19,
+    20,
+    21
+   ],
+   "e": "4040",
+   "cov": "11114772339848181986898944093835",
+   "terms": [
+    {
+     "method": "meet-in-the-middle transfer (59-bit primes) + CRT",
+     "Q": 21,
+     "M": 171,
+     "JA": 35,
+     "dual": false,
+     "rstar": 6,
+     "bound_log2": 259.62483802100644,
+     "primes": [
+      576460752303423433,
+      576460752303423389,
+      576460752303423263,
+      576460752303423061,
+      576460752303422971
+     ],
+     "residues": [
+      101753931103981261,
+      105169308768217117,
+      114949708443074341,
+      130629396810702589,
+      137615396578457749
+     ],
+     "U": [],
+     "n": 758,
+     "value": "44746163130129889731151030099753",
+     "sha": "64a5a04f5e374c96cfef36c8325ba19c62f07c2631416a7bc8885b5cda5c7100",
+     "sec": 2349.6
+    },
+    {
+     "method": "verifier cache (J1xJ2 numpy transfer + CRT)",
+     "U": [
+      12
+     ],
+     "n": 702,
+     "value": "22733023672562549702174105278590",
+     "sha": "1385259c82baeda0b30b9724935e12c59a8d93ec4fc5105f546ffc5ee456558d",
+     "sec": 0.0
+    },
+    {
+     "method": "meet-in-the-middle transfer (59-bit primes) + CRT",
+     "Q": 19,
+     "M": 171,
+     "JA": 32,
+     "dual": false,
+     "rstar": 4,
+     "bound_log2": 237.37128047634874,
+     "primes": [
+      576460752303423433,
+      576460752303423389,
+      576460752303423263,
+      576460752303423061,
+      576460752303422971
+     ],
+     "residues": [
+      103254143121561935,
+      105030608299830331,
+      110117758583053465,
+      118273348719649283,
+      121907027493380093
+     ],
+     "U": [
+      21
+     ],
+     "n": 718,
+     "value": "23274146661487257322073705873832",
+     "sha": "43b546c30aba2ba432dff55c44479602e00a9d55b318007be65b53ddbcac68b2",
+     "sec": 2278.3
+    },
+    {
+     "method": "verifier cache (J1xJ2 numpy transfer + CRT)",
+     "U": [
+      12,
+      21
+     ],
+     "n": 676,
+     "value": "12375779543768099279995725146504",
+     "sha": "f199eb92facd0f95ed891c46ce9f04aac63da4345cc9a23c57d2173f4b0eee1d",
+     "sec": 0.0
+    }
+   ]
+  }
+ ],
+ "runtime_s": 19544,
+ "command": "harvest/verify_psi.py harvest/psi_S3_C12_21.json"
+}
