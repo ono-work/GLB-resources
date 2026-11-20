@@ -10,3 +10,12 @@
 *.toml text eol=lf
 *.cff text eol=lf
 *.sha256 text eol=lf
+
+# These five files were hashed with CRLF line endings when the artifact was
+# assembled (CHECKSUMS.sha256 and the kernel certificate's input_hashes).
+# They are stored and checked out byte-for-byte, with no end-of-line conversion.
+data/gub/game_export/games.csv -text
+data/gub/game_export/leq_rows.hex -text
+data/gub/game_export/metadata.json -text
+experiments/g2_calibration/safe_profile_g2_exact.json -text
+experiments/g2_calibration/safe_profile_g2_exact_ja.md -text
