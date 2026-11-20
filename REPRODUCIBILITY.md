@@ -24,9 +24,18 @@ operations:
 5. verifies residual-profile and Layer-4/5 union identities;
 6. verifies every truth table in the six stored three-cell partitions;
 7. recomputes the final arbitrary-precision integer sum;
-8. runs the small standard-library regression tests.
+8. runs the small standard-library regression tests (paper and post-GPW);
+9. checks the frozen post-GPW package against its 2026-11-12 manifest
+   (`experiments/post_gpw_improvement/SHA256SUMS`, 121 files);
+10. recomputes the post-GPW bound from the family certificates (v5 plus
+    2 x each of the 34 Ψ(S, C) producer totals, each equal to its independent
+    verifier total) and checks the 36-key universe and all audit records;
+11. re-runs the frozen post-GPW audit chain on a copy of the repository under
+    `generated/verify_post_gpw/` and compares the regenerated records with the
+    committed ones (about one minute).
 
-No packaged evidence file is modified.
+No packaged evidence file is modified. Steps 9–11 can be run alone with
+`python scripts/verify_post_gpw.py` (`--quick` skips step 11).
 
 ## Level 2: independent structural checks
 
@@ -54,6 +63,17 @@ worker checkpoints, or Layer-7 workload files.
 Rebuilding these stages therefore requires compiling the corresponding C++
 sources from the original research repository or reimplementing the documented
 enumeration. It is not part of the solver-free quick check.
+
+## Level 3b: rerunning the post-GPW counts
+
+`experiments/post_gpw_improvement/REPRODUCE.md` lists the producer and
+independent-verifier commands for all 34 Ψ(S, C) families. They need
+`clang++ -O3 -std=c++17 -march=native` builds of `barrier/cmp_mitm.cpp`,
+`barrier/vsweep.cpp` and `harvest/rank_transfer_mitm.cpp`, Python 3.11 and
+NumPy. On the original machine (Mac Pro 2019, 48 GB) the producers took
+45.6 hours and the verifiers 62.7 hours in total, with a peak resident set of
+30.70 GB. The scripts write their outputs in place; work on a copy. See
+`experiments/post_gpw_improvement/README.md`.
 
 ## Level 4: rerunning the kernel optimization
 

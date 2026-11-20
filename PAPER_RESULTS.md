@@ -1,5 +1,9 @@
 # Paper Results and Evidence Map
 
+> This file covers the claims of the GPW 2026 paper only (tag `gpw26-v1.0`). The
+> stronger post-GPW result, `g(4) >= 29247125847589399267405782004907476922410`, is
+> mapped to its evidence in [`POST_GPW_RESULTS.md`](POST_GPW_RESULTS.md).
+
 This file maps the paper's computational claims to the evidence frozen in this
 artifact. All displayed counts are exact integers. Estimates and unfinished
 searches are not included in the lower bound.
